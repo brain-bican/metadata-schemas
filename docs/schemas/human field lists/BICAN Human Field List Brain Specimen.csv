@@ -1,0 +1,52 @@
+Label,Type,Length,Lookup/Notes,Value Required,Notes
+Subject Id,Alpha,50,,Y,
+Post Mortem Interval,Numeric,7,"Takes decimal values (7,2) two decimal places
+
+For Unknown please set to 9999.99
+Not Applicable please set to 8888.88
+
+PMI should be measured in hours. ",Y,(hrs Ð precise (witnessed) vs. last known alive)
+Left Hemisphere Preparation,Numeric,1,lkup_hemisphere_prep,Y,
+Left Hemisphere Preparation Specify,Alpha,NA,,N,
+Right Hemisphere Preparation,Numeric,1,lkup_hemisphere_prep,Y,
+Right Hemisphere Preparation Specify,Alpha,NA,,N,
+RIN,Numeric,4,"If Unknown or Not Assessed then code 99.99
+If known then - decimal values (4,2) two decimal places",Y,"Either RIN or RINe needs to be coded for a subject.  Both cannot be coded for the same subject.  Whichever field you do not code, please leave it blank."
+RINe,Numeric,4,"If Unknown or Not Assessed then code 99.99
+If known then - decimal values (4,2) two decimal places",Y,"Either RIN or RINe needs to be coded for a subject.  Both cannot be coded for the same subject.  Whichever field you do not code, please leave it blank."
+pH,Numeric,4,"If Unknown or Not Assessed then code 99.99
+If known then - decimal values (4,2) two decimal places",Y,
+Brain Weight Measurement,Numeric,4,"For unknown, please code 9999
+Measurement should be in grams.",Y,
+Brain Tissue Weighed Type,Alpha,8,lkup_brain_tissue_weighed_type,Y,
+Gross brain photographs (Y/N),Alpha,1,,Y,intact and sliced
+3D surface scan (Y/N),Alpha,1,,Y,
+Antemortem MRI (Y/N),Alpha,1,,Y,"if yes then: research vs. clinical, number, dates"
+Postmortem MRI (Y/N),Alpha,1,,Y,
+Postmortem MRI Type,Numeric,1,0 - cadaveric; 1 - fresh ex vivo; 2 - fixed ex vivo,Y,
+Anatomical atlas registration (Y/N),Alpha,1,,Y,if yes then details - atlas reference?
+,,,,,
+,,,,,
+,,,,,
+lkup_hemisphere_prep,,,,,
+Hemisphere Preparation,Label,Description,,,
+1,Formalin Fixed,,,,
+2,4% Paraformaldehyde Fixed,,,,
+3,Frozen,,,,
+4,Other,,,,
+9,Hemisphere Not Available,,,,
+,,,,,
+lkup_brain_tissue_weighed_type,,,,,
+Brain Tissue Weighed Type,Label,Description,,,
+PV005206,Fresh whole brain,,,,
+PV005207,Fixed whole brain,,,,
+PV005210,Fresh hemibrain,,,,
+PV005208,Fixed hemibrain ,calculated whole brain,,,
+PV005209,Unknown,,,,
+,,,,,
+lkup_yes_no_unknown_not_assessed,,,,,
+Code,Label,Description,,,
+PV005350,Yes,,,,
+PV005351,No,,,,
+PV005352,Unknown,,,,
+PV005353,Not assessed,,,,
