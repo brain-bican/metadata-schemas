@@ -1,0 +1,26 @@
+# Ignore these:
+/*
+__pycache__
+
+# Allow these:
+!.github/
+!docs/
+
+!src/
+src/*
+!src/example_pkg/
+!src/scripts/
+
+!tests/
+tests/tmp/
+
+!.gitignore
+!.pre-commit-config.yaml
+!pyproject.toml
+!pytest.ini
+!README.md
+!requirements.txt
+!requirements-dev.txt
+!setup.py
+!tox.ini
+!version.txt

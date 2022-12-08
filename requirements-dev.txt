@@ -1,0 +1,8 @@
+pytest
+mypy
+flake8
+Flake8-pyproject
+black
+isort
+tox
+pre-commit

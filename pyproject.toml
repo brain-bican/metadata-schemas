@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_pkg"
+description = "Example python package description"
+authors = [
+    {name = "Allen Institute for Brain Science", email="example@alleninstitute.org"}
+]
+requires-python = ">=3.10"
+keywords = ["neuroscience", "bioinformatics", "scientific"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",  # Allen Institute Software License
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+dynamic = ["version", "readme", "dependencies"]
+
+[project.urls]
+repository = "https://github.com/AllenInstitute/python_cicd_template"
+
+[project.scripts]
+example_script = "scripts.example_script:main"
+
+[tool.setuptools.dynamic]
+version = {file = "version.txt"}
+readme = {file = "README.md"}
+dependencies = {file = "requirements.txt"}
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+markers = [
+    'fast: marks tests as fast (deselect with `-m "not fast"`)',
+    'slow: marks tests as slow (deselect with `-m "not slow"`)'
+]
+addopts = '-m "not slow" --basetemp=tests/tmp'
+
+[tool.flake8]
+max-line-length = 100
+ignore = ["E203", "W503"]
