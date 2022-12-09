@@ -1,0 +1,12 @@
+﻿Field,DataType,Required,Description
+name,String,Y,"Human readable, locally unique identfiier"
+title, String,Y,Long form title of the collection
+shortTitle, String,Y,Short form title of the collection
+description, String,Y,Description of the collection
+dataArchive,[Organization],Y,Archive at which data will be deposited
+species,[enum],Y,See species ontrolled vocabulary
+accessControl,enum,Y,See accessControl controlled vocabulary
+completionState,enum,Y,See completionState controlled vocabulary
+modality,[enum],Y,See modality controlled vocabulary
+technique,[enum],Y,See technique controlled vocabulary
+webResource,[String],N,Links to relevant tools/pages to data collection
