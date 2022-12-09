@@ -3,10 +3,10 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "example_pkg"
-description = "Example python package description"
+name = "BICAN metadata"
+description = "BRAIN Initiative Cell Atlas Network Metadata"
 authors = [
-    {name = "Allen Institute for Brain Science", email="example@alleninstitute.org"}
+    {name = "BICAN Metadata Engineering Team", email="patrick.ray@alleninstitute.org"}
 ]
 requires-python = ">=3.10"
 keywords = ["neuroscience", "bioinformatics", "scientific"]
@@ -22,7 +22,7 @@ classifiers = [
 dynamic = ["version", "readme", "dependencies"]
 
 [project.urls]
-repository = "https://github.com/AllenInstitute/python_cicd_template"
+repository = "https://github.com/brain-bican/metadata"
 
 [project.scripts]
 example_script = "scripts.example_script:main"

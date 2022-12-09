@@ -1,15 +1,6 @@
-[![Tests](https://github.com/AllenInstitute/python_cicd_template/actions/workflows/tests.yaml/badge.svg)](https://github.com/AllenInstitute/python_cicd_template/actions/workflows/tests.yaml)
-# How to use this repository as a template
-Click the green "Use this template" button at the top of the page.  
-This will create a new repository with the same contents as this one.  
-You can then clone that repository and start working on your own project.
-
-## Getting started
-
-### Tweaks to readme.md
-The Tests badge URL will need to be updated to match your template repository URL like this:
-* https://github.com/<your_account_name>/<your_repo_name>/actions/workflows/tests.yaml/badge.svg
-* https://github.com/<your_account_name>/<your_repo_name>/actions/workflows/tests.yaml
+[![Tests](https://github.com/brain-bican/metadata/actions/workflows/tests.yaml/badge.svg)](https://github.com/brain-bican/metadata/actions/workflows/tests.yaml)
+# BICAN Metadata Tools
+This is the BICAN metadata curation and schemas repository. This repository contains files, documents, and code essential for BICAN metadata curation.
 
 ## Tweaks to pyproject.toml
 The following attributes need updating in pyproject.toml:
