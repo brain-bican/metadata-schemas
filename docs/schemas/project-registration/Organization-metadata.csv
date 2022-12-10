@@ -1,5 +1,3 @@
-﻿Field,Data Type,Required,Description
-name,String,Y,"Full name in Given name, Family name format"
-givenName,String,Y,Given name
-familyName,String,Y,Family name
-orcid,String,N,ORCID Identifier
+﻿Field,DataType,Required,Description
+name, String,Y,"Human readable, locally unique identifier"
+ror, String,N,Research Organization Registry ID
