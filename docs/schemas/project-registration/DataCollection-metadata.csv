@@ -1,12 +1,12 @@
 ﻿Field,DataType,Required,Description
-name,String,Y,"Human readable, locally unique identfiier"
-title, String,Y,Long form title of the collection
-shortTitle, String,Y,Short form title of the collection
-description, String,Y,Description of the collection
+name,String,Y,"Human readable, locally unique identfier"
+title, String,Y,"Long form title of the collection"
+shortTitle, String,Y,"Short form title of the collection. Should be <30 characters"
+description, String,Y,"Description of the collection. Specify license application here."
 dataArchive,[Organization],Y,Archive at which data will be deposited
-species,[enum],Y,See species ontrolled vocabulary
-accessControl,enum,Y,See accessControl controlled vocabulary
-completionState,enum,Y,See completionState controlled vocabulary
-modality,[enum],Y,See modality controlled vocabulary
-technique,[enum],Y,See technique controlled vocabulary
+species,[enum],Y,"Common name of species of donor from which data were collected. See species controlled vocabulary"
+accessControl,enum,Y,"Level of acess specified for data in collection. See accessControl controlled vocabulary"
+completionState,enum,Y,"Whether or not additional data is being generated for this collection. See completionState controlled vocabulary"
+modality,[enum],Y,"Defines modality of the data in this collection. See modality controlled vocabulary"
+technique,[enum],Y,"Technique used to acquire data in this collection. See technique controlled vocabulary"
 webResource,[String],N,Links to relevant tools/pages to data collection
