@@ -11,9 +11,6 @@ descrption = ...
 authors = ...
 classifiers = ...
 
-[project.urls]
-repository = "https://github.com/<your_account_name>/<your_repo_name>"
-
 [project.scripts]
 <your_script_name> = "<your_package_name><your_module_name>:<your_function_name>"
 ```

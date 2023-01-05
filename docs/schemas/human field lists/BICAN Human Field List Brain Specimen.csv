@@ -1,47 +1,47 @@
-Label,Type,Length,Lookup/Notes,Value Required,Notes
-Subject Id,Alpha,50,,Y,
+Label,Type,Length,Lookup/Notes,Value Required,Notes,Ontology term,Ontology term IRI
+Subject Id,Alpha,50,,Y,,subject identifier,tbd
 Post Mortem Interval,Numeric,7,"Takes decimal values (7,2) two decimal places
 
 For Unknown please set to 9999.99
 Not Applicable please set to 8888.88
 
-PMI should be measured in hours. ",Y,(hrs Ð precise (witnessed) vs. last known alive)
-Left Hemisphere Preparation,Numeric,1,lkup_hemisphere_prep,Y,
-Left Hemisphere Preparation Specify,Alpha,NA,,N,
-Right Hemisphere Preparation,Numeric,1,lkup_hemisphere_prep,Y,
-Right Hemisphere Preparation Specify,Alpha,NA,,N,
+PMI should be measured in hours. ",Y,(hrs ï¿½ precise (witnessed) vs. last known alive),postmortem interval, tbd
+Left Hemisphere Preparation,Numeric,1,lkup_hemisphere_prep,Y,,left hemisphere preparation,tbd
+Left Hemisphere Preparation Specify,Alpha,NA,,N,,left hemisphere preparation,tbd
+Right Hemisphere Preparation,Numeric,1,lkup_hemisphere_prep,Y,,right hemisphere preparation,tbd
+Right Hemisphere Preparation Specify,Alpha,NA,,N,,right hemisphere preparation,tbd
 RIN,Numeric,4,"If Unknown or Not Assessed then code 99.99
-If known then - decimal values (4,2) two decimal places",Y,"Either RIN or RINe needs to be coded for a subject.  Both cannot be coded for the same subject.  Whichever field you do not code, please leave it blank."
+If known then - decimal values (4,2) two decimal places",Y,"Either RIN or RINe needs to be coded for a subject.  Both cannot be coded for the same subject.  Whichever field you do not code, please leave it blank.",RNA Integrity Number value specification,OBI:0002137
 RINe,Numeric,4,"If Unknown or Not Assessed then code 99.99
-If known then - decimal values (4,2) two decimal places",Y,"Either RIN or RINe needs to be coded for a subject.  Both cannot be coded for the same subject.  Whichever field you do not code, please leave it blank."
+If known then - decimal values (4,2) two decimal places",Y,"Either RIN or RINe needs to be coded for a subject.  Both cannot be coded for the same subject.  Whichever field you do not code, please leave it blank.",RNA Integrity Number Equivalent value specification,tbd
 pH,Numeric,4,"If Unknown or Not Assessed then code 99.99
-If known then - decimal values (4,2) two decimal places",Y,
+If known then - decimal values (4,2) two decimal places",Y,,pH,PATO:0001842
 Brain Weight Measurement,Numeric,4,"For unknown, please code 9999
-Measurement should be in grams.",Y,
-Brain Tissue Weighed Type,Alpha,8,lkup_brain_tissue_weighed_type,Y,
-Gross brain photographs (Y/N),Alpha,1,,Y,intact and sliced
-3D surface scan (Y/N),Alpha,1,,Y,
-Antemortem MRI (Y/N),Alpha,1,,Y,"if yes then: research vs. clinical, number, dates"
-Postmortem MRI (Y/N),Alpha,1,,Y,
-Postmortem MRI Type,Numeric,1,0 - cadaveric; 1 - fresh ex vivo; 2 - fixed ex vivo,Y,
-Anatomical atlas registration (Y/N),Alpha,1,,Y,if yes then details - atlas reference?
+Measurement should be in grams.",Y,,brain mass,VT:0002176
+Brain Tissue Weighed Type,Alpha,8,lkup_brain_tissue_weighed_type,Y,,brain tissue weighted type,tbd
+Gross brain photographs (Y/N),Alpha,1,,Y,intact and sliced,gross brain photographs,tbd
+3D surface scan (Y/N),Alpha,1,,Y,,3D surface scan,tbd
+Antemortem MRI (Y/N),Alpha,1,,Y,"if yes then: research vs. clinical, number, dates",antemortem MRI,tbd
+Postmortem MRI (Y/N),Alpha,1,,Y,,postmortem MRI,tbd
+Postmortem MRI Type,Numeric,1,0 - cadaveric; 1 - fresh ex vivo; 2 - fixed ex vivo,Y,,cadaveric postmortem MRI|fresh ex vivo postmortem MRI|fixed ex vivo postmortem MRI,tbd
+Anatomical atlas registration (Y/N),Alpha,1,,Y,if yes then details - atlas reference?,anatomical atlas registration,tbd
 ,,,,,
 ,,,,,
 ,,,,,
 lkup_hemisphere_prep,,,,,
 Hemisphere Preparation,Label,Description,,,
-1,Formalin Fixed,,,,
-2,4% Paraformaldehyde Fixed,,,,
-3,Frozen,,,,
-4,Other,,,,
+1,Formalin Fixed,,,,,formalin fixed brain hemisphere preparation,tbd
+2,4% Paraformaldehyde Fixed,,,,,4% paraformaldehyde fixed brain hemisphere preparation,tbd
+3,Frozen,,,,,frozen brain hemisphere preparation,tbd
+4,Other,,,,,other brain hemisphere preparation,tbd
 9,Hemisphere Not Available,,,,
 ,,,,,
 lkup_brain_tissue_weighed_type,,,,,
 Brain Tissue Weighed Type,Label,Description,,,
-PV005206,Fresh whole brain,,,,
-PV005207,Fixed whole brain,,,,
-PV005210,Fresh hemibrain,,,,
-PV005208,Fixed hemibrain ,calculated whole brain,,,
+PV005206,Fresh whole brain,,,,,fresh whole brain weighted tissue,tbd
+PV005207,Fixed whole brain,,,,,fixed whole brain weighted tissue,tbd
+PV005210,Fresh hemibrain,,,,,fresh hemibrain weighted tissue,tbd
+PV005208,Fixed hemibrain ,calculated whole brain,,,,fixed hemibrain weighted tissue,tbd
 PV005209,Unknown,,,,
 ,,,,,
 lkup_yes_no_unknown_not_assessed,,,,,
