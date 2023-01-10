@@ -202,10 +202,10 @@ The following use cases describe scenarios where a downstream system would read 
     <td class="tg-0lax">
          <ul>
             <li>
-                PI logs into system and needs to find out 
+                PI needs to find donor information for a specific sequenced cell from a specific order.
             </li>
             <li>
-                The BCDC service account queries specimen portal API, maintaining an event log of order status. Events include BICAN identifier and/or URI for orders that allow redirection to sequencing portal for specific information about order. Dashboard reduces event log, displays specific order and links out to the sequencing portal to view details.
+                The BCDC service account queries specimen portal and sequencing portal API, maintaining an event log of order metadata. Order metadata includes identifiers and URIs for specimen. Specimen resources are queried to retrieve donor ID, and user is redirected to donor page.
             </li>
         </ul>
   </tr>
