@@ -39,7 +39,7 @@ a central status dashboard for the consortium. This document is an extension of 
         Supports use case:
         <ul>
             <li>
-                 <a href="api-use-cases.md#specimen-order-summary"> Dashboard - Specimen order status summary </a>
+                <a href="api-use-cases.md#cohesive-view"> Dashboard - One page view of specimen + library + sequencing artifacts </a>
             </li>
         </ul>
     </td>
@@ -50,7 +50,7 @@ a central status dashboard for the consortium. This document is an extension of 
     <td class="tg-lboi">
         A user should be able to search resources by BICAN identifiers. Ideally, BICAN identifiers would be directly resolvable to resource (via a PURL system). The API should support retrieving full metadata for a resource with the BICAN identifier.
     </td>
-    <td class="tg-lboi">Must have</td>
+    <td class="tg-lboi">Should have</td>
     <td class="tg-lboi">
         Supports use case:
         <ul>
@@ -90,7 +90,7 @@ a central status dashboard for the consortium. This document is an extension of 
         Supports use case: 
         <ul>
             <li>
-                <a href="api-use-cases.md#vocabulary-updates"> Dashboard - Specimen order status summary </a>
+                <a href="api-use-cases.md#vocabulary-updates"> Controlled Vocabulary updates </a>
             </li>
         </ul>
     </td>
