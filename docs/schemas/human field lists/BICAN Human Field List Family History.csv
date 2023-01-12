@@ -1,57 +1,57 @@
-Label,Type,Length,Lookup/Notes,Value Required,Notes
-Subject ID,Alpha,50,,Y,
-Relative Type,Alpha,8,lkup_family_history_medical_condition_relative_type,N,
-Relative Type Text,Text,NA,New field for relative type text if Relative type value is other or text description is needed,N,"If Relative Type is ""Other, Specify"" then this field must be filled in."
+Label,Type,Length,Lookup/Notes,Value Required,Notes,Ontology term,Ontology term IRI
+Subject ID,Alpha,50,,Y,,subject identifier,tbd
+Relative Type,Alpha,8,lkup_family_history_medical_condition_relative_type,N,,biological relative,tbd
+Relative Type Text,Text,NA,New field for relative type text if Relative type value is other or text description is needed,N,"If Relative Type is ""Other, Specify"" then this field must be filled in.",biological relative,tbd
 Condition Type,Alpha,8,lkup_family_medical_history_condition_type,N,
 Condition Type Text,Text,NA,Na/New field for medical condition type text if Family Medical History Condition Type value is other or text description is needed,N,"If Condition Type is ""Other, Specify"" then this field must be filled in."
 ,,,,,
 ,,,,,
 lkup_family_medical_history_condition_type,,,,,
 Family Medical History Condition Type - USE ICD-10 CODES,Label (Length 50),Description,,,
-PV000259,Alzheimer's disease,,,,
-PV000260,Amyotrophic lateral sclerosis (ALS),,,,
-PV000261,Ataxia,,,,
-PV000262,Autism,,,,
-PV000263,Bi-polar disorder,,,,
-PV000265,Brain aneurysm,,,,
-PV000266,Cancer,,,,
-PV000270,Dementia,,,,
-PV000271,Depression,,,,
-PV000272,Diabetes mellitus,,,,
-PV000273,Dystonia,,,,
-PV000274,Epilepsy,,,,
-PV000276,Heart disease,"a.k.a., cardiovascular disease or CVD",,,
-PV000295,Hypertension,,,,
-PV000281,Memory loss,,,,
-PV000282,Migraines,,,,
-PV000284,Multiple sclerosis,,,,
-PV000285,Muscle disease,,,,
-PV000286,Parkinson's disease,,,,
-PV000288,Schizophrenia,,,,
-PV000290,Stroke,,,,
-PV000292,Suicide or suicide attempt,,,,
-PV000293,Tourette syndrome,,,,
-PV000294,"Other, specify",,,,
+PV000259,Alzheimer's disease,,,Alzheimer disease,http://purl.obolibrary.org/obo/MONDO_0004975
+PV000260,Amyotrophic lateral sclerosis (ALS),,,amyotrophic lateral sclerosis,http://purl.obolibrary.org/obo/MONDO_0004976,
+PV000261,Ataxia,,,ataxia,http://purl.obolibrary.org/obo/HP_0001251
+PV000262,Autism,,,autism,http://purl.obolibrary.org/obo/MONDO_0005260
+PV000263,Bi-polar disorder,,,bipolar disorder,http://purl.obolibrary.org/obo/MONDO_0004985
+PV000265,Brain aneurysm,,,brain aneurysm,http://purl.obolibrary.org/obo/MONDO_0005291
+PV000266,Cancer,,,cancer,http://purl.obolibrary.org/obo/MONDO_0004992
+PV000270,Dementia,,,dementia,http://purl.obolibrary.org/obo/MONDO_0001627
+PV000271,Depression,,,depressive disorder,http://purl.obolibrary.org/obo/MONDO_0002050
+PV000272,Diabetes mellitus,,,diabetes mellitus,http://purl.obolibrary.org/obo/MONDO_0005015
+PV000273,Dystonia,,,isolated dystonia,http://purl.obolibrary.org/obo/MONDO_0015494
+PV000274,Epilepsy,,,epilepsy,http://purl.obolibrary.org/obo/MONDO_0005027
+PV000276,Heart disease,"a.k.a., cardiovascular disease or CVD",,cardiovascular disorder,http://purl.obolibrary.org/obo/MONDO_0004995
+PV000295,Hypertension,,,hypertension,http://purl.obolibrary.org/obo/HP_0000822
+PV000281,Memory loss,,,memory impairment,http://purl.obolibrary.org/obo/HP_0002354
+PV000282,Migraines,,,migraine,http://purl.obolibrary.org/obo/HP_0002076
+PV000284,Multiple sclerosis,,,multiple sclerosis,http://purl.obolibrary.org/obo/MONDO_0005301
+PV000285,Muscle disease,,,muscular disorder,http://purl.obolibrary.org/obo/MONDO_0005218
+PV000286,Parkinson's disease,,,parkinson disease,http://purl.obolibrary.org/obo/MONDO_0005180
+PV000288,Schizophrenia,,,schizophrenia,http://purl.obolibrary.org/obo/MONDO_0005090
+PV000290,Stroke,,,stroke,http://purl.obolibrary.org/obo/HP_0001297
+PV000292,Suicide or suicide attempt,,,suicide or suicide attempt,tbd
+PV000293,Tourette syndrome,,,Tourette syndrome,http://purl.obolibrary.org/obo/MONDO_0007661
+PV000294,"Other, specify",,,n/a,n/a
 ,,,,,
 lkup_family_history_medical_condition_relative_type,,,,,
 Family Medical History Condition Relative Type,Label,Description,,,
-PV000305,Biological Mother,,,,
-PV000306,Biological Father,,,,
-PV000307,Full sibling,"Same biological mother and father, 50% genetic sharing",,,
-PV000308,Half sibling,,,,
-PV000309,Child,,,,
-PV000310,Maternal grandmother,,,,
-PV000311,Paternal grandmother,,,,
-PV000312,Maternal grandfather,,,,
-PV000313,Paternal grandfather,,,,
-PV000314,Maternal aunt,,,,
-PV000315,Paternal aunt,,,,
-PV000316,Maternal uncle,,,,
-PV000317,Paternal uncle,,,,
-PV000318,Maternal niece/nephew,,,,
-PV000319,Paternal niece/nephew,,,,
-PV000320,Maternal cousin,,,,
-PV000321,Paternal cousin,,,,
-PV000322,Grandchild,,,,
-PV000323,Great-grandchild,,,,
-PV000324,"Other, specify",,,,
+PV000305,Biological Mother,,,biological mother,tbd
+PV000306,Biological Father,,,biological father,tbd
+PV000307,Full sibling,"Same biological mother and father, 50% genetic sharing",,full sibling,tbd
+PV000308,Half sibling,,,half-sibling,tbd
+PV000309,Child,,,child,tbd
+PV000310,Maternal grandmother,,,maternal grandmother,tbd
+PV000311,Paternal grandmother,,,paternal grandmother,tbd
+PV000312,Maternal grandfather,,,maternal grandfather,tbd
+PV000313,Paternal grandfather,,,paternal grandfather,tbd
+PV000314,Maternal aunt,,,maternal aunt,tbd
+PV000315,Paternal aunt,,,paternal aunt,tbd
+PV000316,Maternal uncle,,,maternal uncle,tbd
+PV000317,Paternal uncle,,,paternal uncle,tbd
+PV000318,Maternal niece/nephew,,,maternal niece/nephew,tbd
+PV000319,Paternal niece/nephew,,,paternal niece/nephew,tbd
+PV000320,Maternal cousin,,,maternal cousin,tbd
+PV000321,Paternal cousin,,,paternal cousin,tbd
+PV000322,Grandchild,,,grandchild,tbd
+PV000323,Great-grandchild,,,great-grandchild,tbd
+PV000324,"Other, specify",,,n/a,n/a
