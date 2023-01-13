@@ -1,4 +1,4 @@
-Label,Type,Length,Lookup/Notes,Value Required,Notes
+Label,Type,Length,Lookup/Notes,Value Required,Notes,ontology term,ontology ID
 Subject Id,Alpha,50,,Y,
 Hemisphere,Alpha,8,lkup_hemisphere,Y,
 Unavailable Brain Region,Numeric,2,lkup_brain_region,Y,
