@@ -1,38 +1,38 @@
 DEM,,,
 ,,,
 lkup_sex_at_birth,,,
-Sex at Birth,Label,Description,
-1,Male,,
-2,Female,,
-7,Other,,
-8,Unknown,,
-9,Not Reported,,
+Sex at Birth,Label,Description,,ontology term,ontology IRI
+1,Male,,,male,http://purl.obolibrary.org/obo/PATO_0000384
+2,Female,,,female,http://purl.obolibrary.org/obo/PATO_0000383
+7,Other,,,n/a,tbd
+8,Unknown,,,n/a,n/a
+9,Not Reported,,,n/a,n/a
 ,,,
 lkup_gender_at_time_of_death,,,
-Gender at Time of Death,Label,Description,
-1,Male,,
-2,Female,,
-3,Transgender Male,,
-4,Transgender Female,,
-5,Non-Binary,,
-6,Gender Fluid,,
-7,Other,,
-8,Unknown,,
-9,Not Reported,,
+Gender at Time of Death,Label,Description,ontology term,ontology IRI
+1,Male,,,male,http://purl.obolibrary.org/obo/PATO_0000384
+2,Female,,,female,http://purl.obolibrary.org/obo/PATO_0000383
+3,Transgender Male,,,transgender male,tbd
+4,Transgender Female,,,transgender female,tbd
+5,Non-Binary,,,gender non-binary,http://purl.obolibrary.org/obo/GSSO_000132
+6,Gender Fluid,,,genderfluid identity,http://purl.obolibrary.org/obo/GSSO_002339
+7,Other,,,n/a,n/a
+8,Unknown,,,n/a,n/a
+9,Not Reported,,,n/a,n/a
 ,,,
 lkup_sexual_orientation_at_time_of_death,,,
-Sexual Orientation at Time of Death,Label,Description,
-1,Heterosexual,,
-2,Homosexual,,
-3,Bisexual,,
-4,Asexual,,
-7,Other,,
-8,Unknown,,
-9,Not Reported,,
+Sexual Orientation at Time of Death,Label,Description,ontology term,ontology IRI
+1,Heterosexual,,heterosexual,http://purl.obolibrary.org/obo/GSSO_001592
+2,Homosexual,,gay,http://purl.obolibrary.org/obo/GSSO_001591
+3,Bisexual,,bisexual,http://purl.obolibrary.org/obo/GSSO_001590
+4,Asexual,,asexual,http://purl.obolibrary.org/obo/NCIT_C155696
+7,Other,,n/a,n/a
+8,Unknown,,n/a,n/a
+9,Not Reported,,n/a,n/a
 ,,,
 ,,,
 lkup_Ethnicity_usa_category,,,
-Ethnicity UAS Category,Label,Description,
+Ethnicity UAS Category,Label,Description,ontology term,ontology IRI
 PV000034,Hispanic or Latino,"A person of Mexican, Puerto Rican, Cuban, Central or South American, Iberian Peninsula, or other Spanish culture or origin, regardless of race",
 PV000035,Not Hispanic or Latino,A person not meeting the definition for Hispanic or Latino,
 PV000036,Unknown,Could not be determined or unsure,
@@ -40,13 +40,13 @@ PV000037,Not reported,Not provided or available,
 ,,,
 lkup_race_usa_category,,,
 Race USA Category,Label (length 50),Description,Requires Value
-PV000062,American Indian or Alaska Native,"A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment",False/No
-PV000063,Asian,"A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam",False/No
-PV000064,Black or African-American,"A person having origins in any of the black racial groups of Africa. Terms such as ""Haitian"" or ""Negro"" can be used in addition to ""Black or African American.""",False/No
-PV000065,Native Hawaiian or Other Pacific Islander,"Denotes a person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. The term covers particularly people who identify themselves as part-Hawaiian, Native Hawaiian, Guamanian or Chamorro, Carolinian, Samoan, Chuu",False/No
-PV000066,White,"Denotes a person with European, Middle Eastern, or North African ancestral origin who identifies, or is identified, as White",False/No
-PV000067,Unknown,Could not be determined or unsure,False/No
-PV000068,Not reported,Not provided or unavailable,False/No
+PV000062,American Indian or Alaska Native,"A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment",False/No,Hispanic or Latino,http://purl.obolibrary.org/obo/NCIT_C17459
+PV000063,Asian,"A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam",False/No,Asian,http://purl.obolibrary.org/obo/NCIT_C41260
+PV000064,Black or African-American,"A person having origins in any of the black racial groups of Africa. Terms such as ""Haitian"" or ""Negro"" can be used in addition to ""Black or African American.""",False/No,Black or African-American,http://purl.obolibrary.org/obo/NCIT_C16352
+PV000065,Native Hawaiian or Other Pacific Islander,"Denotes a person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. The term covers particularly people who identify themselves as part-Hawaiian, Native Hawaiian, Guamanian or Chamorro, Carolinian, Samoan, Chuu",False/No,Native Hawaiian or other Pacific Islander,http://purl.obolibrary.org/obo/NCIT_C41219
+PV000066,White,"Denotes a person with European, Middle Eastern, or North African ancestral origin who identifies, or is identified, as White",False/No,white,http://purl.obolibrary.org/obo/NCIT_C41261
+PV000067,Unknown,Could not be determined or unsure,False/No,n/a,n/a
+PV000068,Not reported,Not provided or unavailable,False/No,n/a,n/a
 ,,,
 ,,,
 Dem2,,,
@@ -54,36 +54,36 @@ Dem2,,,
 lkup_manner_of_death,,,
 Code,Label,Description,
 0,Not Deceased,Not Deceased,
-1,Accidental,Accidental,
-2,Homicide,Homicide,
-3,Suicide,Suicide,
-4,Natural,Natural,
-5,Undetermined,Manner of Death Undetermined,
-9,Status of Death Unknown,Unknown if subject is deceased or not,
+1,Accidental,Accidental,accidental death,http://purl.obolibrary.org/obo/NCIT_C90351
+2,Homicide,Homicide,homicide,http://purl.obolibrary.org/obo/GSSO_005365
+3,Suicide,Suicide,suicide,http://purl.obolibrary.org/obo/NCIT_C3394
+4,Natural,Natural,death by natural cause,http://purl.obolibrary.org/obo/NCIT_C82465
+5,Undetermined,Manner of Death Undetermined,n/a,n/a
+9,Status of Death Unknown,Unknown if subject is deceased or not,n/a,n/a
 ,,,
 STAT,,,
 ,,,
 lkup_marital_or_partner_status,,,
-Marital or Partner Status,Label,Description,
-PV000093,Never Married,A person who has never been married or whose only marriages have been annulled.,
-PV000094,Married,A person currently joined in matrimony. Classify common law marriage as married. Includes married couples living together and not living together.,
-PV000095,Domestic partnership,"A person who is a member of an unmarried couple, including same sex couples, living together in longstanding relationships, that are registered or unregistered.",
-PV000096,Divorced,A person whose marriage has been legally dissolved and has not remarried.,
-PV000097,Separated,A person living apart from his/her spouse by legal arrangement.,
-PV000098,Widowed,A person who is no longer married because of the death of his/her spouse and who has not remarried.,
+Marital or Partner Status,Label,Description,ontology term,ontology IRI
+PV000093,Never Married,A person who has never been married or whose only marriages have been annulled.,never married,http://purl.obolibrary.org/obo/NCIT_C51774
+PV000094,Married,A person currently joined in matrimony. Classify common law marriage as married. Includes married couples living together and not living together.,married,http://purl.obolibrary.org/obo/NCIT_C51773
+PV000095,Domestic partnership,"A person who is a member of an unmarried couple, including same sex couples, living together in longstanding relationships, that are registered or unregistered.",domestic partnership,http://purl.obolibrary.org/obo/NCIT_C53262
+PV000096,Divorced,A person whose marriage has been legally dissolved and has not remarried.,divorced,http://purl.obolibrary.org/obo/NCIT_C51776
+PV000097,Separated,A person living apart from his/her spouse by legal arrangement.,separated,http://purl.obolibrary.org/obo/NCIT_C156541
+PV000098,Widowed,A person who is no longer married because of the death of his/her spouse and who has not remarried.,widowed,http://purl.obolibrary.org/obo/NCIT_C51775
 ,,,
 ,,,
 lkup_family_income_range,,,
-Family Income Range,Label,Description,
-PV000858,"Under $15,000","Under $15,000",
-PV000850,"$15,000 to $24,999","$15,000 to $24,999",
-PV000851,"$25,000 to $34,999","$25,000 to $34,999",
-PV000852,"$35,000 to $49,999","$35,000 to $49,999",
-PV000853,"$50,000 to $74,999","$50,000 to $74,999",
-PV000854,"$75,000 to $99,999","$75,000 to $99,999",
-PV000855,"$100,000 and over","$100,000 and over",
-PV000856,Refused,Refused,
-PV000857,Unknown,Unknown,
+Family Income Range,Label,Description,ontology term,ontology IRI
+PV000858,"Under $15,000","Under $15,000",tbd,tbd
+PV000850,"$15,000 to $24,999","$15,000 to $24,999",tbd,tbd,
+PV000851,"$25,000 to $34,999","$25,000 to $34,999",tbd,tbd
+PV000852,"$35,000 to $49,999","$35,000 to $49,999",tbd,tbd
+PV000853,"$50,000 to $74,999","$50,000 to $74,999",tbd,tbd
+PV000854,"$75,000 to $99,999","$75,000 to $99,999",tbd,tbd
+PV000855,"$100,000 and over","$100,000 and over",tbd,tbd
+PV000856,Refused,Refused,tbd,tbd
+PV000857,Unknown,Unknown,tbd,tbd
 ,,,
 ,,,
 lkup_diagnostic_feature_or_criterion_presence_indicator,,,
