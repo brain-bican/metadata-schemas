@@ -1,4 +1,4 @@
-Field Label,Type,Length,Lookup,Required
+Field Label,Type,Length,Lookup,Required,ontology term,ontology IRI
 Subject ID,Alpha,50,,Y
 Test Name,Alpha,,lkup_serology_test_name,Y
 Result,Alpha,,lkup_serology_test_result,Y
@@ -9,19 +9,19 @@ Tissue Source,Alpha,,lkup_tissue_source,Y
 ,,,,
 lkup_serology_test_name,,,,
 Value,,,,
-Hepatitis A,,,,
-Hepatitis C Antibody ,,,,
-Hepatitis B Surface Antigen,,,,
-Hepatitis B Surface Antibody,,,,
-Hepatitis B Core Antibody,,,,
-HIV-1/HIV-2 Plus O Antibody,,,,
-HIV-1/HIV-2 ,,,,
-HIV-1 Antibody,,,,
-COVID-19 Virus (RT-PCR) ,,,,
-COVID-19 Antigen Ð Rapid Test Ê,,,,
-COVID-19 Spike Protein Antibody,,,,
-COVID-19 Nucleocapsid Protein Antibody,,,,
-COVID-19 Unknown Antibody,,,,
+Hepatitis A,,,,,hepatitis A,http://purl.obolibrary.org/obo/DOID_12549
+Hepatitis C Antibody ,,,,,hepatitis C antibody,tbd
+Hepatitis B Surface Antigen,,,,,hepatitis B surface antigen,tbd
+Hepatitis B Surface Antibody,,,,,hepatitis B surface antibody,tbd
+Hepatitis B Core Antibody,,,,,hepatitis B core antibody,tbd
+HIV-1/HIV-2 Plus O Antibody,,,,,HIV-1/HIV-2 plus 0 antibody,tbd
+HIV-1/HIV-2 ,,,,,HIV-1/HIV-2,tbd,
+HIV-1 Antibody,,,,,HIV-1 antibody,tbd
+COVID-19 Virus (RT-PCR) ,,,,,COVID-19 Virus,tbd
+COVID-19 Antigen ï¿½ Rapid Test ï¿½,,,,COVID-19 antigen rapid test,tbd
+COVID-19 Spike Protein Antibody,,,,,COVID-19 spike protein antibody,tbd
+COVID-19 Nucleocapsid Protein Antibody,,,,COVID-19 nucleocapsid protein antibody,tbd
+COVID-19 Unknown Antibody,,,,,COVID-19 unknown antibody
 ,,,,
 ,,,,
 ,,,,
@@ -34,11 +34,11 @@ Borderline,,,,
 ,,,,
 ,,,,
 lkup_tissue_source,,,,
-Value,,,,
-Whole Blood,,,,
-Plasma,,,,
-Brain,,,,
-Nasal Swab,,,,
-Serum,,,,
+Value,,,,,value,http://www.w3.org/ns/prov#value
+Whole Blood,,,,,blood,http://purl.obolibrary.org/obo/UBERON_0000178
+Plasma,,,,,blood plasma,http://purl.obolibrary.org/obo/UBERON_0001969
+Brain,,,,,brain,http://purl.obolibrary.org/obo/UBERON_0000955
+Nasal Swab,,,,,nasal swab specimen,http://purl.obolibrary.org/obo/OBI_0000917
+Serum,,,,,serum,http://purl.obolibrary.org/obo/UBERON_0001977
 Other,,,,
 Unknown,,,,
