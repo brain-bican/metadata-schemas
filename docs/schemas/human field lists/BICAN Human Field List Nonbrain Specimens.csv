@@ -1,7 +1,7 @@
-Label,Type,Length,Lookup/Notes,Value Required,Notes
-Subject Id,Alpha,50,,Y,
-Tissue Type,Alpha,50,lkup_tissue_type,Y,
-Tissue Source,Alpha,1,lkup_brain_tissue_source,Y,
+Label,Type,Length,Lookup/Notes,Value Required,Notes,ontology term,ontology IRI
+Subject Id,Alpha,50,,Y,,,
+Tissue Type,Alpha,50,lkup_tissue_type,Y,,,
+Tissue Source,Alpha,1,lkup_brain_tissue_source,Y,,,
 Date of Collection,Date,10,"Must be one of the following:
 1.   A valid date in the form of MM/DD/YYYY
 2.   If the date is unknown, then code:   99/99/9999
@@ -12,83 +12,83 @@ Age at Date of Collection (Years),Numeric,3,"Must be one of the following:
 2.   If Age is unknown, then code 999",Y,
 ,,,,,
 lkup_tissue_type,,,,,
-Tissue Type,Label,Description,,,
-Adipose,Adipose,Integumentary,,,
-Adrenal,Adrenal,Endocrine,,,
-Anus,Anus,Gastrointestinal,,,
-Aorta,Aorta,Cardiovascular,,,
-Appendix,Appendix,Gastrointestinal,,,
-Artery,Artery,Cardiovascular,,,
-Ascending Colon,Ascending Colon,Ascending Colon,,,
-Astrocytes,Astrocytes,Other,,,
-Bladder,Bladder,Urinary,,,
-Bone Rib,Bone Rib,Musculo Skeletal,,,
-Breast,Breast,Endocrine,,,
-Bronchus,Bronchus,Respiratory,,,
-Cervical Spinal Cord,Cervical Spinal Cord,Cervical Spinal Cord,,,
-Colon Ascending,Colon Ascending,Gastrointestinal,,,
-Colon Descending,Colon Descending,Gastrointestinal,,,
-CSF,CSF,CSF,,,
+Tissue Type,Label,Description,,,tissue,http://purl.obolibrary.org/obo/UBERON_0000479
+Adipose,Adipose,Integumentary,,,adipose tissue,http://purl.obolibrary.org/obo/UBERON_0001013
+Adrenal,Adrenal,Endocrine,,,adrenal tissue,http://purl.obolibrary.org/obo/UBERON_0018303
+Anus,Anus,Gastrointestinal,,,anus,http://purl.obolibrary.org/obo/UBERON_0001245
+Aorta,Aorta,Cardiovascular,,,aorta,http://purl.obolibrary.org/obo/UBERON_0000947
+Appendix,Appendix,Gastrointestinal,,,veriform appendix,http://purl.obolibrary.org/obo/UBERON_0001154
+Artery,Artery,Cardiovascular,,,artery,http://purl.obolibrary.org/obo/UBERON_0001637
+Ascending Colon,Ascending Colon,Ascending Colon,,,ascending colon,http://purl.obolibrary.org/obo/UBERON_0001156
+Astrocytes,Astrocytes,Other,,,astrocyte,http://purl.obolibrary.org/obo/CL_0000127
+Bladder,Bladder,Urinary,,,urinary bladder,http://purl.obolibrary.org/obo/UBERON_0001255
+Bone Rib,Bone Rib,Musculo Skeletal,,,rib,http://purl.obolibrary.org/obo/UBERON_0002228
+Breast,Breast,Endocrine,,,breast,http://purl.obolibrary.org/obo/UBERON_0000310
+Bronchus,Bronchus,Respiratory,,,bronchus,http://purl.obolibrary.org/obo/UBERON_0002185
+Cervical Spinal Cord,Cervical Spinal Cord,Cervical Spinal Cord,,,cervical spinal cord,http://purl.obolibrary.org/obo/UBERON_0002726
+Colon Ascending,Colon Ascending,Gastrointestinal,,,ascending colon,http://purl.obolibrary.org/obo/UBERON_0001156
+Colon Descending,Colon Descending,Gastrointestinal,,,descending colon,http://purl.obolibrary.org/obo/UBERON_0001158
+CSF,CSF,CSF,,,cerebrospinal fluid,http://purl.obolibrary.org/obo/UBERON_0001359
 D R G-Cervical,DRG cervical,DRG cervical,,,
 D R G-Sacral,DRG sacral,DRG sacral,,,
 D R G-Thoracic,DRG thoracic,DRG thoracic,,,
-Diaphragm,Diaphragm,Musculo Skeletal,,,
-DNA,DNA,Other,,,
+Diaphragm,Diaphragm,Musculo Skeletal,,,diaphragm,http://purl.obolibrary.org/obo/UBERON_0001103
+DNA,DNA,Other,,,deoxyribonucleic acid,http://purl.obolibrary.org/obo/CHEBI_16991
 DRG-Lumbar,DRG lumbar,DRG lumbar,,,
-Duodenum,Duodenum,Gastrointestinal,,,
-Esophagus,Esophagus,Esophagus,,,
-Eyes,Eyes,Other,,,
-Fallopian Tube,Fallopian Tube,Genital,,,
-Fibroblasts,Fibroblasts,Other,,,
-Gallbladder,Gallbladder,Gastrointestinal,,,
-Hair,Hair,Integumentary,,,
-Heart,Heart,Cardiovascular,,,
-Ileum,Ileum,Gastrointestinal,,,
-Jejunem,Jejunem,Gastrointestinal,,,
-Kidney,Kidney,Urinary,,,
-Liver,Liver,Gastrointestinal,,,
-Long Bone,Long Bone,Musculo Skeletal,,,
-Lumbar Spinal Cord,Lumbar Spinal Cord,Lumbar Spinal Cord,,,
-Lung,Lung,Respiratory,,,
-Lymph Node,Lymph Node,Hematopoietic,,,
-Middle Ear Bone,Middle Ear Bone,Middle Ear Bone,,,
-Nail,Nail,Integumentary,,,
-Ovary,Ovary,Genital,,,
-Pancreas,Pancreas,Gastrointestinal,,,
-Peripheral Nerve,Peripheral Nerve,Spinal Cord,,,
-Pineal,Pineal,Endocrine,,,
-Pituitary,Pituitary,Endocrine,,,
-Placenta,Placenta,Other,,,
-Plasma,Plasma,Body Fluids,,,
-Prostate,Prostate,Prostate,,,
-Psoas Muscle,Psoas Muscle,Psoas Muscle,,,
-RBC,RBC,Body Fluids,,,
-RNA,RNA,Other,,,
-Sacral Spinal Cord,Sacral Spinal Cord,Sacral Spinal Cord,,,
-Serum,Serum,Body Fluids,,,
-Skin,Skin,Integumentary,,,
-Spleen,Spleen,Hematopoietic,,,
-Stomach,Stomach,Gastrointestinal,,,
-Systemic Tissue,Systemic Tissue,Systemic Tissue,,,
-Temporalis Muscle,Temporalis Muscle,Temporalis Muscle,,,
-Testicle,Testicle,Genital,,,
-Thoracic Spinal Cord,Thoracic Spinal Cord,Thoracic Spinal Cord,,,
-Thymus,Thymus,Hematopoietic,,,
-Thyroid,Thyroid,Endocrine,,,
-Tissue,Tissue,Tissue,,,
-Tissue-other,Tissue-other,Tissue-other,,,
-Tongue,Tongue,Gastrointestinal,,,
-Tonsil,Tonsil,Hematopoietic,,,
-Trachea,Trachea,Respiratory,,,
-Umbilical Cord,Umbilical Cord,Other,,,
-Ureter,Ureter,Urinary,,,
-Urinary Bladder,Urinary Bladder,Urinary Bladder,,,
-Urine,Urine,Body Fluids,,,
-Uterus,Uterus,Genital,,,
-Vein,Vein,Cardiovascular,,,
-Vitreous,Vitreous,Body Fluids,,,
-Vitreous Humor,Vitreous Humor,Vitreous Humor,,,
-Whole Blood,Whole Blood,Whole Blood,,,
+Duodenum,Duodenum,Gastrointestinal,,,duodenum,http://purl.obolibrary.org/obo/UBERON_0002114
+Esophagus,Esophagus,Esophagus,,,esophagus,http://purl.obolibrary.org/obo/UBERON_0001043
+Eyes,Eyes,Other,,,eye,http://purl.obolibrary.org/obo/UBERON_0000970
+Fallopian Tube,Fallopian Tube,Genital,,,fallopian tube,http://purl.obolibrary.org/obo/UBERON_0003889
+Fibroblasts,Fibroblasts,Other,,,fibroblast,http://purl.obolibrary.org/obo/CL_0000057
+Gallbladder,Gallbladder,Gastrointestinal,,,gallbladder,http://purl.obolibrary.org/obo/UBERON_0002110
+Hair,Hair,Integumentary,,,strand of hair,http://purl.obolibrary.org/obo/UBERON_0001037
+Heart,Heart,Cardiovascular,,,heart,http://purl.obolibrary.org/obo/UBERON_0000948
+Ileum,Ileum,Gastrointestinal,,,ileum,http://purl.obolibrary.org/obo/UBERON_0002116
+Jejunem,Jejunem,Gastrointestinal,,,jejunem,http://purl.obolibrary.org/obo/UBERON_0002115
+Kidney,Kidney,Urinary,,,kidney,http://purl.obolibrary.org/obo/UBERON_0002113
+Liver,Liver,Gastrointestinal,,,liver,http://purl.obolibrary.org/obo/UBERON_0002107
+Long Bone,Long Bone,Musculo Skeletal,,,long bone,http://purl.obolibrary.org/obo/UBERON_0002495
+Lumbar Spinal Cord,Lumbar Spinal Cord,Lumbar Spinal Cord,,,lumbar spinal cord,http://purl.obolibrary.org/obo/UBERON_0002792
+Lung,Lung,Respiratory,,,lung,http://purl.obolibrary.org/obo/UBERON_0002048
+Lymph Node,Lymph Node,Hematopoietic,,,lymph node,http://purl.obolibrary.org/obo/UBERON_0000029
+Middle Ear Bone,Middle Ear Bone,Middle Ear Bone,,,middle ear bone,tbd
+Nail,Nail,Integumentary,,,nail,http://purl.obolibrary.org/obo/UBERON_0001705
+Ovary,Ovary,Genital,,,ovary,http://purl.obolibrary.org/obo/UBERON_0000992
+Pancreas,Pancreas,Gastrointestinal,,,pancreas,http://purl.obolibrary.org/obo/UBERON_0001264
+Peripheral Nerve,Peripheral Nerve,Spinal Cord,,,nerve,http://purl.obolibrary.org/obo/UBERON_0001021
+Pineal,Pineal,Endocrine,,,pineal complex,http://purl.obolibrary.org/obo/UBERON_0015238
+Pituitary,Pituitary,Endocrine,,,pituitary gland,http://purl.obolibrary.org/obo/UBERON_0000007
+Placenta,Placenta,Other,,,placenta,http://purl.obolibrary.org/obo/UBERON_0001987
+Plasma,Plasma,Body Fluids,,,plasma,http://purl.obolibrary.org/obo/ENVO_01000798
+Prostate,Prostate,Prostate,,,prostate gland,http://purl.obolibrary.org/obo/UBERON_0002367
+Psoas Muscle,Psoas Muscle,Psoas Muscle,,,psoas muscle,http://purl.obolibrary.org/obo/UBERON_0008450
+RBC,RBC,Body Fluids,,,erythrocyte,http://purl.obolibrary.org/obo/CL_0000232
+RNA,RNA,Other,,,RNA,http://purl.obolibrary.org/obo/CHEBI_33697
+Sacral Spinal Cord,Sacral Spinal Cord,Sacral Spinal Cord,,,sacral spinal cord,http://purl.obolibrary.org/obo/UBERON_0005843
+Serum,Serum,Body Fluids,,,serum,http://purl.obolibrary.org/obo/UBERON_0001977
+Skin,Skin,Integumentary,,,skin of body,http://purl.obolibrary.org/obo/UBERON_0002097
+Spleen,Spleen,Hematopoietic,,,spleen,http://purl.obolibrary.org/obo/UBERON_0002106
+Stomach,Stomach,Gastrointestinal,,,stomach,http://purl.obolibrary.org/obo/UBERON_0000945
+Systemic Tissue,Systemic Tissue,Systemic Tissue,,,n/a,n/a
+Temporalis Muscle,Temporalis Muscle,Temporalis Muscle,,,skeletal muscle of temporalis,http://purl.obolibrary.org/obo/UBERON_0004507
+Testicle,Testicle,Genital,,,testis,http://purl.obolibrary.org/obo/UBERON_0000473
+Thoracic Spinal Cord,Thoracic Spinal Cord,Thoracic Spinal Cord,,,thoracic spinal cord,http://purl.obolibrary.org/obo/UBERON_0003038
+Thymus,Thymus,Hematopoietic,,,thymus,http://purl.obolibrary.org/obo/UBERON_0002370
+Thyroid,Thyroid,Endocrine,,,thyroid gland,http://purl.obolibrary.org/obo/UBERON_0002046
+Tissue,Tissue,Tissue,,,tissue,http://purl.obolibrary.org/obo/UBERON_0000479
+Tissue-other,Tissue-other,Tissue-other,,,n/a,n/a
+Tongue,Tongue,Gastrointestinal,,,tongue,http://purl.obolibrary.org/obo/UBERON_0001723
+Tonsil,Tonsil,Hematopoietic,,,tonsil,http://purl.obolibrary.org/obo/UBERON_0002372
+Trachea,Trachea,Respiratory,,,trachea,http://purl.obolibrary.org/obo/UBERON_0003126
+Umbilical Cord,Umbilical Cord,Other,,,umbilical cord,http://purl.obolibrary.org/obo/UBERON_0002331
+Ureter,Ureter,Urinary,,,ureter,http://purl.obolibrary.org/obo/UBERON_0000056
+Urinary Bladder,Urinary Bladder,Urinary Bladder,,,urinary bladder,http://purl.obolibrary.org/obo/UBERON_0001255
+Urine,Urine,Body Fluids,,,urine,http://purl.obolibrary.org/obo/UBERON_0001088
+Uterus,Uterus,Genital,,,uterus,http://purl.obolibrary.org/obo/UBERON_0000995
+Vein,Vein,Cardiovascular,,,vein,http://purl.obolibrary.org/obo/UBERON_0001638
+Vitreous,Vitreous,Body Fluids,,,vitreous body,http://purl.obolibrary.org/obo/UBERON_0001798
+Vitreous Humor,Vitreous Humor,Vitreous Humor,,,vitreous humor,http://purl.obolibrary.org/obo/UBERON_0001797
+Whole Blood,Whole Blood,Whole Blood,,,blood,http://purl.obolibrary.org/obo/UBERON_0000178
 ,,,,,
 ,,,,,
 lkup_brain_tissue_source,,,,,
