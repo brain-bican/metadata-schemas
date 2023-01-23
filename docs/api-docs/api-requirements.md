@@ -8,6 +8,8 @@ a central status dashboard for the consortium. This document is an extension of 
 - This document and the examples make a few assumptions about the APIs:
     - APIs communicate via JSON over HTTP
     - APIs follow REST principles
+        - While this doc assumes a RESTful API for the examples, GraphQL is a perfectly valid implementation. Implementation details
+        are left up to the implementation team.
 
 ## General Requirements
 
