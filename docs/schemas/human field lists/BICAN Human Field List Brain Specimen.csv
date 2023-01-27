@@ -1,5 +1,5 @@
 Label,Type,Length,Lookup/Notes,Value Required,Notes,Ontology term,Ontology term IRI
-Subject Id,Alpha,50,,Y,,subject identifier,tbd
+Subject Id,Alpha,50,,Y,,subject identifier,tbd,
 Post Mortem Interval,Numeric,7,"Takes decimal values (7,2) two decimal places
 
 For Unknown please set to 9999.99
