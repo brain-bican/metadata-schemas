@@ -1,4 +1,4 @@
-Label,Type,Length,Lookup/Notes,Value Required,Notes
+Label,Type,Length,Lookup/Notes,Value Required,Notes,ontology term,ontology IRI
 Subject ID,alpha,50,,Y,
 Perinatal Neurologic Event Type,alpha,8,lkup_perinatal_neurologic_event_type,N,
 Perinatal Neurologic Event Type Specify,alpha,NA,"If ""Perinatal Neurologic Event Type"" is coded to ""Other, Specify"", then this field should contain the description.",N,
@@ -6,10 +6,10 @@ Perinatal Neurologic Event Type Specify,alpha,NA,"If ""Perinatal Neurologic Even
 ,,,,,
 lkup_perinatal_neurologic_event_type,,,,,
 Perinatal Neurologic Event Type - ICD-10 CODES,Label,Description,Requires Value,,
-PV001060,Subdural hemorrhage,,False/No,,
-PV001054,Subarachnoid hemorrhage,,False/No,,
-PV001055,Intraparenchymal hemorrhage,,False/No,,
-PV001056,Intraventricular hemorrhage,,False/No,,
-PV001057,Hypoxia,,False/No,,
-PV001058,"Other, specify",,True/yes,,
-PV001059,None,,False/No,,
+PV001060,Subdural hemorrhage,,False/No,,,subdural hemorrhage,http://purl.obolibrary.org/obo/HP_0100309
+PV001054,Subarachnoid hemorrhage,,False/No,,,subarachnoid hemorrhage,http://purl.obolibrary.org/obo/HP_0002138
+PV001055,Intraparenchymal hemorrhage,,False/No,,,n/a,tbd
+PV001056,Intraventricular hemorrhage,,False/No,,,n/a,tbd
+PV001057,Hypoxia,,False/No,,,hypoxia,http://purl.obolibrary.org/obo/MP_0005039
+PV001058,"Other, specify",,True/yes,,,n/a,n/a
+PV001059,None,,False/No,,,n/a,n/a

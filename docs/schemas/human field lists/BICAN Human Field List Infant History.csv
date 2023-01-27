@@ -1,8 +1,8 @@
-Label,Type,Length,Lookup/Notes,Value Required,Notes
-Subject ID,alpha,50,,Y,
-Birth Weight Value (lbs),Numeric,4,Decimal - two decimal points,N,
-Birth Weight Value (oz),Numeric,4,Decimal - two decimal points,N,
-Gestational Age Value (weeks),Numeric,2,Acceptable Values between 1-45,Y,One of these fields must be filled in.   There are instructions below on how to fill in these fields.
-Gestational Age Value (days),Numeric,2,Acceptable Values between 0-6,Y,
-APGAR Five Minute Score,numeric,2,Acceptable values 1-10,N,
-APGAR Ten Minute Score,numeric,2,Acceptable values 1-10,N,
+Label,Type,Length,Lookup/Notes,Value Required,Notes,ontology term,ontology IRI
+Subject ID,alpha,50,,Y,,
+Birth Weight Value (lbs),Numeric,4,Decimal - two decimal points,N,,birth weight,http://purl.obolibrary.org/obo/OPMI_0000161
+Birth Weight Value (oz),Numeric,4,Decimal - two decimal points,N,,birth weight,http://purl.obolibrary.org/obo/OPMI_0000161
+Gestational Age Value (weeks),Numeric,2,Acceptable Values between 1-45,Y,One of these fields must be filled in.   There are instructions below on how to fill in these fields.,gestational age,tbd
+Gestational Age Value (days),Numeric,2,Acceptable Values between 0-6,Y,,gestational age,tbd
+APGAR Five Minute Score,numeric,2,Acceptable values 1-10,N,,apgar score,tbd
+APGAR Ten Minute Score,numeric,2,Acceptable values 1-10,N,,apgar score,tbd
