@@ -1,66 +1,66 @@
 Label,Type,Length,Lookup/Notes,Value Required,Notes,ontology term,ontology ID
-Subject Id,Alpha,50,,Y,
-Hemisphere,Alpha,8,lkup_hemisphere,Y,
-Unavailable Brain Region,Numeric,2,lkup_brain_region,Y,
-,,,,,
-,,,,,
-lkup_hemisphere,,,,,
-Hemisphere,Label,Description,,,
-Left,Left,,,,
-Right,Right,,,,
-Unknown,Unknown,,,,
-,,,,,
-lkup_brain_region,,,,,
-Unavailable Brain Region,Label,Description,,,
-1,Amygdala,,,,
-2,Anterior Cingulate (Brodmann area 32),,,,
-3,Anterior Cingulate (Brodmann area 24) ,,,,
-4,Caudate nucleus,,,,
-5,Cerebellum (hemisphere) ,,,,
-6,Cerebellum (vermis) ,,,,
-7,Corpus callosum ,,,,
-8,Dentate nucleus,,,,
-9,Dorsolateral Prefrontal cortex (Brodmann area 46),,,,
-10,Dorsolateral Prefrontal cortex (Brodmann area 8),,,,
-11,Dorsolateral Prefrontal cortex (Brodmann area 9),,,,
-12,Dorsolateral Prefrontal cortex (Brodmann area 10),,,,
-13,Dura,,,,
-14,Entorhinal cortex ,,,,
+Subject Id,Alpha,50,,Y,,,
+Hemisphere,Alpha,8,lkup_hemisphere,Y,,,
+Unavailable Brain Region,Numeric,2,lkup_brain_region,Y,,,
+,,,,,,,
+,,,,,,,
+lkup_hemisphere,,,,,,,
+Hemisphere,Label,Description,,,,,
+Left,Left,,,,,,
+Right,Right,,,,,,
+Unknown,Unknown,,,,,,
+,,,,,,,
+lkup_brain_region,,,,,,,
+Unavailable Brain Region,Label,Description,,,,,
+1,Amygdala,,,,amygdala,HBA:4327
+2,Anterior Cingulate (Brodmann area 32),,,,dorsorostral division of MFC,HBA:10280
+3,Anterior Cingulate (Brodmann area 24),,,,ventral division of MFC,HBA:10279
+4,Caudate nucleus,,,,caudate nucleus,HBA:10334
+5,Cerebellum (hemisphere),,,,cerebellum,HBA:10656
+6,Cerebellum (vermis),,,,cerebellar vermis,HBA:10658
+7,Corpus callosum,,,,corpus callosum,HBA:10561
+8,Dentate nucleus,,,,dentate (lateral) nucleus,HBA:12396
+9,Dorsolateral Prefrontal cortex (Brodmann area 46),,,,rostroventral portion of DFC,HBA:10184
+10,Dorsolateral Prefrontal cortex (Brodmann area 8),,,,caudal portion of DFC,HBA:10174
+11,Dorsolateral Prefrontal cortex (Brodmann area 9),,,,rostrodorsal portion of DFC,HBA:10178
+12,Dorsolateral Prefrontal cortex (Brodmann area 10),,,,frontal polar cortex,HBA:10190
+13,Dura,,,,dura mater,UBERON:0002363
+14,Entorhinal cortex,,,,entorhinal cortex,HBA:10317
 15,"Globus pallidus, lateral",,,,
 16,"Globus pallidus, medial",,,,
-17,Hippocampus,,,,
-18,Hypothalamus,,,,
-19,Inferior Frontal Cortex (Brodmann area 11),,,,
+17,Hippocampus,,,,hippocampal formation,HBA:10294
+18,Hypothalamus,,,,hypothalamus,HBA:10467
+19,Inferior Frontal Cortex (Brodmann area 11),,,,rostral division of OFCi (area 11),HBA:10199
 20,Inferior Frontal Cortex (Brodmann area 12),,,,
-21,Inferior Frontal Cortex (Brodmann area 44),,,,
-22,Inferior Frontal Cortex (Brodmann area 45),,,,
+21,Inferior Frontal Cortex (Brodmann area 44),,,,caudal portion of VFC (area 44),HBA:10186
+22,Inferior Frontal Cortex (Brodmann area 45),,,,rostral portion of VFS (area 45),HBA:10187
 23,Inferior Frontal Cortex (Brodmann area 47),,,,
-24,Inferior parietal cortex (Brodmann area 40) ,,,,
-25,Inferior temporal (Brodmann area 20) ,,,,
-26,Inferior temporal (Brodmann area 36) ,,,,
-27,Insular cortex ,,,,
-28,Medulla ,,,,
-29,Middle temporal (Brodmann area 21) ,,,,
-30,Nucleus accumbens ,,,,
-31,Occipital--Primary Visual Cortex (Brodmann area 17) ,,,,
-32,Olfactory bulb,,,,
-33,Parieto-temporal (Brodmann area 39) ,,,,
+24,Inferior parietal cortex (Brodmann area 40),,,,rostral division of IPC (area 40),HBA:10226
+25,Inferior temporal (Brodmann area 20),,,,inferolateral temporal cortex (area TEv area 20),HBA:10252
+26,Inferior temporal (Brodmann area 36),,,,rostral division of MITC (area 36),HBA:10257
+27,Insular cortex ,,,,insular neocortex,HBA:10288
+28,Medulla ,,,,myelencephalon (medulla oblongata),HBA:10662
+29,Middle temporal (Brodmann area 21),,,,midlateral temporal cortex (area TEd area 21),HBA:10248
+30,Nucleus accumbens,,,,nucleus accumbens,HBA:10339
+31,Occipital--Primary Visual Cortex (Brodmann area 17),,,,primary visual cortex (striate cortex V1/17),HBA:10269
+32,Olfactory bulb,,,,olfactory bulb,HBA:10307
+33,Parieto-temporal (Brodmann area 39),,,,caudal division of IPC (area 39),HBA:10232
 34,Periventricular white matter,,,,
-35,Pons,,,,
-36,Postcentral parietal (Brodmann area 3) ,,,,
-37,Postcentral parietal (Brodmann area 1) ,,,,
-38,Postcentral parietal (Brodmann area 2) ,,,,
-39,Postcentral parietal (Brodmann area 5) ,,,,
-40,Posterior Cingulate (Brodmann area 23) ,,,,
-41,Posterior Cingulate (Brodmann area 31) ,,,,
-42,Posterior/ Premotor cortex (Brodmann area 6) ,,,,
-43,Primary motor cortex (Brodmann area 4) ,,,,
-44,Putamen,,,,
-45,Substantia nigra,,,,
-46,Superior parietal (Brodmann area 7) ,,,,
-47,Superior temporal (Brodmann area 22) ,,,,
-48,Superior temporal (Brodmann area 41) ,,,,
-49,Superior temporal (Brodmann area 42) ,,,,
-50,Temporal pole (Brodmann area 38) ,,,,
-51,"Thalamus, lateral nuclear group",,,,
-52,"Thalamus, midline nuclear group ",,,,
+35,Pons,,,,pons,HBA:10661
+36,Postcentral parietal (Brodmann area 3),,,,
+37,Postcentral parietal (Brodmann area 1),,,,
+38,Postcentral parietal (Brodmann area 2),,,,
+39,Postcentral parietal (Brodmann area 5),,,,rostral division of SPC (area 5),HBA:10216
+40,Posterior Cingulate (Brodmann area 23),,,,ventral division of PCC (area 23),HBA:10286
+41,Posterior Cingulate (Brodmann area 31),,,,dorsal division of PCC (area 31),HBA:10287
+42,Posterior/ Premotor cortex (Brodmann area 6),,,,premotor cortex (area 6),HBA:10168
+43,Primary motor cortex (Brodmann area 4),,,,primary motor cotrex (area M1 area 4),HBA:10163
+44,Putamen,,,,putamen,HBA:10338
+45,Substantia nigra,,,,substantia nigra,HBA:12251
+46,Superior parietal (Brodmann area 7),,,,caudal subdivision of SPC (area 7),HBA:10220
+47,Superior temporal (Brodmann area 22),,,,superior temporal gyrus,HBA:12140
+48,Superior temporal (Brodmann area 41),,,,main portion of A1C (area TC area 41),HBA:10237
+49,Superior temporal (Brodmann area 42),,,,secondary auditory cortex (belt area 42),HBA:10239
+50,Temporal pole (Brodmann area 38),,,,temporal polar cortex (area TG area 38),HBA:10266
+51,"Thalamus, lateral nuclear group",,,,lateral nuclear complex of thalamus, HBA:10406
+52,"Thalamus, midline nuclear group ",,,,midline nuclear complex,HBA:13045
