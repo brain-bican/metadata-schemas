@@ -1,0 +1,20 @@
+﻿Subject Id,Alpha
+Post Mortem Interval (hrs – precise (witnessed) vs. last known alive),Numeric
+Left Hemisphere Preparation,Numeric
+Left Hemisphere Preparation Specify (slicing and freezing/fixation methods used),Alpha
+Tissue inventory – left hemisphere,
+"Tissue sampling history (linked to tissue inventory, slab photographs pre/post-sampling)",
+Right Hemisphere Preparation,Numeric
+Right Hemisphere Preparation Specify (slicing and freezing/fixation methods used),Alpha
+Tissue inventory – right hemisphere,Alpha
+"Tissue sampling history (linked to tissue inventory, slab photographs pre/post-sampling)",
+"RIN Y/N (frontal pole, occipital pole)",Numeric
+"RINe Y/N (frontal pole, occipital pole)",Numeric
+"Brain pH (need standard protocol – CSF, tissue, both?)",Numeric
+Brain Weight Measurement (grams),Numeric
+"Brain Tissue Weighed Type (fresh, frozen, fixed)",Alpha
+Gross brain photographs (intact and sliced): available Y/N,Alpha
+3D surface scan: available Y/N ,Alpha
+"Antemortem MRI: available Y/N (if yes then research vs. clinical, number, dates)",Alpha
+"Postmortem MRI: available Y/N (if yes  – cadaveric, fresh ex vivo, fixed ex vivo)",Alpha
+Anatomical parcellation/atlas registration: available Y/N (if yes then details),Alpha

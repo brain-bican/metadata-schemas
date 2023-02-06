@@ -1,0 +1,22 @@
+﻿Subject ID,Alpha,50
+Ethnicity,Alpha,8
+Race,Alpha,8
+Sex at Birth (biological),Numeric,1
+Gender at Time of Death (social),Numeric,1
+Sexual Orientation at Time of Death,Numeric,1
+Age Value (Years) (90+ may need to be grouped for CUBIE),Numeric,3
+Birth Country Name,Alpha,50
+Language Primary Code,Alpha,20
+Language Secondary (Y/N); if Y classify,Alpha,
+Autopsy Report Available (Y/N),Numeric,1
+Cause of Death,text,NA
+Manner of Death,numeric,1
+Marital or Partner Status ATOD,Alpha,8
+Education Years Number,Numeric,2
+Family Income Range,Alpha,8
+Informant questionnaire completed (Y/N),Numeric,
+Informant interview performed (Y/N),Numeric,
+Informant information,Alpha,
+Handedness,Numeric ,
+Medical records available (Y/N),Numeric,
+Medical records reviewed (Y/N),Numeric,
