@@ -1,0 +1,17 @@
+﻿Label,Type,Length,
+Subject ID,alpha,50,
+Birth Weight Value (lbs),Numeric,4,
+Birth Weight Value (oz),Numeric,4,
+Gestational Age Value (weeks),Numeric,2,
+Gestational Age Value (days),Numeric,2,
+"APGAR Five Minute Score: available Y/N, if Y classify",numeric,2,
+"APGAR Ten Minute Score available Y/N, if Y classify",numeric,2,
+,,,
+Perinatal Neurologic Event Type,Label,Description,Requires Value
+PV001060,Subdural hemorrhage,,False/No
+PV001054,Subarachnoid hemorrhage,,False/No
+PV001055,Intraparenchymal hemorrhage,,False/No
+PV001056,Intraventricular hemorrhage,,False/No
+PV001057,Hypoxia,,False/No
+PV001058,"Other, specify",,True/yes
+PV001059,None,,False/No
