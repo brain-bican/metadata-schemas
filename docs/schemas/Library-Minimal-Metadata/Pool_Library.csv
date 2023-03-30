@@ -1,0 +1,4 @@
+﻿Field Name,Full Field Name,Definition/Description ,Data Example,Identifier/Metadata,Data Type,Required/Optional,Required for Alignment,Project/Institution,Editor,Other Notes
+Pool_internal_name,Pool Internal Name,"library pool tube name, internal",SQ_MX2042,Identifier,Text,Optional,,UM1 Lein (HMBA),Kimberly Smith,
+library_aliquot_name,Llibrary Aliquot Name,"One library in the pool, also Start of fastq files",SQ_MX2042-5,Identifier,Text,Required,Yes,UM1 Lein (HMBA),Kimberly Smith,links to batch_tube_name
+,,,,,,,,,,

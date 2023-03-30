@@ -1,0 +1,18 @@
+Field Name,Full Field Name,Definition/Description ,Data Example,Identifier/Metadata,Data Type,Required/Optional,Required for Alignment,Project/Institution,Editor,Other Notes
+external_donor_name,External Donor Name,"donor name labtracks (mice) or brainbank (human, nhp)",606555,Identifier,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+decoded_external_donor_name,Decoded External Donor Name,(proposed) decoded BrainBank identifier for external release,TBD/not defined,Identifier,Integer,Required,,UM1 Lein (HMBA),Kimberly Smith,"inherited from Specimen Portal, assigned"
+donor_name,Donor Name,donor name (local),C57BL/6J-606555,Identifier,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,
+organism,Organism,common name for species,mouse,Metadata,ValueSet,Required,Yes,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+species,Species,Species name,Mus musculus,Metadata,ValueSet,Required,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+age,Age,age and unit,541 days,Metadata,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+sex,Sex,sex,F,Metadata,ValueSet,Required,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+medical_conditions,Medical Conditions,medical conditions,NA,Metadata,ValueSet,Optional,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+full_genotype,Full Genotype,genotype,wt/wt,Metadata,ValueSet,Optional,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+injection_type,Injection Type,Injection type,NA,Metadata,ValueSet,Optional,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+injection_method,Injection Method,Injection method,NA,Metadata,ValueSet,Optional,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+injection_materials,Injection Materials,Injection material (virus used),NA,Metadata,ValueSet,Optional,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+injection_roi,Injection ROI,Injection ROI,NA,Metadata,ValueSet,Optional,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+ROI_Specimen_id,ROI Specimen ID,Final intact piece of tissue before cell or nuclei prep,1146203086,Identifier,Integer,Required,,UM1 Lein (HMBA),Kimberly Smith,"inherited from Specimen Portal, assigned"
+ROI_specimen_name,ROI Specimen Name,"unique tissue prep name, can be used for multiple facs_containers",C57BL/6J-606555.07.001,Identifier,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,Linker to Library Name
+Ontology-ROI,Ontology ROI,ROI from controlled vocabulary and ontology-linked list,CB - CBN,Metadata,ValueSet,Required,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
+roi,ROI,dissection ROI (R script shortens & standardizes naming),CB - CBN,Metadata,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,inherited from Specimen Portal
