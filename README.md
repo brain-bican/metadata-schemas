@@ -17,4 +17,4 @@ Here are the BICAN metadata schemas and their statuses.
 
 [Human Donor Metadata]: http://github.com/brain-bican/metadata/docs/schemas/Human-Donor-Metadata
 [v0.0.3]: http://github.com/brain-bican/metadata/docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
-[2022-09-15 EFO 3.46.0]: https://github.com/EBISPOT/efo/releases/tag/v2023-04-01
+[2022-09-15 EFO 3.46.0]: https://github.com/brain-bican/metadata/releases/tag/v2023-04-01
