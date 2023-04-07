@@ -7,8 +7,8 @@ Here are the BICAN metadata schemas and their statuses.
 
 | Schema | Version | Release | Status |
 |:--|:--|:--|:--|
-| [Library Minimal Metadata] | v0.0.1 |  [2023-03-31] | Awaiting Approval |
-| [Human Donor Metadata] | v0.0.3 | [2023-04-01] | Approved
+| [Library Minimal Metadata] | [v0.0.1] |  [2023-03-31] | Awaiting Approval |
+| [Human Donor Metadata] | [v0.0.3] | [2023-04-01] | Approved
 | | | | |
 
 [Library Minimal Metadata]: http://github.com/brain-bican/metadata/docs/schemas/Library-Minimal-Metadata
