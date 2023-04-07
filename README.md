@@ -11,7 +11,7 @@ Here are the BICAN metadata schemas and their statuses.
 | [Human Donor Metadata] | [v0.0.3] | [2023-04-01] | Approved
 | | | | |
 
-[Library Minimal Metadata]: http://github.com/brain-bican/metadata/docs/schemas/Library-Minimal-Metadata
+[Library Minimal Metadata]: https://github.com/brain-bican/metadata/tree/DT-4688/docs/schemas/Library-Minimal-Metadata
 [v0.0.1]: https://github.com/brain-bican/metadata/blob/DT-4688/docs/schemas/Library-Minimal-Metadata/BICAN-Library-Metadata-Schema-README.md
 [2023-03-31]: https://github.com/brain-bican/metadata/releases/tag/v2023-03-31
 
