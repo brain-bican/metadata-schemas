@@ -1,0 +1,8 @@
+variable_name,name,value_type,minimum,maximum,numeric_type,unit,options (format: code1/#/label1/#/description1|code2/#/label2/#/description2)|...
+brain_subdivision,Brain Subdivision,exclusive_categorical,,,,,1/#/cerebrum/#/|2/#/cerebellum/#/|3/#/brainstem/#/
+slab_hemisphere,Slab Hemisphere,exclusive_categorical,,,,,1/#/left/#/|2/#/right/#/
+local_slab_id,Local Slab ID,text,,,,,
+thickness,Thickness,numeric,0.0,100.0,decimal,mm,
+visiable_slab_face,Visible Slab Face,exclusive_categorical,,,,,1/#/anterior/#/|2/#/posterior/#/|3/#/dorsal/#/|4/#/ventral/#/|5/#/left/#/|6/#/right/#/|6/#/medial/#/|7/#/lateral/#/|8/#/rostral/#/|9/#/cadual/#/
+study_id,NHash Slab ID,text,,,,,
+

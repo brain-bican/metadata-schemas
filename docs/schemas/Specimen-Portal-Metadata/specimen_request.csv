@@ -1,0 +1,12 @@
+variable_name,name,value_type,minimum,maximum,numeric_type,unit,options (format: code1/#/label1/#/description1|code2/#/label2/#/description2)|É
+id,request id,numeric,,,integer,,
+user_id,user id,numeric,,,integer,,
+status,request status,exclusive_categorical,,,,,Submitted/#/Submitted/#/the request is submitted|Under Review/#/Under Review/#/the request is under review|Rejected/#/Rejected/#/the request is rejected|Shipped/#/Shipped/#/the request is shipped|Delivered/#/Delivered/#/the request is delivered
+specimen_request_uuid,request uuid,text,,,,,
+request_type,request type,exclusive_categorical,,,,,selected/#/selected/#/request with selected slabs|general/#/general/#/request using altas
+query_id,related query id,integer,,,,,
+agreement_status,agreement status,exclusive_categorical,,,,,true/#/true/#/Signed Material Transfer Agreement is available|false/#/false/#/No signed Material Transfer Agreement
+shipping_date,shipping date,date,,,,,
+tracking_number,tracking number,text,,,,,
+shipping_provider,shipping provider,exclusive_categorical,,,,,FedEx/#/Federal Express (FedEx)/#/Federal Express (FedEx)|UPS/#/United Parcel Service (UPS)/#/United Parcel Service (UPS)|USPS/#/United States Postal Service (USPS)/#/United States Postal Service (USPS)
+delivery_date,delivery date,date,,,,,

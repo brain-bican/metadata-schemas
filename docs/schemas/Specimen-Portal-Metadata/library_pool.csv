@@ -1,0 +1,9 @@
+variable_name,name,value_type,minimum,maximum,numeric_type,unit,options (format: code1/#/label1/#/description1|code2/#/label2/#/description2)|...
+local_name,Local Library Pool Name,text,,,,,
+preparation_date,Library Pool Preparation Date,Date,,,,,
+library_ids,NHash IDs of libraries from which library pool is prepared,Array of Text,,,,,
+aliquot_names,names of aliquots for the libraries,Array of Text,,,,,
+study_name,Study Name this tissue is created for,text,,,,,
+project_id,Proejct this library is prepared for,integer,,,,,
+study_id,NHash Library Pool ID,text,,,,,
+

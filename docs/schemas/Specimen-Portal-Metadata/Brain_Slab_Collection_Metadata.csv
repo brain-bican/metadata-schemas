@@ -1,0 +1,10 @@
+variable_name,name,value_type,minimum,maximum,numeric_type,unit,options (format: code1/#/label1/#/description1|code2/#/label2/#/description2)|...
+brain_subdivision,Brain Subdivision,exclusive_categorical,,,,,1/#/cerebrum/#/|2/#/cerebellum/#/|3/#/brainstem/#/
+slab_hemisphere,Slab Hemisphere,exclusive_categorical,,,,,1/#/left/#/|2/#/right/#/
+number_of_slabs,Number of Slabs In the Image,numeric,1,50,integer,,
+thickness,Thickness,numeric,0,100,decimal,mm,
+anatomical_direction_top_btm,Anatomical Direction (Top to Bottom),exclusive_categorical,,,,,1/#/anterior-to-posterior/#/|2/#/posterior-to-anterior/#/|3/#/dorsal-to-ventral/#/|4/#/ventral-to-dorsal/#/|5/#/left-to-right/#/|6/#/right-to-left/#/|7/#/medial-to-lateral/#/|8/#/lateral-to-medial/#/|9/#/rostral-to-caudal/#/|10/#/caudal-to-rostral/#/
+anatomical_direction_left_right,Anatomical Direction (Left to Right),exclusive_categorical,,,,,1/#/anterior-to-posterior/#/|2/#/posterior-to-anterior/#/|3/#/dorsal-to-ventral/#/|4/#/ventral-to-dorsal/#/|5/#/left-to-right/#/|6/#/right-to-left/#/|7/#/medial-to-lateral/#/|8/#/lateral-to-medial/#/|9/#/rostral-to-caudal/#/|10/#/caudal-to-rostral/#/
+anatomical_direction_across_slabs,Anatomical Direction (Across slabs),exclusive_categorical,,,,,1/#/anterior-to-posterior/#/|2/#/posterior-to-anterior/#/|3/#/dorsal-to-ventral/#/|4/#/ventral-to-dorsal/#/|5/#/left-to-right/#/|6/#/right-to-left/#/|7/#/medial-to-lateral/#/|8/#/lateral-to-medial/#/|9/#/rostral-to-caudal/#/|10/#/caudal-to-rostral/#/
+local_slab_ids,Local Slab IDs,text,,,,,
+visiable_slab_face,Visible Slab Face,exclusive_categorical,,,,,1/#/anterior/#/|2/#/posterior/#/|3/#/dorsal/#/|4/#/ventral/#/|5/#/left/#/|6/#/right/#/|6/#/medial/#/|7/#/lateral/#/|8/#/rostral/#/|9/#/cadual/#/

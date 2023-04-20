@@ -1,0 +1,7 @@
+variable_name,name,value_type,minimum,maximum,numeric_type,unit,options (format: code1/#/label1/#/description1|code2/#/label2/#/description2)|...
+local_name,Local Tissue Name,text,,,,,
+preparation_date,Tissue Preparation Date,Date,,,,,
+slab_ids,NHash IDs of Slabs from which Tissue is prepared,Array of Text,,,,,
+study_name,Study Name this tissue is created for,text,,,,,
+project_id,Proejct this issue is prepared for,integer,,,,,
+study_id,NHash Tissue ID,text,,,,,
