@@ -1,0 +1,13 @@
+mapping_set_id: https://brain-bican/metadata/mapping/gene_mapping_humantomouse_v0.0.0.tsv
+license: https://creativecommons.org/licenses/by/4.0/
+mapping_set_version: "2023-04-24"
+mapping_set_description: "Curated mapping of NCBIGene to ENSMBL. This is to be used for mapping within a gene ID system between homo sapiens (NCBITaxon:9606) and mus musculus (NCBITaxon:10090)."
+object_source: NCBIGene
+subject_source: Ensembl
+curie_map:
+  NCBIGene: https://www.ncbi.nlm.nih.gov/gene/
+  Ensembl: https://www.ensembl.org/id/
+  brain-bican: https://brain-bican.org/metadata
+  sempav: https://w3id.org/semapv/
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  sssom: https://w3id.org/sssom/
