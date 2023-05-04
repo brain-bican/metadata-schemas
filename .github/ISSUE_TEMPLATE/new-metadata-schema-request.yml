@@ -1,0 +1,53 @@
+name: New Metadata Schema Request
+description: Request a new metadata schema.
+title: "[New Metadata Schema Request]: "
+labels: ["documentation", "enhancement"]
+assignees:
+  - 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting your new metadata schema request.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com or GH handle
+    validations:
+      required: true
+  - type: textarea
+    id: general-description
+    attributes:
+      label: General Description
+      description: Please provide a general description of the metadata schema that you are requesting.
+      placeholder: Tell us about your metadata!
+      value: This is a metadata schema that describes the data found in a my database.
+    validations:
+      required: true
+  - type: input
+    id: review-requested-by
+    attributes:
+      label: Review Requested By
+      description: Do you have a specific reviewer that you would like to request for this schema?
+      placeholder: ex. email@example.com or GH handle
+    validations:
+      required: false
+  - type: dropdown
+    id: format
+    attributes:
+      label: What format are you submitting your schema in?
+      multiple: true
+      options:
+        - completed template
+        - .xlsx or .csv or .tsv
+        - other
+  - type: checkboxes
+    id: completed-readme
+    attributes:
+      label: Completed README
+      description: Have you completed a README for this schema?
+      options:
+        - label: I have completed a README for this schema.
+          required: false
