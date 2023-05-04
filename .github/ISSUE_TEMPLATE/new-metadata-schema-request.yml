@@ -17,6 +17,20 @@ body:
       placeholder: ex. email@example.com or GH handle
     validations:
       required: true
+  - type: input
+    id: schema-name
+    attributes:
+      label: Schema Name
+      description: What is the name of your schema?
+    validations:
+      required: true
+  - type: input
+    id: org-usage
+    attributes:
+      label: Oranizational Usage
+      description: What organization(s) use or employ this schema?
+    validations:
+      required: true
   - type: textarea
     id: general-description
     attributes:
