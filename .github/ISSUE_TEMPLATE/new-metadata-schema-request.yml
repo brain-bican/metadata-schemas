@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: input
-    id: review-requested-by
+    id: suggested-reviewers
     attributes:
       label: Review Requested By
       description: Do you have a specific reviewer that you would like to request for this schema?
