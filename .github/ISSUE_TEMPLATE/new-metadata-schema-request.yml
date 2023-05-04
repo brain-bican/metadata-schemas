@@ -29,7 +29,7 @@ body:
   - type: input
     id: suggested-reviewers
     attributes:
-      label: Review Requested By
+      label: Suggested Reviewers
       description: Do you have a specific reviewer that you would like to request for this schema?
       placeholder: ex. email@example.com or GH handle
     validations:
