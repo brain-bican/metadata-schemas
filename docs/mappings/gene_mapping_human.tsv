@@ -1,0 +1,2 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	subject_source	subject_source_version	object_source	object_source_version	confidence
+Ensembl:ENSG00000101327	PDYN	skos:exactMatch	NCBIGene:5173	PDYN	semapv:ManualMappingCuration	2023-04-24	orcid:0000-0002-5260-9315	Ensembl	ENSG00000101327.9	NCBIGene	29-Mar-2023	1

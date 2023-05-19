@@ -1,0 +1,20 @@
+# curie_map:
+#   NCBIGene: https://www.ncbi.nlm.nih.gov/gene/
+#   orcid: https://orcid.org/
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://creativecommons.org/licenses/by/4.0/
+# mapping_set_description: Curated mapping of NCBIGene to ENSMBL. This is to be used
+#   for mapping within a gene ID system between homo sapiens (NCBITaxon:9606) and mus
+#   musculus (NCBITaxon:10090).
+# mapping_set_id: https://brain-bican/metadata/mapping/gene_mapping_humantomouse_v0.0.0.tsv
+# mapping_set_version: '2023-04-24'
+# object_source: NCBIGene
+# subject_source: Ensembl
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	subject_source	subject_source_version	object_source	object_source_version	mapping_date	confidence
+NCBIGene:18610	PDYN	skos:exactMatch	NCBIGene:5173	PDYN	semapv:ManualMappingCuration	orcid:0000-0002-5260-9315	NCBIGene	29-Mar-2023	NCBIGene	29-Mar-2023	2023-04-24	1.0
+
