@@ -37,7 +37,7 @@ This document has the following sections:
 * [Library](#library), which describe the data required...
 * [Library Quantification](#library-quantification),
 * [Library Construction](#library-construction), 
-* [cDNA Amplification](#cDNA-amplification),
+* [cDNA Amplification](#cdna-amplification),
 * [Cell Barcoding](#cell-barcoding),
 * [Cell Dissociation](#cell-dissociation),
 * [Tissue Dissectioning](#tissue-dissectioning),
@@ -55,7 +55,7 @@ This document has the following sections:
 
 The data in Alignment is the metadata that essential for the alignment processes and entities.
 
-The following table describes the Deliver Library Pool metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+The following table describes the alignment metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
 
 Curators must annotate the following columns:
 
@@ -341,9 +341,9 @@ Curators must annotate the following columns:
 
 ## Library Pool
 
-The data in the Library Pool is the metadata that essential for library pool generation and identification. 
+The data in the library pool is the metadata that essential for library pool generation and identification. 
 
-The following table describes the Library Pool metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+The following table describes the library pool metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
 
 Curators must annotate the following columns:
 
@@ -797,9 +797,9 @@ Curators must annotate the following columns:
 
 ## Library Aliquot
 
-The data in the Receive Sample is the metadata that essential for... 
+The data in library aliquot is the metadata that essential for... 
 
-The following table describes the Receive Sample metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+The following table describes the library aliquot metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
 
 Curators must annotate the following columns:
 ### library_aliquot_label
@@ -830,28 +830,2343 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
+### library_aliquot_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_aliquot_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier for a process that created a library aliquot.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>f7471219-1424-4bcc-ae5d-fbc50b2639dd</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_aliquot_input_quantity_fmol
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_aliquot_input_quantity_fmol</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The number of library molecules in an aliquoted portion of a library, as expressed in femtomoles.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>21fa7764-92d5-400c-b73e-5a8caece5a16</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_aliquot_library_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_aliquot_library_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the library which a library aliquot is portioned from.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>2d073310-911c-4e09-856a-a2ce6c015827</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_aliquoting_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_aliquoting_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the primary input of a library aliquoting process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a5accf6d-98b8-4d0d-af3f-dd967e1ce077</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_aliquoting_output_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_aliquoting_output_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the primary output of a library aliquoting process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>6163e49b-a523-4adc-a45e-c93fbc6911dd</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_aliquoting_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_aliquoting_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier for a library aliquoting process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e42425e2-8ceb-4c0a-93f4-6dffbfc57df3</td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Library
 
-The data in Shared is the metadata that essential for... 
+The data in library is the metadata that essential for... 
 
-The following table describes the Shared metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+The following table describes the library metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
 
 Curators must annotate the following columns:
+### library_label
 
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a specific library.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>f717e254-3630-4342-be7b-4d56376e7afe</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier for a process that creates a library.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>8255bc41-528a-4559-83f2-c93528c4092e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_ag_size_bp
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_ag_size_bp</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The average size of a library in terms of base pairs. This is used to calculate the molarity before pooling and sequencing.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>f851eba9-56d1-4472-9d0c-d7f8bc33000a</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_r1_sequence
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_r1_sequence</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>str</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A sequence of i7 index required by sequencing instrument for demultiplexing (could be sense or antisense).
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>ccb0553d-4146-45ee-b731-77563cb805cd</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_r2_sequence
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_r2_sequence</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A sequence of i5 index required by sequencing instrument for demultiplexing (could be sense or antisense).
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>0ee7f272-01d9-453d-94a3-eefd1a86718e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_creation_date
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_creation_date</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The date of a library creation.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>9c2f575d-1b64-451d-894f-656861afe07a</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_input_ng
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_input_ng</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The amount of cDNA going into library construction in nanograms.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3db770eb-078e-4b41-92b9-e2e551660753</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_prep_pass_fail
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_prep_pass_fail</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A result (pass or fail) of a test for library preparation based on library yield and size.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>6817ede2-7ead-402d-9dbc-131aca627c6c</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_method
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_method</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A technique or method that is used to generate a library (specific to the alignment method required for the library). For example, 10xV3.1 (for RNASeq single assay), 10xMult-RSeq (for RNASeq multiome assay), and 10xMult-ATAC (for ATACSeq multiome assay).
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>7b60d59e-fdd7-4b27-a2d4-cae9b69103a6</td>
+    </tr>
+</tbody></table>
+<br>
 
 ## Library Quantification
 
+The data in library quantification is the metadata that essential for... 
+
+The following table describes the library quantification metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### library_quantification_ng
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_quantification_ng</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The amount of library generated in nanograms.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>318b2d3a-dae7-4c63-bfbb-93862b92f63e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_quantification_nm
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_quantification_nm</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The concentration of library in terms of nM (nMol/L). The number of molecules is needed for accurate pooling of the libraries and for generating the number of target reads/cell in sequencing.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>c4771566-82bf-4a0a-8a57-3d1b687e3851</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_quantification_fmol
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_quantification_fmol</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The amount of library generated in femtomoles
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>4c09ada7-c116-48bc-8fb1-0dcf5c4b939a</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_r1_index
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_r1_index</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The library index used for Read-1 sequence. Indexes allow libraries to be pooled together for sequencing. Sequencing output (fastq) are demultiplexed by using the indexes for each library. The name will be associated with a oligo (string of bases). The required direction of the sequence (sense or antisense) of the index can differ depending on sequencing instruments.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>be6b81ef-c02d-4aaf-bd8d-5891ad919a9e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_r2_index
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_r2_index</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The library index used for Read-2 sequence. Indexes allow libraries to be pooled together for sequencing. Sequencing output (fastq) are demultiplexed by using the indexes for each library. The name will be associated with a oligo (string of bases). The required direction of the sequence (sense or antisense) of the index can differ depending on sequencing instruments.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>f82e3576-36fb-4399-8485-70cbf4911e8f</td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Library Construction
+
+The data in library construction is the metadata that essential for... 
+
+The following table describes the library construction metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### library_construction_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_construction_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the primary input of a library construction process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e2d7623d-7313-4d6c-b58d-0795f91a1f45</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_construction_output_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_construction_output_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the primary output of a library construction process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>af4dbe52-7ae5-493e-b044-05abbb9fa981</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_construction_process_date
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_construction_process_date</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The date when a library construction process occurred.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>ab4ae9709-3fc4-45e0-a477-80099f102410</td>
+    </tr>
+</tbody></table>
+<br>
+
+### library_construction_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library_construction_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier for a library construction process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>d7393dd2-2406-4984-badb-5b85547f4640</td>
+    </tr>
+</tbody></table>
+<br>
 
 ## cDNA Amplification
 
+The data in cDNA amplification is the metadata that essential for... 
+
+The following table describes the cDNA amplification metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### amplified_cdna_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a portion of amplified cdna.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e2606a11-114e-472f-9e05-33f9b6fc3089</td>
+    </tr>
+</tbody></table>
+<br>
+
+### amplified_cdna_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a process that created a portion of amplified cdna.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>d695c983-07ff-450f-bbff-53a8638cd6d8</td>
+    </tr>
+</tbody></table>
+<br>
+
+### amplified_cdna_amplified_quantity_ng
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_amplified_quantity_ng</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The amount of cDNA produced from an amplification process in nanograms.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>0db79d05-8612-4896-b9d3-eb1558841449</td>
+    </tr>
+</tbody></table>
+<br>
+
+### amplified_cdna_method
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_method</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A method used to generate cDNA (eg 10xV3.1, 10xMultiome-Rseq).
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>995369ca-3e05-4f7b-80a8-92427b90e8fa</td>
+    </tr>
+</tbody></table>
+<br>
+
+### amplified_cdna_pcr_cycles
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_pcr_cycles</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The number of PCR cycles used during cDNA amplification for a cDNA.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3827634c-3f8f-4760-b358-86ce4b030238</td>
+    </tr>
+</tbody></table>
+<br>
+
+### amplified_cdna_percent_cdna_longer_than_400bp
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_percent_cdna_longer_than_400bp</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A QC metric that describes quantifies mRNA degradation of cDNA. Higher % is higher quality starting material.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>8d150467-f69e-461c-b54c-bcfd22f581e5</td>
+    </tr>
+</tbody></table>
+<br>
+
+### amplified_cdna_rna_amplification_pass_fail
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>amplified_cdna_rna_amplification_pass_fail</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A result (pass or fail) based on cDNA yield and size.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>bc62bdb2-7dc8-4404-bb84-ce0bbcae59e5</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cdna_amplification_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cdna_amplification_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the primary input of a cDNA amplification process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3e8c5ad4-6a15-478e-ad1c-e68a06b61181</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cdna_amplification_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cdna_amplification_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of the primary input of a cDNA amplification process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>ee5b7407-284a-44d1-813c-746fc934a398</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cdna_amplification_process_date
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cdna_amplification_process_date</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The date when a cDNA amplification process occurred.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>6cc333e7-9b98-497f-b7b1-eae904db2400</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cdna_amplification_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cdna_amplification_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier a cDNA amplification process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a4d2b272-64e2-4adb-8886-38ee822488c9</td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Cell Barcoding
+
+The data in cell barcoding is the metadata that essential for... 
+
+The following table describes the cell barcoding metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### barcoded_cell_sample_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>barcoded_cell_sample_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a barcoded cell sample.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>4c0e6380-e53f-4173-a474-d41e836fefe3</td>
+    </tr>
+</tbody></table>
+<br>
+
+### barcoded_cell_sample_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>barcoded_cell_sample_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a process that created a barcoded cell sample.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>1c78b561-d595-4f73-adb0-0de6a2c743e9</td>
+    </tr>
+</tbody></table>
+<br>
+
+### barcoded_cell_sample_port_well
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>barcoded_cell_sample_port_well</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A position of a load port of a 10x chip.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>aca38100-d245-4be4-9be3-ba27192779fe</td>
+    </tr>
+</tbody></table>
+<br>
+
+### barcoded_cell_sample_quantity_count
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>barcoded_cell_sample_quantity_count</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The number of barcoded cells expected after barcoding (usually a calculated fraction of the number of cells going into cell_barcoding).
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>dd6abb3c-b671-48eb-a924-13945484de71</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cell_barcoding_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cell_barcoding_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary input of a cell barcoding process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>b5d251bd-0944-4c48-9508-74492185376e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cell_barcoding_output_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cell_barcoding_output_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary output of a cell barcoding process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>12bc4988-4c21-4eac-93f5-e7c2b17a2b32</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cell_barcoding_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cell_barcoding_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier for a cell barcoding process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a352af1b-1f33-4c8b-865f-7a6865ae5748</td>
+    </tr>
+</tbody></table>
+<br>
 
 ## Cell Dissociation
 
+The data in cell dissociation is the metadata that essential for... 
+
+The following table describes the cell dissociation metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### dissociated_cell_sample_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated_cell_sample_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a dissociated cell sample.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>65e2c7da-9eb4-45b2-8ccb-d69ef9785ee2</td>
+    </tr>
+</tbody></table>
+<br>
+
+### dissociated_cell_sample_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated_cell_sample_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a process that created a dissociated cell sample.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a155d7f4-0126-430c-a7fb-20b8dd35134d</td>
+    </tr>
+</tbody></table>
+<br>
+
+### dissociated_cell_sample_cell_prep_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated_cell_sample_cell_prep_type</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A type of cell preparation; for example, cells, or nuclei.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>baae4ac3-f959-4594-b943-3a82ec19bd34</td>
+    </tr>
+</tbody></table>
+<br>
+
+### dissociated_cell_sample_facs_population_plan
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated_cell_sample_facs_population_plan</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A fluorescent marker label used to enrich cell dissociation for desired cell types.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a6f16756-4e52-4c37-b9dc-4ee5714f79b5</td>
+    </tr>
+</tbody></table>
+<br>
+
+### dissociated_cell_sample_number_of_cells_collected
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated_cell_sample_number_of_cells_collected</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The total number of dissociated cells or nuclei going into a cell barcoding process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e2922a9e-e549-448a-8983-7e7f4f2338a9</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cell_dissociation_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cell_dissociation_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary input of a cell dissociation process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>5ed1a311-e060-4d00-9f24-9615503f9b7b</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cell_dissociation_output_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cell_dissociation_output_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary output of a cell dissociation process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>cd94154e-8062-4156-a503-53bf09e32ba4</td>
+    </tr>
+</tbody></table>
+<br>
+
+### cell_dissociation_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>cell_dissociation_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a cell dissociation process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>7151ff55-0b40-4caf-b008-818a79e6e9f6</td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Tissue Dissectioning
+
+The data in tissue dissectioning is the metadata that essential for... 
+
+The following table describes the tissue dissectioning metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### tissue_sample_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_sample_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a tissue sample.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>2e4ca2fc-2d77-4d19-af45-d0fb7bbc2269</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_sample_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_sample_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a process that created a tissue sample.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>4bb1e57a-3038-4e44-86cf-238eb1874c50</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_sample_roi_plan
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_sample_roi_plan</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> 
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e7dda557-bda0-4392-ac7f-2651688549b3</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_dissectioning_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_dissectioning_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary input of a tissue dissectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>98ad4077-9cb2-4e03-bad7-6358796aa78c</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_dissectioning_output_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_dissectioning_output_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary output of a tissue dissectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>d294e15a-6823-4ecd-aafe-5ce98c2adadf</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_dissectioning_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_dissectioning_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a tissue dissectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>fc5ddba7-d297-410c-942d-e46ecf657dcb</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_dissectioning_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_dissectioning_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary input entity of a tissue dissectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>d906ee29-f041-4642-8ba2-c1a54af213ea</td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_dissectioning_input_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>tissue_dissectioning_input_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of an associated tissue dissectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>9cfb3a49-ac05-4ce5-8ed9-c9d82d6ff761</td>
+    </tr>
+</tbody></table>
+<br>
 
 ## Brain Sections, Segments, Extractions
 
+The data in brain sections, segments, extractions is the metadata that essential for... 
+
+The following table describes the brain specimens metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### brain_section_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_section_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a brain section.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e3bd9517-80e1-4158-981d-bb73baabceca</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_section_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_section_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a process that created a brain section.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a6e62b20-8c2d-4e40-a03b-41d943ec11cb</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_section_ordinal
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_section_ordinal</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A sequential number of a section used to track the relative positional order of sections from a segment.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>d97be176-d39e-413c-8c1f-14e47f23da66</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_segment_sectioning_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_segment_sectioning_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary input of a brain segment sectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e41e854d-b68a-4c69-b23f-d1d39891dff0</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_segment_sectioning_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_segment_sectioning_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a brain segment sectioning process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3d426c44-47b2-4329-a06a-addd323bbf46</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_segment_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_segment_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a brain segment.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>befeefc1-4be3-4974-a54e-929fd83cbf28</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_segment_created_by_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_segment_created_by_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a process that created a brain segment.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>03856361-d1b5-4983-a0fb-ae5a75d8ec6e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_segment_anatomical_division
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_segment_anatomical_division</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The anatomical division that describes the brain segment; for example, whole brain, cerebrum, cerebellum, brainstem.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>ec2565cc-1a11-4d1d-9c98-7eeeca27fd82</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_segment_barcode
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_segment_barcode</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A physical barcode label for a vessel holding a brain segment.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>516560ed-0715-475a-b717-6ccfa3ec2934</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_extraction_input_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_extraction_input_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary input of a brain extraction process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>29442943-7d3d-4126-8817-9c10e34c8b83</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_extraction_output_entity_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_extraction_output_entity_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label of a primary output of a brain extraction process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>583a312a-43de-4c00-91ad-ec65f6fed2df</td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_extraction_process_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>brain_extraction_process_id</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> An identifier of a brain extraction process.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>d1549808-92c8-4cf8-8e88-ad98a123d645</td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Donor Metadata
+
+The data in donor metadata is the metadata that essential for... 
+
+The following table describes the donor metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
+
+Curators must annotate the following columns:
+
+### donor_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to a donor.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>cb8ebdda-c8d2-4c29-b6cd-fcb5d0d6e720</td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_age_at_death
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_age_at_death</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The age of a donor at the time of death.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3df398ff-c5ee-4754-aeb8-2dd86027622e</td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_date_of_birth
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_date_of_birth</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The date of birth of a donor.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>4c376dcd-cf1f-4ccb-9d93-28ca73f53019</td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_date_of_death
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_date_of_death</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The date of death of a donor.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>4cbe0de6-0d4d-4a7d-b38b-c483deaa0e3a</td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_full_genotype
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_full_genotype</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The full genotype of a donor.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>0a4c3a68-b41f-47e6-8128-257abc2ccaa5</td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_ncbitaxonomyid
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_ncbitaxonomyid</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The NCBI taxonomy identifier of the organism type of this donor.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>6837cb02-6bd7-4fb8-838c-9062ead96ba4</td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_sex
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>donor_sex</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The sex of a donor organism; for example, M or F.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>632d3d3f-f85b-4efc-a1ab-010fe417ae81</td>
+    </tr>
+</tbody></table>
+<br>
+
+### age_label
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>age_label</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> A label that refers to an age.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>0630a265-4a63-48f4-8853-66b929002306</td>
+    </tr>
+</tbody></table>
+<br>
+
+### age_reference_point
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>age_reference_point</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The reference point for an age interval; for example, birth or conception.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3bed1f94-9d82-4ed7-afdf-79d896b24dbb</td>
+    </tr>
+</tbody></table>
+<br>
+
+### age_unit
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>age_unit</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The unit used for representing the donor age from the reference point.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>b5436e99-f0a7-4c30-825d-56b88ee2ac1d</td>
+    </tr>
+</tbody></table>
+<br>
+
+### age_value
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>age_value</td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td>Curator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td> The value representing the donor age from the reference point.
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>57e24d3c-c9c7-4ef3-9809-a35802d563ec</td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Appendix
