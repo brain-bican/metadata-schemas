@@ -59,7 +59,7 @@ The following table describes the alignment metadata. If an entry in the table i
 
 Curators must annotate the following columns:
 
-### Alignment output label
+### alignment output label
 
 <table><tbody>
     <tr>
@@ -72,7 +72,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -87,7 +87,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment output created by process ID
+### alignment output created by process id
 
 <table><tbody>
     <tr>
@@ -100,7 +100,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -115,7 +115,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment output path
+### alignment output path
 
 <table><tbody>
     <tr>
@@ -128,7 +128,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -143,7 +143,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment output barcoded cell sample label
+### alignment output barcoded cell sample label
 
 <table><tbody>
     <tr>
@@ -156,7 +156,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -171,7 +171,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment output entity label
+### alignment output entity label
 
 <table><tbody>
     <tr>
@@ -184,7 +184,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -199,7 +199,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment process id
+### alignment process id
 
 <table><tbody>
     <tr>
@@ -212,7 +212,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -227,7 +227,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment input entity label
+### alignment input entity label
 
 <table><tbody>
     <tr>
@@ -240,7 +240,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -255,7 +255,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment input process id
+### alignment input process id
 
 <table><tbody>
     <tr>
@@ -268,7 +268,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -283,7 +283,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment input library pool sequencing process id
+### alignment input library pool sequencing process id
 
 <table><tbody>
     <tr>
@@ -296,7 +296,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -311,7 +311,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Alignment input barcoded cell sample id
+### alignment input barcoded cell sample id
 
 <table><tbody>
     <tr>
@@ -324,7 +324,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -347,7 +347,7 @@ The following table describes the library pool metadata. If an entry in the tabl
 
 Curators must annotate the following columns:
 
-### Library pool sequencing output created by process id
+### library pool sequencing output created by process id
 
 <table><tbody>
     <tr>
@@ -360,7 +360,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -375,7 +375,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Library pool sequencing output fastq file path
+### library pool sequencing output fastq file path
 
 <table><tbody>
     <tr>
@@ -388,7 +388,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -403,7 +403,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Library pool sequencing output fastq file type
+### library pool sequencing output fastq file type
 
 <table><tbody>
     <tr>
@@ -416,7 +416,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Library pool sequencing output library aliquot label
+### library pool sequencing output library aliquot label
 
 <table><tbody>
     <tr>
@@ -444,7 +444,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -459,7 +459,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_sequencing_input_entity_label
+### library pool sequencing input entity label
 
 <table><tbody>
     <tr>
@@ -472,7 +472,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -487,7 +487,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_sequencing_process_id
+### library pool sequencing process id
 
 <table><tbody>
     <tr>
@@ -500,7 +500,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -515,7 +515,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_sequencing_vendor_read_count
+### library pool sequencing vendor read count
 
 <table><tbody>
     <tr>
@@ -528,7 +528,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -543,7 +543,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_label
+### library pool label
 
 <table><tbody>
     <tr>
@@ -556,7 +556,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -571,7 +571,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_created_by_process_id
+### library pool created by process id
 
 <table><tbody>
     <tr>
@@ -584,7 +584,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -599,7 +599,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_tube_avg_size_bp
+### library pool tube avg size bp
 
 <table><tbody>
     <tr>
@@ -612,7 +612,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -627,7 +627,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_tube_contents_nm
+### library pool tube contents nm
 
 <table><tbody>
     <tr>
@@ -640,7 +640,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -655,7 +655,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_tube_internal_label
+### library pool tube internal label
 
 <table><tbody>
     <tr>
@@ -668,7 +668,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -683,7 +683,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_construction_output_entity_label
+### library pool construction output entity label
 
 <table><tbody>
     <tr>
@@ -696,7 +696,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -711,7 +711,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_construction_process_id
+### library pool construction process id
 
 <table><tbody>
     <tr>
@@ -724,7 +724,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -739,7 +739,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_construction_input_entity_label
+### library pool construction input entity label
 
 <table><tbody>
     <tr>
@@ -752,7 +752,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -767,7 +767,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_pool_construction_input_process_id
+### library pool construction input process id
 
 <table><tbody>
     <tr>
@@ -780,7 +780,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -802,7 +802,8 @@ The data in library aliquot is the metadata that essential for...
 The following table describes the library aliquot metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
 
 Curators must annotate the following columns:
-### library_aliquot_label
+
+### library aliquot label
 
 <table><tbody>
     <tr>
@@ -815,7 +816,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -830,7 +831,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_aliquot_created_by_process_id
+### library aliquot created by process id
 
 <table><tbody>
     <tr>
@@ -843,7 +844,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -858,7 +859,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_aliquot_input_quantity_fmol
+### library aliquot input quantity fmol
 
 <table><tbody>
     <tr>
@@ -871,7 +872,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>float</code>
         </td>
     </tr>
     <tr>
@@ -886,7 +887,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_aliquot_library_label
+### library aliquot library label
 
 <table><tbody>
     <tr>
@@ -899,7 +900,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -914,7 +915,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_aliquoting_input_entity_label
+### library aliquoting input entity label
 
 <table><tbody>
     <tr>
@@ -927,7 +928,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -942,7 +943,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_aliquoting_output_entity_label
+### library aliquoting output entity label
 
 <table><tbody>
     <tr>
@@ -955,7 +956,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -970,7 +971,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_aliquoting_process_id
+### library aliquoting process id
 
 <table><tbody>
     <tr>
@@ -983,7 +984,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -1005,7 +1006,8 @@ The data in library is the metadata that essential for...
 The following table describes the library metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond the ones listed above.
 
 Curators must annotate the following columns:
-### library_label
+
+### library label
 
 <table><tbody>
     <tr>
@@ -1018,7 +1020,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -1033,7 +1035,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_created_by_process_id
+### library created by process id
 
 <table><tbody>
     <tr>
@@ -1046,7 +1048,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -1061,12 +1063,12 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_ag_size_bp
+### library avg size bp
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td>library_ag_size_bp</td>
+      <td>library_avg_size_bp</td>
     </tr>
     <tr>
       <th>Annotator</th>
@@ -1074,7 +1076,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -1089,7 +1091,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_r1_sequence
+### library r1 sequence
 
 <table><tbody>
     <tr>
@@ -1102,7 +1104,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>str</code>
+        <td><code>string</code>
         </td>
     </tr>
     <tr>
@@ -1117,7 +1119,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_r2_sequence
+### library r2 sequence
 
 <table><tbody>
     <tr>
@@ -1145,7 +1147,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_creation_date
+### library creation date
 
 <table><tbody>
     <tr>
@@ -1158,7 +1160,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>datetime</code>
         </td>
     </tr>
     <tr>
@@ -1173,7 +1175,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_input_ng
+### library input ng
 
 <table><tbody>
     <tr>
@@ -1201,7 +1203,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_prep_pass_fail
+### library prep pass fail
 
 <table><tbody>
     <tr>
@@ -1214,7 +1216,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>categorical</code>
         </td>
     </tr>
     <tr>
@@ -1229,7 +1231,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_method
+### library method
 
 <table><tbody>
     <tr>
@@ -1265,7 +1267,7 @@ The following table describes the library quantification metadata. If an entry i
 
 Curators must annotate the following columns:
 
-### library_quantification_ng
+### library quantification ng
 
 <table><tbody>
     <tr>
@@ -1293,7 +1295,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_quantification_nm
+### library quantification nm
 
 <table><tbody>
     <tr>
@@ -1321,7 +1323,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_quantification_fmol
+### library quantification fmol
 
 <table><tbody>
     <tr>
@@ -1349,7 +1351,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_r1_index
+### library r1 index
 
 <table><tbody>
     <tr>
@@ -1377,7 +1379,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_r2_index
+### library r2 index
 
 <table><tbody>
     <tr>
@@ -1413,7 +1415,7 @@ The following table describes the library construction metadata. If an entry in 
 
 Curators must annotate the following columns:
 
-### library_construction_input_entity_label
+### library construction input entity label
 
 <table><tbody>
     <tr>
@@ -1441,7 +1443,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_construction_output_entity_label
+### library construction output entity label
 
 <table><tbody>
     <tr>
@@ -1469,7 +1471,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_construction_process_date
+### library construction process date
 
 <table><tbody>
     <tr>
@@ -1482,7 +1484,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>datetime</code>
         </td>
     </tr>
     <tr>
@@ -1497,7 +1499,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### library_construction_process_id
+### library construction process id
 
 <table><tbody>
     <tr>
@@ -1533,7 +1535,7 @@ The following table describes the cDNA amplification metadata. If an entry in th
 
 Curators must annotate the following columns:
 
-### amplified_cdna_label
+### amplified cdna label
 
 <table><tbody>
     <tr>
@@ -1561,7 +1563,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### amplified_cdna_created_by_process_id
+### amplified cdna created by process id
 
 <table><tbody>
     <tr>
@@ -1589,7 +1591,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### amplified_cdna_amplified_quantity_ng
+### amplified cdna amplified quantity ng
 
 <table><tbody>
     <tr>
@@ -1602,7 +1604,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>float</code>
         </td>
     </tr>
     <tr>
@@ -1617,7 +1619,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### amplified_cdna_method
+### amplified cdna method
 
 <table><tbody>
     <tr>
@@ -1645,7 +1647,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### amplified_cdna_pcr_cycles
+### amplified cdna pcr cycles
 
 <table><tbody>
     <tr>
@@ -1658,7 +1660,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -1673,7 +1675,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### amplified_cdna_percent_cdna_longer_than_400bp
+### amplified cdna percent cdna longer than 400bp
 
 <table><tbody>
     <tr>
@@ -1686,7 +1688,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>float</code>
         </td>
     </tr>
     <tr>
@@ -1701,7 +1703,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### amplified_cdna_rna_amplification_pass_fail
+### amplified cdna rna amplification pass fail
 
 <table><tbody>
     <tr>
@@ -1714,7 +1716,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>categorical</code>
         </td>
     </tr>
     <tr>
@@ -1729,7 +1731,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cdna_amplification_input_entity_label
+### cdna amplification input entity label
 
 <table><tbody>
     <tr>
@@ -1757,7 +1759,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cdna_amplification_input_entity_label
+### cdna amplification input entity label
 
 <table><tbody>
     <tr>
@@ -1785,7 +1787,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cdna_amplification_process_date
+### cdna amplification process date
 
 <table><tbody>
     <tr>
@@ -1798,7 +1800,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>datetime</code>
         </td>
     </tr>
     <tr>
@@ -1813,7 +1815,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cdna_amplification_process_id
+### cdna amplification process id
 
 <table><tbody>
     <tr>
@@ -1849,7 +1851,7 @@ The following table describes the cell barcoding metadata. If an entry in the ta
 
 Curators must annotate the following columns:
 
-### barcoded_cell_sample_label
+### barcoded cell sample label
 
 <table><tbody>
     <tr>
@@ -1877,7 +1879,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### barcoded_cell_sample_created_by_process_id
+### barcoded cell sample created by process id
 
 <table><tbody>
     <tr>
@@ -1905,7 +1907,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### barcoded_cell_sample_port_well
+### barcoded cell sample port well
 
 <table><tbody>
     <tr>
@@ -1933,7 +1935,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### barcoded_cell_sample_quantity_count
+### barcoded cell sample quantity count
 
 <table><tbody>
     <tr>
@@ -1946,7 +1948,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -1961,7 +1963,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cell_barcoding_input_entity_label
+### cell barcoding input entity label
 
 <table><tbody>
     <tr>
@@ -1989,7 +1991,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cell_barcoding_output_entity_label
+### cell barcoding output entity label
 
 <table><tbody>
     <tr>
@@ -2017,7 +2019,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cell_barcoding_process_id
+### cell barcoding process id
 
 <table><tbody>
     <tr>
@@ -2053,7 +2055,7 @@ The following table describes the cell dissociation metadata. If an entry in the
 
 Curators must annotate the following columns:
 
-### dissociated_cell_sample_label
+### dissociated cell sample label
 
 <table><tbody>
     <tr>
@@ -2081,7 +2083,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### dissociated_cell_sample_created_by_process_id
+### dissociated cell sample created by process id
 
 <table><tbody>
     <tr>
@@ -2109,7 +2111,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### dissociated_cell_sample_cell_prep_type
+### dissociated cell sample cell prep type
 
 <table><tbody>
     <tr>
@@ -2137,7 +2139,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### dissociated_cell_sample_facs_population_plan
+### dissociated cell sample facs population plan
 
 <table><tbody>
     <tr>
@@ -2165,7 +2167,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### dissociated_cell_sample_number_of_cells_collected
+### dissociated cell sample number of cells collected
 
 <table><tbody>
     <tr>
@@ -2178,7 +2180,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -2193,7 +2195,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cell_dissociation_input_entity_label
+### cell dissociation input entity label
 
 <table><tbody>
     <tr>
@@ -2221,7 +2223,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cell_dissociation_output_entity_label
+### cell dissociation output entity label
 
 <table><tbody>
     <tr>
@@ -2249,7 +2251,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### cell_dissociation_process_id
+### cell dissociation process id
 
 <table><tbody>
     <tr>
@@ -2285,7 +2287,7 @@ The following table describes the tissue dissectioning metadata. If an entry in 
 
 Curators must annotate the following columns:
 
-### tissue_sample_label
+### tissue sample label
 
 <table><tbody>
     <tr>
@@ -2313,7 +2315,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_sample_created_by_process_id
+### tissue sample created by process id
 
 <table><tbody>
     <tr>
@@ -2341,7 +2343,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_sample_roi_plan
+### tissue sample roi plan
 
 <table><tbody>
     <tr>
@@ -2369,7 +2371,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_dissectioning_input_entity_label
+### tissue dissectioning input entity label
 
 <table><tbody>
     <tr>
@@ -2397,7 +2399,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_dissectioning_output_entity_label
+### tissue dissectioning output entity label
 
 <table><tbody>
     <tr>
@@ -2425,7 +2427,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_dissectioning_process_id
+### tissue dissectioning process id
 
 <table><tbody>
     <tr>
@@ -2453,7 +2455,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_dissectioning_input_entity_label
+### tissue dissectioning input entity label
 
 <table><tbody>
     <tr>
@@ -2481,7 +2483,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### tissue_dissectioning_input_process_id
+### tissue dissectioning input process id
 
 <table><tbody>
     <tr>
@@ -2517,7 +2519,7 @@ The following table describes the brain specimens metadata. If an entry in the t
 
 Curators must annotate the following columns:
 
-### brain_section_label
+### brain section label
 
 <table><tbody>
     <tr>
@@ -2545,7 +2547,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_section_created_by_process_id
+### brain section created by process id
 
 <table><tbody>
     <tr>
@@ -2573,7 +2575,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_section_ordinal
+### brain section ordinal
 
 <table><tbody>
     <tr>
@@ -2586,7 +2588,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>integer</code>
         </td>
     </tr>
     <tr>
@@ -2601,7 +2603,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_segment_sectioning_input_entity_label
+### brain segment sectioning input entity label
 
 <table><tbody>
     <tr>
@@ -2629,7 +2631,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_segment_sectioning_process_id
+### brain segment sectioning process id
 
 <table><tbody>
     <tr>
@@ -2657,7 +2659,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_segment_label
+### brain segment label
 
 <table><tbody>
     <tr>
@@ -2685,7 +2687,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_segment_created_by_process_id
+### brain segment created by process id
 
 <table><tbody>
     <tr>
@@ -2713,7 +2715,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_segment_anatomical_division
+### brain segment anatomical division
 
 <table><tbody>
     <tr>
@@ -2741,7 +2743,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_segment_barcode
+### brain segment barcode
 
 <table><tbody>
     <tr>
@@ -2769,7 +2771,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_extraction_input_entity_label
+### brain extraction input entity label
 
 <table><tbody>
     <tr>
@@ -2797,7 +2799,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_extraction_output_entity_label
+### brain extraction output entity label
 
 <table><tbody>
     <tr>
@@ -2825,7 +2827,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### brain_extraction_process_id
+### brain extraction process id
 
 <table><tbody>
     <tr>
@@ -2861,7 +2863,7 @@ The following table describes the donor metadata. If an entry in the table is em
 
 Curators must annotate the following columns:
 
-### donor_label
+### donor label
 
 <table><tbody>
     <tr>
@@ -2889,7 +2891,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### donor_age_at_death
+### donor age at death
 
 <table><tbody>
     <tr>
@@ -2917,7 +2919,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### donor_date_of_birth
+### donor date of birth
 
 <table><tbody>
     <tr>
@@ -2930,7 +2932,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>datetime</code>
         </td>
     </tr>
     <tr>
@@ -2945,7 +2947,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### donor_date_of_death
+### donor date of death
 
 <table><tbody>
     <tr>
@@ -2958,7 +2960,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>datetime</code>
         </td>
     </tr>
     <tr>
@@ -2973,7 +2975,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### donor_full_genotype
+### donor full genotype
 
 <table><tbody>
     <tr>
@@ -3001,7 +3003,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### donor_ncbitaxonomyid
+### donor ncbitaxonomyid
 
 <table><tbody>
     <tr>
@@ -3029,7 +3031,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### donor_sex
+### donor sex
 
 <table><tbody>
     <tr>
@@ -3042,7 +3044,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>categorical</code>
         </td>
     </tr>
     <tr>
@@ -3057,7 +3059,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### age_label
+### age label
 
 <table><tbody>
     <tr>
@@ -3085,7 +3087,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### age_reference_point
+### age reference point
 
 <table><tbody>
     <tr>
@@ -3113,7 +3115,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### age_unit
+### age unit
 
 <table><tbody>
     <tr>
@@ -3126,7 +3128,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Data Type</th>
-        <td><code>string</code>
+        <td><code>categorical</code>
         </td>
     </tr>
     <tr>
@@ -3141,7 +3143,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### age_value
+### age value
 
 <table><tbody>
     <tr>
