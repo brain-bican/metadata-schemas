@@ -1,0 +1,14 @@
+﻿Field,DataType,Required,Description
+name,String,Y,"Human readable, locally unique identfiier"
+title,String,Y,Long form project title
+shortTitle,String,Y,Short form project title
+description,String,Y,Long form description 
+subprogram,enum,Y,"Subprogram to which this project belongs. See subprogram controlled vocabulary"
+contact,Person.name | Organization.name,N,"Primary contact, usually a person, but can also be an institution"
+creator,[Person.name | Organization.name],Y,"Creator, can be person(s) or institution(s)."
+contributor,[Person.name],Y,List of contributors to be attributed in citation
+fundingSource,[enum],Y,See controlled vocabulary derived from grants
+collections,[Collection],N,List of data collection names
+highlightedWebResource,[String],N,"Links to relevant tools/pages to view data, can be from data collections' links"
+protocol,[String],N,"List of links to protocol documents, usually from protocol.io"
+publication,String,N,"DOI, not currently in use"

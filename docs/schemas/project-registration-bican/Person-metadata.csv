@@ -1,0 +1,5 @@
+﻿Field,Data Type,Required,Description
+name,String,Y,"Full name in Given name, Family name format"
+givenName,String,Y,Given name
+familyName,String,Y,Family name
+orcid,String,N,ORCID Identifier

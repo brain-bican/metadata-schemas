@@ -1,0 +1,3 @@
+﻿Field,DataType,Required,Description
+name, String,Y,"Human readable, locally unique identifier"
+ror, String,N,Research Organization Registry ID
