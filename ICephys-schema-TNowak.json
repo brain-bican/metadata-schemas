@@ -1,0 +1,226 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "Intracellular Electrophysiological Experiment",
+    "type":"object",
+    "required": ["list here", "required properties",],
+    "properties": {
+        "preparation_and_acquisition": {"$comment": "what lives in preparation_and_acquisition level and what lives in dataCollection schema?",
+            "type": "object",
+            "properties": {
+                "species": {
+                    "$ref": ""
+                },
+                "subjectID": {
+                    "$ref": ""
+                },
+                "subjectAge": {
+                    "$ref": ""
+                },
+                "subjectSex": {
+                    "$ref": ""
+                },
+                "subjectDateOfBirth": {
+                    "$ref": ""
+                },
+                "specimenID": {
+                    "$ref": ""
+                },
+                "genotype": {
+                    "$ref": ""
+                },
+                "creLine": {
+                    "$ref": ""
+                },
+                "reporterStatus": {
+                    "$ref": ""
+                },
+                "externalSolutionRecipe": {
+                    "$ref": ""
+                },
+                "bathTemperature": {
+                    "$ref": ""
+                },
+                "electrodeID": {
+                    "$ref": ""
+                },
+                "electrodeResistance": {
+                    "$ref": ""
+                },
+                "internalSolutionRecipe":{
+                    "$ref": ""
+                }
+            }
+        },
+        "amplifierSettings_currentClamp": {
+            "type": "object",
+            "properties": {
+                "restingMembranePotential": {
+                    "$ref": ""
+                },
+                "bridgeBalanceEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: bridgeBalanceEnabled subschema should contain required property bridgeBalanceValue IF bridgeBalanceEnabled is 'true'"
+                },
+                "fastCapacitanceCompensationEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: fastCapacitanceCompensationEnabled subschema should contain required property fastCapacitanceCompensationValue IF fastCapacitanceCompensationEnabled is 'true'"
+                },
+                "leakCurrentEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: leakCurrentEnabled subschema should contain required property leakCurrentValue IF leakCurrentEnabled is 'true' "
+                },
+                "gain_currentClamp": {
+                    "$ref": ""
+                },
+                "outputLowPassFilterType_currentClamp": {
+                    "$ref": ""
+                },
+                "outputLowPassFilterCutoffFrequency_currentClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterType_currentClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterCutoffFrequency_currentClamp": {
+                    "$ref": ""
+                }
+            }
+        },
+        "amplifierSettings_voltageClamp":{
+            "type": "object",
+            "properties": {
+                "gain_voltageClamp": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationFast": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationSlow": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationFastTime": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationSlowTime": {
+                    "$ref": ""
+                },
+                "wholeCellCapacitanceCompensationEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: subschema should contain required properties wholeCellCapacitanceCompensationValue and wholeCellCapacitanceCompensationResistance if wholeCellCapacitanceCompensationEnabledis 'true' "
+                },
+                "seriesResistanceCorrectionEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: subschema should included required property seriesResistanceCorrectionValue AND seriesResistancePrediction AND seriesResistanceBandwidth if seriesResistanceCorrectionEnabled is 'true' "
+                },
+                "outputLowPassFilterType_voltageClamp": {
+                    "$ref": ""
+                },
+                "outputLowPassFilterCutoffFrequency_voltageClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterType_voltageClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterCutoffFrequency_voltageClamp": {
+                    "$ref": ""
+                },
+                "holding": {
+                    "$ref": ""
+                }
+            }
+        },
+        "community_discussion_terms": {
+            "type": "object",
+            "properties": {
+                "$comment": "here are nwb-suggested properties that need to be placed in a parent class/object in the schema. For now they live here.",
+                "cellLocation": {},
+                "electrodeZeroedBiasCurrent": {},
+                "initialAccessResistance": {},
+                "tightSealResistance": {},
+                "inputResistance": {},
+                "pipetteCapacitanceNeutralization": {},
+                "outputZero/zeroOffset": {},
+                "pipetteOffset": {},
+                "leakSubtraction": {},
+
+            }
+        }
+    },
+    "$comment": "do additionalProperties need to be constrained in any way?", "additionalProperties": ,
+
+    "$defs": {
+        "$comment": "this section contains definitions specific to Electrophysiological experiments. We can reuse definitions for project and collection-level metadata without having to re-write definitions.",
+
+        "species": {
+            "enum": ["Arctic ground squirrel",
+            "chimpanzee",
+            "common tree shrew",
+            "crab-eating macaque",
+            "domestic cat",
+            "domestic ferret",
+            "gray short-tailed opossum",
+            "green monkey",
+            "human",
+            "Ma's night monkey",
+            "marmoset",
+            "mouse",
+            "nine-banded armadillo",
+            "Norway rat",
+            "pig",
+            "pig-tailed macaque",
+            "rabbit",
+            "rhesus macaque",
+            "small-eared galago",
+            "western gorilla"],
+            "description": "Common name for the species of the sample"
+        },
+        "subjectID": {"$comment": "link to $refs schema"
+        },
+        "subjectAge": {"$comment": "link to $refs schema"
+        },
+        "subjectSex": {"$comment": "link to $refs schema"
+        },
+        "subjectDateOfBirth": {"$comment": "link to $refs schema"
+        },
+        "specimenID": {"$comment": "link to $refs schema"
+        },
+        "genotype": {"$comment": "link to $refs schema"
+        },
+        "creLine": {
+            "type": "string",
+            "description": "Reporter gene; modified part of the mouse genome to target a certain cell type" 
+        },
+        "reporterStatus": {
+            "type": "string",
+            "description": "Cre+ (positive =  fluorescent label) or Cre- (negative = no flourescent label) ",
+            "examples": [
+                "Cre+",
+                "Cre-",
+                "positive",
+                "negative",
+                "+",
+                "-"
+            ]
+        },
+        "externalSolutionRecipe": {
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        },
+        "bathTemperature": {
+            "type": "number",
+            "description": "Temperature, in Celsius, of the ACSF solution the slice is held in during the experiment"
+        },
+        "electrodeID": {
+            "type": "string",
+            "description": "Centrally registered or local identifer which denotes the specific electrode used for the experiment"
+        },
+        "electrodeResistance": {
+            "type": "number",
+            "description": "Resistance of the electrode used to record the electrical activity of the cell under experiment. Typically 3 to 7 mega ohms."
+        },
+        "internalSolutionRecipe":{
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        }
+    }
+}
