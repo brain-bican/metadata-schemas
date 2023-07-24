@@ -207,6 +207,22 @@
         "externalSolutionRecipe": {
             "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
         },
+        "internalSolutionRecipe":{
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        },
+        "acsfRecipes": {
+            "$id": "/relativepathofaboveID/acsfRecipes",
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+                "ACSF.I":, "$comment": "recipe here as constant-value enforced list? or object properties?",
+                "ACSF.IV":,
+                "ACSF.VII":,
+                "ACSF.VIII":,
+                "ACSF.III":,
+                "internalSolution":,
+            },
+        },
         "bathTemperature": {
             "type": "number",
             "description": "Temperature, in Celsius, of the ACSF solution the slice is held in during the experiment"
@@ -218,9 +234,6 @@
         "electrodeResistance": {
             "type": "number",
             "description": "Resistance of the electrode used to record the electrical activity of the cell under experiment. Typically 3 to 7 mega ohms."
-        },
-        "internalSolutionRecipe":{
-            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
         }
     }
 }
