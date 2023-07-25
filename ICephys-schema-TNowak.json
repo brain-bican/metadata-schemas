@@ -53,6 +53,9 @@
                 }
             }
         },
+        "subject_metadata": {
+            "$comment": "subject metadata should live here"
+        },
         "amplifierSettings_currentClamp": {
             "type": "object",
             "properties": {
@@ -61,11 +64,13 @@
                 },
                 "bridgeBalanceEnabled": {
                     "$ref": "",
-                    "$comment": "NOTE: bridgeBalanceEnabled subschema should contain required property bridgeBalanceValue IF bridgeBalanceEnabled is 'true'"
+                    "$comment": "NOTE: bridgeBalanceEnabled subschema should contain if-then IF bridgeBalanceEnabled is 'true', THEN bridgeBalanceValue",
+                    "$comment": "added to allOf[] if-then list below"
                 },
                 "fastCapacitanceCompensationEnabled": {
                     "$ref": "",
-                    "$comment": "NOTE: fastCapacitanceCompensationEnabled subschema should contain required property fastCapacitanceCompensationValue IF fastCapacitanceCompensationEnabled is 'true'"
+                    "$comment": "NOTE: fastCapacitanceCompensationEnabled subschema should contain if-then IF fastCapacitanceCompensationEnabled is 'true' THEN fastCapacitanceCompensationValue",
+                    "$comment": "added to allOf if-then list below"
                 },
                 "leakCurrentEnabled": {
                     "$ref": "",
@@ -86,7 +91,36 @@
                 "outputHighPassFilterCutoffFrequency_currentClamp": {
                     "$ref": ""
                 }
-            }
+            },
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {"bridgeBalanceEnabled": {"const": true}},
+                        "required": ["bridgeBalanceEnabled"]
+                    },
+                    "then": {
+                        "properties": {"bridgeBalanceValue": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"fastCapacitanceCompensationEnabled": {"const": true}},
+                        "required": ["fastCapacitanceCompensationEnabled"]
+                    },
+                    "then": {
+                        "properties": {"fastCapacitanceCompensationValue": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"leakCurrentEnabled": {"const": true}},
+                        "required": ["leakCurrentEnabled"]
+                    },
+                    "then": {
+                        "properties": {"leakCurrentValue": {"type": "number"}}
+                    }
+                }
+            ]
         },
         "amplifierSettings_voltageClamp":{
             "type": "object",
@@ -131,6 +165,9 @@
                 }
             }
         },
+        "recordingSession_ephys": {
+            "$comment": "the 8 Test Sweep stages of metadata collection should live here. Each stage will get its own json blob."
+        },
         "community_discussion_terms": {
             "type": "object",
             "properties": {
@@ -143,7 +180,7 @@
                 "pipetteCapacitanceNeutralization": {},
                 "outputZero/zeroOffset": {},
                 "pipetteOffset": {},
-                "leakSubtraction": {},
+                "leakSubtraction": {}
 
             }
         }
@@ -154,26 +191,9 @@
         "$comment": "this section contains definitions specific to Electrophysiological experiments. We can reuse definitions for project and collection-level metadata without having to re-write definitions.",
 
         "species": {
-            "enum": ["Arctic ground squirrel",
-            "chimpanzee",
-            "common tree shrew",
-            "crab-eating macaque",
-            "domestic cat",
-            "domestic ferret",
-            "gray short-tailed opossum",
-            "green monkey",
+            "enum": [
             "human",
-            "Ma's night monkey",
-            "marmoset",
-            "mouse",
-            "nine-banded armadillo",
-            "Norway rat",
-            "pig",
-            "pig-tailed macaque",
-            "rabbit",
-            "rhesus macaque",
-            "small-eared galago",
-            "western gorilla"],
+            "mouse"],
             "description": "Common name for the species of the sample"
         },
         "subjectID": {"$comment": "link to $refs schema"
@@ -233,7 +253,16 @@
         },
         "electrodeResistance": {
             "type": "number",
-            "description": "Resistance of the electrode used to record the electrical activity of the cell under experiment. Typically 3 to 7 mega ohms."
-        }
+            "description": "Resistance of the electrode used to record the electrical activity of the cell under experiment. Typically 3 to 7 megaohms."
+        },
+
+        "restingMembranePotential": {
+            "type": "number",
+            "description": "Resting membrane potential (RMP) is an electrical potential recorded across the membrane of an electrically active cell at rest. At least one sweep is acquired at RMP before applying any bias current."
+        },
+        "bridgeBalanceEnabled": {
+            "type": "boolean",
+            "description": "Whether or not the microelectrode amplifier is set to apply Bridge Balance compensation to intracellular potential recording",
+            "$comment": "NOTE: bridgeBalanceEnabled subschema should contain required property bridgeBalanceValue IF bridgeBalanceEnabled is 'true'"
     }
 }
