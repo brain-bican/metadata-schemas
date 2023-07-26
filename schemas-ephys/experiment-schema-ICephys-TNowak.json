@@ -1,0 +1,320 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "Intracellular Electrophysiological Experiment",
+    "description": "summary representation of all metadata for recording portion of an IC Electrophysiology experiment",
+    "type":"object",
+    "required": ["list here", "required properties"],
+    "properties": {
+        "preparation_and_acquisition": {"$comment": "what lives in preparation_and_acquisition level and what lives in dataCollection schema?",
+            "type": "object",
+            "properties": {
+                "species": {
+                    "$ref": ""
+                },
+                "subjectID": {
+                    "$ref": ""
+                },
+                "subjectAge": {
+                    "$ref": ""
+                },
+                "subjectSex": {
+                    "$ref": ""
+                },
+                "subjectDateOfBirth": {
+                    "$ref": ""
+                },
+                "specimenID": {
+                    "$ref": ""
+                },
+                "genotype": {
+                    "$ref": ""
+                },
+                "creLine": {
+                    "$ref": ""
+                },
+                "reporterStatus": {
+                    "$ref": ""
+                },
+                "externalSolutionRecipe": {
+                    "$ref": ""
+                },
+                "bathTemperature": {
+                    "$ref": ""
+                },
+                "electrodeID": {
+                    "$ref": ""
+                },
+                "electrodeResistance": {
+                    "$ref": ""
+                },
+                "internalSolutionRecipe":{
+                    "$ref": ""
+                }
+            }
+        },
+        "subject_metadata": {
+            "$comment": "subject metadata should live here"
+        },
+        "amplifierSettings_currentClamp": {
+            "type": "object",
+            "properties": {
+                "restingMembranePotential": {
+                    "$ref": ""
+                },
+                "bridgeBalanceEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: bridgeBalanceEnabled subschema should contain if-then IF bridgeBalanceEnabled is 'true', THEN bridgeBalanceValue",
+                    "$comment": "added to allOf[] if-then list below"
+                },
+                "fastCapacitanceCompensationEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: fastCapacitanceCompensationEnabled subschema should contain if-then IF fastCapacitanceCompensationEnabled is 'true' THEN fastCapacitanceCompensationValue",
+                    "$comment": "added to allOf if-then list below"
+                },
+                "leakCurrentEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: leakCurrentEnabled subschema should contain required property leakCurrentValue IF leakCurrentEnabled is 'true' ",
+                    "$comment": "added to allOf if-then list below"
+                },
+                "gain_currentClamp": {
+                    "$ref": ""
+                },
+                "outputLowPassFilterType_currentClamp": {
+                    "$ref": ""
+                },
+                "outputLowPassFilterCutoffFrequency_currentClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterType_currentClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterCutoffFrequency_currentClamp": {
+                    "$ref": ""
+                }
+            },
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {"bridgeBalanceEnabled": {"const": true}},
+                        "required": ["bridgeBalanceEnabled"]
+                    },
+                    "then": {
+                        "properties": {"bridgeBalanceValue": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"fastCapacitanceCompensationEnabled": {"const": true}},
+                        "required": ["fastCapacitanceCompensationEnabled"]
+                    },
+                    "then": {
+                        "properties": {"fastCapacitanceCompensationValue": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"leakCurrentEnabled": {"const": true}},
+                        "required": ["leakCurrentEnabled"]
+                    },
+                    "then": {
+                        "properties": {"leakCurrentValue": {"type": "number"}}
+                    }
+                }
+            ]
+        },
+        "amplifierSettings_voltageClamp":{
+            "type": "object",
+            "properties": {
+                "gain_voltageClamp": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationFast": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationSlow": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationFastTime": {
+                    "$ref": ""
+                },
+                "electrodeCapacitanceCompensationSlowTime": {
+                    "$ref": ""
+                },
+                "wholeCellCapacitanceCompensationEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: subschema should contain required properties wholeCellCapacitanceCompensationValue and wholeCellCapacitanceCompensationResistance if wholeCellCapacitanceCompensationEnabled is 'true' ",
+                    "$comment": "added to allOf if-then list below"
+                },
+                "seriesResistanceCorrectionEnabled": {
+                    "$ref": "",
+                    "$comment": "NOTE: subschema should included required property seriesResistanceCorrectionValue AND seriesResistancePrediction AND seriesResistanceBandwidth if seriesResistanceCorrectionEnabled is 'true' ",
+                    "$comment": "added to allOf if-then list below"
+                },
+                "outputLowPassFilterType_voltageClamp": {
+                    "$ref": ""
+                },
+                "outputLowPassFilterCutoffFrequency_voltageClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterType_voltageClamp": {
+                    "$ref": ""
+                },
+                "outputHighPassFilterCutoffFrequency_voltageClamp": {
+                    "$ref": ""
+                },
+                "holding": {
+                    "$ref": ""
+                }
+            },
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {"wholeCellCapacitanceCompensationEnabled": {"const": true}},
+                        "required": ["wholeCellCapacitanceCompensationEnabled"]
+                    },
+                    "then": {
+                        "properties": {"wholeCellCapacitanceCompensationValue": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"wholeCellCapacitanceCompensationEnabled": {"const": true}},
+                        "required": ["wholeCellCapacitanceCompensationEnabled"]
+                    },
+                    "then": {
+                        "properties": {"wholeCellCapacitanceCompensationResistance": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"seriesResistanceCorrectionEnabled": {"const": true}},
+                        "required": ["seriesResistanceCorrectionEnabled"]
+                    },
+                    "then": {
+                        "properties": {"seriesResistanceCorrectionValue": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"seriesResistanceCorrectionEnabled": {"const": true}},
+                        "required": ["seriesResistanceCorrectionEnabled"]
+                    },
+                    "then": {
+                        "properties": {"seriesResistancePrediction": {"type": "number"}}
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {"seriesResistanceCorrectionEnabled": {"const": true}},
+                        "required": ["seriesResistanceCorrectionEnabled"]
+                    },
+                    "then": {
+                        "properties": {"seriesResistanceBandwidth": {"type": "number"}}
+                    }
+                }
+            ]
+        },
+        "recordingSession": {
+            "$comment": "the 8 Test Sweep stages of metadata collection should live here. Each stage will get its own json blob."
+        },
+        "community_discussion_terms": {
+            "type": "object",
+            "properties": {
+                "$comment": "here are nwb-suggested properties that need to be placed in a parent class/object in the schema. For now they live here.",
+                "cellLocation": {},
+                "electrodeZeroedBiasCurrent": {},
+                "initialAccessResistance": {},
+                "tightSealResistance": {},
+                "inputResistance": {},
+                "pipetteCapacitanceNeutralization": {},
+                "outputZero/zeroOffset": {},
+                "pipetteOffset": {},
+                "leakSubtraction": {}
+
+            }
+        }
+    },
+    "$comment": "do additionalProperties need to be constrained in any way?", "additionalProperties": "",
+
+    "$defs": {
+        "$comment": "this section contains definitions specific to Electrophysiological experiments. We can reuse definitions for project and collection-level metadata without having to re-write definitions.",
+
+        "species": {
+            "enum": [
+            "human",
+            "mouse"],
+            "description": "Common name for the species of the sample"
+        },
+        "subjectID": {"$comment": "link to $refs schema"
+        },
+        "subjectAge": {"$comment": "link to $refs schema"
+        },
+        "subjectSex": {"$comment": "link to $refs schema"
+        },
+        "subjectDateOfBirth": {"$comment": "link to $refs schema"
+        },
+        "specimenID": {"$comment": "link to $refs schema"
+        },
+        "genotype": {"$comment": "link to $refs schema"
+        },
+        "creLine": {
+            "type": "string",
+            "description": "Reporter gene; modified part of the mouse genome to target a certain cell type" 
+        },
+        "reporterStatus": {
+            "type": "string",
+            "description": "Cre+ (positive =  fluorescent label) or Cre- (negative = no flourescent label) ",
+            "examples": [
+                "Cre+",
+                "Cre-",
+                "positive",
+                "negative",
+                "+",
+                "-"
+            ]
+        },
+        "externalSolutionRecipe": {
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        },
+        "internalSolutionRecipe":{
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        },
+        "acsfRecipes": {
+            "$id": "/relativepathofaboveID/acsfRecipes",
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+                "ACSF.I": "", "$comment": "recipe here as constant-value enforced list? or object properties?",
+                "ACSF.IV": "",
+                "ACSF.VII": "",
+                "ACSF.VIII": "",
+                "ACSF.III": "",
+                "internalSolution": ""
+            }
+        },
+        "bathTemperature": {
+            "type": "number",
+            "description": "Temperature, in Celsius, of the ACSF solution the slice is held in during the experiment"
+        },
+        "electrodeID": {
+            "type": "string",
+            "description": "Centrally registered or local identifer which denotes the specific electrode used for the experiment"
+        },
+        "electrodeResistance": {
+            "type": "number",
+            "description": "Resistance of the electrode used to record the electrical activity of the cell under experiment. Typically 3 to 7 megaohms."
+        },
+
+        "restingMembranePotential": {
+            "type": "number",
+            "description": "Resting membrane potential (RMP) is an electrical potential recorded across the membrane of an electrically active cell at rest. At least one sweep is acquired at RMP before applying any bias current."
+        },
+        "bridgeBalanceEnabled": {
+            "type": "boolean",
+            "description": "Whether or not the microelectrode amplifier is set to apply Bridge Balance compensation to intracellular potential recording"
+        }
+    }
+
+}

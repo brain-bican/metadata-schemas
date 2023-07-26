@@ -1,0 +1,43 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": " ",
+    "type": "object",
+    "required": [],
+    "properties": {"$comment": "the following properties are required QC checks at every sweep level, so they apply to each sweep. Some QC checks are specific to the sweep level, those properties are specified in the appropriate individual sweep schema. These properties below should(?) be included in every sweep schema."
+        "mode": {
+            "enum": [
+                "currentClamp",
+                "voltageClamp"
+            ], 
+            "description": "mode of electrophysiology amplifier is either current-clamp or voltage-clamp"
+        },
+        "bridgeBalanceValue": {
+            "const": "Pass",
+            "description": "At each sweep stage, Bridge Balance QC check must 'Pass' to be included in the dataset at all. How to represent this? From Ephys White Paper: 'At the beginning of every data sweep, a short test pulse was delivered to gauge whether the correct bridge balance setting was applied. Following every experiment, test pulses were checked by an independent observer and any sweeps that were deemed to have unsatisfactory bridge balance compensation (existence of a clear DC offset, relative to the test pulse from the first data trace, indicative of an increased access resistance) were failed from the data set.' "
+        },
+        "electrodeZeroedBiasCurrent":{
+            "type": "number",
+            "maximum": 100,
+            "description": "For a single sweep within a recording to be included for analysis, Bias current must be: 0 +/- 100 pA"
+        },
+        "highFrequencyNoise": {
+            "type": "number",
+            "maximum": 0.07,
+            "description": "Root mean square (RMS) noise measurements in a short window (1.5 ms, to gauge high frequency noise) must be <0.07 mV."
+        },
+        "patchInstability": {
+            "type": "number",
+            "maximum": 0.5,
+            "description": "Root mean square (RMS) noise measurements in a longer window (500 ms, to measure patch instability) must be <0.5 mV."
+        },
+        "voltageStability": {
+            "type": "number",
+            "exclusiveMaximum": 1,
+            "description": "The difference in the voltage at the end of the data sweep (measured over 500 ms of rest) and the voltage measured immediately prior to the stimulus onset < 1 mV."
+        }
+    },
+    "additionalProperties": "",
+    "$defs": {}
+}

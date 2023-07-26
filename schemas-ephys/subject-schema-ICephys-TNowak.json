@@ -1,0 +1,40 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "subject",
+    "description": "subject metadata for an IC Electrophysiology session during a Patch-seq experiment",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "subjectID": {"$comment": "might be only needed subject field if subjectID referenced includes species, subjectAge, subjectSex, subjectDateOfBirth",
+        "$ref": ""
+        },
+        "species": {
+            "$ref": ""
+        },
+        "subjectAge": {
+            "$ref": ""
+        },
+        "subjectSex": {
+            "$ref": ""
+        },
+        "subjectDateOfBirth": {
+            "$ref": ""
+        },
+        "specimenID": {"$comment": "does specimenID include genotype, creLine, reporterStatus?",
+            "$ref": ""
+        },
+        "genotype": {
+            "$ref": ""
+        },
+        "creLine": {
+            "$ref": ""
+        },
+        "reporterStatus": {
+            "$ref": ""
+        }
+    },
+    "additionalProperties": "",
+    "$defs": {}
+}
