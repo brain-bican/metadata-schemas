@@ -313,5 +313,7 @@
         "bridgeBalanceEnabled": {
             "type": "boolean",
             "description": "Whether or not the microelectrode amplifier is set to apply Bridge Balance compensation to intracellular potential recording"
+        }
     }
+
 }
