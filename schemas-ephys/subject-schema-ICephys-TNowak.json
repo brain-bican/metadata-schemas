@@ -6,50 +6,56 @@
     "title": "subject",
     "description": "subject metadata for an IC Electrophysiology session during a Patch-seq experiment",
     "type": "object",
-    "required": ["Sample ID", "Sample Type", "species", "Species NCBI Taxonomy ID"],
+    "required": ["sampleID", "sampleType", "species", "speciesNCBITaxonID"],
     "properties": {
-        "Sample ID": {
-            "$ref": "#/$defs/Sample ID"
+        "sampleID": {
+            "$ref": "#/$defs/sampleID"
         },
-        "Sample Type": {
-            "$ref": "#/$defs/Sample Type"
+        "sampleType": {
+            "$ref": "#/$defs/sampleType"
         },
         "Species": {
             "$ref": "#/$defs/species"
         },
-        "Species NCBI Taxonomy ID": {
-            "$ref": "#/$defs/Species NCBI Taxonomy ID"
+        "speciesNCBITaxonID": {
+            "$ref": "#/$defs/speciesNCBITaxonID"
         },
-        "Subject Age": {
+        "specimenID": {"$comment": "does specimenID include genotypee, creLine, reporterStatus?",
+        "$ref": "#/$defs/specimenID"
+        },
+        "parentSpecimenType": {
+            "$ref": "#/$defs/parentSpecimenType"
+        },
+        "subjectID": {
+            "$ref": "#/$defs/subjectID"
+        },
+        "subjectAge": {
             "$ref": "#/$defs/subjectAge"
         },
-        "Subject Sex": {
+        "subjectSex": {
             "$ref": "#/$defs/subjectSex"
         },
-        "Subject Date of Birth": {
+        "subjectDateOfBirth": {
             "$ref": "#/$defs/subjectDateOfBirth"
         },
-        "Specimen ID": {"$comment": "does specimenID include genotype, creLine, reporterStatus?",
-            "$ref": "#/$defs/specimenID"
-        },
-        "Genotype": {
+        "genotype": {
             "$ref": "#/$defs/genotype"
         },
-        "Cre Line": {
+        "creLine": {
             "$ref": "#/$defs/creLine"
         },
-        "Reporter Status": {
+        "reporterStatus": {
             "$ref": "#/$defs/reporterStatus"
         }
     },
     "additionalProperties": "",
 
     "$defs": {
-        "Sample ID": {
+        "sampleID": {
             "type": "string",
             "description": "The unique identifier of the biological sample"
         },
-        "Sample Type": {
+        "sampleType": {
             "type": "string",
             "description": "The specimen type of the biological sample. See Specimen Types in the Controlled Vocabulary."
         },
@@ -57,9 +63,17 @@
             "enum": ["mouse", "human"],
             "description": "Common english name for the species of the sample."
         },
-        "Species NCBI Taxonomy ID": {
+        "speciesNCBITaxonID": {
             "type": "string",
             "description": "The unique identifier for the species of the sample."
+        },
+        "parentSpecimenType": {
+            "type": "string",
+            "description": "The type of the parent specimen associated with this sample. See Specimen Types in the Controlled Vocabulary."
+        },
+        "subjectID": {
+            "type": "string",
+            "description": "The unique identifier of the individual subject (formerly donor) providing sample."
         },
         "subjectAge": {
             "type": "string",
@@ -80,7 +94,7 @@
         },
         "genotype": {
             "type": "string",
-            "description": "Genotype of the animal as 'allele1/allele2;allele3/allele4'."
+            "description": "genotypee of the animal as 'allele1/allele2;allele3/allele4'."
         },
         "creLine": {
             "type": "string",
