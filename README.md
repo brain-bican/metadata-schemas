@@ -44,8 +44,8 @@ Here are the BICAN metadata schemas and their statuses.
 | [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Under MOWG Review
 | | | | |
 
-[Donor-to-Alignment Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Donor-to-Alignment-Metadata
-[v1.0.0]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
+[Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
+[v1.0.0]: docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
 [2023-03-31]: https://github.com/brain-bican/metadata-schemas/releases/tag/v2023-03-31
 
 [Human Donor Metadata]: http://github.com/brain-bican/metadata/docs/schemas/Human-Donor-Metadata
