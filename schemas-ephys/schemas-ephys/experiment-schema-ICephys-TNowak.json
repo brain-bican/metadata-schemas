@@ -1,0 +1,125 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "Intracellular Electrophysiological Experiment",
+    "description": "summary representation of all metadata for recording portion of an IC Electrophysiology experiment",
+    "type":"object",
+    "required": ["list here", "required properties"],
+    "properties": {},
+    "$comment": "do additionalProperties need to be constrained in any way?", "additionalProperties": "",
+
+    "$defs": {
+        "$comment": "this section contains definitions specific to Electrophysiological experiments. We can reuse definitions for project and collection-level metadata without having to re-write definitions.",
+
+        "$comment": "subject metadata",
+        "species": {
+            "enum": [
+            "human",
+            "mouse"],
+            "description": "Typically the common english name, latin binomial name, or NCBI taxon id for the species of the sample."
+        },
+        "subjectID": {"$comment": "link to $refs schema"
+        },
+        "subjectAge": {"$comment": "link to $refs schema"
+        },
+        "subjectSex": {"$comment": "link to $refs schema"
+        },
+        "subjectDateOfBirth": {"$comment": "link to $refs schema"
+        },
+        "specimenID": {"$comment": "link to $refs schema"
+        },
+        "genotype": {"$comment": "link to $refs schema"
+        },
+        "creLine": {
+            "type": "string",
+            "description": "Reporter gene; modified part of the mouse genome to target a certain cell type." 
+        },
+        "reporterStatus": {
+            "type": "string",
+            "description": "Cre+ (positive =  fluorescent label) or Cre- (negative = no flourescent label) ",
+            "examples": [
+                "Cre+",
+                "Cre-",
+                "positive",
+                "negative",
+                "+",
+                "-"
+            ]
+        },
+
+
+        "$comment": "preparation metadata",
+        "externalSolutionRecipe": {
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        },
+        "bathTemperature": {
+            "type": "number",
+            "description": "Temperature, in Celsius, of the ACSF solution the slice is held in during the experiment."
+        },
+
+
+        "$comment": "device metadata",
+        "electrodeID": {
+            "type": "string",
+            "description": "Centrally registered or local identifer which denotes the specific electrode used for the experiment."
+        },
+        "electrodeResistance": {
+            "type": "number",
+            "description": "Resistance of the electrode used to record the electrical activity of the cell under experiment. Typically 3 to 7 megaohms."
+        },
+        "internalSolutionRecipe":{
+            "type": "array", "$comment": "or const: [with, recipe, as, an, array?]"
+        },
+        "acsfRecipes": {
+            "$id": "/relativepathofaboveID/acsfRecipes",
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+                "ACSF.I": "", "$comment": "recipe here as constant-value enforced list? or object properties?",
+                "ACSF.IV": "",
+                "ACSF.VII": "",
+                "ACSF.VIII": "",
+                "ACSF.III": "",
+                "internalSolution": ""
+            }
+        },
+        "bridgeBalanceEnabled": {
+            "type": "boolean",
+            "description": "Whether or not the microelectrode amplifier is set to apply Bridge Balance compensation to intracellular potential recording."
+        },
+        "bridgeBalanceValue": {
+            "type": "number",
+            "description": "Value, in ohms, required to compensate for series resistance."
+        },
+        "fastCapacitanceCompensationEnabled": {
+            "type": "boolean",
+            "description": "Whether or not amplifier is set to remove signal transient distortion caused by spikes in current. Fast capacitance compensation applies to that part of the electrode capacitance that can be represented by a lumped capacitance at the headstage input."
+        },
+        "fastCapacitanceCompensationValue": {
+            "type": "number",
+            "description": "Value of current, in amps, required to compensate for electrode capacitance at the headstage input."
+        },
+        "pipetteCapacitanceNeutralizationValue": {
+            "type": "number",
+            "description": "Amount, in picoFarads, of electronic compensation used to reduce stray electrode capacitance. Pipette Capacitance Neutralization should be enabled when Bridge Balance is enabled."
+        },
+        "leakCurrentEnabled": {
+            "type": "boolean",
+            "description": "Whether or not the microelectrode amplifier is set to compensate for the effect of Leak Current."
+        },
+        "leakCurrentValue": {
+            "type": "number",
+            "description": "The amount of Leak Current, in pA, that is subtracted from the membrane current to remove noise from the signal recording."
+        },
+        "gain_currentClamp": {"$comment": "should there just be one gain property that contains a sub-property 'mode' which specifices current or voltage clamp? How to ref this property elsewhere in the schema when it has a certain mode value?"},
+        "gain_voltageClamp": {},
+
+
+        "restingMembranePotential": {
+            "type": "number",
+            "description": "Resting membrane potential (RMP) is an electrical potential recorded across the membrane of an electrically active cell at rest. At least one sweep is acquired at RMP before applying any bias current."
+        }
+    }
+
+}
