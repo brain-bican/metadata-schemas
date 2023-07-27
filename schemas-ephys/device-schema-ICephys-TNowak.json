@@ -1,0 +1,206 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "device",
+    "description": "device metadata for an IC Electrophysiology session during a Patch-seq experiment",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "electrodeID": {
+            "$ref": ""
+        },
+        "electrodeResistance": {
+            "$ref": ""
+        },
+        "internalSolutionRecipe":{
+            "$ref": "ref to internalSolutionRecipe"
+        },
+        "bridgeBalanceEnabled": {
+            "$ref": "",
+            "$comment": "NOTE: bridgeBalanceEnabled subschema should contain if-then IF bridgeBalanceEnabled is 'true', THEN bridgeBalanceValue",
+            "$comment": "added to allOf[] if-then list below"
+        },
+        "pipetteCapacitanceNeutralizationValue": {
+            "$ref": "",
+            "$comment": "added to allOf[] if-then list below",
+        },
+        "fastCapacitanceCompensationEnabled": {
+            "$ref": "",
+            "$comment": "NOTE: fastCapacitanceCompensationEnabled subschema should contain if-then IF fastCapacitanceCompensationEnabled is 'true' THEN fastCapacitanceCompensationValue",
+            "$comment": "added to allOf if-then list below"
+        },
+        "leakCurrentEnabled": {
+            "$ref": "",
+            "$comment": "NOTE: leakCurrentEnabled subschema should contain required property leakCurrentValue IF leakCurrentEnabled is 'true' ",
+            "$comment": "added to allOf if-then list below"
+        },
+        "gain_currentClamp": {
+            "$ref": ""
+        },
+        "outputLowPassFilterType_currentClamp": {
+            "$ref": ""
+        },
+        "outputLowPassFilterCutoffFrequency_currentClamp": {
+            "$ref": ""
+        },
+        "outputHighPassFilterType_currentClamp": {
+            "$ref": ""
+        },
+        "outputHighPassFilterCutoffFrequency_currentClamp": {
+            "$ref": ""
+        },
+        "gain_voltageClamp": {
+            "$ref": ""
+        },
+        "electrodeCapacitanceCompensationFast": {
+            "$ref": ""
+        },
+        "electrodeCapacitanceCompensationSlow": {
+            "$ref": ""
+        },
+        "electrodeCapacitanceCompensationFastTime": {
+            "$ref": ""
+        },
+        "electrodeCapacitanceCompensationSlowTime": {
+            "$ref": ""
+        },
+        "wholeCellCapacitanceCompensationEnabled": {
+            "$ref": "",
+            "$comment": "NOTE: subschema should contain required properties wholeCellCapacitanceCompensationValue and wholeCellCapacitanceCompensationResistance if wholeCellCapacitanceCompensationEnabled is 'true' ",
+            "$comment": "added to allOf if-then list below"
+        },
+        "seriesResistanceCorrectionEnabled": {
+            "$ref": "",
+            "$comment": "NOTE: subschema should included required property seriesResistanceCorrectionValue AND seriesResistancePrediction AND seriesResistanceBandwidth if seriesResistanceCorrectionEnabled is 'true' ",
+            "$comment": "added to allOf if-then list below"
+        },
+        "outputLowPassFilterType_voltageClamp": {
+            "$ref": ""
+        },
+        "outputLowPassFilterCutoffFrequency_voltageClamp": {
+            "$ref": ""
+        },
+        "outputHighPassFilterType_voltageClamp": {
+            "$ref": ""
+        },
+        "outputHighPassFilterCutoffFrequency_voltageClamp": {
+            "$ref": ""
+        },
+        "holding": {
+            "$ref": ""
+        }
+    },
+    "additionalProperties": "",
+
+    "allOf": [
+        {
+            "if": {
+                "properties": {"bridgeBalanceEnabled": {"const": true}},
+                "required": ["bridgeBalanceEnabled"]
+            },
+            "then": {
+                "properties": {"bridgeBalanceValue": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"bridgeBalanceEnabled": {"const": true}},
+                "required": ["bridgeBalanceEnabled"]
+            },
+            "then": {
+                "properties": {"pipetteCapacitanceNeutralizationValue": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"fastCapacitanceCompensationEnabled": {"const": true}},
+                "required": ["fastCapacitanceCompensationEnabled"]
+            },
+            "then": {
+                "properties": {"fastCapacitanceCompensationValue": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"leakCurrentEnabled": {"const": true}},
+                "required": ["leakCurrentEnabled"]
+            },
+            "then": {
+                "properties": {"leakCurrentValue": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"wholeCellCapacitanceCompensationEnabled": {"const": true}},
+                "required": ["wholeCellCapacitanceCompensationEnabled"]
+            },
+            "then": {
+                "properties": {"wholeCellCapacitanceCompensationValue": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"wholeCellCapacitanceCompensationEnabled": {"const": true}},
+                "required": ["wholeCellCapacitanceCompensationEnabled"]
+            },
+            "then": {
+                "properties": {"wholeCellCapacitanceCompensationResistance": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"seriesResistanceCorrectionEnabled": {"const": true}},
+                "required": ["seriesResistanceCorrectionEnabled"]
+            },
+            "then": {
+                "properties": {"seriesResistanceCorrectionValue": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"seriesResistanceCorrectionEnabled": {"const": true}},
+                "required": ["seriesResistanceCorrectionEnabled"]
+            },
+            "then": {
+                "properties": {"seriesResistancePrediction": {"type": "number"}}
+            }
+        },
+        {
+            "if": {
+                "properties": {"seriesResistanceCorrectionEnabled": {"const": true}},
+                "required": ["seriesResistanceCorrectionEnabled"]
+            },
+            "then": {
+                "properties": {"seriesResistanceBandwidth": {"type": "number"}}
+            }
+        }
+    ],
+    
+    "$defs": {
+        "electrodeID": {},
+        "electrodeResistance": {"$comment": "enum of 3-7 megaohms?"},
+        "internalSolutionRecipe":{"$comment": "assign ID to ref above"},
+        "bridgeBalanceEnabled": {"$comment": "NOTE: bridgeBalanceEnabled subschema should contain if-then IF bridgeBalanceEnabled is 'true', THEN bridgeBalanceValue"},
+        "pipetteCapacitanceNeutralizationValue": {},
+        "fastCapacitanceCompensationEnabled": {"$comment": "NOTE: fastCapacitanceCompensationEnabled subschema should contain if-then IF fastCapacitanceCompensationEnabled is 'true' THEN fastCapacitanceCompensationValue"},
+        "leakCurrentEnabled": {"$comment": "NOTE: leakCurrentEnabled subschema should contain required property leakCurrentValue IF leakCurrentEnabled is 'true' "},
+        "gain_currentClamp": {},
+        "outputLowPassFilterType_currentClamp": {},
+        "outputLowPassFilterCutoffFrequency_currentClamp": {},
+        "outputHighPassFilterType_currentClamp": {},
+        "outputHighPassFilterCutoffFrequency_currentClamp": {},
+        "gain_voltageClamp": {},
+        "electrodeCapacitanceCompensationFast": {},
+        "electrodeCapacitanceCompensationSlow": {},
+        "electrodeCapacitanceCompensationFastTime": {},
+        "electrodeCapacitanceCompensationSlowTime": {},
+        "wholeCellCapacitanceCompensationEnabled": {"$comment": "NOTE: subschema should contain required properties wholeCellCapacitanceCompensationValue and wholeCellCapacitanceCompensationResistance if wholeCellCapacitanceCompensationEnabled is 'true' "},
+        "seriesResistanceCorrectionEnabled": {"$comment": "NOTE: subschema should included required property seriesResistanceCorrectionValue AND seriesResistancePrediction AND seriesResistanceBandwidth if seriesResistanceCorrectionEnabled is 'true' "},
+        "outputLowPassFilterType_voltageClamp": {},
+        "outputLowPassFilterCutoffFrequency_voltageClamp": {},
+        "outputHighPassFilterType_voltageClamp": {},
+        "outputHighPassFilterCutoffFrequency_voltageClamp": {},
+        "holding": {}
+    }
+}

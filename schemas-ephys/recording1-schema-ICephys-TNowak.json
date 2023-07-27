@@ -1,0 +1,16 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "EXTPSMOKET",
+    "description": "Metadata test sweep, stage 1 of 8 of recording session. Is defined by QC-check: electrodeZeroedBiasCurrent.",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "mode": {
+            "const": "voltageClamp"
+        }
+    },
+    "additionalProperties": "",
+    "$defs": {}
+}
