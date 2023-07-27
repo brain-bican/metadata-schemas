@@ -1,40 +1,93 @@
 {
-    "$id": "insert id here",
+    "$id": "",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
 
     "title": "subject",
     "description": "subject metadata for an IC Electrophysiology session during a Patch-seq experiment",
     "type": "object",
-    "required": [],
+    "required": ["Sample ID", "Sample Type", "species", "Species NCBI Taxonomy ID"],
     "properties": {
-        "subjectID": {"$comment": "might be only needed subject field if subjectID referenced includes species, subjectAge, subjectSex, subjectDateOfBirth",
-        "$ref": ""
+        "Sample ID": {
+            "$ref": "#/$defs/Sample ID"
         },
-        "species": {
-            "$ref": ""
+        "Sample Type": {
+            "$ref": "#/$defs/Sample Type"
         },
-        "subjectAge": {
-            "$ref": ""
+        "Species": {
+            "$ref": "#/$defs/species"
         },
-        "subjectSex": {
-            "$ref": ""
+        "Species NCBI Taxonomy ID": {
+            "$ref": "#/$defs/Species NCBI Taxonomy ID"
         },
-        "subjectDateOfBirth": {
-            "$ref": ""
+        "Subject Age": {
+            "$ref": "#/$defs/subjectAge"
         },
-        "specimenID": {"$comment": "does specimenID include genotype, creLine, reporterStatus?",
-            "$ref": ""
+        "Subject Sex": {
+            "$ref": "#/$defs/subjectSex"
         },
-        "genotype": {
-            "$ref": ""
+        "Subject Date of Birth": {
+            "$ref": "#/$defs/subjectDateOfBirth"
         },
-        "creLine": {
-            "$ref": ""
+        "Specimen ID": {"$comment": "does specimenID include genotype, creLine, reporterStatus?",
+            "$ref": "#/$defs/specimenID"
         },
-        "reporterStatus": {
-            "$ref": ""
+        "Genotype": {
+            "$ref": "#/$defs/genotype"
+        },
+        "Cre Line": {
+            "$ref": "#/$defs/creLine"
+        },
+        "Reporter Status": {
+            "$ref": "#/$defs/reporterStatus"
         }
     },
     "additionalProperties": "",
-    "$defs": {}
+
+    "$defs": {
+        "Sample ID": {
+            "type": "string",
+            "description": "The unique identifier of the biological sample"
+        },
+        "Sample Type": {
+            "type": "string",
+            "description": "The specimen type of the biological sample. See Specimen Types in the Controlled Vocabulary."
+        },
+        "species": {
+            "enum": ["mouse", "human"],
+            "description": "Common english name for the species of the sample."
+        },
+        "Species NCBI Taxonomy ID": {
+            "type": "string",
+            "description": "The unique identifier for the species of the sample."
+        },
+        "subjectAge": {
+            "type": "string",
+            "description": "Age of the donor subject when the sample was taken. Add a value and units, (e.g. '8w'; 'P56')"
+        },
+        "subjectSex": {
+            "type": "string",
+            "description": "Sex of the subject"
+        },
+        "subjectDateOfBirth": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of birth of subject. Can be supplied instead of 'age'."
+        },
+        "specimenID": {
+            "type": "string",
+            "description": "The unique identifier of the parent specimen associated with this sample."
+        },
+        "genotype": {
+            "type": "string",
+            "description": "Genotype of the animal as 'allele1/allele2;allele3/allele4'."
+        },
+        "creLine": {
+            "type": "string",
+            "description": "Reporter gene; modified part of the mouse genome to target a certain cell type."
+        },
+        "reporterStatus": {
+            "type": "string",
+            "description": "Cre+ (positive =  fluorescent label) or Cre- (negative = no flourescent label)."
+        }
+    }
 }
