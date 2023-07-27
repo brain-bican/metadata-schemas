@@ -1,6 +1,7 @@
 {
     "$id": "",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "schema_version": "",
 
     "title": "subject",
     "description": "subject metadata for an IC Electrophysiology session during a Patch-seq experiment",
