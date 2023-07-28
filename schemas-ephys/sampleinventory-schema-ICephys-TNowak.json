@@ -6,7 +6,7 @@
     "title": "sample inventory",
     "description": "sample inventory metadata for an IC Electrophysiology session during a Patch-seq experiment. Source: BCDC Sample Inventory Metadata Template.",
     "type": "object",
-    "required": ["modality", "technique", "organization", "investigator", "grantNumber", "dataCollection", "R24Name", "metadataSubmission"],
+    "required": ["modality", "technique", "organization", "investigator", "dataCollection", "R24Name", "metadataSubmission"],
     "properties": {
         "modality": {
             "$ref": "#/$defs/modality"
@@ -28,9 +28,6 @@
         },
         "investigator": {
             "$ref": "#/$defs/investigator"
-        },
-        "grantNumber": {
-            "$ref": "#/$defs/grantNumber"
         },
         "dataCollection": {
             "$ref": "#/$defs/dataCollection" 
@@ -79,10 +76,6 @@
         "investigator": {
             "type": "string",
             "description": "Name of investigator conducting experiment."
-        },
-        "grantNumber": {
-            "type": "string",
-            "description": "Identification number of the grant supporting this effort. See Controlled Vocabulary."
         },
         "dataCollection": {
             "$ref": "ref a Collection schema ID here?",
