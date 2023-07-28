@@ -1,0 +1,58 @@
+{
+    "$id": "",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "schema_version": "",
+
+    "title": "collection",
+    "description": "metadata for a data collection belonging to a Patch-seq project. Source: project-registration-biccn",
+    "type": "object",
+    "required": ["name", "title", "shortTitle", "description", "dataArchive", "species", "accessControl", "completionState", "modality", "technique"],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Human readable, locally unique identifier"
+        },
+        "title": {
+            "type": "string",
+            "description": "Long form title of the collection"
+        },
+        "shortTitle": {
+            "type": "string",
+            "description": "Short form title of the collection. Should be <30 characters."
+        },
+        "description": {
+            "type": "string",
+            "description": "Description of the collection. Specify license application here."
+        },
+        "dataArchive": {
+            "$ref": " ",
+            "description": "Archive at which data will be deposited."
+        },
+        "species": {
+            "enum": ["mouse", "human"],
+            "description": "Common english name of species of the donor from which data were collected. See species Controlled Vocabulary."
+        },
+        "accessControl": {
+            "enum": ["open", "controlled"],
+            "description": "Level of acess specified for data in collection. See accessControl Controlled Vocabulary."
+        },
+        "completionState": {
+            "enum": ["complete", "in progress"],
+            "description": "Whether or not additional data is being generated for this collection. See completionState Controlled Vocabulary."
+        },
+        "modality": {
+            "enum": ["cell morphology", "electrophysiology", "spatial transcriptomics", "transcriptomics"],
+            "description": "Defines modality of the data in this collection. See modality Controlled Vocabulary."
+        },
+        "technique": {
+            "const": "Patch-seq",
+            "description": "Technique used to acquire data in this collection. See technique Controlled Vocabulary."
+        },
+        "webResource": {
+            "type": "string",
+            "description": "Links to relevant tools/pages to data collection."
+        }
+    },
+
+    "additionalProperties": ""
+}

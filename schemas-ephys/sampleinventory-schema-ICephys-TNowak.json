@@ -1,0 +1,109 @@
+{
+    "$id": "",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "schema_version": "",
+
+    "title": "sample inventory",
+    "description": "sample inventory metadata for an IC Electrophysiology session during a Patch-seq experiment. Source: BCDC Sample Inventory Metadata Template.",
+    "type": "object",
+    "required": ["modality", "technique", "organization", "investigator", "grantNumber", "dataCollection", "R24Name", "metadataSubmission"],
+    "properties": {
+        "modality": {
+            "$ref": "#/$defs/modality"
+        },
+        "technique": {
+            "$ref": "#/$defs/technique"
+        },
+        "anatomicalStructure": {
+            "$ref": "#/$defs/anatomicalStructure"
+        },
+        "subspecimenType": {
+            "$ref": "#/$defs/subspecimenType"
+        },
+        "totalProcessedSubspecimens": {
+            "$ref": "#/$defs/totalProcessedSubspecimens"
+        },
+        "organization": {
+            "$ref": "#/$defs/organization"
+        },
+        "investigator": {
+            "$ref": "#/$defs/investigator"
+        },
+        "grantNumber": {
+            "$ref": "#/$defs/grantNumber"
+        },
+        "dataCollection": {
+            "$ref": "#/$defs/dataCollection" 
+        },
+        "R24Name": {
+            "$ref": "#/$defs/R24Name"
+        },
+        "R24Link": {
+            "$ref": "#/$defs/R24Link"
+        },
+        "comments": {
+            "$ref": "#/$defs/comments"
+        },
+        "metadataSubmission": {
+            "$ref": "#/$defs/metadataSubmission"
+        }
+    },
+    
+    "additionalProperties":"",
+
+    "$defs": {
+        "modality":{
+            "type": "string",
+            "description": "Name of data modality. Used to categorize data at a high level. See Controlled Vocabulary."
+        },
+        "technique": {
+            "type": "string",
+            "description": "Differentiates between  data types within a modality. See Controlled Vocabulary."
+        },
+        "anatomicalStructure": {
+            "type": "string",
+            "description": "Name of anatomical structure from which sample was obtained. See Controlled Vocabulary."
+        },
+        "subspecimenType": {
+            "type": "string",
+            "description": "Type of subspecimen counted. Use the Specimen Types in the Controlled Vocabulary."
+        },
+        "totalProcessedSubspecimens": {
+            "type": "number",
+            "description": "Total number of quality-controlled subspecimens from this sample (e.g., #cells from a sample; if there are no subspecimens, may be =1)"
+        },
+        "organization": {
+            "type": "string",
+            "description": "Full name of originating organization. See Controlled Vocabulary."
+        },
+        "investigator": {
+            "type": "string",
+            "description": "Name of investigator conducting experiment."
+        },
+        "grantNumber": {
+            "type": "string",
+            "description": "Identification number of the grant supporting this effort. See Controlled Vocabulary."
+        },
+        "dataCollection": {
+            "$ref": "ref a Collection schema ID here?",
+            "type": "string",
+            "description": "BCDC code for project that describes a given dataset; reflects grouping of data for reporting purposes. See Controlled Vocabulary."
+        },
+        "R24Name": {
+            "type": "string",
+            "description": "Name of R24 archive that has received the files associated with this sample. See Controlled Vocabulary."
+        },
+        "R24Link": {
+            "type": "string",
+            "description": "Direct link to publicly accessible dataset at the R24 archive. If unknown, leave blank."
+        },
+        "comments": {
+            "type": "string",
+            "description": "Lab provided information that may be useful for describing the sample or experiment."
+        },
+        "metadataSubmission": {
+            "type": "string",
+            "description": "Year and Quarter of initial metadata submission for a sample."
+        }
+    }
+}
