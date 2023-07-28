@@ -1,0 +1,78 @@
+{
+    "$id": "",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "schema_version": "",
+
+    "title": "project",
+    "description": "metadata for a Patch-seq project. Source: project-registration-biccn",
+    "type": "object",
+    "required": ["name", "title", "shortTitle", "description", "contact", "creator", "contributor", "fundingSource", "subprogram", "license"],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Human readable, locally unique identifier"
+        },
+        "title": {
+            "type": "string",
+            "description": "Long form project title"
+        },
+        "shortTitle": {
+            "type": "string",
+            "description": "Short form project title"
+        },
+        "description": {
+            "type": "string",
+            "description": "Long form description"
+        },
+        "collections": {
+            "type": "array",
+            "description": "List of data collection names"
+        },
+        "contact": {
+            "type": "string",
+            "description": "Primary contact, usually a person, but can also be an institution",
+            "examples": [
+                "Jane Doe",
+                "Allen Institute"
+            ]
+        },
+        "creator": {
+            "type": "string",
+            "description": "Creator of project, can be person(s) or institution(s)",
+            "examples": [
+                "Jane Doe",
+                "Allen Institute"
+            ]
+        },
+        "contributor": {
+            "type": "string",
+            "description": "List of person contributors to be attributed in citation"
+        },
+        "fundingSource": {
+            "enum": [],
+            "description": "See grant Controlled Vocabulary"
+        },
+        "highlightedWebResource": {
+            "type": "string",
+            "description": "Links to relevant tools/pages to view data, can be from data collections' links"
+        },
+        "protocol": {
+            "type": "array",
+            "description": "List of links to protocol documents, usually from protocol.io"
+        },
+        "subprogram": {
+            "enum": [],
+            "description": "Subprogram to which this project belongs. See subprogram Controlled Vocabulary."
+        },
+        "publication": {
+            "type": "string",
+            "description": "DOI, not currently in use"
+        },
+        "license": {
+            "enum": [],
+            "description": "License applied to the data in each collection in this project. See license Controlled Vocabulary."
+        }
+    },
+
+    "additionalProperties": ""
+}
