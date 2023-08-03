@@ -1,0 +1,53 @@
+{
+    "$id": "insert id here",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "Test Sweep metadata",
+    "description": "Metadata collected from test sweep process stages during an IC electrophysiology acquisition recording",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "EXTPSMOKET": {
+            "type": "object",
+            "title": "Smoke Test",
+            "properties": {}
+        },
+        "EXTPINBATH": {
+            "type": "object",
+            "title": "In Bath",
+            "properties": {}
+        },
+        "EXTPCIIATT": {
+            "type": "object",
+            "title": "Cell Attached",
+            "properties": {}
+        },
+        "EXTPBREAKN": {
+            "type": "object",
+            "title": "Whole Cell, beginning",
+            "properties": {}
+        },
+        "EXTPRSCHEK": {
+            "type": "object",
+            "title": "Whole Cell, checkpoint",
+            "properties": {}
+        },
+        "EXTPEXPEND": {
+            "type": "object",
+            "title": "Whole Cell, end",
+            "properties": {}
+        },
+        "EXTPGGAEND": {
+            "type": "object",
+            "title": "After Pull-off",
+            "properties": {}
+        },
+        "EXTPBLWOUT": {
+            "type": "object",
+            "title": "Electrode Drift",
+            "properties": {}
+        }
+    },
+    "additionalProperties": "",
+    "$defs": {}
+}
