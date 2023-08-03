@@ -15,17 +15,25 @@
         "EXTPINBATH": {
             "type": "object",
             "title": "In Bath",
-            "properties": {}
+            "properties": {
+                "electrodeZeroedBiasCurrent_Enabled": {"type": "boolean"}
+            }
         },
         "EXTPCIIATT": {
             "type": "object",
             "title": "Cell Attached",
-            "properties": {}
+            "properties": {
+                "tightSealResistance": {"type": "number"}
+            }
         },
         "EXTPBREAKN": {
             "type": "object",
             "title": "Whole Cell, beginning",
-            "properties": {}
+            "properties": {
+                "restingMembranePotential": {"type": "number"},
+                "initialAccessResistance": {"type": "number"},
+                "inputResistance": {"type": "number"}
+            }
         },
         "EXTPRSCHEK": {
             "type": "object",
