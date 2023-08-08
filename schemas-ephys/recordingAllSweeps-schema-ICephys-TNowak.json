@@ -37,7 +37,7 @@
         },
         "EXTPRSCHEK": {
             "type": "object",
-            "title": "Whole Cell, checkpoint",
+            "title": "Whole Cell, optional checkpoint",
             "properties": {}
         },
         "EXTPEXPEND": {
