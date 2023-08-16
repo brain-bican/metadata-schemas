@@ -7,23 +7,77 @@
     "type": "object",
     "required": [],
     "properties": {
-        "EXTPSMOKET": {
+        "Session":{
+            "data":,
+            "description":,
+            "electrode_id":,
+            "device_id":
+        },
+        "PREPARATION": {
             "type": "object",
-            "title": "Smoke Test",
-            "properties": {}
+            "title": "Preparation",
+            "properties": {
+                "capacitance_fast":,
+                "capacitance_slow ":,
+                "Fast compensation capacitance":,
+                "Slow compensation capacitance":,
+                "Fast compensation time":,
+                "Slow compensation time":,
+                "DA Gain":,
+                "AD Gain":,
+                "V-Clamp Holding Enable":,
+                "V-Clamp Holding Level":,
+                "RsComp Bandwidth":,
+                "RsComp Correction":,
+                "RsComp Enable":,
+                "RsComp Prediction":,
+                "Whole Cell Comp Enable":,
+                "Whole Cell Comp Cap":,
+                "Whole Cell Comp Resist":,
+                "Membrane cap":,
+                "Series Resistance":,
+                "Pipette Offset":,
+                "High precision sweep start":,
+                "Bath Temperature":,
+                "gain":,
+                "offset":,
+                "rate":,
+                "resolution":,
+                "starting_time":,
+                "starting_time_unit":,
+                "stimulus_description":,
+                "sweep_number":,
+                "unit"
+            }
         },
         "EXTPINBATH": {
             "type": "object",
             "title": "In Bath",
             "properties": {
-                "electrodeZeroedBiasCurrent_Enabled": {"type": "boolean"}
+                "electrodeZeroedBiasCurrent_Enabled": {"type": "boolean"},
+                "High precision sweep start":,
+                "Pipette Offset":,
+                "rate":,
+                "starting_time":,
+                "starting_time_unit":,
+                "stimulus_description":,
+                "sweep_number":,
+                "unit"
             }
         },
         "EXTPCIIATT": {
             "type": "object",
             "title": "Cell Attached",
             "properties": {
-                "tightSealResistance": {"type": "number"}
+                "tightSealResistance": {"type": "number"},
+                "V-Clamp Holding Enable":,
+                "High precision sweep start":,
+                "rate":,
+                "starting_time":,
+                "starting_time_unit":,
+                "stimulus_description":,
+                "sweep_number":,
+                "unit"
             }
         },
         "EXTPBREAKN": {
@@ -32,7 +86,14 @@
             "properties": {
                 "restingMembranePotential": {"type": "number"},
                 "initialAccessResistance": {"type": "number"},
-                "inputResistance": {"type": "number"}
+                "inputResistance": {"type": "number"},
+                "High precision sweep start":,
+                "rate":,
+                "starting_time":,
+                "starting_time_unit":,
+                "stimulus_description":,
+                "sweep_number":,
+                "unit"
             }
         },
         "EXTPRSCHEK": {
@@ -43,16 +104,19 @@
         "EXTPEXPEND": {
             "type": "object",
             "title": "Whole Cell, end",
-            "properties": {}
+            "properties": {
+                "High precision sweep start":,
+                "rate":,
+                "starting_time":,
+                "starting_time_unit":,
+                "stimulus_description":,
+                "sweep_number":,
+                "unit"   
+            }
         },
         "EXTPGGAEND": {
             "type": "object",
             "title": "After Pull-off",
-            "properties": {}
-        },
-        "EXTPBLWOUT": {
-            "type": "object",
-            "title": "Electrode Drift",
             "properties": {}
         }
     },
