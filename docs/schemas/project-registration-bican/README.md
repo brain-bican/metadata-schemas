@@ -191,7 +191,7 @@ The following table describes the Data Collection Metadata. If an entry in the t
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Species CV]</td>
+      <td>[Species CV](/docs/schemas/project-registration-bican/controlled-vocabularies/species-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>
@@ -218,7 +218,7 @@ The following table describes the Data Collection Metadata. If an entry in the t
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Access Control CV]</td>
+      <td>[Access Control CV](/docs/schemas/project-registration-bican/controlled-vocabularies/accessControl-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>
@@ -299,7 +299,7 @@ The following table describes the Data Collection Metadata. If an entry in the t
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Completion State CV]</td>
+      <td>[Completion State CV](/docs/schemas/project-registration-bican/controlled-vocabularies/completionState-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>
@@ -326,7 +326,7 @@ The following table describes the Data Collection Metadata. If an entry in the t
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Modality CV]</td>
+      <td>[Modality CV](/docs/schemas/project-registration-bican/controlled-vocabularies/modality-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>
@@ -353,7 +353,7 @@ The following table describes the Data Collection Metadata. If an entry in the t
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Technique CV]</td>
+      <td>[Technique CV](/docs/schemas/project-registration-bican/controlled-vocbularies/technique-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>
@@ -380,7 +380,7 @@ The following table describes the Data Collection Metadata. If an entry in the t
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[License CV]</td>
+      <td>[License CV](/docs/schemas/project-registration-bican/controlled-vocabularies/license-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>
@@ -748,7 +748,7 @@ The following table describes the Person Metadata. If an entry in the table is e
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Subprogram CV]</td>
+      <td>[Subprogram CV](/docs/schemas/project-registration-bican/controlled-vocabularies/subprogram-cv.csv</td>
     </tr>
 </tbody></table>
 <br>
@@ -856,7 +856,7 @@ The following table describes the Person Metadata. If an entry in the table is e
     </tr>    
     <tr>
       <th>Permissible Values</th>
-      <td>[Grant CV]</td>
+      <td>[Grant CV](/docs/schemas/project-registration-bican/controlled-vocabularies/grant-cv.csv)</td>
     </tr>
 </tbody></table>
 <br>

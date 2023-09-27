@@ -1,70 +1,70 @@
-﻿subprogram
-ACTD
-ADMBA
-AHBA
-AMBA
-AMBCA
-ASCA
-BrainSpan
-IvyGBM
-MICrONSEM
-NHP
-R24 Ghosh
-R24 Hertzano
-R24 Ropelewski
-R24 White
-RF1 Adey
-RF1 Boyden
-RF1 Cai
-RF1 Chung
-RF1 Fan
-RF1 Hawrylycz
-RF1 Hillman
-RF1 Huang
-RF1 Iglesias Gonzalez
-RF1 Kim
-RF1 Laskin
-RF1 Lee
-RF1 Macosko
-RF1 Mitra
-RF1 Mitra Zhang
-RF1 Mueller
-RF1 Mukamel
-RF1 Nowakowski
-RF1 Regev
-RF1 Reid
-RF1 Ren
-RF1 Roussos
-RF1 Shepherd
-RF1 Shi
-RF1 Tasic
-RF1 Tilgner
-RF1 Vogelstein
-RF1 Welch
-RF1 Yang
-RF1 Yin
-SEA-AD
-SynPhys
-TBI
-TransChar
-U01 Chung
-U01 Dong
-U01 Ecker
-U01 Feng
-U01 Fischl
-U01 Kriegstein
-U01 Lein
-U01 Macosko
-U01 Osten
-U01 Sestan
-U01 Snyder-Mackler
-U01 Yang
-U01 ZhangKun
-U01 ZhangLi
-U19 Ecker
-U19 Huang
-U19 Zeng
-U24 Hawrylycz
-UF1 Tasic
-VisualBehavior
-VisualCoding
+﻿subprogram,ID
+ACTD,
+ADMBA,
+AHBA,
+AMBA,
+AMBCA,
+ASCA,
+BrainSpan,
+IvyGBM,
+MICrONSEM,
+NHP,
+R24 Ghosh,
+R24 Hertzano,
+R24 Ropelewski,
+R24 White,
+RF1 Adey,
+RF1 Boyden,
+RF1 Cai,
+RF1 Chung,
+RF1 Fan,
+RF1 Hawrylycz,
+RF1 Hillman,
+RF1 Huang,
+RF1 Iglesias Gonzalez,
+RF1 Kim,
+RF1 Laskin,
+RF1 Lee,
+RF1 Macosko,
+RF1 Mitra,
+RF1 Mitra Zhang,
+RF1 Mueller,
+RF1 Mukamel,
+RF1 Nowakowski,
+RF1 Regev,
+RF1 Reid,
+RF1 Ren,
+RF1 Roussos,
+RF1 Shepherd,
+RF1 Shi,
+RF1 Tasic,
+RF1 Tilgner,
+RF1 Vogelstein,
+RF1 Welch,
+RF1 Yang,
+RF1 Yin,
+SEA-AD,
+SynPhys,
+TBI,
+TransChar,
+U01 Chung,
+U01 Dong,
+U01 Ecker,
+U01 Feng,
+U01 Fischl,
+U01 Kriegstein,
+U01 Lein,
+U01 Macosko,
+U01 Osten,
+U01 Sestan,
+U01 Snyder-Mackler,
+U01 Yang,
+U01 ZhangKun,
+U01 ZhangLi,
+U19 Ecker,
+U19 Huang,
+U19 Zeng,
+U24 Hawrylycz,
+UF1 Tasic,
+VisualBehavior,
+VisualCoding,
