@@ -504,7 +504,6 @@ The following table describes the Organization Metadata. If an entry in the tabl
 The data in Person Metadata is the metadata essential for registering, tracking, and storing data about persons. 
 
 The following table describes the Person Metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond ones listed.
-
 ### person name
 
 <table><tbody>
@@ -533,7 +532,6 @@ The following table describes the Person Metadata. If an entry in the table is e
 <br>
 
 ### person given name
-
 
 <table><tbody>
     <tr>
@@ -616,6 +614,361 @@ The following table describes the Person Metadata. If an entry in the table is e
 
 ## Project Metadata
 
+The data in Person Metadata is the metadata essential for registering, tracking, and storing data about persons. 
+
+The following table describes the Person Metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond ones listed.
+
+### project name
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A human readable, locally unique identifier that denotes a project.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a0d7797f-aaf1-4d3e-8289-51a94237b9c8</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project title
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project title</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A long form project title.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>34e55bb4-17db-4b7f-bd7d-7272ffe1c9f2</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project short title
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project short title</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A short form project title.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>216cc403-423a-4b43-b935-b9b61dbb8a26</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project description
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project description</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A long form project description. </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>c51e8c8d-d62b-4b79-843b-a3a6810fe709</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project subprogram
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project subprogram</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>enum</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A subprogram to which a project belongs.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>cfd9d928-673a-428a-b5f0-c04e2fdd8ec9</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td>[Subprogram CV]</td>
+    </tr>
+</tbody></table>
+<br>
+
+### project contact
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project contact</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A primary contact for a project. This is typically a person but can also be an institution.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>62381d66-c414-4fe9-8b07-0a00ee855e71</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project creator
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project creator</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A creator of a project. This is either a person or institution.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>34c891d4-d721-4023-bbf9-06b84f6a93cc</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project contributor
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project contributor</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A contributor to a project. This is often given as a list.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>8a1a747c-c24d-451a-9168-ed14d274a97c</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project funding source
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project funding source</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>enum</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>The funding source for a project.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3f85bc4b-2e03-426e-b376-4607fc9515e3</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td>[Grant CV]</td>
+    </tr>
+</tbody></table>
+<br>
+
+### project collections
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project collections</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>enum</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>The data collections that are part of a project.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>66093eb6-fdaf-4782-8dba-23f6575254d8</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td>[Data Collection CV]</td>
+    </tr>
+</tbody></table>
+<br>
+
+### project highlighted web resource
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project highlighted web resource</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A link to relevant tools/pages of a project.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>2bb2472b-73b7-426b-adb2-739924a0751b</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project protocol
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project protocol</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A protocol for a project.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3e80809a-de1a-4333-98a9-f19549fda246</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### project publication
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>project publication</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A publication associated with a project.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>52d1b518-37e0-4b69-b1d8-36d1ff437376</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+ 
 ## Controlled Vocabularies
 
 ## Appendix
