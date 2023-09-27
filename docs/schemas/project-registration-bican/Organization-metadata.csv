@@ -1,3 +1,3 @@
-﻿Field,DataType,Required,Description
-name, String,Y,"Human readable, locally unique identifier"
-ror, String,N,Research Organization Registry ID
+﻿Proposed BICAN Field Name,BICAN UUID,Label,Variable (short) name,definition,short description,human readable label,is_required,permissible values,data type,version,version date,sub domain name,domain name,size,min value,max value,measurement type
+organization name,3788d44f-8383-4707-845d-bb8289815b32,name,,"A human-readable, locally unique label that identifies a organization. ","Human readable, locally unique identifier",,Y,, String,1,27-09-2023,Organization Metadata,Projects and Data Collections,,,,
+organization Research Organization Registry ID,3fd3913c-0e36-4fe0-ac99-073f496c0919,ror,,A Research Organization Registry ID that identifies an organization. ,Research Organization Registry ID,,N,, String,1,27-09-2024,Organization Metadata,Projects and Data Collections,,,,

@@ -34,7 +34,6 @@ This document has the following sections:
 The data in Data Collection Metadata is the metadata essential for registering, tracking, and storing data collections. 
 
 The following table describes the Data Collection Metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond ones listed. 
-
 ### data collection name
 
 <table><tbody>
@@ -441,6 +440,64 @@ The following table describes the Data Collection Metadata. If an entry in the t
 <br>
 
 ## Organization Metadata
+
+The data in Organization Metadata is the metadata essential for registering, tracking, and storing organizational data. 
+
+The following table describes the Organization Metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond ones listed.
+
+### organization name
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>organization name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A human-readable, locally unique label that identifies a organization. </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3788d44f-8383-4707-845d-bb8289815b32</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### organization Research Organization Registry ID
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>organization Research Organization Registry ID</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A Research Organization Registry ID that identifies an organization.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>3fd3913c-0e36-4fe0-ac99-073f496c0919</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
 
 ## Person Metadata
 
