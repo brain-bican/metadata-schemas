@@ -1,0 +1,14 @@
+mapping_set_id: https://brain-bican/metadata/mapping/mouse_gene_mapping_v0.0.0.csv
+license: https://creativecommons.org/licenses/by/4.0/
+mapping_set_version: "2023-06-30"
+mapping_set_description: "Curated mapping of NCBIGene to ENSMBL. This is to be used for mapping across gene ID systems within mus musculus (NCBITaxon:10090)."
+object_source: NCBIGene
+subject_source: Ensembl
+curie_map:
+  NCBIGene: https://www.ncbi.nlm.nih.gov/gene/
+  Ensembl: https://www.ensembl.org/id/
+  brain-bican: https://brain-bican.org/metadata
+  sempav: https://w3id.org/semapv/
+  skos: http://www.w3.org/2004/02/skos/core#
+  sssom: https://w3id.org/sssom/
+  orcid: https://orcid.org/
