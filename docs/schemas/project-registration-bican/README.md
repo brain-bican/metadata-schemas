@@ -501,6 +501,119 @@ The following table describes the Organization Metadata. If an entry in the tabl
 
 ## Person Metadata
 
+The data in Person Metadata is the metadata essential for registering, tracking, and storing data about persons. 
+
+The following table describes the Person Metadata. If an entry in the table is empty, the schema does not have any other requirements on data in those layers beyond ones listed.
+
+### person name
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>person name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A full name of a person in [given name],[family name] format.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>da5203bf-0202-4cd0-b0c2-5cc05806e2e4</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### person given name
+
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>person given name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A given name of a person.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>2354176f-40f2-4110-98d9-0c203314bfde</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### person family name
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>person family name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>A family name of a person.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>f5d8f1a3-ce30-45eb-ac26-13a8998c2f5a</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### person ORCID
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>person ORCID</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>string</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>An ORCID that identifies a person.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e834467e-a05e-4b9f-8348-5c0079bdaac8</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
 ## Project Metadata
 
 ## Controlled Vocabularies
