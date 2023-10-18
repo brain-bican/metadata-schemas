@@ -1,7 +1,0 @@
-﻿Field Name,Full Field Name,Definition/Description ,Data Example,Identifier/Metadata,Data Type,Required/Optional,Required for Alignment,Project/Institution,Editor,Other Notes
-batch_tube_name,Batch Tube Name,tube name provided by SeqCore,SQ_MX2042,Identifier,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,
-Library_Lab_Batch_name,Library Lab Batch Name,"Library lab’s batch name, logged at Seq Core",MTX-2042,Identifier,Text,Required,,UM1 Lein (HMBA),Kimberly Smith,
-tube_contents_nm,,conc of library pool,10,Metadata,Integer,Required,,UM1 Lein (HMBA),Kimberly Smith,
-tube_input_fmol,,mfol library pool,473,Metadata,Integer,Optional,,UM1 Lein (HMBA),Kimberly Smith,
-tube_avg_size_bp,,average insert size of library pool,474,Metadata,Integer,Required,,UM1 Lein (HMBA),Kimberly Smith,
-,,,,,,,,,,
