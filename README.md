@@ -41,8 +41,9 @@ Here are the BICAN metadata schemas and their statuses.
 | Schema | Version | Release | Status |
 |:--|:--|:--|:--|
 | [Donor-to-Alignment Metadata] | [v1.0.0] |  [2023-03-31] | Accepted by MOWG |
-| [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Under MOWG Review
-| [Projects and Data Collections Metadata] | [v1.0.0] | [2023-09-27] | Under MOWG Review
+| [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Under MOWG Review |
+| [Projects and Data Collections Metadata] | [v1.0.0] | [2023-09-27] | Under MOWG Review |
+| [Library Minimal Metadata] | [v1.0.0] | [2023-09-09] | Under MOWG Review |
 | | | | |
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
@@ -50,9 +51,13 @@ Here are the BICAN metadata schemas and their statuses.
 [2023-03-31]: https://github.com/brain-bican/metadata-schemas/releases
 
 [Human Donor Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Human-Donor-Metadata
-[v0.0.3]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
+[v1.0.0]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
 [2023-04-01]: https://github.com/brain-bican/metadata-schemas/releases
 
 [Projects and Data Collection Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/project-registration-bican
 [v1.0.0]: http://github.com/brain-bican/metadata-schemas/docs/schemas/project-registration-bican/README.md
 [2023-09-27]: http://github.com/brain-bican/metadata-schemas/releases
+
+[Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
+[v1.0.0]: docs/schemas/Library-Minimal-Metadata-README.md
+[2023-09-09]: https://github.com/brain-bican/metadata-schemas/releases
