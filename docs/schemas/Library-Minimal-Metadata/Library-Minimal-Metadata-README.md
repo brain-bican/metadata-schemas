@@ -738,27 +738,6 @@ This document has the following sections:
     </tr>    
 </tbody></table>
 <br>
-	
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>Read 2 sequencing index name</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-        <td><code>text</code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Name of the library index used for Read-2 sequence.  Indexes allow libraries to be pooled together for sequencing.  Sequencing output (fastq) are demultiplexed by using the indexes for each library.  The name will be associated with a oligo (string of bases).  The required direction of the sequence (sense or antisense) of the index can differ depending on sequencing instruments.  The lookup table will associate each R1/R2 index name with the required sequences needed by the SeqCores.</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>9f76b379-5551-487e-8d47-fa5167ae4c32</td>
-    </tr>    
-</tbody></table>
-<br>
 
 ## Pool Library
 
