@@ -1,6 +1,6 @@
 # Donor Metadata Schema
 
-Document Status: _Approved by MOWG_
+Document Status: _Approved by DEWG_
 
 Version: 1.0
 
