@@ -1,10 +1,12 @@
 # BICAN Library Minimal Metadata Schema
 
-Document Status: _Approved by MOWG_
+Document Status: _Approved by DEWG_
 
 Version: 1.0
 
-Owners: na.hong@yale.edu; Wenjin.J.Zheng@uth.tmc.edu
+Owners: Kimberly Smith; na.hong@yale.edu; Wenjin.J.Zheng@uth.tmc.edu
+
+Contributors: Kimberly Smith; Lydia Ng; Melissa Goldman; Cristina Guinto; Fenna Krienen; Suvvi Nadendla; Michelle Giglio; Chongyuan Luo; Joe Nery; Lei Chang; Lisa Anderson; Nick Fitzgerald; Cat Reeves; Jaime McClintock; Chris Frazar
 
 Reviewer: @patrick-lloyd-ray
 
