@@ -1,0 +1,4 @@
+﻿ID,Label,Code,Description
+,GEXOnly,,Method that generates only gene expression output (such as 10xV3.1 and 10xV3.1_HT)
+,ATACOnly,,Method that generates only ATAC output (such as ATACv2.0)
+,Multiome,,Method that generates both gene expression and ATAC output from the same samples (such as 10xMultiome)

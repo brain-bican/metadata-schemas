@@ -1,0 +1,5 @@
+﻿ID,Label,Code,Description
+,Pass,,Library Aliquot passed Alignment QA/QC. The fastq files should be released and included in resequencing events.
+,Fail-Flag,,Library Aliquot has failed alignment for some metrics for QA/QC and should be flagged in analysis. The fastq files should be released and included in resequencing events.
+,Fail-Withhold,,Library Aliquot has failed alignment QA/QC and should not be used in analysis. Fastq files should not be released nor used in resequencing events.
+,TBD,,Library Aliquot alignment QC Result has not yet been determined

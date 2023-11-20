@@ -1,0 +1,5 @@
+﻿ID,Label,Description
+,Pass,Library Prep passed the QA/QC
+,Fail,Library Prep failed the QA/QC
+,Low QC,Library Prep low passed the QA/QC
+,Not evaluated,Library Prep not evaluated for QA/QC
