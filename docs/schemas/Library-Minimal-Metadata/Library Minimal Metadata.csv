@@ -3,7 +3,7 @@ tissue sample label,2e4ca2fc-2d77-4d19-af45-d0fb7bbc2269,tissue name,,Identifier
 amplified cDNA label,e2606a11-114e-472f-9e05-33f9b6fc3089,amplified cdna name,,"Name of a collection of cDNA molecules derived and amplified from an input barcoded_cell_sample.  These cDNA molecules represent the gene expression of each cell, with all cDNA molecules from a given cell retaining that cell's unique barcode from the cell barcoding step.  This is a necessary step for GEX methods but is not used for ATAC methods.
 ",,,TRUE,,Text,1,9/9/23,Generate Library,Library Minimal Metadata,,,,
 amplified cDNA amplified quantity ng,0db79d05-8612-4896-b9d3-eb1558841449,amplified quantity ng,,"Amount of cDNA produced after cDNA amplification measured in nanograms
-",,,TRUE,,Integer,1,9/9/23,Generate Library,Library Minimal Metadata,,,,
+",,,TRUE,,Float,1,9/9/23,Generate Library,Library Minimal Metadata,,,,
 amplified cDNA PCR cycles,3827634c-3f8f-4760-b358-86ce4b030238,cDNA amplification cycles,,Number of PCR cycles used during cDNA amplification for this cDNA.,,,TRUE,,Integer,1,9/9/23,Generate Library,Library Minimal Metadata,,,,
 cDNA amplification process date,6cc333e7-9b98-497f-b7b1-eae904db2400,cDNA amplification date,,Date of cDNA amplification.,,,FALSE,,Date,1,9/9/23,Generate Library,Library Minimal Metadata,,,,
 amplified cDNA RNA amplification pass-fail,bc62bdb2-7dc8-4404-bb84-ce0bbcae59e5,cDNA amplification pass-fail result,,Pass or Fail result based on qualitative assessment of cDNA yield and size.,,,TRUE,,ValueSet,1,9/9/23,Generate Library,Library Minimal Metadata,,,,
