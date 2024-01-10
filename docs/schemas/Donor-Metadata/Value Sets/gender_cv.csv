@@ -1,0 +1,5 @@
+﻿ID,Label,Code,Description
+,Male,,The gender identity of male self-identified by the subject/participant.
+,Female,,The gender identity of female self-identified by the subject/participant.
+,Unknown,,"Not known, observed, recorded; or reported as unknown by the data contributor."
+,"Other, specify",,A gender identity of a type not included in this list. 
