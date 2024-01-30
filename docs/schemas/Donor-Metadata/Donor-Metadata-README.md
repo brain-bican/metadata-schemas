@@ -1,6 +1,6 @@
 # Donor Metadata Schema
 
-Document Status: _Approved by DEWG_
+Document Status: _Endorsed BICAN Standard_
 
 Version: 1.0
 
@@ -10,7 +10,7 @@ Reviewers: @patrick-lloyd-ray, @carolth, @rightbower
 
 License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Date Created: DD-MM-YYYY
+Date Created: 23-09-2023
 
 ## Overview
 
@@ -21,10 +21,10 @@ Note that there are additional fields in the metadata schema which are not expli
 This document has the following sections:
 
 * [General Requirements](#general-requirements)
-* [General Subject Fields](#general-subject-fields), which describes...
-* [General Specimen Data](#general-specimen-metadata), which describes metadata...
-* [Non-Brain Specimen Collected](#non-brain-specimen-collected), which describes metadata...
-* [Diagnoses](#diagnoses), which describes metadata...
+* [General Subject Fields](#general-subject-fields)
+* [General Specimen Data](#general-specimen-metadata)
+* [Non-Brain Specimen Collected](#non-brain-specimen-collected)
+* [Diagnoses](#diagnoses)
 * [Infant Medical History](#infant-medical-history)
 * [Perinatal Neurologic Events](#perinatal-neurologic-events)
 * [Family History](#family-history)
