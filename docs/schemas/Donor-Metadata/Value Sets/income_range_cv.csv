@@ -1,0 +1,10 @@
+﻿ID,Label,Code,Description
+,Under $15000,,Annual income under 15000 USD
+,$15000 to $24999,,Annual income between 15000 and 24999 USD
+,$25000 to $34999,,Annual income between 25000 and 34999 USD
+,$35000 to $49999,,Annual income between 35000 and 49999 USD
+,$50000 to $74999,,Annual income between 50000 and 74999 USD
+,$75000 to $99999,,Annual income between 75000 and 99999 USD
+,$100000 and over,,Annual income greater than 100000 USD
+,Refused,,
+,Unknown,,

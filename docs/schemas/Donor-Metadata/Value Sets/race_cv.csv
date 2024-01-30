@@ -1,0 +1,10 @@
+﻿ID,Label,Code,Description
+,American Indian or Alaska Native,C41259,A person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment. 
+,Asian,C41260,"A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent, including for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. "
+,Black or African American,C16352,"A person having origins in any of the Black racial groups of Africa. Terms such as ""Haitian"" or ""Negro"" can be used in addition to ""Black or African American"". "
+,Native Hawaiian or Other Pacific Islander,C41219,"A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. "
+,White,C41261,"A person having origins in any of the original peoples of Europe, the Middle East, or North Africa."
+,More than one race,C67109,Having ancestors of several or various races. 
+,Other Race,C104495,Individuals who do not necessarily identify with any particular race or others who do not wish to self select into a racial category(ies). 
+,Prefer not to Answer,C132222,A response indicating that an individual prefers or preferred not to answer. 
+,Unknown,C17998,"Not known, observed, recorded; or reported as unknown by the data contributor. "
