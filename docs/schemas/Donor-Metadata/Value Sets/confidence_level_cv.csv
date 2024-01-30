@@ -1,0 +1,4 @@
+﻿ID,Label,Code,Description
+,Confirmed Diagnosis,,Sufficient evidence exists to: 1) make a clinical diagnosis based on medical history and neuropathological exam or genetic data or 2) make a clinical diagnosis by the consensus of expert clinicians or 3) confirm the absence of any brain-related diagnoses (i.e. Unaffected Control)
+,Investigator Impression,,Diagnosis is based on the clinical impressions of the clinician reviewing the available information but that information is insufficient to render a confirmed diagnosis
+,Insufficient Data,,The available information is insufficient to form a reasonable impression of or to exclude any brain-related diagnoses
