@@ -1,0 +1,5 @@
+﻿Proposed BICAN Field Name,BICAN UUID,Label,Variable (short) name,definition,short description,human readable label,is_required,permissible values,data type,version,version date,sub domain name,domain name,size,min value,max value,measurement type
+person name,da5203bf-0202-4cd0-b0c2-5cc05806e2e4,name,,"A full name of a person in [given name],[family name] format.","Full name in Given name, Family name format",,Y,,String,1,27-09-2023,Person Metadata,Projects and Data Collections Metadata,,,,
+person given name,2354176f-40f2-4110-98d9-0c203314bfde,givenName,,A given name of a person. ,Given name,,Y,,String,1,27-09-2024,Person Metadata,Projects and Data Collections Metadata,,,,
+person family name,f5d8f1a3-ce30-45eb-ac26-13a8998c2f5a,familyName,,A family name of a person. ,Family name,,Y,,String,1,27-09-2025,Person Metadata,Projects and Data Collections Metadata,,,,
+person ORCID,e834467e-a05e-4b9f-8348-5c0079bdaac8,orcid,,An ORCID that identifies a person. ,ORCID Identifier,,N,,String,1,27-09-2026,Person Metadata,Projects and Data Collections Metadata,,,,
