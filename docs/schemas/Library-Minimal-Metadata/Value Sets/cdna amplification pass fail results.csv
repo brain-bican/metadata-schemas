@@ -1,0 +1,5 @@
+﻿ID,Label,Description
+,Pass,The RNA amplification passed the QA/QC
+,Fail,The RNA amplification failed the QA/QC
+,Low QC,The RNA amplification low passed the QA/QC
+,Not evaluated,Library Prep not evaluated for QA/QC

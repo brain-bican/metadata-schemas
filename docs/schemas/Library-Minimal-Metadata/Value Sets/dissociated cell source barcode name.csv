@@ -1,0 +1,23 @@
+﻿ID,Label,Code,Description
+,CMO301,ATGAGGAATTCCTGC,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO302,CATGCCAATAGAGCG,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO303,CCGTCGTCCAAGCAT,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO304,AACGTTAATCACTCA,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO305,CGCGATATGGTCGGA,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO306,AAGATGAGGTCTGTG,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO307,AAGCTCGTTGGAAGA,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO308,CGGATTCCACATCAT,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO309,GTTGATCTATAACAG,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO310,GCAGGAGGTATCAAT,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO311,GAATCGTGATTCTTC,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,CMO312,ACATGGTCAACGCTG,10x Cell Plex oligo tag for multiplexing tissue sources into a single 10x load.
+,2nt-001,CC,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,2nt-002,AA,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,2nt-003,GT,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,2nt-004,AT,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,3nt-001,AAT,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,3nt-002,TGC,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,3nt-003,TAG,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,3nt-004,GAA,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,3nt-005,AGA,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
+,3nt-006,CCA,Used in conjunction with Histone antibody to capture and tag separate subcomponents of the epigenome. Allows for pooling of enriched cell samples into a single 10x load.
