@@ -41,9 +41,9 @@ Here are the BICAN metadata schemas and their statuses.
 | Schema | Version | Release | Status |
 |:--|:--|:--|:--|
 | [Donor-to-Alignment Metadata] | [v1.0.0] |  [2023-03-31] | Accepted by MOWG |
-| [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Under MOWG Review |
+| [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
 | [Projects and Data Collections Metadata] | [v1.0.0] | [2023-09-27] | Under MOWG Review |
-| [Library Minimal Metadata] | [v1.0.0] | [2023-09-09] | Under MOWG Review |
+| [Library Minimal Metadata] | [v1.0.0] | [2023-09-09] | Endorsed BICAN Standard |
 | | | | |
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
