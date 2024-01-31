@@ -1,6 +1,6 @@
 # BICAN Library Minimal Metadata Schema
 
-Document Status: _Approved by DEWG_
+Document Status: _Endorsed BICAN Standard_
 
 Version: 1.0
 
@@ -33,10 +33,10 @@ To harmonize gaps among existing library construction processes, the Library Min
 This document has the following sections:
 
 * [General Requirements](#general-requirements)
-* [Recieve Sample](#recieve-sample), which describe...
-* [Generate Library](#generate-library), which describe...
-* [Pool Library](#pool-library), which describe...
-* [Delivery Library Pool](#deliver-library-pool), which describe...
+* [Recieve Sample](#recieve-sample)
+* [Generate Library](#generate-library)
+* [Pool Library](#pool-library)
+* [Delivery Library Pool](#deliver-library-pool)
 * [Appendix](#appendix)
 * [Changelog](#changelog)
 
