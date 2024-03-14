@@ -171,6 +171,33 @@ This document has the following sections:
 </tbody></table>
 <br>
 
+### Secondary Race
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>secondary_race</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>exclusive categorical</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td></td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>192fe5b1-c812-4767-86fb-3178f9914705</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
 ### Sex at Birth
 
 <table><tbody>
@@ -765,6 +792,60 @@ This document has the following sections:
 </tbody></table>
 <br>
 
+### HBCAC Confirmation Status
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>confirmed_hbcac</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>exclusive categorical</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td></td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>b6cdddf7-6f0b-4855-a0fa-16c2ab29f219</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### Consent Status
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>consent_status</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>exclusive categorical</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td></td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>1a53e733-276f-421a-850d-eb46e50db972</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
 ## General Specimen Data
 
 ### Hemisphere
@@ -1333,14 +1414,6 @@ This document has the following sections:
     </tr>
 </tbody></table>
 <br>
-
-
-
-
-
-
-
-
 
 
 ## Non-Brain Specimen Collected
@@ -2485,6 +2558,60 @@ This document has the following sections:
     <tr>
       <th>BICAN UUID</th>
       <td>ae11485d-dfc6-45fe-9d22-1d0bf7244d7c</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### Neuropathology Diagnosis Available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>neuropathology_diagnosis</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>text</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td></td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>87f6d251-e028-4480-9272-3497655fb9cd</td>
+    </tr>    
+    <tr>
+      <th>Permissible Values</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### Neuropathology Diagnosis Code
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>neuropathology_diagnosis_code</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>text</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td></td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>784e9cc1-7258-4535-a6d5-f7f9a4c2da4b</td>
     </tr>    
     <tr>
       <th>Permissible Values</th>
