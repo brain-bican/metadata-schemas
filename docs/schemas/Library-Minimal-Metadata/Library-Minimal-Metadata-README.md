@@ -2,7 +2,7 @@
 
 Document Status: _Endorsed BICAN Standard_
 
-Version: 1.0
+Version: 1.1
 
 Owners: Kimberly Smith; na.hong@yale.edu; Wenjin.J.Zheng@uth.tmc.edu
 
@@ -429,7 +429,7 @@ This document has the following sections:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td>Dissociated cell oligo tag name</td>
+      <td>dissociated cell oligo tag name</td>
     </tr>
     <tr>
       <th>Data Type</th>
@@ -443,6 +443,48 @@ This document has the following sections:
     <tr>
       <th>BICAN UUID</th>
       <td>184abbaf-baff-4b5f-b51e-dd38de6006af</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated cell source barcode name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>ValueSet</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Name of oligo used in cell plexing.  The oligo will tag allow separate dissociated cell samples to be combined downstream in the barcoded cell sample.  The oligo name is associated with a sequence in a lookup table.  This sequence will be needed to during analysis, after alignment, to associate reads with parent dissociated cell sample.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>0c8628d0-809b-458c-b4b3-686131dceef8</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>dissociated cell sample preparation date</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>Date</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Date of dissociated cell sample creation.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>c508b63d-a1b4-42de-9b22-9c4736deac6e</td>
     </tr>    
 </tbody></table>
 <br>
@@ -492,7 +534,7 @@ This document has the following sections:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td>Enrichment population</td>
+      <td>enrichment population</td>
     </tr>
     <tr>
       <th>Data Type</th>
@@ -506,6 +548,69 @@ This document has the following sections:
     <tr>
       <th>BICAN UUID</th>
       <td>875f1c70-f5aa-45e3-94b9-5e482f6c4830</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>enriched cell source barcode name</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>ValueSet</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Name of molecular barcode used to individual Enriched Cell Source to allow for pooling of Enriched Cell Sources before 10x load (Barcoding Cell step) [aka 1st round barcodes].</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>bdd5e2bf-c6fa-43e6-a5ac-6878fcf814d6</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>enriched cell sample preparation date</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>Date</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Date of enriched cell sample creation.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>e2fd2d84-3999-4cc4-8f41-e0e2a708f407</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>histone modification marker</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>Text</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Histone modification marker antibodies (eg H3K27ac, H3K27me3, H3K9me3) used in conjunction with an Enriched Cell Source Barcode in order to combine multiple Enriched Cell Populations before Barcoded Cell Sample step for 10xMultiome method.  Each of the Histone antibodies captures an essential part of the epigenome.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>a2ef2228-e438-4260-95e5-22eb3b35b5a9</td>
     </tr>    
 </tbody></table>
 <br>
@@ -740,6 +845,7 @@ This document has the following sections:
     </tr>    
 </tbody></table>
 <br>
+
 
 ## Pool Library
 
@@ -1081,6 +1187,61 @@ This document has the following sections:
 </tbody></table>
 <br>
 
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>library pool construction date</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>Date</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Date of library construction.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>ef950ca1-2a62-4fce-a826-6c27d94d3be3</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td>flowcell</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>text</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td></td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>4c8d7ac8-d3e3-4177-a93d-18ec2302c392</td>
+    </tr>    
+</tbody></table>
+<br>
+
+
 ## Appendix
 
 ## Changelog
+
+### Version 1.1
+
+#### Added
+
+- 1.1 dissociated_cell_sample_preparation_date
+- 1.1 dissociated_cell_sample_cell_label_barcode
+- 1.1 enriched_cell_sample_cell_label_barcode
+- 1.1 enriched_cell_sample_preparation_date
+- 1.1 histone_modification_marker
+- 1.1 library_pool_preparation_date
+- 1.1 flowcell
