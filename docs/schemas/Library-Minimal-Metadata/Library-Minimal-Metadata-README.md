@@ -30,6 +30,8 @@ Note that the requirements in the schema are just the minimum required informati
 
 To harmonize gaps among existing library construction processes, the Library Minimal Metadata (LMM) was developed through the consensus of domain experts, including biomedical researchers, experimenters, data analysts, and informaticians. LMM is a metadata standard that aims to facilitate the interoperation and reuse of essential information and enhance the value of library-related resources.
 
+This metadata standard was created through the work of the Library Minimal Metadata Task Force. A version of this metadata standard is available here: https://docs.google.com/spreadsheets/d/11V0aFRnlQFtnTVyuq2TomIgyNPXwC1Fe/edit#gid=1598277230
+
 This document has the following sections:
 
 * [General Requirements](#general-requirements)
