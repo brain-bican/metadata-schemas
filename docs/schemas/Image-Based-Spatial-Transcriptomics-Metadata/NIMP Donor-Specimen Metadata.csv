@@ -1,0 +1,13 @@
+Proposed BICAN Field Name,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Examples,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Notes
+tissue sample name,tissue_sample_local_name,Tissue Sample,Block of tissue that was used for further dissection and/or sectioning,FALSE,,text,,,,,categorical,Tracking/Identification,
+brain subdivision,brain_slab/brain_subdivision,Tissue Sample,The subdivision of the brain the tissue sample belongs to,TRUE,[brain_subdivision],ValueSet,cerebrum,,,,categorical,,
+brain hemisphere,brain_slab/slab_hemisphere,Tissue Sample,The hemisphere of the brain the slab belongs to,TRUE,[hemisphere],ValueSet,right,,,,categorical,,
+tissue sample type,,Tissue Sample,"Block, slab, etc.",FALSE,[tissue_sample_type],ValueSet,slab,,,,categorical,Tracking/Identification,
+parent tissue sample name,,Tissue Sample,Upstream tissue sample from which tissue was derived (if addt’l specimen processsing after tissue received from portal),TRUE,,text,,,,,categorical,Tracking/Identification,
+parent tissue sample type,,Tissue Sample,Type of upstream tissue sample from which tissue was derived (if addt’l specimen processsing after tissue received from portal),TRUE,[tissue_sample_type],ValueSet,,,,,categorical,Tracking/Identification,
+specimen dissected ROI,,Tissue Sample,ROI of dissected specimen (if additional tissue processing),TRUE,,file,,,,,categorical,,
+tissue sample image,,Tissue Sample,Image of the tissue sample face,TRUE,,file,,,,,categorical,,
+brain section local name,,Tissue Cryosection,Local ID for the Tissue Section on which spatial transcriptomics is performed,FALSE,,text,,,,,categorical,Tracking/Identification,
+brain section ordinal,,Tissue Cryosection,Order in which the section was dissected from the parent tissue sample,TRUE,,integer,2,,,,ordinal,Tracking/Identification,
+brain section thickness,,Tissue Cryosection,Thickness of section mounted on substrate in microns.,FALSE,,float,10,,,microns,continuous,Alignment,
+visible slab face,,Tissue Cryosection,Orientation of the slab face visible in the images of the tissue section.,FALSE,[visible_slab_face],ValueSet,caudal,,,,categorical,,

@@ -1,0 +1,5 @@
+Proposed BICAN Field Name,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Examples,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Notes
+gene name,,Bench Chemistry,The word or phrase that uniquely identifies the gene,FALSE,"[ENSEMBL, NCBI]",ValueSet,calbindin 2,,,,categorical,,
+gene identifier,,Bench Chemistry,The unique identifier for the gene,FALSE,"[ENSEMBL, NCBI]",ValueSet,ENSMUSG00000003657,,,,categorical,,
+gene symbol,,Bench Chemistry,The unique abbreviation for the gene name,FALSE,"[ENSEMBL, NCBI]",ValueSet,Calb2,,,,categorical,,
+barcode,,Bench Chemistry,The barcode associated with this targeted gene,TRUE,,text,,,,,categorical,,
