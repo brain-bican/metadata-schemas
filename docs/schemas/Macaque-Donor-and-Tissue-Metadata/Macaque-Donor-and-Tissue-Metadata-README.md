@@ -898,73 +898,1881 @@ The following tables describe the population metadata. If an entry in the table 
 
 Curators must annotate the following columns:
 
-subject_id
-repository
-donor_source
-sex
-age_of_death
-year_of_death
-autopsy_report
-cause_of_death
-cause_of_death_code
-manner_of_death
-medical_records_reviewed
-hemisphere
-post_mortem_interval
-left_hemisphere_preparation
-left_hemisphere_preparation_specify
-right_hemisphere_preparation
-right_hemisphere_preparation_specify
-rin
-rin_tissue_source
-rin_testing_organization
-rine
-rine_tissue_source
-rine_testing_organization
-ph
-brain_weight
-weighed_type
-photo_2d_available
-scan_3d_available
-antemortem_mri_available
-postmortem_mri_available
-postmortem_mri_type
-non_brain_tissue_available
-tissue_type
-tissue_type_details
-birth_weight_lbs
-birth_weight_oz
-gestational_age_value_weeks
-gestational_age_value_days
-species
-social_group
-body_weight
-perfusion
-perfusate_type
-head_off_time
-brain_extraction_time
-brain_fixed_time
-brain_frozen_time
-brain_fixation_method
-brain_freeze_method
-sedation_start_time
-sedation_total_dose
-euthanasia_time
-euthanasia_dose
-perfusion_time_start
-perfusion_time_end
-trapping_date
-trapping_time
-matriline
-behavioral_scoring_available
-behavioral_scoring_type
-ordinal_dominance_rank
-brain_size_anterior_posterior
-brain_size_medial_lateral
-brain_size_dorsal_ventral
-brain_size_unit_type
-histological_stains_available
-hiatological_stain_type
+### subject_id
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### repository
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### donor_source
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### sex
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### age_of_death
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### year_of_death
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### autopsy_report
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### cause_of_death
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### cause_of_death_code
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### manner_of_death
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### medical_records_reviewed
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### hemisphere
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### post_mortem_interval
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### left_hemisphere_preparation
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### left_hemisphere_preparation_specify
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### right_hemisphere_preparation
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### right_hemisphere_preparation_specify
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### rin
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### rin_tissue_source
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### rin_testing_organization
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### rine
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### rine_tissue_source
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### rine_testing_organization
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### ph
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_weight
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### weighed_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### photo_2d_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### scan_3d_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### antemortem_mri_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### postmortem_mri_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### postmortem_mri_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### non_brain_tissue_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### tissue_type_details
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### birth_weight_lbs
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### birth_weight_oz
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### gestational_age_value_weeks
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### gestational_age_value_days
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### species
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### social_group
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### body_weight
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### perfusion
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### perfusate_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### head_off_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_extraction_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_fixed_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_frozen_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_fixation_method
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_freeze_method
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### sedation_start_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### sedation_total_dose
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### euthanasia_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### euthanasia_dose
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### perfusion_time_start
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### perfusion_time_end
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### trapping_date
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### trapping_time
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### matriline
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### behavioral_scoring_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### behavioral_scoring_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### ordinal_dominance_rank
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_size_anterior_posterior
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_size_medial_lateral
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_size_dorsal_ventral
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### brain_size_unit_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### histological_stains_available
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
+### histological_stain_type
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Annotator</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+        <td><code></code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>
+        </td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
 
 ## Whole Brain Spatial Omics
 
