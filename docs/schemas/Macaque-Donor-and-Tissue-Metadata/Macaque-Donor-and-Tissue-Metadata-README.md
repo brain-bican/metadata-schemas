@@ -1,4 +1,4 @@
-# BICAN Library Metadata Schema
+# BICAN Macaque Donor and Tissue Metadata Schema
 
 Document Status: _Under MOWG Review_
 
