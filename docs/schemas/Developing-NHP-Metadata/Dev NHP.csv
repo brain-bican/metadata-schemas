@@ -50,4 +50,4 @@ brain size medial-lateral,4722f739-71f6-4001-9784-afef8f9f2d0e,brain_size_medial
 brain size dorsal-ventral,e683f5ee-696f-4baf-a9bf-2f12226ceb4a,brain_size_dorsal_ventral,General Specimen Data,The size of the brain specimen in the dorsal-ventral axis.,FALSE,,numeric,,,,,,,1,8-Jul-24
 brain size unit,4d0c44c6-e620-455d-989e-126c3c81ec91,brain_size_unit_type,General Specimen Data,The unit that the brain size measurements are recorded.,FALSE,,exclusive_categorical,,,,,,,1,8-Jul-24
 histological stains available,4b868ba6-dba8-45e3-a43e-88e421625cab,histological_stains_available,General Specimen Data,"The status (available, unavailable) of histological stainings of a specimen.",FALSE,,exclusive_categorical,,,,,,,1,8-Jul-24
-histological stains type,6723e756-e4c1-42c7-bf2d-ee2e300b88ff,hiatological_stain_type,General Specimen Data,The type of histological stains available for a specimen.,TRUE,,exclusive_categorical,,,,,,,1,8-Jul-24
+histological stains type,6723e756-e4c1-42c7-bf2d-ee2e300b88ff,histological_stain_type,General Specimen Data,The type of histological stains available for a specimen.,TRUE,,exclusive_categorical,,,,,,,1,8-Jul-24
