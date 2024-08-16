@@ -53,25 +53,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>region of interest</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>71611b58-f98e-4a69-ad88-c0029a377cbe</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The brain region, structure, or area from which a brain tissue source derives.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>ROI</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -81,25 +79,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>local donor ID</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>subject_id</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry.</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -109,25 +105,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>hemisphere</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>68b7a28b-d695-4ec9-800b-6a27ca206081</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>hemisphere</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter.</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -137,25 +131,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>left hemisphere preparation</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>57d5378f-a451-4bf5-a472-cc88d0d29586</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>left_hemisphere_preparation</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>The type of preparation method used for the left hemisphere.</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -165,25 +157,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>left hemisphere preparation specify</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>002e915e-01c3-4570-a1f3-76680dcb2c33</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>left_hemisphere_preparation_specify</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Specific details about the type of preparation method used for the left hemisphere.</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -193,24 +183,22 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>left hemisphere tissue inventory</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
+      <td>05e2821e-e7dc-4e33-94dc-7b55c372e5a0</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The inventory (list) of the tissue samples for a specific left hemisphere specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>left_hemisphere_tissue_inventory</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
       <td></td>
     </tr>
 </tbody></table>
@@ -221,24 +209,22 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>left hemisphere tissue sampling history</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
+      <td>b02f7dd7-4535-4b41-b8df-73786b8983bc</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The history of the tissue sampling for a specific left hemisphere specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>left_hemisphere_tissue_sampling_history</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
       <td></td>
     </tr>
 </tbody></table>
@@ -246,28 +232,26 @@ Curators must annotate the following columns:
 
 ### right hemisphere preparation
 
-<table><tbody>
+<<table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>right hemisphere preparation</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>477c2600-f979-43c5-9c61-ab61fd771584</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>right_hemisphere_preparation</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>The type of preparation method used for the right hemisphere.</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -277,25 +261,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>right hemisphere preparation specify</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>efd50be4-f7cf-4146-a08e-28f25680728c</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>right_hemisphere_preparation_specify</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Specific details about the type of preparation method used for the right hemisphere.</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -305,24 +287,22 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>right hemisphere tissue inventory</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
+      <td>8b6b910f-beb7-4e2b-881a-7f862ef5d588</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The inventory (list) of the tissue samples for a specific right hemisphere specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>right_hemisphere_tissue_inventory</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
       <td></td>
     </tr>
 </tbody></table>
@@ -333,24 +313,22 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>right hemisphere tissue sampling history</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
+      <td>60d2efe0-bf7f-48f7-96fc-71cdf03226dd</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The history of the tissue sampling for a specific right hemisphere specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>right_hemisphere_tissue_sampling_history</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
       <td></td>
     </tr>
 </tbody></table>
@@ -361,25 +339,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>RIN</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>cd472c0d-0b64-45c9-a38e-e54d15cea953</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The RNA integrity number value of a specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>rin</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -389,25 +365,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>RIN tissue source</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>d547ee51-9ec3-489c-8e49-7d8cd94080a8</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The tissue sample location or identifier that is used for calculating the RNA integrity number.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>rin_tissue_source</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -417,25 +391,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>RIN testing organization</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>cfed831e-9a62-4a32-bf92-532873420eb3</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The organization that determines the RNA integrity number of a sample/specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>rin_testing_organization</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -445,25 +417,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>RINe</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>1210148d-d8fb-45aa-b51a-4b19b6d09bec</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>A type of RIN (RNA integrity number) value that represents the relative ratio of the signal in the fast zone to the 18S peak signal fpr a specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>rine</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -473,25 +443,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>RINe tissue source</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>7d5fd9af-82a1-4bdb-a3c6-9225d1717c53</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The tissue sample location or identifier that is used for calculating the RINe number.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>rine_tissue_source</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -501,25 +469,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>RINe testing organization</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>15a6d162-a3ca-4852-b626-a911c37c04c9</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The organization that determines the RINe number.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>rine_testing_organization</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -529,25 +495,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>pH</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>9e67af02-c081-43e1-a42c-bf9603cae616</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The value of a measurement of acidity or basicity of a tissue, sample, or specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>ph</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -557,25 +521,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>brain weight measurement</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>546fc32d-f8a2-4c00-924a-8c4730f11f51</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The weight of a brain specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>brain_weight</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -585,25 +547,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>brain tissue weighed type</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>a7463e3f-0c61-4718-a7d0-60fd2116908a</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The state of a brain specimen when it is weighed (fresh, frozen, fixed).</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>weighed_type</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -613,25 +573,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>photo 2d available</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>611beda8-1ac6-4183-a284-04a30bb474f3</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The status (available, unavailable) of two-dimensional photos of a subject/donor/specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>photo_2d_available</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -641,25 +599,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>species</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>d11fb2ce-bfdb-4735-9b17-b6ba606520b1</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The species of a subject/donor/sample/specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>species</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -669,25 +625,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Annotator</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th></th>
-        <td><code></code>
-        </td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>
-        </td>
+      <td>matriline and patriline</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>ae0447a3-0504-43a3-95d5-4248e53d3224</td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+      <td>The relavant matriline and patriline information for a subject/donor/sample/specimen.</td>
+    </tr>
+    <tr>
+      <th>Aliases</th>
+      <td>family_history</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
