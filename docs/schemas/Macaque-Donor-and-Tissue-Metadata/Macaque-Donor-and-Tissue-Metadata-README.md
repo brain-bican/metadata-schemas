@@ -1,6 +1,6 @@
 # BICAN Macaque Donor and Tissue Metadata Schema
 
-Document Status: _Under MOWG Review_
+Document Status: _Accepted by MOWG_
 
 Version: 1.0
 
@@ -180,12 +180,12 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Date of Death
+### Year of Death
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td>date of death</td>
+      <td>year of death</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
@@ -968,12 +968,12 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Date of Death
+### Year of Death
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td>date of death</td>
+      <td>year of death</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
@@ -2718,12 +2718,12 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### Date of Death
+### Year of Death
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td>date of death</td>
+      <td>year of death</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
