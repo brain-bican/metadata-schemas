@@ -63,7 +63,7 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry.</td>
     </tr>
     <tr>
       <th>Aliases</th>
