@@ -864,7 +864,7 @@ Curators must annotate the following columns:
 </tbody></table>
 <br>
 
-### repository
+### Repository
 
 <table><tbody>
     <tr>
@@ -2593,11 +2593,11 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>local donor ID</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf</td>
     </tr>
     <tr>
       <th>Definition</th>
@@ -2605,11 +2605,11 @@ Curators must annotate the following columns:
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>subject_id</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
@@ -2619,23 +2619,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>repository</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>408682ed-0e27-41e2-b9fa-f05674366d6e</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>'Repository' trailing modifier (qualifier, 'repository') of 'xref' links of 'Format' concepts. When 'true', the link is pointing to the public source-code repository where the given data format is developed or maintained.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>repository</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>inclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -2645,23 +2645,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>donor source</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>0d0cf732-0f76-409d-9a73-7a96d829d3d3</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The origin of the donor/subject in this experiment.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>donor_source</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>inclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -2671,23 +2671,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>sex at birth</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>c819b9d5-2fde-40b2-bf0d-e07b56f96ac9</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>sex</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -2697,49 +2697,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>age value (years)</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>14eb923a-161d-45e2-889d-81fea7b632b6</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>A time quality inhering in a bearer by virtue of how long the bearer has existed.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>age_of_death</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
-    </tr>
-</tbody></table>
-<br>
-
-### Birth Country Name
-
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td></td>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -2749,23 +2723,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>date of death</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>60445046-d9d8-4f00-959e-9a4c42613e5e</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The year wherein the subject or donor has ceased to exist.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>year_of_death</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>date</td>
     </tr>
 </tbody></table>
 <br>
@@ -2775,23 +2749,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>hemisphere</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>68b7a28b-d695-4ec9-800b-6a27ca206081</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>hemisphere</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
@@ -2801,23 +2775,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>post mortem interval</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>6fd5c5ac-b128-4a4a-ae98-09eaeba22f92</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The length of the temporal interval between the time of death of the subject/donor and the time at which the specimen is made.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>post_mortem_interval</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -2827,23 +2801,23 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>RIN</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>cd472c0d-0b64-45c9-a38e-e54d15cea953</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The RNA integrity number value of a specimen.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>rin</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
@@ -2853,127 +2827,127 @@ Curators must annotate the following columns:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>RIN tissue source</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>d547ee51-9ec3-489c-8e49-7d8cd94080a8</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The tissue sample location or identifier that is used for calculating the RNA integrity number.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>rin_tissue_source</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>text</td>
     </tr>
 </tbody></table>
 <br>
 
-### Brain Weight Measurement
+### Brain Weight
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>brain weight measurement</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>546fc32d-f8a2-4c00-924a-8c4730f11f51</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The weight of a brain specimen.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>brain_weight</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>numeric</td>
     </tr>
 </tbody></table>
 <br>
 
-### Photo 2d Available
+### Photo 2D Available
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>photo 2d available</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>611beda8-1ac6-4183-a284-04a30bb474f3</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The status (available, unavailable) of two-dimensional photos of a subject/donor/specimen.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>photo_2d_available</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
 
-### Scan 3d Available
+### Scan 3D Available
 
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>scan 3d available</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>658e8a80-e232-438f-8c1e-d5f38724dc55</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The status (available, unavailable) of three-dimensional scans of a subject/donor/specimen.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>scan_3d_available</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
 
 ### Antemortem MRI Available
- 
+
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
-      <td></td>
+      <td>antemortem MRI available</td>
     </tr>
     <tr>
       <th>BICAN UUID</th>
-      <td></td>
+      <td>43a04caa-4f28-47ac-8a9d-74c40f10776f</td>
     </tr>
     <tr>
       <th>Definition</th>
-      <td></td>
+      <td>The status (available, unavailable) of antemortem MRI images of a subject/donor/specimen.</td>
     </tr>
     <tr>
       <th>Aliases</th>
-      <td></td>
+      <td>antemortem_mri_available</td>
     </tr>
     <tr>
       <th>Data Type</th>
-      <td></td>
+      <td>exclusive_categorical</td>
     </tr>
 </tbody></table>
 <br>
