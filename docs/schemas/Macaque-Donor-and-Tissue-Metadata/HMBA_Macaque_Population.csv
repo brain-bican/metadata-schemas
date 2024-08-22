@@ -38,7 +38,7 @@ birth weight value (oz),b6f30050-f762-4427-8533-31738e737ea2,birth_weight_oz,Inf
 gestational age value (weeks),6d8a9b3f-792c-48c2-bd3c-56e52bb51672,gestational_age_value_weeks,Infant Medical History,The gestational age of the subject/donor in weeks.,FALSE,,numeric,,,,,,,1,8-Jul-24
 gestational age value (days),4e532e52-6e4c-46cd-9fde-96f97ef3b034,gestational_age_value_days,Infant Medical History,The gestational age of the subject/donor in days.,FALSE,,numeric,,,,,,,1,8-Jul-24
 species,d11fb2ce-bfdb-4735-9b17-b6ba606520b1,species,General Subject Fields,The species of a subject/donor/sample/specimen.,FALSE,,exclusive_categorical,,,,,,,1,8-Jul-24
-social group,7759b09d-a685-49fe-b7d8-e7f2b4772f52,social_group,General Subject Fields,,FALSE,,exclusive_categorical,,,,,,,1,8-Jul-24
+social group,7759b09d-a685-49fe-b7d8-e7f2b4772f52,social_group,General Subject Fields,The social group to which the subject belongs.,FALSE,,exclusive_categorical,,,,,,,1,8-Jul-24
 body weight,f2673501-b48f-4703-bb7e-d642b73c2ad4,body_weight,General Subject Fields,The weight of the whole organism/donor/subject.,FALSE,,numeric,,,,,,,1,8-Jul-24
 premortem perfusion done,1fc487d8-2403-4d7c-952f-7e502d5f8359,perfusion,General Specimen Data,"The status of premortem perfusion (done, not done).",FALSE,,exclusive_categorical,,,,,,,1,8-Jul-24
 premortem perfusion buffer type,78d62e29-4323-4927-aec8-6fc8dc59a889,perfusate_type,General Specimen Data,The type of premortem perfusion buffer that was used for premortem perfusion. ,TRUE,,text,,,,,,,1,8-Jul-24
