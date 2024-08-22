@@ -62,6 +62,7 @@ Here are the BICAN metadata schemas and their statuses.
 | [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
 | [Projects and Data Collections Metadata] | [v1.0.0] | [2023-09-27] | Under MOWG Review |
 | [Library Minimal Metadata] | [v1.1.1] | [2024-03-22] | Endorsed BICAN Standard |
+| [HMBA Macaque Metadata] | [v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | | | | |
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
@@ -75,3 +76,6 @@ Here are the BICAN metadata schemas and their statuses.
 
 [Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
 [v1.1.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
+
+[HMBA Macaque Metadata]: docs/schemas/Macaque-Donor-and-Tissue-Metadata
+[v1.0.0]: docs/schemas/Macaque-Donor-and-Tissue-Metadata/Macaque-Donor-and-Tissue-Metadata-README.md
