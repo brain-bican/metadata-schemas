@@ -58,20 +58,24 @@ Here are the BICAN metadata schemas and their statuses.
 
 | Schema | Version | Release | Status |
 |:--|:--|:--|:--|
-| [Donor-to-Alignment Metadata] | [v1.0.0] |  [2023-03-31] | Accepted by MOWG |
-| [Human Donor Metadata] | [v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
-| [Projects and Data Collections Metadata] | [v1.0.0] | [2023-09-27] | Under MOWG Review |
-| [Library Minimal Metadata] | [v1.1.1] | [2024-03-22] | Endorsed BICAN Standard |
+| [Donor-to-Alignment Metadata] | [Donor to Alignment v1.0.0] |  [2023-03-31] | Accepted by MOWG |
+| [Human Donor Metadata] | [Human Donor v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
+| [Projects and Data Collections Metadata] | [Projects and Data Collections v1.0.0] | [2023-09-27] | Under MOWG Review |
+| [Library Minimal Metadata] | [Library Minimal Metadata v1.1.1] | [2024-03-22] | Endorsed BICAN Standard |
+| [HMBA Macaque Metadata] | [Macaque Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | | | | |
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
-[v1.0.0]: docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
+[Donor to Alignment v1.0.0]: docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
 
 [Human Donor Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Human-Donor-Metadata
-[v1.0.0]: docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
+[Human Donor v1.0.0]: docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
 
 [Projects and Data Collection Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/project-registration-bican
-[v1.0.0]: docs/schemas/project-registration-bican/README.md
+[Projects and Data Collections v1.0.0]: docs/schemas/project-registration-bican/README.md
 
 [Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
-[v1.1.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
+[Library Minimal Metadata v1.1.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
+
+[HMBA Macaque Metadata]: docs/schemas/Macaque-Donor-and-Tissue-Metadata
+[Macaque Metadata v1.0.0]: docs/schemas/Macaque-Donor-and-Tissue-Metadata/Macaque-Donor-and-Tissue-Metadata-README.md
