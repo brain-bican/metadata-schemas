@@ -1,6 +1,6 @@
 # BICAN Developing NHP Metadata Schema
 
-Document Status: _Under MOWG Review_
+Document Status: _Approved by MOWG_
 
 Version: 1.0
 
