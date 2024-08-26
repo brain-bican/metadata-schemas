@@ -63,6 +63,9 @@ Here are the BICAN metadata schemas and their statuses.
 | [Projects and Data Collections Metadata] | [Projects and Data Collections v1.0.0] | [2023-09-27] | Under MOWG Review |
 | [Library Minimal Metadata] | [Library Minimal Metadata v1.1.1] | [2024-03-22] | Endorsed BICAN Standard |
 | [HMBA Macaque Metadata] | [Macaque Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
+| [Developing Human Metadata] | [Developing Human Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
+| [Developing NHP Metadata] | [Developing NHP Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
+| [Developing Tissue Metadata] | [Developing Tissue Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | | | | |
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
@@ -79,3 +82,12 @@ Here are the BICAN metadata schemas and their statuses.
 
 [HMBA Macaque Metadata]: docs/schemas/Macaque-Donor-and-Tissue-Metadata
 [Macaque Metadata v1.0.0]: docs/schemas/Macaque-Donor-and-Tissue-Metadata/Macaque-Donor-and-Tissue-Metadata-README.md
+
+[Developing Human Metadata]: docs/schemas/Developing-Human-Metadata
+[Developing Human Metadata v1.0.0]: docs/schemas/Developing-Human-Metadata/Developing-Human-Metadata-README.md
+
+[Developing NHP Metadata]: docs/schemas/Developing-NHP-Metadata
+[Developing NHP Metadata v1.0.0]: docs/schemas/Developing-NHP-Metadata/Developing-NHP-Metadata.README.md
+
+[Developing Tissue Metadata]: docs/schemas/Developing-Tissue-Metadata
+[Developing Tissue Metadata v1.0.0]: docs/schemas/Developing-Tissue-Metadata/Developing-Tissue-Metadata.README.md
