@@ -1,0 +1,5 @@
+Proposed BICAN Field Name,BICAN UUID,Label,Variable (short) name,definition,short description,human readable label,is_required,permissible values,data type,version,version date,sub domain name,domain name,size,min value,max value,measurement type
+license name,,name,,"A human-readable, locally unique label that identifies a license.","Human readable, locally unique identifier",,Y,,string,1,10/09/2024,License,Projects and Data Collections Metadata,,,,
+license title,,title,,Long title for a license.,Long title for a license.,,Y,,string,1,10/09/2024,License,Projects and Data Collections,,,,
+license short title,,shortTitle,,Short title for a license.,Short title for a license.,,Y,,string,1,10/09/2024,License,Projects and Data Collections,,,,
+license information web resource,,informationWebResource,,A URL or weblink that contains the text for a license.,Link to license text.,,Y,,string,1,10/09/2024,License,Projects and Data Collections Metadata,,,,
