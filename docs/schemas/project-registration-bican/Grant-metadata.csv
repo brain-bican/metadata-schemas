@@ -1,7 +1,7 @@
 Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Number,Version Date
-grant funding agency,,funding_agency,Grant,Organization that is funding the grant,FALSE,,Organization,National Institute of Mental Health,,,,,Grant,1,10/9/24
-grant awardee,,awardee,Grant,Organization that is receiving funding from the grant,FALSE,,Organization,Allen Institute for Brain Science,,,,,Grant,1,10/9/24
-grant name,,name,Grant,Human readable locally unique identifier for a grant. Typically this a concatenation of the activity code and contact PI for NIH grants. Example: U24 Hawrylycz grant,FALSE,,text,,,,,,Grant,1,10/9/24
-grant title,,title,Grant,Long form title for a grant. Typically this is the project title from NIH grants.,FALSE,,text,,,,,,Grant,1,10/9/24
-grant identifier,,grant_identifier,Grant,Unique identifier for a grant resolvable by external authority. Typically this is the project number from NIH grants.,FALSE,,text,,,,,,Grant,1,10/9/24
-grant report symbol,,report_symbol,Grant,Resource location component in NIH RePorter URL. Symbol in RePorter URL that redirects to project details page in RePorter.,TRUE,,text,10521124,,,,,Grant,1,10/9/24
+grant funding agency,,funding_agency,Grant,Organization that is funding the grant,FALSE,,Organization,National Institute of Mental Health,,,,,Projects and Data Collections,1,10/9/24
+grant awardee,,awardee,Grant,Organization that is receiving funding from the grant,FALSE,,Organization,Allen Institute for Brain Science,,,,,Projects and Data Collections,1,10/9/24
+grant name,,name,Grant,Human readable locally unique identifier for a grant. Typically this a concatenation of the activity code and contact PI for NIH grants. Example: U24 Hawrylycz grant,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+grant title,,title,Grant,Long form title for a grant. Typically this is the project title from NIH grants.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+grant identifier,,grant_identifier,Grant,Unique identifier for a grant resolvable by external authority. Typically this is the project number from NIH grants.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+grant report symbol,,report_symbol,Grant,Resource location component in NIH RePorter URL. Symbol in RePorter URL that redirects to project details page in RePorter.,TRUE,,text,10521124,,,,,Projects and Data Collections,1,10/9/24

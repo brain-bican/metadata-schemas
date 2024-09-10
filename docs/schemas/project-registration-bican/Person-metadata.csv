@@ -1,5 +1,5 @@
 ﻿Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Number,Version Date
-person name,da5203bf-0202-4cd0-b0c2-5cc05806e2e4,name,,"A full name of a person in [given name],[family name] format.",FALSE,,text,,,,,,Person,1,27-09-2023
-person given name,2354176f-40f2-4110-98d9-0c203314bfde,given_name,,A given name of a person. ,FALSE,,text,,,,,,Person,1,27-09-2023
-person family name,f5d8f1a3-ce30-45eb-ac26-13a8998c2f5a,family_name,,A family name of a person. ,FALSE,,text,,,,,,Person,1,27-09-2023
-person ORCID,e834467e-a05e-4b9f-8348-5c0079bdaac8,orcid,,An ORCID that identifies a person. ,TRUE,,text,0000-0002-9802-0493,,,,,Person,1,27-09-2023
+person name,da5203bf-0202-4cd0-b0c2-5cc05806e2e4,name,Person,"A full name of a person in [given name],[family name] format.",FALSE,,text,,,,,,Projects and Data Collections,1,27-09-2023
+person given name,2354176f-40f2-4110-98d9-0c203314bfde,given_name,Person,"A given name of a person. ",FALSE,,text,,,,,,Projects and Data Collections,1,27-09-2023
+person family name,f5d8f1a3-ce30-45eb-ac26-13a8998c2f5a,family_name,Person,"A family name of a person. ",FALSE,,text,,,,,,Projects and Data Collections,1,27-09-2023
+person ORCID,e834467e-a05e-4b9f-8348-5c0079bdaac8,orcid,Person,"An ORCID that identifies a person. ",TRUE,,text,0000-0002-9802-0493,,,,,Projects and Data Collections,1,27-09-2023
