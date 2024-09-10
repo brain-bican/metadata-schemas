@@ -1,7 +1,7 @@
-Proposed BICAN Field Name,BICAN UUID,Label,Variable (short) name,definition,short description,human readable label,is_required,permissible values,data type,version,version date,sub domain name,domain name,size,min value,max value,measurement type (unit)
-grant funding agency,,funding agency,,Organization that is funding the grant,,,Y,,Organization,1,07-08-2024,Grant,Projects and Data Collections,,,,
-grant awardee,,awardee,,Organization that is receiving funding from the grant,,,Y,,Organization,1,07-08-2024,Grant,Projects and Data Collections,,,,
-grant name,,name,,Human readable locally unique identifier for a grant,Typically this a concatenation of the activity code and contact PI for NIH grants. Example: U24 Hawrylycz grant,,Y,,String,1,07-08-2024,Grant,Projects and Data Collections,,,,
-grant title,,title,,Long form title for a grant,Typically this is the project title from NIH grants,,Y,,String,1,07-08-2024,Grant,Projects and Data Collections,,,,
-grant identifier,,identifier,,Unique identifier for a grant resolvable by external authority,Typically this is the project number from NIH grants,,Y,,String,1,07-08-2024,Grant,Projects and Data Collections,,,,
-grant report symbol,,report symbol,,Resource location component in NIH RePorter URL,Symbol in RePorter URL that redirects to project details page in RePorter. Example: 10350021,,N,,String,1,07-08-2024,Grant,Projects and Data Collections,,,,
+Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Number,Version Date
+grant funding agency,,funding_agency,Grant,Organization that is funding the grant,FALSE,,Organization,National Institute of Mental Health,,,,,Grant,1,10/9/24
+grant awardee,,awardee,Grant,Organization that is receiving funding from the grant,FALSE,,Organization,Allen Institute for Brain Science,,,,,Grant,1,10/9/24
+grant name,,name,Grant,Human readable locally unique identifier for a grant. Typically this a concatenation of the activity code and contact PI for NIH grants. Example: U24 Hawrylycz grant,FALSE,,text,,,,,,Grant,1,10/9/24
+grant title,,title,Grant,Long form title for a grant. Typically this is the project title from NIH grants.,FALSE,,text,,,,,,Grant,1,10/9/24
+grant identifier,,grant_identifier,Grant,Unique identifier for a grant resolvable by external authority. Typically this is the project number from NIH grants.,FALSE,,text,,,,,,Grant,1,10/9/24
+grant report symbol,,report_symbol,Grant,Resource location component in NIH RePorter URL. Symbol in RePorter URL that redirects to project details page in RePorter.,TRUE,,text,10521124,,,,,Grant,1,10/9/24
