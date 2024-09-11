@@ -1,5 +1,5 @@
 Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Number,Version Date
-web resource type,,type,WebResource,"Denotes the type of web resource - whether the resource routes to a download link, an informational resource or an interactive tool. ",FALSE,information | view | explore | download,exclusive_categorical,,,,,,Projects and Data Collections,1,10/9/24
-web resource title,,title,WebResource,A long form title for a web resource.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
-web resource short title,,short_title,WebResource,A short title for a web resource.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
-web resource universal resource locator,,url,WebResource,Path to a resource.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+web resource type,a0f60904-2e0e-4864-9921-b6eb340aef74,type,WebResource,"Denotes the type of web resource - whether the resource routes to a download link, an informational resource or an interactive tool. ",FALSE,information | view | explore | download,exclusive_categorical,,,,,,Projects and Data Collections,1,10/9/24
+web resource title,5638df22-4eec-48d6-9e71-c644b8429c5c,title,WebResource,A long form title for a web resource.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+web resource short title,364ff486-8038-4e10-90a0-dda63b804eb7,short_title,WebResource,A short title for a web resource.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+web resource universal resource locator,7bc3c2c7-a15c-4f47-bb6e-4423953c0ad2,url,WebResource,Path to a resource.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24

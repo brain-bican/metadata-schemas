@@ -1,5 +1,5 @@
 Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Number,Version Date
-license name,,name,License,"A human-readable, locally unique label that identifies a license.",FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
-license title,,title,License,Long title for a license.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
-license short title,,short_title,License,Short title for a license.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
-license information web resource,,information_web_resource,License,A URL or weblink that contains the text for a license.,FALSE,,WebResource,https://creativecommons.org/licenses/by/4.0/,,,,,Projects and Data Collections,1,10/9/24
+license name,ddd0c288-b565-4b2d-a3a9-2b46b1a4a2c3,name,License,"A human-readable, locally unique label that identifies a license.",FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+license title,d0183b7b-fb54-455c-92a2-5b126d87d9f1,title,License,Long title for a license.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+license short title,3707b072-3846-4113-8f0d-ab8127035f52,short_title,License,Short title for a license.,FALSE,,text,,,,,,Projects and Data Collections,1,10/9/24
+license information web resource,387b892c-884d-4fbd-a0d2-eeeb3fed5881,information_web_resource,License,A URL or weblink that contains the text for a license.,FALSE,,WebResource,https://creativecommons.org/licenses/by/4.0/,,,,,Projects and Data Collections,1,10/9/24
