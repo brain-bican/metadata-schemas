@@ -1,8 +1,8 @@
-﻿ID,Label,Code,Description
-,Subdural hemorrhage,,
-,Subarachnoid hemorrhage,,
-,Intraparenchymal hemorrhage,,
-,Intraventricular hemorrhage,,
-,Hypoxia,,
-,Other (specify),,
-, None,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+subdural hemorrhage,de173650-12ea-40a0-b8f8-41531d6149e5,,PV001060,"Bleeding into the subdural space, the potential space between the dura and arachnoid mater of the meninges around the brain.",MP:0031117
+subarachnoid hemorrhage,a1cb167e-d31c-4c9a-8cff-e9834ab9c44d,,PV001054,Intracranial hemorrhage into the subarachnoid space.,MONDO:0005099
+intraparenchymal hemorrhage,05cbbd6d-a591-4d82-825b-b73cedb38950,,PV001055,Bleeding into the intraparenchymal space.,
+intraventricular hemorrhage,96835720-a301-41f6-a818-1dadbf16bf4c,,PV001056,Bleeding into the brain ventricles.,MP:0001917
+hypoxia,3e8d7ad6-8923-4826-b10b-a3c5ea774437,,PV001057,Reduced oxygenation of body tissues resulting in the decreased pressure of this component of body gases; commonly due to hypoxemia.,MP:0005039
+other (specify),d065afa0-6045-4bda-b61b-fab94b018987,,PV001058,,
+none,bef67277-9e1a-4040-88f7-0b4e5d8c97c5,,PV001059,,

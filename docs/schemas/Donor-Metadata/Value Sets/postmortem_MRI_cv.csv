@@ -1,4 +1,4 @@
-﻿ID,Label,Code,Description
-,cadaveric,,
-,fresh ex vivo,,
-,fixed ex vivo,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+cadaveric,80e0cd79-1a7d-4661-9e1f-5296e93f36de,,1,A piece of tissue or a sample that is taken from a dead body (cadaver). ,
+fresh ex vivo,a54af4e5-8474-4abc-a4c3-f457ba2a9cc3,,2,A piece of tissue or a sample that is taken from a living organism and not fixed.,
+fixed ex vivo,623a176d-3ac3-4aff-ac73-381326f40d2e,,3,A piece of tissue or a sample that is taken from a living organism and fixed.,
