@@ -1,0 +1,10 @@
+﻿Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Date
+name,,,,name of annotation key.,FALSE,,string,,,,,,,
+description,,,,Some text describing what types of cell annotation this annotation key is used to record.,TRUE,,string,,,,,,,
+annotation_method,,,,"The method used for creating the cell annotations. This MUST be one of the following strings: 'algorithmic', 'manual', or 'both' . Must be one of: [""algorithmic"", ""manual"", ""both""].",TRUE,"algorithmic, manual, both",value set,,,,,,,
+automated_annotation,,,,,TRUE,,object,,,,,,,
+algorithm_name,,,,The name of the algorithm used. It MUST be a string of the algorithm's name.,FALSE,,string,,,,,,,
+algorithm_version,,,,"The version of the algorithm used (if applicable). It MUST be a string of the algorithm's version, which is typically in the format '[MAJOR].[MINOR]', but other versioning systems are permitted (based on the algorithm's versioning).",FALSE,,string,,,,,,,
+algorithm_repo_url,,,,This field denotes the URL of the version control repository associated with the algorithm used (if applicable). It MUST be a string of a valid URL.,FALSE,,string,,,,,,,
+reference_location,,,,"This field denotes a valid URL of the annotated dataset that was the source of annotated reference data. This MUST be a string of a valid URL. The concept of a 'reference' specifically refers to 'annotation transfer' algorithms, whereby a 'reference' dataset is used to transfer cell annotations to the 'query' dataset.",TRUE,,string,,,,,,,
+rank,,,,A number indicating relative granularity with 0 being the most specific. Use this where a single dataset has multiple keys that are used consistently to record annotations and different levels of granularity.,TRUE,,integer,,,,,,,
