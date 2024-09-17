@@ -1,7 +1,7 @@
-﻿ID,Label,Code,Description
-,Male,C20197,"A person who belongs to the sex that normally produces sperm. The term is used to indicate biological sex distinctions, cultural gender role distinctions, or both. "
-,Female,C16576,"A person who belongs to the sex that normally produces ova. The term is used to indicate biological sex distinctions, or cultural gender role distinctions, or both. "
-,Intersex,C45908,"A person (one of unisexual specimens) who is born with genitalia and/or secondary sexual characteristics of indeterminate sex, or which combine features of both sexes. "
-,None of these describe me,C177109,Suggested Definition: A response indicating that an individual feels that no option listed is a good description for them. 
-,Prefer not to answer,C132222,A response indicating that an individual prefers or preferred not to answer. 
-,Unknown,C17998,"Not known, observed, recorded; or reported as unknown by the data contributor. "
+﻿BICAN Label,BICAN UUID,Aliases,Code,Description,Ontology ID
+male,ee6075b7-4199-4682-845a-34d80bb000ac,,C20197,"A person who belongs to the sex that normally produces sperm. The term is used to indicate biological sex distinctions, cultural gender role distinctions, or both. ",PATO:0000384
+female,082d0b49-805a-46c4-b076-da51b45860bb,,C16576,"A person who belongs to the sex that normally produces ova. The term is used to indicate biological sex distinctions, or cultural gender role distinctions, or both. ",PATO:0000383
+intersex,2c6e5679-1408-44b4-a311-607f026ff98e,,C45908,"A person (one of unisexual specimens) who is born with genitalia and/or secondary sexual characteristics of indeterminate sex, or which combine features of both sexes. ",PATO:0001340
+none of these describe me,18cdf7d7-3e09-41cc-9915-385dc48560e3,,C177109,Suggested Definition: A response indicating that an individual feels that no option listed is a good description for them. ,
+prefer not to answer,59c01950-e17f-4e3f-963c-eec10693f67c,,C132222,A response indicating that an individual prefers or preferred not to answer. ,
+unknown,1599da85-e565-4ca8-afd8-f3ec8533252d,,C17998,"Not known, observed, recorded; or reported as unknown by the data contributor. ",
