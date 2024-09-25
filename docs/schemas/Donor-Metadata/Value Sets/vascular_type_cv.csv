@@ -1,5 +1,5 @@
-﻿ID,Label,Code,Description
-,Acute infarct,,
-,Chronic infarct,,
-,Hemorrhage,,
-,Other (specify),,
+﻿BICAN Label,BICAN UUID,Aliases,Code,Description,Ontology ID
+acute infarct,8f5eaa9e-2609-4f23-9ff5-0820a8f0e1f2,,1,"Tissue necrosis in any area of the brain, including the cerebral hemispheres, the cerebellum, and the brain stem. Brain infarction is the result of a cascade of events initiated by inadequate blood flow through the brain that is followed by hypoxia and hypoglycemia in brain tissue. Damage may be temporary, permanent, selective or pan-necrosis.",EFO:0004277
+chronic infarct,4717d354-5570-4f3f-95ab-cbbe7fce4ddc,,2,"Tissue necrosis in any area of the brain, including the cerebral hemispheres, the cerebellum, and the brain stem. Brain infarction is the result of a cascade of events initiated by inadequate blood flow through the brain that is followed by hypoxia and hypoglycemia in brain tissue. Damage may be temporary, permanent, selective or pan-necrosis.",EFO:0004277
+hemorrhage,9e5a8c19-1b15-4352-90b0-bd04d634132a,,3,Loss of blood from the vascular compartment to the exterior or into nonvascular body space as a result of rupture or severance of the blood vessels.,MP:0001914
+other (specify),de4259b5-2847-4c56-8e33-ee2dc25e46bf,,4,,
