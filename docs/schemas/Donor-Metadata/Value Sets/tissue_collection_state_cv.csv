@@ -1,3 +1,3 @@
-﻿ID,Label,Code,Description
-,autopsy,,
-,surgery,,
+﻿BICAN Label,BICAN UUID,Aliases,Code,Description,Ontology ID
+autopsy,4fd5004e-d302-49d3-a1de-8c7f21e08da0,,,A postmortem examination of the body that includes an examination of the internal organs and structures after dissection to determine the cause of death and the nature of pathological changes.,GSSO:006664
+surgery,f9a468bd-5ef3-4098-93b9-4aee2fc7d6c1,,,"Surgery is a medical procedure that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance. The key difference between a surgery and a general procedure is the need for an incision. Making an incision, or cutting into the skin to gain access to the body’s deeper tissues or organs, is a defining characteristic of surgery.",OAE:0000067
