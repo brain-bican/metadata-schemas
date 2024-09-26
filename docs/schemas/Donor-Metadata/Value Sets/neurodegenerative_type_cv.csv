@@ -1,6 +1,6 @@
-﻿ID,Label,Code,Description
-,Beta Amyloid,,
-,pTau,,
-,pTDP-43,,
-,alpha-synuclein,,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+beta amyloid,cb95893f-e367-4a9a-931c-63776caa5610,,,A peptide of 36-43 amino acids that is processed from the amyloid precursor protein. Appears to be the main constituent of amyloid plaques (deposits found in the brains of Alzheimer's disease patients).,CHEBI:64645
+pTau,f0c1e00e-f35a-43ae-872b-d9060caac45c,microtubule-associated protein tau phosphorylated form|MAPT/PhosRes+,,A microtubule-associated protein tau that includes at least one phosphorylated residue.,PR:000026989
+pTDP-43,5f77b204-1d3e-49e1-a855-f575d96dd429,TAR DNA-binding protein 43,,A protein that is a translation product of the human TARDBP gene or a 1:1 ortholog thereof.,PR:000016057
+alpha-synuclein,f4d8e65b-5c80-4eb0-9b5e-55745bba5337,,,A protein that is a translation product of the human SNCA gene or a 1:1 ortholog thereof.,PR:000015322
+Other (specify),3f2f72a3-6462-4a4b-b093-5c5207b5ac38,,,,

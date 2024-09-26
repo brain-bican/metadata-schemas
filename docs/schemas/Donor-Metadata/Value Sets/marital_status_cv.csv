@@ -1,7 +1,7 @@
-﻿ID,Label,Code,Description
-,Never married,,Never married
-,Married,,Married
-,Domestic partnership,,Domestic partnership
-,Divorced,,Divorced
-,Separated,,Separated
-,Widowed,,Widowed
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+never married,a3b2f1ae-e08f-4921-8e61-2507e993f5d2,,PV000093,A person who has never been married or whose only marriages have been annulled.,NCIT:C51774
+married,c62ca7e2-ba67-4fa6-86bc-80c7d781d07d,,PV000094,A person currently joined in matrimony. Classify common law marriage as married. Includes married couples living together and not living together.,NCIT:C51773
+domestic partnership,7a997184-45f1-4312-9a30-66429ff8bbd0,,PV000095,"A person who is a member of an unmarried couple, including same sex couples, living together in longstanding relationships, that are registered or unregistered.",NCIT:C53262
+divorced,5b522d1b-9983-400c-bc54-fd32d9ef4cb3,,PV000096,A person whose marriage has been legally dissolved and has not remarried.,NCIT:C51776
+separated,99dd99f6-4867-4386-9ba0-f1ac5685b29f,,PV000097,A person living apart from his/her spouse by legal arrangement.,NCIT:C156541
+widowed,7c72655f-cbdb-4fc3-ae2b-4c099de3b963,,PV000098,A person who is no longer married because of the death of his/her spouse and who has not remarried.,NCIT:C51775

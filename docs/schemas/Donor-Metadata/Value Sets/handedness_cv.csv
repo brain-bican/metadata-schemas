@@ -1,4 +1,4 @@
-﻿ID,Label,Code,Description
-,left,,
-,right,,
-,either,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+left,4d77c04d-91dc-4a9d-9314-d3dd1f2ba2e1,left handedness,1,Handedness where the organism preferentially uses the left hand or foot for tasks requiring the use of a single hand or foot or a dominant hand or foot,PATO:0002202
+right,4ac0f259-3b6e-4e99-aaef-386c04b7dc92,right handedness,2,Handedness where the organism preferentially uses the right hand or foot for tasks requiring the use of a single hand or foot or a dominant hand or foot.,PATO:0002203
+either,a070df0f-e37d-4dc5-8fdc-13cb9c2aac46,ambidextrous handedness,3,Handedness where the organism exhibits no overall dominance in the use of right or left hand or foot in the performance of tasks that require one hand or foot or a dominant hand or foot.,PATO:0002204

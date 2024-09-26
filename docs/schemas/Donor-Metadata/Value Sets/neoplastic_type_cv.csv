@@ -1,4 +1,4 @@
-﻿ID,Label,Code,Description
-,Intrinsic,,
-,Metastasis,,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+intrinsic,8863ca3b-1625-4405-afdf-2e007ba52c98,,1,A disposition inhering in a tumour by virtue of the bearer's disposition not to invade surrounding tissues.,PATO:0002132
+metastasis,fb118f9a-2c4c-4867-9313-c7dfdaa611be,,2,A disposition inhering in a tumour by virtue of the bearer's disposition to spread and invade distant tissues.,PATO:0002098
+other (specify),d1585163-54f7-408c-be01-ad219d628b06,,3,A structural quality which is held by a bearer when the latter's disposition the presence of abnormally proliferating masses of cells.,PATO:0002011

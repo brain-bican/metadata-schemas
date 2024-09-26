@@ -1,11 +1,11 @@
-﻿ID,Label,Code,Description
-,Child,,
-,Friend/Neighbor,,
-,Parent,,
-,Professional Caregiver,,
-,Self,,
-,Sibling,,
-,Spouse/Partner,,
-,Teammate,,
-,Other Relative (specify),,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+child,f6afbbd1-1c51-46d7-85d2-6e1250a9bb47,,1,A person who is either the progeny of the subject or the adoptive child of the subject.,
+friend/neighbor,0e11f6ca-4173-497f-b900-171c3e46c964,,2,Either one of a friend of the subject or a person who lives near the subject.,
+parent,1bfa6e01-20ae-46cd-b32d-0c78487ad272,,5,A caretaker and/or immediate progenitor of a child.,GSSO:001953
+professional caregiver,c952f03e-8c9d-46a8-9780-b84d250278f5,,6,A person who bears the caretaker role for the subject.,
+self,f8845e9a-100a-4b5e-914f-dce9f28e469a,,7,"A person who is identical to the subject, i.e., the subject themselves.",
+sibling,76289f02-03e2-4dc5-8110-a05a331d5f72,,8,A person who shares a parent.,GSSO:001955
+spouse/partner,160b05bf-500d-4f6d-a943-b8bd6043ed21,,9,A partner in marriage.,GSSO:001968
+teammate,518097c5-cde7-404c-9dde-51a114c7a421,,10,A person who is a member of a team whose membership includes the subject.,
+other relative (specify),d24f78e2-9821-4e72-a1a7-87e6959769b4,,3,,
+other (specify),f3b07435-48bf-4cbb-9bbd-e11c9f1e6b9f,,4,,

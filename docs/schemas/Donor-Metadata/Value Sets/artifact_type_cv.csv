@@ -1,4 +1,4 @@
-﻿ID,Label,Code,Description
-,gross: brain removal/dissection,,
-,microscopic: autolysis,,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+gross: brain removal/dissection,ab5cebb9-a9ab-495b-af33-d45ffaf52ab6,,,"A planned process that separates and isolates the brain or tissues thereof for surgical purposes, or for the analysis of their structures. ",
+microscopic: autolysis,9893678a-621c-4e14-ae10-21682f624c7c,,,"""A programmed cell death process observed in bacteria and filamentous fungi and leading to spontaneous death by lysis. Examples are lysis of the mother cell during sporulation of Bacillus subtilis and self-degradation of fungal cells in Aspergillus nidulans. Autolysis is also involved in bacterial biofilm formation."" [GO]",GO:0001896
+Other (specify),e2741a06-4965-49bb-bf06-d6b5cd022281,,,,

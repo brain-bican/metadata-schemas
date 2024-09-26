@@ -1,6 +1,6 @@
-﻿ID,Label,Code,Description
-,Fresh whole brain,,
-,Fixed whole brain  ,,
-,Fresh hemibrain,,
-,Fixed hemibrain,,
-,Unknown,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+Fresh whole brain,068d9668-a98c-48d7-9653-6de0118842e9,,,"A whole brain specimen that has not been frozen or fixed -- i.e., a whole brain that has not yet been treated by a preserving method.",
+Fixed whole brain  ,0f130a6f-ba87-4c81-b094-926bd0a19a55,,,A whole brain specimen that has been treated for preservation (typically by formalin).,
+Fresh hemibrain,ad110c7a-6ebb-4731-ac11-999b239363c3,,,"A hemibrain specimen that has not been frozen or fixed -- i.e., a whole brain that has not yet been treated by a preserving method.",
+Fixed hemibrain,c31e1e96-8f60-423a-bab1-085595aa2538,,,A hemibrain specimen that has been treated for preservation (typically by formalin).,
+Unknown,2ad05d12-18a3-43b9-8165-7710c53dd357,,,,

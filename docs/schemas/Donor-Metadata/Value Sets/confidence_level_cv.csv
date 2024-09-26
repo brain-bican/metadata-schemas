@@ -1,4 +1,4 @@
-﻿ID,Label,Code,Description
-,Confirmed Diagnosis,,Sufficient evidence exists to: 1) make a clinical diagnosis based on medical history and neuropathological exam or genetic data or 2) make a clinical diagnosis by the consensus of expert clinicians or 3) confirm the absence of any brain-related diagnoses (i.e. Unaffected Control)
-,Investigator Impression,,Diagnosis is based on the clinical impressions of the clinician reviewing the available information but that information is insufficient to render a confirmed diagnosis
-,Insufficient Data,,The available information is insufficient to form a reasonable impression of or to exclude any brain-related diagnoses
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+confirmed diagnosis,c394c675-8db2-4ec0-999a-9fb1854bc3d1,,,Sufficient evidence exists to: 1) make a clinical diagnosis based on medical history and neuropathological exam or genetic data or 2) make a clinical diagnosis by the consensus of expert clinicians or 3) confirm the absence of any brain-related diagnoses (i.e. Unaffected Control),
+investigator impression,ed5cb4a2-407f-4554-b907-47339dca694c,,,Diagnosis is based on the clinical impressions of the clinician reviewing the available information but that information is insufficient to render a confirmed diagnosis,
+insufficient data,eb2ac5c8-af02-4e62-879d-edf1c47262cb,,,The available information is insufficient to form a reasonable impression of or to exclude any brain-related diagnoses,

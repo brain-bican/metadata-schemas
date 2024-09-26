@@ -1,10 +1,10 @@
-﻿ID,Label,Code,Description
-,Under $15000,,Annual income under 15000 USD
-,$15000 to $24999,,Annual income between 15000 and 24999 USD
-,$25000 to $34999,,Annual income between 25000 and 34999 USD
-,$35000 to $49999,,Annual income between 35000 and 49999 USD
-,$50000 to $74999,,Annual income between 50000 and 74999 USD
-,$75000 to $99999,,Annual income between 75000 and 99999 USD
-,$100000 and over,,Annual income greater than 100000 USD
-,Refused,,
-,Unknown,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+Under $15000,694dc11a-ae69-41c2-877d-c8a4263fe81f,,PV000858,Annual income under 15000 USD,
+$15000 to $24999,9d25c615-e7ef-4bcd-b27f-8ef71c70d2fc,,PV000850,Annual income between 15000 and 24999 USD,
+$25000 to $34999,4bf57ed5-adeb-4cad-b9f2-c9681100681c,,PV000851,Annual income between 25000 and 34999 USD,
+$35000 to $49999,2a051377-be2f-4b1f-87ee-2cca8009d5db,,PV000852,Annual income between 35000 and 49999 USD,
+$50000 to $74999,4111b12f-62a0-4cf4-972f-aed54b5d840a,,PV000853,Annual income between 50000 and 74999 USD,
+$75000 to $99999,bb1bed89-233a-4ae2-9bbe-a4876cc06960,,PV000854,Annual income between 75000 and 99999 USD,
+$100000 and over,e8285d1f-c5a0-4533-aecd-f0309021ab38,,PV000855,Annual income greater than 100000 USD,
+Refused,681f5486-f1b2-4e08-8928-8aeee26fa533,,PV000856,Annual income disclosure refused.,
+Unknown,e731d8dd-3126-405e-926f-3553a9f71ecf,,PV000857,Annual income unknown.,

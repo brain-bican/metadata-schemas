@@ -1,8 +1,8 @@
-﻿ID,Label,Code,Description
-,Whole Blood,,
-,Plasma,,
-,Brain,,
-,Nasal Swab,,
-,Serum,,
-,Other,,
-,Unknown,,
+﻿BICAN Label,BICAN UUID,Aliases,Code,Description,Ontology ID
+whole blood,19070bbb-ee7a-4b82-b316-602dc300559a,,1,A fluid that is composed of blood plasma and erythrocytes.,UBERON:0000178
+plasma,a2c4e948-7342-4885-abaf-76b58404f775,,2,"The liquid component of blood, in which erythrocytes are suspended.",UBERON:0001969
+brain,f67a424d-3c67-4401-88b5-5f50abe7a7ca,,3,"The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell.",UBERON:0000955
+nasal swab,c90194ff-2685-4df2-b500-191857544ee3,,4,"A specimen obtained using a cotton swab on a stick, passed up the nostril to obtain a sample of exudate and epithelial debris for microbiological or cellular examination.",OBI:0000917
+serum,443abec1-354e-4531-9f49-18f6649845f4,,5,The portion of blood plasma that excludes clotting factors.,UBERON:0001977
+other,659489dd-f77e-4012-84f0-f0b2b5ec13a0,,6,,
+unknown,7dd40494-b360-4ee5-b2a8-b44ac68efde6,,7,,

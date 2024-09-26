@@ -1,21 +1,21 @@
-﻿ID,Label,Code,Description
-,Biological Mother,,
-,Biological Father,,
-,Full sibling,,
-,Half sibling,,
-,Child,,
-,Maternal grandmother,,
-,Paternal grandmother,,
-,Maternal grandfather,,
-,Paternal grandfather,,
-,Maternal aunt,,
-,Paternal aunt,,
-,Maternal uncle,,
-,Paternal uncle,,
-,Maternal niece/nephew,,
-,Paternal niece/nephew,,
-,Maternal cousin,,
-,Paternal cousin,,
-,Grandchild,,
-,Great-grandchild,,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+biological mother,5bad77e9-487e-4215-9740-7d48b588f5da,,,A female who contributes to the genetic makeup of her offspring from the fertilization of her ovum.,NCIT:C96580
+biological father,fdb9658a-c666-451d-8a9a-728e93612c15,,,A male who contributes to the genetic makeup of his offspring through the fertilization of an ovum by his sperm.,NCIT:C96572
+full sibling,485512d7-d007-4e9b-8d4b-91292dc16f37,,,A sibling with whom one shares both parents.,NCIT:C71390
+half sibling,e2172cc9-8b1d-4be9-b2ba-3d19578f8322,,,A sibling with whom one shares a single parent.,NCIT:C71391
+child,02a2bbef-5b40-40e8-be5f-38af0ca5c54f,offspring,,"A first-generation, biological descendant of any age.",NCIT:C42708
+maternal grandmother,83186918-fb36-469c-83bd-3fc32ae0abf7,biological maternal grandmother,,A female relative who is the biological mother of the biological mother.,NCIT:C96578
+paternal grandmother,3222c494-3898-4628-aa86-1188d8b0e3c9,biological paternal grandmother,,A female relative who is the biological mother of the biological father.,NCIT:C96584
+maternal grandfather,4b42c443-d09c-4812-9100-a6fa29c05e02,biological maternal grandfather,,A male relative who is the biological father of the biological mother.,NCIT:C96577
+paternal grandfather,7e87f7a9-3409-400a-9704-6b42cd6c5ae3,biological paternal grandfather,,A male relative who is the biological father of the biological father.,NCIT:C96583
+maternal aunt,2c473298-9f9c-4d34-8672-2984ed821596,biological maternal aunt,,"A female relative who is a sibling of the biological mother, and who both share a common ancestor.",NCIT:C96575
+paternal aunt,b6c3f103-42ee-4fc3-a0f1-f77a9b8614c4,biological paternal aunt,,"A female relative who is a sibling of the biological father, and who both share a common ancestor.",NCIT:C96581
+maternal uncle,1d4fbac1-f3d8-472a-a1d0-2fa45c72130b,biological maternal uncle,,"A male relative who is a sibling of the biological mother, and who both share a common ancestor.",NCIT:C96579
+paternal uncle,22e98fcb-6a44-4f4f-8545-0ec725ae2204,biological paternal uncle,,"A male relative who is a sibling of the biological father, and who both share a common ancestor.",NCIT:C96585
+maternal niece/nephew,9a341278-9b47-4dc8-9ade-1db5471e57fe,,,A son or daughter of one's female biological sibling. ,
+paternal niece/nephew,f185febc-e4e4-41e8-be82-ab6d4ca1f463,,,A son or daughter of one's male biological sibling.,
+maternal cousin,19b03c4c-9c70-4a6c-a9bf-57c68259c0ab,biological maternal cousin,,A relative who is the offspring of a sibling of the biological mother and thus sharing a common ancestor.,NCIT:C96576
+paternal cousin,e964a08a-9a8a-4c8c-a1af-5201d5bcf2eb,biological paternal cousin,,A relative who is the offspring of a sibling of the biological father and thus sharing a common ancestor.,NCIT:C96582
+grandchild,2096595a-bd35-483b-88cb-c142e55be8d9,,,A child of one's son or daughter.,NCIT:C71397
+great-grandchild,81aba55b-dea4-4d77-84c8-333e776ca3c7,,,A child of one's grandchild.,NCIT:C165847
+other (specify),f19d7f1a-ce76-4c28-a8ab-936b8cc7691d,,,,

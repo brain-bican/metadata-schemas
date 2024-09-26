@@ -1,8 +1,8 @@
-﻿ID,Label,Code,Description
-,Not Deceased,,
-,Accidental,,
-,Homicide,,
-,Suicide,,
-,Natural,,
-,Manner of Death Undetermined,,
-,Unknown if subject is deceased or not,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+not deceased,998533fe-c3a1-47d0-8439-09e54095bbee,,0,,
+accidental,30e9feff-a89b-4c23-943b-b22161440f57,,1,A manner of death in which death is caused by inadvertent chance happening(s).,
+homicide,599fdfc8-73d7-4851-873d-d738f9183ee7,,2,A manner of death in which death is caused by a person's intentional action to kill or harm another.,
+suicide,ac0541ae-effe-4704-9d2b-b31c6dc5b0eb,,3,A manner of death in which death is caused by self-inflicted injurty with evidence of intent to die.,
+natural,9e7c4516-8ba3-4e42-9813-4fbfb1449e0d,,4,A manner of death in which death is caused solely by disease or natural process. ,
+manner of death undetermined,645dadd1-0f0e-4f43-a55f-14fb381781f3,,5,A manner of death where little information is known about the circumstances surrounding death or where information equally supports and/or conflicts with more than one manner of death. ,
+unknown if subject is deceased or not,8bd0c07b-27ca-4382-ac30-3467e0c3dda7,,9,,

@@ -1,4 +1,4 @@
-﻿ID,Label,Code,Description
-,Contusion,,
-,Chronic traumatic encephalopathy,,
-,Other (specify),,
+﻿BICAN Label,BICAN UUID,Aliases,Code,Description,Ontology ID
+contusion,88945d9a-cb60-42b5-8e13-b947358bc69e,,1,"An injury to biological tissue in which the capillaries are damaged, allowing blood to seep into the surrounding tissue",MP:0009275
+chronic traumatic encephalopathy,4801e714-1f53-48f8-aa0b-0337ab9960b7,CTE,2,"A tauopathy that is characterized by an abundance of hyperphosphorylated tau protein in neurons, astrocytes and cell processes around blood vessels and that is associated with repetitive head impacts or exposure to blast waves.",DOID:0081291
+other (specify),bb06d676-6728-42b1-b3ea-4504b418efcf,,3,,
