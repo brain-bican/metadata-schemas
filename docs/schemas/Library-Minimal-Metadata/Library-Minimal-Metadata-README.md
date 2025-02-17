@@ -494,6 +494,27 @@ This document has the following sections:
 <table><tbody>
     <tr>
       <th>BICAN Field Name</th>
+      <td>patched cell structure</td>
+    </tr>
+    <tr>
+      <th>Data Type</th>
+        <td><code>Value Set</code>
+        </td>
+    </tr>
+    <tr>
+      <th>Definition</th>
+        <td>Ontological structure assigned to a single patched cell.  This is typically assigned and confirmed after imaging.</td>
+    </tr>
+    <tr>
+      <th>BICAN UUID</th>
+      <td>7636b4c8-12f6-4b33-bdc6-c2f1a3b1c953</td>
+    </tr>    
+</tbody></table>
+<br>
+
+<table><tbody>
+    <tr>
+      <th>BICAN Field Name</th>
       <td>Enriched cell sample container name</td>
     </tr>
     <tr>
@@ -1274,3 +1295,9 @@ This document has the following sections:
 - 1.1 histone_modification_marker
 - 1.1 library_pool_preparation_date
 - 1.1 flowcell
+
+### Version 1.2
+
+#### Added
+
+- 1.2 patched cell structure
