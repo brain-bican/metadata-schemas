@@ -1,0 +1,8 @@
+table_name,column_name,value
+donor,data_use_limitation,No Restriction
+donor,data_use_limitation,General Research Use
+donor,data_use_limitation,Health/Medical/Biomedical
+donor,data_use_limitation,Disease-specific
+donor,disease_specification,Brain health and disease
+donor,access_level,Unrestricted
+donor,access_level,Controlled
