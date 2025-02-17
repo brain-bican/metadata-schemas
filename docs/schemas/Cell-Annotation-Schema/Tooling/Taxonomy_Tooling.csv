@@ -1,0 +1,12 @@
+﻿Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,Definition,Nullable,Permissible Values,Data Type,Data Example,Min Value,Max Value,Unit,Statistical Variable Type,Subsets,Version Date
+cell_id,,,,"Identifier corresponding to each individual cell. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index.",,,string,,,,,,"data, assigned metadata, calculated metadata, tooling",
+[cellannotation_set]--parent_cell_set_accession,,,,"ID corresponding to the parent cell_set. If not needed for annotations, definitely needed for tooling.",,,,,,,,,tooling,
+dataset_url,,,,"PURL of taxonomy; Possibly a redundant field, but critical; also publication_url and cellannotation_url (unclear how different)",,,,,,,,,"annotations, tooling",
+matrix_file_id,,,,Like dataset_url; e.g. CellXGene_dataset:8e10f1c4-8e98-41e5-b65f-8cd89a887122; Note: needs to be extended to allow for more than one file and connected to feature_matrix_label in obs. We need this field!,,,,,,,,,"annotations, tooling",
+author_list,,,,"List of all collaborators, comma separated [First] [Last]; Useful in general, even though currently only required by CAP. Called Taxonomy Users in taxonomy Google Sheet.",,,,,,,,,"annotations, tooling",
+schema_version,,,,"cellxgene schema version (e.g., ""3.0.0"")",,,,,,,,,tooling,
+[...]_color,,,, RGB color vector for metadata [...]; required only for selecting colors in cirrocumulus. This may be the same as the [COLUMN_NAME]_color column above.,,,,,,,,,tooling,
+cellannotation_schema_version,,,,CAS schema version '[MAJOR].[MINOR].[PATCH]',,,,,,,,,tooling,
+cellannotation_timestamp,,,,"Timestamp when published: %yyyy-%mm-%dd %hh:%mm:%ss; Useful in general, even though currently only required by CAP; also publication_XXXX (unclear how different); This also could be the same as development_date above.",,,,,,,,,tooling,
+cellannotation_version,,,,CAP taxonomy annotation version; required by CAP; also publication_XXXX (unclear how different). I'm also not sure how this differs from the cellannotation_schema_version.,,,,,,,,,tooling,
+[additional information],,,,"Placeholder for several other (seemingly redundant) fields required by external tools (e.g., CAP, cellxgene) that I want to capture here. It may or may not make sense to spell them all out.",,,,,,,,,tooling,
