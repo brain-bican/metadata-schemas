@@ -58,6 +58,7 @@ Here are the BICAN metadata schemas and their statuses.
 
 | Schema | Version | Release | Status |
 |:--|:--|:--|:--|
+| [Cell Annotation and Taxonomy] | [pre-release] | [TBD] | Under MOWG Review |
 | [Donor-to-Alignment Metadata] | [Donor to Alignment v1.0.0] |  [2023-03-31] | Accepted by MOWG |
 | [Human Donor Metadata] | [Human Donor v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
 | [Projects and Data Collections Metadata] | [Projects and Data Collections v1.0.0] | [2023-09-27] | Under MOWG Review |
@@ -67,6 +68,8 @@ Here are the BICAN metadata schemas and their statuses.
 | [Developing NHP Metadata] | [Developing NHP Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | [Developing Tissue Metadata] | [Developing Tissue Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | | | | |
+
+[Cell Annotation and Taxonomy Schema]: docs/schemas/Cell-Annotation-and-Taxonomy
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
 [Donor to Alignment v1.0.0]: docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
