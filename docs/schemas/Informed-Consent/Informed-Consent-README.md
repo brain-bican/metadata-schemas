@@ -1,4 +1,4 @@
-# BICAN Informed Consent Metadata Schema
+# BICAN Institutional Certification Metadata Schema
 
 Document Status: _Under Review by MOWG_
 
@@ -26,7 +26,7 @@ Note that the requirements in the schema are just the minimum required informati
 
 ## Overview
 
-The BICAN Informed Consent Metadata schema describes metadata associated with and produced from informed consent forms and data in BICAN.
+The BICAN Institutional Certification Metadata schema describes metadata associated with and produced from institutional certification forms and data in BICAN.
 
 This document has the following sections:
 
@@ -34,7 +34,7 @@ This document has the following sections:
 * [Certification](#certification), which describe the metadata for certifications.
 * [Donor Certification](#donor-certification), which describe the metadata required for donor certifications.
 * [Donor Data Use Limitation](#donor-data-use-limitation), which describe the metadata required data use limitations.
-* [Value Set](#value-set), which describe the controlled values for informed consent metadata in BICAN.
+* [Value Set](#value-set), which describe the controlled values for institutional certification metadata in BICAN.
 * [Appendix](#appendix)
 
 ## General Requirements
