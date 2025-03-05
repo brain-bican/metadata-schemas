@@ -1,8 +1,8 @@
 table_name,column_name,value,definition
-donor,data_use_limitation,No Restriction,
-donor,data_use_limitation,General Research Use,"Use of the data is limited only by the terms of the Data Use Certification."
+donor,data_use_limitation,No Restriction,Use of the data is not limited.
+donor,data_use_limitation,General Research Use,Use of the data is limited only by the terms of the Data Use Certification.
 donor,data_use_limitation,Health/Medical/Biomedical,"The dataset can only be used for studying health, medical or biomedical conditions, and does not include the study of population origins or ancestry."
-donor,data_use_limitation,Disease-specific,"The dataset can be used only for research on a specific disease or related condition."
-donor,disease_specification,Brain health and disease,
-donor,access_level,Unrestricted,
-donor,access_level,Controlled,
+donor,data_use_limitation,Disease-specific,The dataset can be used only for research on a specific disease or related condition.
+donor,disease_specification,Brain health and disease,The dataset can be used only for research on a specific disease or related condition.
+donor,access_level,Unrestricted,Access is unrestricted.
+donor,access_level,Controlled,Access is controlled.
