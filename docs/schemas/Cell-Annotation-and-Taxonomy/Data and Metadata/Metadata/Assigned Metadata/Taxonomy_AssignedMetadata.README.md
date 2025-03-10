@@ -1,6 +1,45 @@
-Assigned metadata
+# Assigned Metadata Schema
+
+Document Status: _Under MOWG Review_
+
+Version: 1.0
+
+Owner: @UCDNJJ, @jeremymiller
+
+Reviewers: @patrick-lloyd-ray, @carolth, @djarecka, @memartone
+
+License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Date Created: 10-03-2025
+
+## Overview
+
+The BICAN Taxonomy Assigned Metadata schema specifies the metadata relating to taxonomy metadata that can be taken from a variety of sources in BICAN. These metadata reflect the metadata needed to accurately track taxonomy metadata in BICAN. As such, it is a collaborative schema that reflects the joint efforts of members of BICAN.
+
+There are many metadata schemas that can be used in leiu of those specified in this document. 
+
+* [Developing-Human-Metadata]
+* [Developing-NHP-Metadata]
+* [Developing-Tissue-Metadata]
+* [Donor-Metadata]
+* [Macaque-Donor-and-Tissue-Metadata]
+* [Marmoset-Metadata]
+
+to name a few. If you are not using one of these metadata schemas, feel free to enter your own metadata in the format specified by this document below.
+
+This document has the following sections:
+
+* [General Requirements](#general-requirements)
+* [obs](#obs)
+* [uns](#uns)
+* [changelog](#changelog)
+
+### General Requirements
+
 This includes cell-level metadata that is assigned at some point in the process between when a cell goes from the donor to a value in the data, and (in theory) can be ENTIRELY captured by values in Allen Institute, BICAN, or related standardized pipelines. It includes things like donor metadata, experimental protocols, dissection information, RNA QC metrics, and sequencing metadata. Ideally a schema for this will be defined through other BICAN groups, and can be adopted here.
-obs
+
+### obs
+
 The obs component contains cell level metadata from the experiment
 cell_label: ID corresponding to each individual cell. (Will likely get renamed.) See above. 
 [additional cell ID columns]: Optional additional IDs per cell. They are not used for taxonomy efforts. This could include things like IDs for RNA wells, barcodes, or other tracking IDs used for data processing.
@@ -24,7 +63,11 @@ sex 🔥🔥🔥 : Placeholder for donor sex. Called sex_ontology_term_id (e.g.,
 donor_genotype: One (or sometimes more) column related to the genotype of the animal (for transgenic mice, in particular). Not used for humans and most NHP.
 self_reported_ethnicity_ontology_term_id: Controversial field that is required for CELLxGENE but otherwise not used. HANCESTRO term if human and 'na' if non-human.
 disease and disease_ontology_term_id: A human-readable name for a disease and the associated MONDO ontology term (or PATO:0000461 for 'normal'). Used in CELLxGENE and ideally we can also adopt for SEA-AD and other use cases.
-uns
+
+### uns
+
 The uns component contains more general information and fields with formatting incompatible with the above components.
 assigned_metadata_metadata 🔥🔥🔥 : TBD information about the assigned_metadata itself. This likely is not needed or should be renamed.
 batch_condition: List of obs fields that define “batches”; Used by CELLxGENE if provided, but otherwise not needed.
+
+## Changelog
