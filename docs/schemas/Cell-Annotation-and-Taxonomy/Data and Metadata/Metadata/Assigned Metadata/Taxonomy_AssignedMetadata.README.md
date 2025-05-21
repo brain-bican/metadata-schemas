@@ -120,7 +120,7 @@ The obs component contains cell level metadata from the experiment.
 </tbody></table>
 <br>
 
-#### Color Vectors
+#### Color Vector
 
 <table><tbody>
     <tr>
