@@ -2,23 +2,52 @@
 
 We have developed a compartmenatlized schema for storing all required aspects of a taxonomy. The fields in the AIT schema are associated to a broad category term (described below) which form a piece of the whole AIT file format. 
 
+This document has the following sections:
+
+- [Allen Institute Taxonomy schema](#allen-institute-taxonomy-schema)
+  - [Schema category terms](#schema-category-terms)
+
 *(Note: A pervious version of this standard is available **[as a Google Doc](https://docs.google.com/document/d/1nj6LHUPoo3JnNwZ7PTdniT9pBPsoJr1B/edit?usp=sharing&ouid=113573359044104089630&rtpof=true&sd=true)**).*
 
-### Schema category terms
+## Schema category terms
 
 Described here are the broad categories that all fields are associated with.
 
-* **[Data](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#data)**: Includes anything critical for understanding the cell by gene matrix and to link it with other components.  Includes data (raw and processed), gene information, and cell identifiers.  *Note that for the purposes of this schema, we are excluding raw data (fastq, bam files, etc.) from consideration and are starting from the count matrix.*
+### Data
+
+Includes anything critical for understanding the cell by gene matrix and to link it with other components.  Includes data (raw and processed), gene information, and cell identifiers.  *Note that for the purposes of this schema, we are excluding raw data (fastq, bam files, etc.) from consideration and are starting from the count matrix.*
+
+[Data documenatation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#data)
+
+### Assigned Metadata
   
-* **[Assigned metadata](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#assigned-metadata)**: Includes cell-level metadata that is assigned at some point in the process between when a cell goes from the donor to a value in the data, and (in theory) can be ENTIRELY captured by values in Allen Institute, BICAN, or related standardized pipelines.  It includes fields that describe: donor metadata, experimental protocols, dissection information, RNA QC metrics, and sequencing metadata.
+Includes cell-level metadata that is assigned at some point in the process between when a cell goes from the donor to a value in the data, and (in theory) can be ENTIRELY captured by values in Allen Institute, BICAN, or related standardized pipelines.  It includes fields that describe: donor metadata, experimental protocols, dissection information, RNA QC metrics, and sequencing metadata.
+
+[Assigned metadata documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#assigned-metadata)
+
+### Calculated Metadata
   
-* **[Calculated metadata](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#calculated-metadata)**: Includes any cell-level or cluster-level metadata that can be calculated explicitly from the **Data** and **Assigned Metadata** without the need for human intervention. It includes fields that describe: # reads detected/cell, # UMI/cell, fraction of cells per cluster derived from each anatomic dissections, expressed neurotransmitter genes (quantitatively defined), standard quality control metrics (e.g., doublet score) per cluster.
+Includes any cell-level or cluster-level metadata that can be calculated explicitly from the **Data** and **Assigned Metadata** without the need for human intervention. It includes fields that describe: # reads detected/cell, # UMI/cell, fraction of cells per cluster derived from each anatomic dissections, expressed neurotransmitter genes (quantitatively defined), standard quality control metrics (e.g., doublet score) per cluster.
+
+[Calculated metadata documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#calculated-metadata)
+
+### Annotations
   
-* **[Annotations](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#annotations)**: Includes fields related to the annotation of clusters or groups of clusters (collectively called "cell sets").  It includes fields that describe cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON), expert annotations, and dendrograms.
-  
-* **[Analysis](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#analysis)**: Includes fields which are required for specific analysis for example: latent spaces (e.g., UMAP), cluster level gene summaries (e.g., cluster means, proportions), and variable genes.
-  
-* **[Tooling](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#tooling)**: Includes fields required for specific tools (e.g., cellxgene, TDT, CAS, CAP, and cell type annotation) that are not strictly part of the taxonomy but are required to inter-operate between various tools.
+Includes fields related to the annotation of clusters or groups of clusters (collectively called "cell sets").  It includes fields that describe cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON), expert annotations, and dendrograms.
+
+[Annotations documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#annotations)
+
+### Analysis
+
+Includes fields included as the result of or required for specific analysis.  Some examples include latent spaces (e.g., UMAP), cluster level gene summaries (e.g., cluster means, proportions), and variable genes.
+
+[Analysis documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#analysis)
+
+### Tooling
+
+Includes fields required for specific tools (e.g., cellxgene, TDT, CAS, CAP) that are not strictly part of the taxonomy and that do not fit in any of the above categories.  It includes things like schema versions and redundant fields from above with different column names.
+
+[Tooling documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#tooling)
 
 <!-- Here is a graphical representation of these terms in the context of data, metadata, and taxonomies:
 ![image](https://github.com/AllenInstitute/scrattch.taxonomy/assets/25486679/eaf6b3d3-0b5f-49fc-9a49-2b7168605964) -->
@@ -493,3 +522,7 @@ The `obsm` component contains all dimensionality reductions of the taxonomy (cel
 | Tags | Analysis |
 
 <br>
+
+## Changelog
+- 2024-10-01: Initial version of the Allen Institute Taxonomy schema.
+- 2024-10-15: Added `cellannotation_schema` and `cellannotation_schema_version` to `uns`.
