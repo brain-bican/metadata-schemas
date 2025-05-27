@@ -6,6 +6,58 @@ This document has the following sections:
 
 - [Allen Institute Taxonomy schema](#allen-institute-taxonomy-schema)
   - [Schema category terms](#schema-category-terms)
+    - [Data](#data)
+    - [Assigned Metadata](#assigned-metadata)
+    - [Calculated Metadata](#calculated-metadata)
+    - [Annotations](#annotations)
+    - [Analysis](#analysis)
+    - [Tooling](#tooling)
+  - [Schema](#schema)
+    - [`X`](#x)
+    - [`raw`](#raw)
+    - [`obs`](#obs)
+      - [index of pandas.Dataframe](#index-of-pandasdataframe)
+      - [cluster\_id](#cluster_id)
+      - [\[cellannotation\_setname\]](#cellannotation_setname)
+      - [cell\_type\_ontology\_term\_id](#cell_type_ontology_term_id)
+      - [load\_id](#load_id)
+      - [donor\_id](#donor_id)
+      - [assay](#assay)
+      - [organism](#organism)
+      - [organism\_ontology\_term\_id](#organism_ontology_term_id)
+      - [donor\_age](#donor_age)
+      - [anatomical\_region](#anatomical_region)
+      - [anatomical\_region\_ontology\_term\_id](#anatomical_region_ontology_term_id)
+      - [self\_reported\_sex](#self_reported_sex)
+      - [self\_reported\_ethnicity\_ontology\_term\_id](#self_reported_ethnicity_ontology_term_id)
+      - [disease\_ontology\_term\_id](#disease_ontology_term_id)
+      - [suspension\_type](#suspension_type)
+      - [is\_primary\_data](#is_primary_data)
+    - [`var`](#var)
+      - [index of pandas.Dataframe](#index-of-pandasdataframe-1)
+      - [ensembl\_id](#ensembl_id)
+      - [highly\_variable\_genes](#highly_variable_genes)
+      - [marker\_genes](#marker_genes)
+    - [`uns`](#uns)
+      - [title](#title)
+      - [dataset\_purl](#dataset_purl)
+      - [batch\_condition](#batch_condition)
+      - [reference\_genome](#reference_genome)
+      - [gene\_annotation\_version](#gene_annotation_version)
+      - [dend](#dend)
+      - [hierarchy](#hierarchy)
+      - [mode](#mode)
+      - [filter](#filter)
+      - [qualty\_control\_markers](#qualty_control_markers)
+      - [cluster\_info](#cluster_info)
+      - [cluster\_id\_median\_expr](#cluster_id_median_expr)
+      - [default\_embedding](#default_embedding)
+      - [schema\_version](#schema_version)
+      - [cellannotation\_schema](#cellannotation_schema)
+      - [cellannotation\_schema\_version](#cellannotation_schema_version)
+    - [`obsm` (Embeddings)](#obsm-embeddings)
+      - [X\_\[embedding\]](#x_embedding)
+  - [Changelog](#changelog)
 
 *(Note: A pervious version of this standard is available **[as a Google Doc](https://docs.google.com/document/d/1nj6LHUPoo3JnNwZ7PTdniT9pBPsoJr1B/edit?usp=sharing&ouid=113573359044104089630&rtpof=true&sd=true)**).*
 
@@ -60,7 +112,7 @@ Within each broad categorical term, fields are ordered by their location in the 
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED" "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://tools.ietf.org/html/bcp14), [RFC2119](https://www.rfc-editor.org/rfc/rfc2119.txt), and [RFC8174](https://www.rfc-editor.org/rfc/rfc8174.txt) when, and only when, they appear in all capitals, as shown here.
 
-## `X` 
+### `X` 
 
 | Key | X |
 | :-- | :-- |
@@ -70,7 +122,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 | Required | RECOMMENDED |
 | Tags | Data |
 
-## `raw`
+### `raw`
 
 The `raw` component contains the unfiltered anndata object containing a count matrix in `raw.X`.
 
@@ -83,7 +135,7 @@ The `raw` component contains the unfiltered anndata object containing a count ma
 | Tags | Data |
 
 
-## `obs`
+### `obs`
 
 `obs` is a [pandas.Dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
@@ -276,7 +328,7 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-## `var`
+### `var`
 
 `var` is a [pandas.Dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
@@ -326,7 +378,7 @@ The `var` component contains gene level information.
 
 <br>
 
-## `uns`
+### `uns`
 
 The `uns` component contains more general information and fields with formatting incompatible with the above components.
 
@@ -508,7 +560,7 @@ The `uns` component contains more general information and fields with formatting
 
 * `cell_annotation_schema`: extended `calculated metadata` about annotations and labelsets stores in `uns` as in [CAS - BICAN extension](https://github.com/cellannotation/cell-annotation-schema/blob/main/build/BICAN_schema.md) format under `labelsets`.  
 
-## `obsm` (Embeddings)
+### `obsm` (Embeddings)
 
 The `obsm` component contains all dimensionality reductions of the taxonomy (cell x dim). To display a dataset Curators MUST annotate one or more embeddings of at least two-dimensions (e.g. tSNE, UMAP, PCA, spatial coordinates) as numpy.ndarrays in obsm.
 
