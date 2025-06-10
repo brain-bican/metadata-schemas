@@ -1,0 +1,329 @@
+﻿BICAN Field Name,BICAN UUID,Aliases,Definition,Dev. Human,Dev. NHP,Dev. Tissue,Donor,Library,Macaque Donor and Tissue,Marmoset,Donor-to-Alignment
+local donor ID,f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf,subject_id,An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry. [Allotrope],x,x,x,x,,x,x,
+repository,408682ed-0e27-41e2-b9fa-f05674366d6e,repository,"Repository' trailing modifier (qualifier, 'repository') of 'xref' links of 'Format' concepts. When 'true', the link is pointing to the public source-code repository where the given data format is developed or maintained. [EDAM]",x,x,,x,,x,,
+donor source,0d0cf732-0f76-409d-9a73-7a96d829d3d3,donor_source,The origin of the donor/subject in this experiment.,x,x,,x,,x,x,
+ethnicity,918370df-49f6-4361-9c52-f46b16412980,ethnicity,"Population category defined in terms of cultural, religious, tribal or other social similarities. [EFO]",x,,,x,,,,
+race,e515c009-550e-4f9c-b1b6-fc876a6fb2a8,race,"An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution. [ExO]",x,,,x,,,,
+sex at birth,c819b9d5-2fde-40b2-bf0d-e07b56f96ac9,sex,An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved. [PATO],x,x,,x,,x,x,
+gender,1c71e775-65aa-442b-a392-1cf9a44e326e,gender,"Identification as male/masculine, female/feminine or something else, and association with a (social) role or set of behavioral and cultural traits, clothing, etc; a category to which a person belongs on this basis. Gender is the result of a complex combination of gender role, gender expression, gender identity, and gender modality. Do not use this term for non-human animals. [NCIT]",x,,,x,,,,
+sex orientation,e47e8a2f-72fb-4036-b288-f4580dc2aa4e,sex_orientation,"The pattern of a person's emotional, romantic, and/or sexual attractions. [NCIT]",x,,,x,,,,
+age value (years),14eb923a-161d-45e2-889d-81fea7b632b6,age_of_death,A time quality inhering in a bearer by virtue of how long the bearer has existed. [PATO],x,x,,x,,x,x,
+birth country name,9c27fd29-b512-492f-a32f-b615c7585ff7,birth_country_name,The name of the country where a subject was born. [NCIT],x,,,x,,,,
+primary language,abe9edc7-96ca-4c6a-a1ed-c008548cc373,primary_language,"The alphanumeric code from the ISO 639 standard which denotes the primary lanugage of a subject. The ISO 639 standard includes a two letter representation and a three letter representation. [NCIT, modified]",x,,,x,,,,
+secondary language,37b7495f-b010-4d1c-ae32-9cb19c680950,secondary_language,"The alphanumeric code from the ISO 639 standard which denotes the secondary lanugage of a subject. The ISO 639 standard includes a two letter representation and a three letter representation. [NCIT, modified]",x,,,x,,,,
+autopsy report,3f787b64-0985-4d0f-9523-54475164b7ad,autopsy_report,"A document assembled by an author for the purpose of providing information regarding the cause of death of a subject for the audience. [IAO, modified]",x,,,x,,x,,
+cause of death,fa970a03-41ea-473b-a8ce-427fec92cdff,cause_of_death,The circumstance or condition that results in the death of a living being. [NCIT],x,,,x,,x,,
+cause of death code,61374624-2d3c-477e-95b3-9bd30974b52a,cause_of_death_code,The ISO code that denotes the circumstance or condition that results in the death of a living being. [NCIT],x,,,x,,x,,
+manner of death,36eeb35b-5020-4a9e-a74b-6e1104415e0e,manner_of_death,"The manner of death is the determination of how the injury or disease leads to death.  There are five manners of death (natural, accident, suicide, homicide, and undetermined).",x,,,x,,x,x,
+informant questionnaire completed,e8b9666f-a112-456f-aa5a-69a101c3866f,informant_questionnaire_completed,"The status (completed, not completed) of the document about the subject completed by an informant.",x,,,x,,,,
+informant interview performed,274b838b-74c6-46ec-808a-0c080ddeedd9,informant_interview_performed,"The status (performed, not performed) of the interview event between a clinician and an informant.",x,,,x,,,,
+informant relationship,836c19fe-b735-4bf7-bee5-3213122b571e,informant_relationship,The relationship that a informant bears to a subject/donor.,x,,,x,,,,
+handedness,82a4087c-d0e3-48ca-8bea-a81eefc683a0,handedness,A behavioral quality inhering ina bearer by virtue of the bearer's unequal distribution of fine motor skill between its left and right hands or feet. [PATO],x,,,x,,,,
+medical records available,ee2c9223-f7d1-4c64-a1da-cd7408309955,medical_records_available,"The status (available, unavailable) of the medical records of the subject/donor.",x,,,x,,x,x,
+medical records reviewed,6139b159-c36c-4501-9176-fe2741e3d448,medical_records_reviewed,"The status (reviewed, not reviewed) of the medical records of the subject/donor.",x,,,x,,x,,
+hemisphere,68b7a28b-d695-4ec9-800b-6a27ca206081,hemisphere,"One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter. [UBERON]",x,x,x,x,,x,x,
+post mortem interval,6fd5c5ac-b128-4a4a-ae98-09eaeba22f92,post_mortem_interval,The length temporal interval between the time of death of the subject/donor and the time at which the specimen is made.,x,x,,x,,x,x,
+left hemisphere preparation,57d5378f-a451-4bf5-a472-cc88d0d29586,left_hemisphere_preparation,The type of preparation method used for the left hemisphere.,x,x,x,x,,x,x,
+left hemisphere preparation specify,002e915e-01c3-4570-a1f3-76680dcb2c33,left_hemisphere_preparation_specify,Specific details about the type of preparation method used for the left hemisphere.,x,x,x,x,,x,x,
+left hemisphere tissue inventory,05e2821e-e7dc-4e33-94dc-7b55c372e5a0,left_hemisphere_tissue_inventory,The inventory (list) of the tissue samples for a specific left hemisphere specimen.,x,,x,,,,,
+left hemisphere tissue sampling history,b02f7dd7-4535-4b41-b8df-73786b8983bc,left_hemisphere_tissue_sampling_history,The history of the tissue sampling for a specific left hemisphere specimen.,x,,x,,,,,
+right hemisphere preparation,477c2600-f979-43c5-9c61-ab61fd771584,right_hemisphere_preparation,The type of preparation method used for the right hemisphere.,x,x,x,x,,x,x,
+right hemisphere preparation specify,efd50be4-f7cf-4146-a08e-28f25680728c,right_hemisphere_preparation_specify,Specific details about the type of preparation method used for the right hemisphere.,x,x,x,x,,x,x,
+right hemisphere tissue inventory,8b6b910f-beb7-4e2b-881a-7f862ef5d588,right_hemisphere_tissue_inventory,The inventory (list) of the tissue samples for a specific right hemisphere specimen.,x,,x,,,,,
+right hemisphere tissue sampling history,60d2efe0-bf7f-48f7-96fc-71cdf03226dd,right_hemisphere_tissue_sampling_history,The history of the tissue sampling for a specific right hemisphere specimen.,x,,x,,,,,
+RIN,cd472c0d-0b64-45c9-a38e-e54d15cea953,rin,The RNA integrity number value of a specimen.,x,x,x,x,,x,x,
+RINe,1210148d-d8fb-45aa-b51a-4b19b6d09bec,rine,A type of RIN (RNA integrity number) value that represents the relative ratio of the signal in the fast zone to the 18S peak signal fpr a specimen.,x,x,x,x,,x,x,
+pH,9e67af02-c081-43e1-a42c-bf9603cae616,ph,"The value of a measurement of acidity or basicity of a tissue, sample, or specimen.",x,x,x,x,,x,x,
+brain weight measurement,546fc32d-f8a2-4c00-924a-8c4730f11f51,brain_weight,The weight of a brain specimen.,x,x,x,x,,x,x,
+brain tissue weighed type,a7463e3f-0c61-4718-a7d0-60fd2116908a,weighed_type,"The state of a brain specimen when it is weighed (fresh, frozen, fixed).",x,x,x,x,,x,x,
+photo 2d available,611beda8-1ac6-4183-a284-04a30bb474f3,photo_2d_available,"The status (available, unavailable) of two-dimensional photos of a subject/donor/specimen.",x,x,x,x,,x,x,
+scan 3d available,658e8a80-e232-438f-8c1e-d5f38724dc55,scan_3d_available,"The status (available, unavailable) of three-dimensional scans of a subject/donor/specimen.",x,,,x,,x,,
+antemortem MRI available,43a04caa-4f28-47ac-8a9d-74c40f10776f,antemortem_mri_available,"The status (available, unavailable) of antemortem MRI images of a subject/donor/specimen.",x,,,x,,x,x,
+postmortem MRI available,0badd072-0c25-48c6-9357-44d5b5bc0818,postmortem_mri_available,"The status (available, unavailable) of postmortem MRI images of a subject/donor/specimen.",x,,,x,,x,x,
+postmortem MRI type,64a607a9-21e6-4c73-8f2e-2d67b0dc51c8,postmortem_mri_type,"The type of postmortem MRI that is available (cadeveric, fresh ex vivo, fixed ex vivo).",x,,,x,,x,x,
+anatomical atlas registration,b6835813-2bab-42f3-ae63-4c372ed0aad9,anatomical_atlas_registration,The anatomical atlas structure to which a specimen/tissue is registered.,x,,,x,,,,
+gestational age value (weeks),6d8a9b3f-792c-48c2-bd3c-56e52bb51672,gestational_age_value_weeks,The gestational age of the subject/donor in weeks.,x,x,,x,,x,,
+gestational age value (days),4e532e52-6e4c-46cd-9fde-96f97ef3b034,gestational_age_value_days,The gestational age of the subject/donor in days.,x,x,,x,,x,,
+gestational age value (months),c110d0c9-8acd-4889-b62d-3efe9b07657a,gestational_age_months,The gestational age of the subject/donor in months.,x,,,,,,,
+year of death,60445046-d9d8-4f00-959e-9a4c42613e5e,year_of_death,The year wherein the subject or donor has ceased to exist.,,x,,x,,x,x,
+RIN tissue source,d547ee51-9ec3-489c-8e49-7d8cd94080a8,rin_tissue_source,The tissue sample location or identifier that is used for calculating the RNA integrity number.,,x,x,x,,x,x,
+RIN testing organization,cfed831e-9a62-4a32-bf92-532873420eb3,rin_testing_organization,The organization that determines the RNA integrity number of a sample/specimen.,,x,x,x,,x,x,
+RINe tissue source,7d5fd9af-82a1-4bdb-a3c6-9225d1717c53,rine_tissue_source,The tissue sample location or identifier that is used for calculating the RINe number.,,x,x,x,,x,x,
+RINe testing organization,15a6d162-a3ca-4852-b626-a911c37c04c9,rine_testing_organization,The organization that determines the RINe number.,,x,x,x,,x,x,
+non-brain tissue available,3a064c96-a956-4cf3-8b77-056b8e392f99,non_brain_tissue_available,"The status (yes, no) of whether non-brain tissue from this organism is available.",,x,,x,,x,x,
+tissue type,33ccbc85-ae35-44d6-8bc6-c2fb91116cf7,tissue_type,The type of tissue (non-brain) that is available from this organism. ,,x,,x,,x,x,
+tissue type details,f551cf87-2c6e-4b92-888d-6310e6a500d8,tissue_type_details,The details of the non-brain tissue that is available from this organism. ,,x,,x,,x,x,
+birth weight value (lbs),69d9a60d-32d5-4c3a-a26a-802d8f030c8d,birth_weight_lbs,The weight (at birth) of the subject/donor in pounds.,,x,,x,,x,,
+birth weight value (oz),b6f30050-f762-4427-8533-31738e737ea2,birth_weight_oz,The weight (at birth) of the subject/donor in ounces.,,x,,x,,x,,
+species,d11fb2ce-bfdb-4735-9b17-b6ba606520b1,species,The species of a subject/donor/sample/specimen.,,x,x,,,x,x,
+body weight,f2673501-b48f-4703-bb7e-d642b73c2ad4,body_weight,The weight of the whole organism/donor/subject.,,x,,,,x,,
+premortem perfusion done,1fc487d8-2403-4d7c-952f-7e502d5f8359,perfusion,"The status of premortem perfusion (done, not done).",,x,,,,x,x,
+premortem perfusion buffer type,78d62e29-4323-4927-aec8-6fc8dc59a889,perfusate_type,The type of premortem perfusion buffer that was used for premortem perfusion. ,,x,,,,x,x,
+head off time,00ab5986-a8c4-4a7f-bf2b-6b5f08a97b25,head_off_time,The time at which the head was removed from the organism/donor/subject.,,x,,,,x,,
+brain extraction time,06be5810-7b9c-452e-b7ca-13eeb15179ca,brain_extraction_time,The time at which the brain was extracted from the organism/donor/subject.,,x,,,,x,,
+brain fixed time,2a09ecb4-0096-4a6c-b4f0-9b68cb231413,brain_fixed_time,The time at which the brain specimen was fixed.,,x,,,,x,,
+brain frozen time,fb01ce0d-1417-404a-978d-aad708c0404f,brain_frozen_time,The time at which the brain specimen was frozen.,,x,,,,x,,
+brain fixation method,8e0a01a9-ab7a-49a5-bf44-cc0af47719b1,brain_fixation_method,The method used for fixing the brain specimen.,,x,,,,x,,
+brain freeze method,71237def-9b50-481f-a01d-65dc99e3493f,brain_freeze_method,The method used for freezing the brain specimen. ,,x,,,,x,x,
+sedation start time,0ad6cca0-d4ce-4cd8-bbce-520bc01db061,sedation_start_time,The time at which sedation of the organism/donor/subject began.,,x,,,,x,,
+sedation total dose,3c895613-4526-4b87-8620-7b42eff94fee,sedation_total_dose,The total dose of sedation used on the organism/donor/subject.,,x,,,,x,,
+euthanasia time,14c541ab-7db3-4438-9328-c5f3098f5ff7,euthanasia_time,The time at which euthanasia of the organism/donor/subject occurred.,,x,,,,x,,
+euthanasia dose,d87c6869-c0d1-46b3-bb32-95dc3e3d5ed4,euthanasia_dose,The dose of compouds used to euthanize the organism/donor/subject.,,x,,,,x,,
+perfusion time start,7f94f8ad-82b7-4827-9614-838555a1f046,perfusion_time_start,The time at which perfusion began.,,x,,,,x,,
+perfusion time end,6c873444-8306-4b3f-9e5a-97f6d34c88b3,perfusion_time_end,The time at which perfusion ended.,,x,,,,x,,
+matriline,ae0447a3-0504-43a3-95d5-4248e53d3224,family_history,The relavant matriline and patriline information for a subject/donor/sample/specimen.,,x,x,,,x,,
+brain size anterior-posterior,0830564a-26ba-41eb-888a-33d0c39ead8f,brain_size_anterior_posterior,The size of the brain specimen in the anterior-posterior axis.,,x,,,,x,x,
+brain size medial-lateral,4722f739-71f6-4001-9784-afef8f9f2d0e,brain_size_medial_lateral,The size of the brain specimen in the medial-lateral axis.,,x,,,,x,x,
+brain size dorsal-ventral,e683f5ee-696f-4baf-a9bf-2f12226ceb4a,brain_size_dorsal_ventral,The size of the brain specimen in the dorsal-ventral axis.,,x,,,,x,x,
+brain size unit,4d0c44c6-e620-455d-989e-126c3c81ec91,brain_size_unit_type,The unit that the brain size measurements are recorded.,,x,,,,x,x,
+histological stains available,4b868ba6-dba8-45e3-a43e-88e421625cab,histological_stains_available,"The status (available, unavailable) of histological stainings of a specimen.",,x,,,,x,x,
+histological stains type,6723e756-e4c1-42c7-bf2d-ee2e300b88ff,histological_stain_type,The type of histological stains available for a specimen.,,x,,,,x,x,
+region of interest,71611b58-f98e-4a69-ad88-c0029a377cbe,ROI,"The brain region, structure, or area from which a brain tissue source derives.",,,x,,,x,,
+secondary race,192fe5b1-c812-4767-86fb-3178f9914705,secondary_race,,,,,x,,,,
+marital_status,4f0e41c9-dd15-4a37-ae6b-11b7131d7cba,marital_status,,,,,x,,,,
+education_years_number,add3f7fe-ae60-4cc1-bb2e-72bbbe9a1a7d,education_years_number,,,,,x,,,,
+family_income_range,6cd785e2-7333-43fe-8c8c-c19532e96ea6,family_income_range,,,,,x,,,,
+informant_relationship_specify,289bcbb8-5177-4c65-b0af-159fd65b69aa,informant_relationship_specify,,,,,x,,,,
+confirmed_hbcac,b6cdddf7-6f0b-4855-a0fa-16c2ab29f219,confirmed_hbcac,,,,,x,,,,
+consent_status,1a53e733-276f-421a-850d-eb46e50db972,consent_status,,,,,x,,,,
+tissue_source,ee83ecf8-4fca-4353-a9ed-4cdd82eb167e,tissue_source,,,,,x,,,,
+date_of_collection,9b94949c-a7c9-4d81-a1c9-a70c96c16ca3,date_of_collection,,,,,x,,,,
+age_at_date_of_collection,6c53ac16-fe2d-48d7-b3d4-b8946b5d2547,age_at_date_of_collection,,,,,x,,,,
+clinical_brain_diagnosis,b49f026b-4f6c-48c8-b170-bf6d24c672ef,clinical_brain_diagnosis,,,,,x,,,,
+clinical_brain_diagnosis_code,b7a34c73-ae08-43d3-80d2-d5ef8436e449,clinical_brain_diagnosis_code,,,,,x,,,,
+clinical_brain_diagnosis_confidence_level,2e72b4b9-d5fb-4f0d-897c-1f977ed4fabd,clinical_brain_diagnosis_confidence_level,,,,,x,,,,
+genetic_diagnosis,f67d3837-159d-4868-9749-aa6c83ded7eb,genetic_diagnosis,,,,,x,,,,
+genetic_diagnosis_code,7a7916e0-ff79-4426-b49f-58e2f2a8a367,genetic_diagnosis_code,,,,,x,,,,
+genetic_diagnosis_confidence_level,cb2b0108-8c07-40e8-92a3-b693b6dc64b4,genetic_diagnosis_confidence_level,,,,,x,,,,
+non_brain_diagnosis,009ec58e-32e4-4712-930c-056e72c8d8fa,non_brain_diagnosis,,,,,x,,,,
+non_brain_diagnosis_code,65e8824e-01d2-44cf-9f47-9962461a65c9,non_brain_diagnosis_code,,,,,x,,,,
+non_brain_diagnosis_confidence_level,2a7ff937-287b-40a3-a1f6-ebf598683774,non_brain_diagnosis_confidence_level,,,,,x,,,,
+apgar_5_minute_score_available,e67d93ac-3753-4835-a250-e2ca207b2675,apgar_5_minute_score_available,,,,,x,,,,
+apgar_5_minute_score,3a10dabf-39b0-4eb7-8399-85fd325c5646,apgar_5_minute_score,,,,,x,,,,
+apgar_10_minute_score_available,3d085ff9-7034-487d-a2b2-b9ae80d55333,apgar_10_minute_score_available,,,,,x,,,,
+apgar_10_minute_score,09d512b6-7c20-4693-8894-77824ad7f04d,apgar_10_minute_score,,,,,x,,,,
+perinatal_neurologic_event_type,cb4c7e3b-73fc-400e-a4c3-b149a5544363,perinatal_neurologic_event_type,,,,,x,,,,
+perinatal_neurologic_event_type_specify,1bf1f9c5-79a6-4203-910f-cad79fe9cac9,perinatal_neurologic_event_type_specify,,,,,x,,,,
+family_history_available,c88bf4dc-5a7c-4f70-a773-e6bbb5a12ec9,family_history_available,"The status (available, unavailable) of the family history of the subject/donor.",,,,x,,,x,
+relative_type,1adef34c-bb96-4dd0-bc87-51868f2ddc3f,relative_type,The familial relation to the subject/donor.,,,,x,,,x,
+relative_type_specify,094064a1-362c-4b75-8556-6b874c843fdb,relative_type_specify,The specifici familial relation to the subject/donor.,,,,x,,,x,
+condition_type,030c8275-04c0-4e4f-9f68-48fd0f559250,condition_type,,,,,x,,,,
+condition_type_specify,a1ed23dc-3cd5-41c8-87f6-58604fc66a70,condition_type_specify,,,,,x,,,,
+test_name,b6865e15-7538-4890-be99-a6f9e9920af3,test_name,The name of the test that has been performed. ,,,,x,,x,,
+test_result,c14ea006-662c-4666-bfd1-6ff580c403ed,test_result,The result(s) of the test that has been performed.,,,,x,,x,,
+tissue_source,42f8e11b-d9a3-48fe-ac1e-cd6f4469de46,tissue_source,The tissue sample location or identifier that is the subject of a test. ,,,,x,,x,,
+drugs_found,e35b53f1-0daa-4b5b-9246-cfba52f61bfb,drugs_found,,,,,x,,,,
+drugs_found_specify,ec3f7c47-9062-4b66-ba80-a9355a388bc0,drugs_found_specify,,,,,x,,,,
+toxicology_result,2cf1a1af-1ece-4ef7-b513-e4d1949f237c,toxicology_result,,,,,x,,,,
+toxicology_report_level,594179b0-c744-40a4-958d-fc81461b4b74,toxicology_report_level,,,,,x,,,,
+toxicology_units,6f124149-50de-489d-b9e2-f198b2b9857d,toxicology_units,,,,,x,,,,
+artifacts,b344b605-21dd-4e06-9104-21005179026f,artifacts,,,,,x,,,,
+artifacts_type,dc217b9b-ed6b-48e2-93b4-4f648dc395f7,artifacts_type,,,,,x,,,,
+artifacts_type_specify,ae11485d-dfc6-45fe-9d22-1d0bf7244d7c,artifacts_type_specify,,,,,x,,,,
+neuropathology_diagnosis,87f6d251-e028-4480-9272-3497655fb9cd,neuropathology_diagnosis,,,,,x,,,,
+neuropathology_diagnosis_code,784e9cc1-7258-4535-a6d5-f7f9a4c2da4b,neuropathology_diagnosis_code,,,,,x,,,,
+developmental,c259cdc2-7c68-48de-ab57-57328f3bddfa,developmental,,,,,x,,,,
+developmental_type_specify,bee7d477-2dec-4bf5-878e-a105a0054366,developmental_type_specify,,,,,x,,,,
+inflammatory,05e83583-078d-4a1e-892d-e6f611e5a0b8,inflammatory,,,,,x,,,,
+inflammatory_type_specify,616ba8d8-ced3-4f3e-b1ca-7103eb7a2c94,inflammatory_type_specify,,,,,x,,,,
+infectious,266f5fb8-716b-4472-be30-4a94b62f2245,infectious,,,,,x,,,,
+infectious_type_specify,c73cea5e-44d1-4dd9-b55e-3c6ef5dd2ef2,infectious_type_specify,,,,,x,,,,
+traumatic,a00497c0-376f-4b2e-b60e-d6add2af41dc,traumatic,,,,,x,,,,
+traumatic_type,01d2f488-f30b-40e0-913f-c9adc6b39b97,traumatic_type,,,,,x,,,,
+traumatic_type_specify,aa574a9a-a3d0-4a07-bf8b-9db4a1110a88,traumatic_type_specify,,,,,x,,,,
+vascular,b02d8386-d059-42a8-94cb-751d56b15b3a,vascular,,,,,x,,,,
+vascular_type,5beafa90-ffdb-4cce-a78c-a3b3175210b6,vascular_type,,,,,x,,,,
+vascular_type_specify,543acbbb-9da4-4e24-a9d7-c0642aa33f32,vascular_type_specify,,,,,x,,,,
+neoplastic,3f52a0e9-6469-46d3-8ed5-3cdb8afdc259,neoplastic,,,,,x,,,,
+neoplastic_type,a58be8f4-2756-4a66-9d05-1fbf44b4e810,neoplastic_type,,,,,x,,,,
+neoplastic_type_specify,b9e8aead-fdf3-453e-a46b-fcb01d661f8f,neoplastic_type_specify,,,,,x,,,,
+aging,40e3caa7-657b-4137-9879-07e6b29bae14,aging,,,,,x,,,,
+aging_type,5e31b66f-131e-4d5e-8760-ddd85f5634d5,aging_type,,,,,x,,,,
+aging_type_specify,8667d972-175c-430a-ac5e-656563e75736,aging_type_specify,,,,,x,,,,
+neurodegenerative,764d80ce-7a83-4e68-92df-34a416475e1b,neurodegenerative,,,,,x,,,,
+neurodegenerative_type,b150b62c-a968-4f5d-9aa3-d1ab5207ff83,neurodegenerative_type,,,,,x,,,,
+neurodegenerative_type_specify,d422d827-539f-4d10-b09d-0f4be00d7c91,neurodegenerative_type_specify,,,,,x,,,,
+tissue sample label,2e4ca2fc-2d77-4d19-af45-d0fb7bbc2269,tissue name|tissue sample label,Identifier name for final intact piece of tissue before cell or nuclei prep.  This piece of tissue will be used in dissociation and has an ROI associated with it.,,,,,x,,,
+amplified cDNA label,e2606a11-114e-472f-9e05-33f9b6fc3089,amplified cdna name,"Name of a collection of cDNA molecules derived and amplified from an input barcoded_cell_sample.  These cDNA molecules represent the gene expression of each cell, with all cDNA molecules from a given cell retaining that cell's unique barcode from the cell barcoding step.  This is a necessary step for GEX methods but is not used for ATAC methods.
+",,,,,x,,,
+amplified cDNA amplified quantity ng,0db79d05-8612-4896-b9d3-eb1558841449,amplified quantity ng,"Amount of cDNA produced after cDNA amplification measured in nanograms
+",,,,,x,,,
+amplified cDNA PCR cycles,3827634c-3f8f-4760-b358-86ce4b030238,cDNA amplification cycles,Number of PCR cycles used during cDNA amplification for this cDNA.,,,,,x,,,
+cDNA amplification process date,6cc333e7-9b98-497f-b7b1-eae904db2400,cDNA amplification date,Date of cDNA amplification.,,,,,x,,,
+amplified cDNA RNA amplification pass-fail,bc62bdb2-7dc8-4404-bb84-ce0bbcae59e5,cDNA amplification pass-fail result,Pass or Fail result based on qualitative assessment of cDNA yield and size.,,,,,x,,,
+amplified cDNA percent cDNA longer than 400bp,8d150467-f69e-461c-b54c-bcfd22f581e5,cDNA amplification percent cDNA greater than 400bp,QC metric to measure mRNA degradation of cDNA.  Higher % is higher quality starting material.  Over 400bp is used as a universal cutoff for intact (full length) vs degraded cDNA and is a common output from Bioanalyzer and Fragment Analyzer elecropheragrams.,,,,,x,,,
+cDNA amplification set,42e98a88-50b3-4ea2-871b-2142f6a0dfdd,,"cDNA amplification set, containing multiple amplified_cDNA_names that were processed at the same time.",,,,,x,,,
+barcoded cell sample port well,aca38100-d245-4be4-9be3-ba27192779fe,10x chip port well,Specific position of the loaded port of the 10x chip.  An Enriched or Dissociated Cell Sample is loaded into a port on a chip (creating a Barcoded Cell Sample).  Can be left null for non-10x methods.,,,,,x,,,
+barcoded cell input quantity count,aa534269-7c9b-4b63-b990-eea8cda56d0e,,Number of enriched or dissociated cells/nuclei going into the barcoding process.,,,,,x,,,
+barcoded cell sample label,4c0e6380-e53f-4173-a474-d41e836fefe3,barcoded cell sample name,Name of a collection of barcoded cells.  Input will be either dissociated_cell_sample or enriched_cell_sample.  Cell barcodes are only guaranteed to be unique within this one collection. One dissociated_cell_sample or enriched_cell_sample can lead to multiple barcoded_cell_samples.,,,,,x,,,
+expected cell capture,f10e928d-5a2b-4943-af18-d8fe5d05528d,,"Expected number of cells/nuclei of a barcoded_cell_sample that will be barcoded and available for sequencing.  This is a derived number from 'Barcoded cell input quantity count' that is dependent on the ""capture rate"" of the barcoding method.  It is usually a calculated fraction of the 'Barcoded cell input quantity count' going into the barcoding method.",,,,,x,,,
+study sets,8877f8f0-3939-4062-84c9-414bdcdd04ca,,Intended cohort or dataset that the Barcoded Cell Sample initially belongs to.  This Study helps to group together samples that are meant to be analyzed together.  Multiple Studies can be assigned to a Barcoded Cell Sample.  These studies are more granular than the grant or PI and can be used to group together samples from related ROIs.,,,,,x,,,
+dissociated cell sample cell prep type,baae4ac3-f959-4594-b943-3a82ec19bd34,cell prep type,"The type of cell preparation. For example: Cells, Nuclei. This is a property of dissociated_cell_sample.",,,,,x,,,
+dissociated cell sample label,65e2c7da-9eb4-45b2-8ccb-d69ef9785ee2,dissociated cell sample name,"Name of a collection of dissociated cells or nuclei derived from dissociation of a tissue sample.
+",,,,,x,,,
+dissociated cell source barcode name,184abbaf-baff-4b5f-b51e-dd38de6006af,,"Name of oligo used in cell plexing.  The oligo will tag allow separate dissociated cell samples to be combined downstream in the barcoded cell sample.  The oligo name is associated with a sequence in a lookup table.  This sequence will be needed to during analysis, after alignment, to associate reads with parent dissociated cell sample.",,,,,x,,,
+dissociated cell source barcode name,0c8628d0-809b-458c-b4b3-686131dceef8,,"Name of oligo used in cell plexing.√ä The oligo will tag allow separate dissociated cell samples to be combined downstream in the barcoded cell sample.√ä The oligo name is associated with a sequence in a lookup table.√ä This sequence will be needed to during analysis, after alignment, to associate reads with parent dissociated cell sample.",,,,,x,,,
+dissociated cell sample preparation date,c508b63d-a1b4-42de-9b22-9c4736deac6e,,Date of dissociated cell sample creation.,,,,,x,,,
+enriched cell sample container name,5ace37aa-85d6-4493-909e-8fc221ec2609,,Name of container (strip or tube or plate) of the enriched_cell_prep.  This container could contain 1 or more enriched_cell_samples.,,,,,x,,,
+enriched cell sample name,bb3fc701-23a7-45c1-890d-7471730e0ec1,,Name of collection of enriched cells or nuclei after enrichment process (usually via FACS using the Enrichment Plan) applied to dissociated_cell_sample.,,,,,x,,,
+enrichment population,875f1c70-f5aa-45e3-94b9-5e482f6c4830,,Actual percentage of cells as a result of using set of fluorescent marker label(s) to enrich dissociated_cell_sample with desired mix of cell populations.  This plan can also be used to describe 'No FACS' where no enrichment was performed.  This is a property of enriched_cell_prep_container. ,,,,,x,,,
+enriched cell source barcode name,bdd5e2bf-c6fa-43e6-a5ac-6878fcf814d6,,Name of molecular barcode used to individual Enriched Cell Source to allow for pooling of Enriched Cell Sources before 10x load (Barcoding Cell step) [aka 1st round barcodes],,,,,x,,,
+enriched cell sample preparation date,e2fd2d84-3999-4cc4-8f41-e0e2a708f407,,Date of enriched cell sample creation.,,,,,x,,,
+histone modification marker,a2ef2228-e438-4260-95e5-22eb3b35b5a9,,"Histone modification marker antibodies (eg H3K27ac, H3K27me3, H3K9me3) used in conjunction with an Enriched Cell Source Barcode in order to combine multiple Enriched Cell Populations before Barcoded Cell Sample step for 10xMultiome method.√ä Each of the Histone antibodies captures an essential part of the epigenome.",,,,,x,,,
+library avg size bp,f851eba9-56d1-4472-9d0c-d7f8bc33000a,,Average size of the library in terms of base pairs.  This is used to calculate the molarity before pooling and sequencing.,,,,,x,,,
+library method,7b60d59e-fdd7-4b27-a2d4-cae9b69103a6,library chemistry method,"Standardized nomenclature to describe the library method used.  This specifies the alignment method required for the library.  For example, 10xV3.1 (for RNASeq single assay), 10xMult-GEX (for RNASeq multiome assay), and 10xMult-ATAC (for ATACSeq multiome assay)",,,,,x,,,
+library concentration nm,90805b3f-f380-4f23-b159-e7eaa0c8f052,,Concentration of library in terms of nM (nMol/L).  Number of molecules is needed for accurate pooling of the libraries and for generating the number of target reads/cell in sequencing.,,,,,x,,,
+library creation date,9c2f575d-1b64-451d-894f-656861afe07a,library construction date,Date of library construction,,,,,x,,,
+library input ng,e4d31d97-722d-4771-a0e4-e6062190f2c1,,Amount of cDNA going into library construction in nanograms.,,,,,x,,,
+library label,f717e254-3630-4342-be7b-4d56376e7afe,library name,"Name of a library, which is a collection of fragmented and barcode-indexed DNA molecules for sequencing.  An index or barcode is typically introduced to enable identification of library origin to allow libraries to be pooled together for sequencing.",,,,,x,,,
+library prep pass-fail,6817ede2-7ead-402d-9dbc-131aca627c6c,library prep pass-fail result,Pass or Fail result based on qualitative assessment of library yield and size.,,,,,x,,,
+library prep set,b124ffa9-9134-4a61-a30d-bb191b2fc7fa,,"Library set, containing multiple library_names that were processed at the same time.",,,,,x,,,
+library quantification fmol,4c09ada7-c116-48bc-8fb1-0dcf5c4b939a,,Amount of library generated in terms of femtomoles,,,,,x,,,
+library quantification ng,318b2d3a-dae7-4c63-bfbb-93862b92f63e,,"Amount of library generated in terms of nanograms
+",,,,,x,,,
+R1/R2 index name,c94b5d8a-e92d-47af-8c0e-ea3b58be4d06,,"Name of the pair of library indexes used for sequencing.  Indexes allow libraries to be pooled together for sequencing.  Sequencing output (fastq) are demultiplexed by using the indexes for each library.  The name will be associated with the sequences of i7, i5, and i5as, which are needed by SeqCores for demultiplexing.  The required direction of the sequence (sense or antisense) of the index can differ depending on sequencing instruments.",,,,,x,,,
+library aliquot label,34191bad-d167-4335-8224-ade897d3728e,library aliquot name,One library in the library pool.  Each Library_aliquot_name in a library pool will have a unique R1/R2 index to allow for sequencing together then separating the sequencing output by originating library aliquot through the process of demultiplexing.  The resulting demultiplexed fastq files will include the library_aliquot_name.,,,,,x,,,
+fastq file alignment status,834a0e66-fd81-4d9c-b379-146372c3a629,library aliquot QC result,The QC status of the fastq file alignment process result.,,,,,x,,,
+library pool tube internal label,f1fdea98-7849-4def-a62f-a04cbbf98922,libray pool tube local name,"Library Pool Tube local name.  Label of the tube containing the library pool, which is made up of multiple library_aliquots.  This is a Library Lab local tube name, before the pool is aliquoted to the Seq Core provided tube 'Library Pool Tube Name'.",,,,,x,,,
+embargo date,e7bc38d8-7315-40be-b8b7-923bf770ff38,,date until which data much be embargoed,,,,,x,,,
+SeqCore library pool tube barcode,da02a0ee-9abf-45ef-abb1-981f1aaba6b2,,Library Pool tube name as provided by the SeqCore (often a barcode).  This tube is provided from the SeqCore and is part of the SeqCore tracking system.,,,,,x,,,
+library pool label,29e0578b-6427-4c93-b29b-bde27fbadeec,local pool name,"Library lab's library pool name.  For some labs this may be the same as ""Libray pool tube local name"".   Other labs distinguish between the local tube label of the library pool and the library pool name provided to SeqCore for tracking.  Local Pool Name is used to communicate sequencing status between SeqCore and Library Labs.",,,,,x,,,
+library pool tube avg size bp,cf1b7c96-cdc1-4eed-8e76-ac44fbd151f7,library pool avg size bp,"Average insert size of library pool, measured in base pairs.",,,,,x,,,
+library pool fmol,af1a6f3f-aca9-4452-b86e-f3c70c3600b6,,Amount of library pool in the tube as measured in femtamoles (fmol),,,,,x,,,
+loading concentration pM,a1a1b046-549d-4e94-9b3c-5fac2a31fdd6,,Sequencer Loading Concentration as measured in pM (pmol/L).  This is a value used by the SeqCore.,,,,,x,,,
+length of Read 2 (for Paired End Runs) ,0b9a9cbc-b8dd-42a2-a567-aafd9370db30,,"Separate field to replace the combined field ""Sequencing cycle"". Sequencing Cycle is needed for sequencing the library pool.  The sequencing cycle needed is specific to the Library Chemistry Method and is required instruction to the SeqCores.",,,,,x,,,
+length of Index 1 (i7 Primer) ,0b94df0d-d96e-4d49-a498-b3eb83afc5f8,,"Separate field to replace the combined field ""Sequencing cycle"". Sequencing Cycle is needed for sequencing the library pool.  The sequencing cycle needed is specific to the Library Chemistry Method and is required instruction to the SeqCores.",,,,,x,,,
+length of Index 2 (i5 Primer) ,a61c1d55-b880-499c-ba4a-30311fdca62f,,"Separate field to replace the combined field ""Sequencing cycle"". Sequencing Cycle is needed for sequencing the library pool.  The sequencing cycle needed is specific to the Library Chemistry Method and is required instruction to the SeqCores.",,,,,x,,,
+length of Read 1,f22ac08a-bb81-4524-91f0-0e1e1a032335,,"Separate field to replace the combined field ""Sequencing cycle"". Sequencing Cycleis  needed for sequencing the library pool.  The sequencing cycle needed is specific to the Library Chemistry Method and is required instruction to the SeqCores.",,,,,x,,,
+library pool tube contents nM,32f2d02b-7300-4554-aa93-6de6e456eda7,library pool concentration (nM),Library pool concentration as measured in nanomolarity (nMol/L),,,,,x,,,
+library pool tube volume ul,b1b923ac-c218-4db4-a3b1-45a219612567,,Library pool volume as measured in ul,,,,,x,,,
+PhiX spike in percent,b5ab26ad-d523-406e-a85b-e77f2f4b06b5,,"PhiX spike-in percent desired to be added to the library pool for sequencing.  PhiX is used to increase complexity of the sample being sequenced, to reduce sequencing artifacts maintain sequencing quality on the instruments.  This is an optional instruction to the SeqCore.",,,,,x,,,
+custom primers,76c905d5-ef4a-421a-bd59-b541c5c1d45d,,"Custom sequencing primers if needed, indicate with reads require them (R1/R2/i7/i5)",,,,,x,,,
+library pool construction date,ef950ca1-2a62-4fce-a826-6c27d94d3be3,,Date of library pool construction.,,,,,x,,,
+flowcell,4c8d7ac8-d3e3-4177-a93d-18ec2302c392,,,,,,,x,,,
+alignment_output_label,1ca34909-2923-4219-848e-c7c250ec92cd,,A string that serves as a label (name) for an alignment output.,,,,,,,,x
+alignment_output_created_by_process_id,66caedfa-add6-4e8a-bb45-03cc9d90c149,,An identifier of the process that created an alignment output.,,,,,,,,x
+alignment_output_path,6015464d-6820-4baf-bc7a-a601c0507085,,A path to the alignment output for a specific alignment process.,,,,,,,,x
+alignment_output_barcoded_cell_sample_label,754281ea-94c6-47d8-aab4-7443b6132004,,A label of the barcoded cell sample associated with an alignment output.,,,,,,,,x
+alignment_output_entity_label,0d27affc-bb94-405e-81df-ffdbbc735e5d,,A label of the primary output entity (alignment output) of an alignment process.,,,,,,,,x
+alignment_process_id,ae61d258-5f16-42a2-90cc-1279d87384a6,,An identifier used to refer to an alignment process.,,,,,,,,x
+alignment_input_entity_label,ec7344d5-e6f9-46ed-8f0c-d6d0591b3656,,A label of the primary input entity (library_aliquot) of an alignment process.,,,,,,,,x
+alignment_input_process_id,671b4be4-a12b-4d34-856d-300fa28a3c69,,An identifier of the alignment input process.,,,,,,,,x
+alignment_input_library_pool_sequencing_process_id,d8fa34ad-ab7c-418b-b0ce-a48ced53dff6,,An identifier of the library pool sequencing process for alignment input. ,,,,,,,,x
+alignment_input_barcoded_cell_sample_id,2f2b32db-0a86-499a-b4e4-08fbef3eab96,,A label of the barcoded cell sample associated with the input library aliquot.,,,,,,,,x
+library_pool_sequencing_output_created_by_process_id,61d2cdf1-3ea0-4695-a8b0-debe6bc79fd0,,An identifier of the process that created a library pool sequencing output. ,,,,,,,,x
+library_pool_sequencing_output_fastq_file_path,54dfb80a-c86b-4c85-a05e-37a8eb136c41,,A path to a the fastq file for a specific library aliquot.,,,,,,,,x
+library_pool_sequencing_output_fastq_file_type,69381fb6-39a2-41d9-b69a-743398016e15,,"A Fastq file type that is an output from a library pool sequencing process. For example, R1, R2, R3, I1 and I2.",,,,,,,,x
+library_pool_sequencing_output_library_aliquot_label,7325a944-f9d6-4314-8e96-323496242736,,An identifer of a library aliquot associated with a fastq file.,,,,,,,,x
+library_pool_sequencing_input_entity_label,a6ee19dc-8e46-4993-9da9-81aeb0f63462,,A label of the primary input of a library pool sequencing process.,,,,,,,,x
+library_pool_sequencing_process_id,f5f0d55e-006e-4b0e-a502-f4a7f5673e8c,,An identifier of a library pool sequencing process.,,,,,,,,x
+library_pool_sequencing_vendor_read_count,c3f96263-7f6b-4031-b715-f17ee1ccaf7a,,The number of pass filter reads assigned to an indexed library aliquot.,,,,,,,,x
+library_pool_label,29e0578b-6427-4c93-b29b-bde27fbadeec,,A string that can be used to refer to a specific entity.,,,,,,,,x
+library_pool_created_by_process_id,871fe632-54f2-433c-8734-6045d5f9203f,,An identifier for a process that created a library pool.,,,,,,,,x
+library_pool_tube_avg_size_bp,cf1b7c96-cdc1-4eed-8e76-ac44fbd151f7,,The average size of the pooled libraries given in terms of base pairs.,,,,,,,,x
+library_pool_tube_contents_nm,32f2d02b-7300-4554-aa93-6de6e456eda7,,The concentration of the library pool in terms of nM (nMol/L).,,,,,,,,x
+library_pool_tube_internal_label,f1fdea98-7849-4def-a62f-a04cbbf98922,,An internal label for a library pool tube container.,,,,,,,,x
+library_pool_construction_output_entity_label,0129624c-3cec-46e6-aa8c-49df75937c56,,A label of a primary output entity (library pool ) of a library pool construction process.,,,,,,,,x
+library_pool_construction_process_id,b26ed5a7-ad3e-4457-9fdd-cf9895980a34,,An identifier for a library pool construction process.,,,,,,,,x
+library_pool_construction_input_entity_label,296c8571-b1b2-4f06-a0f2-60bbdd050797,,A label of an input entity (library aliquot) of a library pool construction process.,,,,,,,,x
+library_pool_construction_input_process_id,d25187b3-bc2d-4f99-953f-10cae0b56122,,An identifier for a library pool construction process input.,,,,,,,,x
+library_aliquot_label,34191bad-d167-4335-8224-ade897d3728e,,A label of a library aliquot.,,,,,,,,x
+library_aliquot_created_by_process_id,f7471219-1424-4bcc-ae5d-fbc50b2639dd,,An identifier for a process that created a library aliquot.,,,,,,,,x
+library_aliquot_input_quantity_fmol,21fa7764-92d5-400c-b73e-5a8caece5a16,,"The number of library molecules in an aliquoted portion of a library, as expressed in femtomoles.",,,,,,,,x
+library_aliquot_library_label,2d073310-911c-4e09-856a-a2ce6c015827,,A label of the library which a library aliquot is portioned from.,,,,,,,,x
+library_aliquoting_input_entity_label,a5accf6d-98b8-4d0d-af3f-dd967e1ce077,,A label of the primary input of a library aliquoting process.,,,,,,,,x
+library_aliquoting_output_entity_label,6163e49b-a523-4adc-a45e-c93fbc6911dd,,A label of the primary output of a library aliquoting process.,,,,,,,,x
+library_aliquoting_process_id,e42425e2-8ceb-4c0a-93f4-6dffbfc57df3,,An identifier for a library aliquoting process.,,,,,,,,x
+library_label,f717e254-3630-4342-be7b-4d56376e7afe,,A label that refers to a specific library.,,,,,,,,x
+library_created_by_process_id,8255bc41-528a-4559-83f2-c93528c4092e,,An identifier for a process that creates a library.,,,,,,,,x
+library_ag_size_bp,f851eba9-56d1-4472-9d0c-d7f8bc33000a,,The average size of a library in terms of base pairs.  This is used to calculate the molarity before pooling and sequencing.,,,,,,,,x
+library_index_sequence_pair,2ddf4e4f-076b-40af-b5d2-e3a2ffe33665,,<removed>,,,,,,,,x
+library_r1_sequence,ccb0553d-4146-45ee-b731-77563cb805cd,,A sequence of i7 index required by sequencing instrument for demultiplexing (could be sense or antisense).,,,,,,,,x
+library_r2_sequence,0ee7f272-01d9-453d-94a3-eefd1a86718e,,A sequence of i5 index required by sequencing instrument for demultiplexing (could be sense or antisense).,,,,,,,,x
+library_creation_date,9c2f575d-1b64-451d-894f-656861afe07a,,The date of a library creation.,,,,,,,,x
+library_input_ng,3db770eb-078e-4b41-92b9-e2e551660753,,The amount of cDNA going into library construction in nanograms.,,,,,,,,x
+library_prep_pass_fail,6817ede2-7ead-402d-9dbc-131aca627c6c,,A result (pass or fail) of a test for library preparation based on library yield and size.,,,,,,,,x
+library_method,7b60d59e-fdd7-4b27-a2d4-cae9b69103a6,,"A technique or method that is used to generate a library (specific to the alignment method required for the library).  For example, 10xV3.1 (for RNASeq single assay), 10xMult-RSeq (for RNASeq multiome assay), and 10xMult-ATAC (for ATACSeq multiome assay)",,,,,,,,x
+library_quantification_ng,318b2d3a-dae7-4c63-bfbb-93862b92f63e,,The amount of library generated in nanograms.,,,,,,,,x
+library_quantification_nm,c4771566-82bf-4a0a-8a57-3d1b687e3851,,The concentration of library in terms of nM (nMol/L).  The number of molecules is needed for accurate pooling of the libraries and for generating the number of target reads/cell in sequencing.,,,,,,,,x
+library_quantification_fmol,4c09ada7-c116-48bc-8fb1-0dcf5c4b939a,,The amount of library generated in femtomoles,,,,,,,,x
+library_r1_index,be6b81ef-c02d-4aaf-bd8d-5891ad919a9e,,The library index used for Read-1 sequence.  Indexes allow libraries to be pooled together for sequencing.  Sequencing output (fastq) are demultiplexed by using the indexes for each library.  The name will be associated with a oligo (string of bases).  The required direction of the sequence (sense or antisense) of the index can differ depending on sequencing instruments.,,,,,,,,x
+library_r2_index,f82e3576-36fb-4399-8485-70cbf4911e8f,,The library index used for Read-2 sequence.  Indexes allow libraries to be pooled together for sequencing.  Sequencing output (fastq) are demultiplexed by using the indexes for each library.  The name will be associated with a oligo (string of bases).  The required direction of the sequence (sense or antisense) of the index can differ depending on sequencing instruments.,,,,,,,,x
+library_construction_input_entity_label,e2d7623d-7313-4d6c-b58d-0795f91a1f45,,A label of the primary input of a library construction process.,,,,,,,,x
+library_construction_output_entity_label,af4dbe52-7ae5-493e-b044-05abbb9fa981,,A label of the primary output of a library construction process.,,,,,,,,x
+library_construction_process_date,b4ae9709-3fc4-45e0-a477-80099f102410,,The date when a library construction process occurred.,,,,,,,,x
+library_construction_process_id,d7393dd2-2406-4984-badb-5b85547f4640,,An identifier for a library construction process.,,,,,,,,x
+amplified_cdna_label,e2606a11-114e-472f-9e05-33f9b6fc3089,,A label that refers to a portion of amplified cdna.,,,,,,,,x
+amplified_cdna_created_by_process_id,d695c983-07ff-450f-bbff-53a8638cd6d8,,An identifier of a process that created a portion of amplified cdna.,,,,,,,,x
+amplified_cdna_amplified_quantity_ng,0db79d05-8612-4896-b9d3-eb1558841449,,The amount of cDNA produced from an amplification process in nanograms.,,,,,,,,x
+amplified_cdna_method,995369ca-3e05-4f7b-80a8-92427b90e8fa,,"A method used to generate cDNA (eg 10xV3.1, 10xMultiome-Rseq).",,,,,,,,x
+amplified_cdna_pcr_cycles,3827634c-3f8f-4760-b358-86ce4b030238,,The number of PCR cycles used during cDNA amplification for a cDNA.,,,,,,,,x
+amplified_cdna_percent_cdna_longer_than_400bp,8d150467-f69e-461c-b54c-bcfd22f581e5,,A QC metric that describes quantifies mRNA degradation of cDNA. Higher % is higher quality starting material.,,,,,,,,x
+amplified_cdna_rna_amplification_pass_fail,bc62bdb2-7dc8-4404-bb84-ce0bbcae59e5,,A result (pass or fail) based on cDNA yield and size.,,,,,,,,x
+cdna_amplification_input_entity_label,3e8c5ad4-6a15-478e-ad1c-e68a06b61181,,A label of the primary input of a cDNA amplification process.,,,,,,,,x
+cdna_amplification_input_entity_label,ee5b7407-284a-44d1-813c-746fc934a398,,A label of the primary input of a CDNA amplification process. ,,,,,,,,x
+cdna_amplification_process_date,6cc333e7-9b98-497f-b7b1-eae904db2400,,The date when a cDNA amplification process occurred.,,,,,,,,x
+cdna_amplification_process_id,a4d2b272-64e2-4adb-8886-38ee822488c9,,An identifier a cDNA amplification process.,,,,,,,,x
+barcoded_cell_sample_label,4c0e6380-e53f-4173-a474-d41e836fefe3,,A label that refers to a barcoded cell sample.,,,,,,,,x
+barcoded_cell_sample_created_by_process_id,1c78b561-d595-4f73-adb0-0de6a2c743e9,,An identifier of a process that created a barcoded cell sample. ,,,,,,,,x
+barcoded_cell_sample_port_well,aca38100-d245-4be4-9be3-ba27192779fe,,A position of a load port of a 10x chip.,,,,,,,,x
+barcoded_cell_sample_quantity_count,dd6abb3c-b671-48eb-a924-13945484de71,,The number of barcoded cells expected after barcoding (usually a calculated fraction of the number of cells going into cell_barcoding).,,,,,,,,x
+barcoded_cell_sample_quantity_pg,b3d8753b-f242-4544-b6e2-03a94c0b1ee7,,<removed>,,,,,,,,x
+cell_barcoding_input_entity_label,b5d251bd-0944-4c48-9508-74492185376e,,A label of a primary input of a cell barcoding process.,,,,,,,,x
+cell_barcoding_output_entity_label,12bc4988-4c21-4eac-93f5-e7c2b17a2b32,,A label of a primary output of a cell barcoding process.,,,,,,,,x
+cell_barcoding_process_id,a352af1b-1f33-4c8b-865f-7a6865ae5748,,An identifier for a cell barcoding process.,,,,,,,,x
+dissociated_cell_sample_label,65e2c7da-9eb4-45b2-8ccb-d69ef9785ee2,,A label that refers to a dissociated cell sample.,,,,,,,,x
+dissociated_cell_sample_created_by_process_id,a155d7f4-0126-430c-a7fb-20b8dd35134d,,An identifier of a process that created a dissociated cell sample. ,,,,,,,,x
+dissociated_cell_sample_cell_prep_type,baae4ac3-f959-4594-b943-3a82ec19bd34,,"A type of cell preparation; for example, cells, or nuclei. ",,,,,,,,x
+dissociated_cell_sample_facs_population_plan,a6f16756-4e52-4c37-b9dc-4ee5714f79b5,,A fluorescent marker label used to enrich cell dissociation for desired cell types. ,,,,,,,,x
+dissociated_cell_sample_number_of_cells_collected,e2922a9e-e549-448a-8983-7e7f4f2338a9,,The total number of dissociated cells or nuclei going into a cell barcoding process.,,,,,,,,x
+cell_dissociation_input_entity_label,5ed1a311-e060-4d00-9f24-9615503f9b7b,,A label of a primary input of a cell dissociation process.,,,,,,,,x
+cell_dissociation_output_entity_label,cd94154e-8062-4156-a503-53bf09e32ba4,,A label of a primary output of a cell dissociation process.,,,,,,,,x
+cell_dissociation_process_id,7151ff55-0b40-4caf-b008-818a79e6e9f6,,An identifier of a cell dissociation process.,,,,,,,,x
+tissue_sample_label,2e4ca2fc-2d77-4d19-af45-d0fb7bbc2269,,A label that refers to a tissue sample.,,,,,,,,x
+tissue_sample_created_by_process_id,4bb1e57a-3038-4e44-86cf-238eb1874c50,,An identifier of a process that created a tissue sample.,,,,,,,,x
+tissue_sample_roi_plan,e7dda557-bda0-4392-ac7f-2651688549b3,,,,,,,,,,x
+tissue_dissectioning_input_entity_label,98ad4077-9cb2-4e03-bad7-6358796aa78c,,A label of a primary input of a tissue dissectioning process.,,,,,,,,x
+tissue_dissectioning_output_entity_label,d294e15a-6823-4ecd-aafe-5ce98c2adadf,,A label of a primary output of a tissue dissectioning process.,,,,,,,,x
+tissue_dissectioning_process_id,fc5ddba7-d297-410c-942d-e46ecf657dcb,,An identifier of a tissue dissectioning process.,,,,,,,,x
+tissue_dissectioning_input_entity_label,d906ee29-f041-4642-8ba2-c1a54af213ea,,A label of a primary input entity of a tissue dissectioning process.,,,,,,,,x
+tissue_dissectioning_input_process_id,9cfb3a49-ac05-4ce5-8ed9-c9d82d6ff761,,An identifier of an associated tissue dissectioning process.,,,,,,,,x
+brain_section_label,e3bd9517-80e1-4158-981d-bb73baabceca,,A label that refers to a brain section.,,,,,,,,x
+brain_section_created_by_process_id,a6e62b20-8c2d-4e40-a03b-41d943ec11cb,,An identifier of a process that created a brain section.,,,,,,,,x
+brain_section_ordinal,d97be176-d39e-413c-8c1f-14e47f23da66,,A sequential number of a section used to track the relative positional order of sections from a segment.,,,,,,,,x
+brain_segment_sectioning_input_entity_label,e41e854d-b68a-4c69-b23f-d1d39891dff0,,A label of a primary input of a brain segment sectioning process.,,,,,,,,x
+brain_segment_sectioning_process_id,3d426c44-47b2-4329-a06a-addd323bbf46,,An identifier of a brain segment sectioning process.,,,,,,,,x
+brain_segment_label,befeefc1-4be3-4974-a54e-929fd83cbf28,,A label that refers to a brain segment.,,,,,,,,x
+brain_segment_created_by_process_id,03856361-d1b5-4983-a0fb-ae5a75d8ec6e,,An identifier of a process that created a brain segment.,,,,,,,,x
+brain_segment_anatomical_division,ec2565cc-1a11-4d1d-9c98-7eeeca27fd82,,"The anatomical division that describes the brain segment; for example, whole brain, cerebrum, cerebellum, brainstem.",,,,,,,,x
+brain_segment_barcode,516560ed-0715-475a-b717-6ccfa3ec2934,,A ohysical barcode label for a vessel holding a brain segment.,,,,,,,,x
+brain_extraction_input_entity_label,29442943-7d3d-4126-8817-9c10e34c8b83,,A label of a primary input of a brain extraction process.,,,,,,,,x
+brain_extraction_outpute_entity_label,583a312a-43de-4c00-91ad-ec65f6fed2df,,A label of a primary output of a brain extraction process.,,,,,,,,x
+brain_extraction_process_id,d1549808-92c8-4cf8-8e88-ad98a123d645,,An identifier of a brain extraction process.,,,,,,,,x
+donor_label,cb8ebdda-c8d2-4c29-b6cd-fcb5d0d6e720,,A label that refers to a donor.,,,,,,,,x
+donor_age_at_death,3df398ff-c5ee-4754-aeb8-2dd86027622e,,The age of a donor at the time of death.,,,,,,,,x
+donor_date_of_birth,4c376dcd-cf1f-4ccb-9d93-28ca73f53019,,The date of birth of a donor.,,,,,,,,x
+donor_date_of_death,4cbe0de6-0d4d-4a7d-b38b-c483deaa0e3a,,The date of death of a donor.,,,,,,,,x
+donor_full_genotype,0a4c3a68-b41f-47e6-8128-257abc2ccaa5,,The full genotype of a donor.,,,,,,,,x
+donor_ncbitaxonomyid,6837cb02-6bd7-4fb8-838c-9062ead96ba4,,The NCBI taxonomy identifier of the organism type of this donor.,,,,,,,,x
+donor_sex,632d3d3f-f85b-4efc-a1ab-010fe417ae81,,"The sex of this donor organism; for example, M or F.",,,,,,,,x
+age_label,0630a265-4a63-48f4-8853-66b929002306,,A label that refers to an age.,,,,,,,,x
+age_reference_point,3bed1f94-9d82-4ed7-afdf-79d896b24dbb,,"The reference point for an age interval; for example, birth or conception.",,,,,,,,x
+age_unit,b5436e99-f0a7-4c30-825d-56b88ee2ac1d,,The unit used for representing the donor age from the reference point.,,,,,,,,x
+age_value,57e24d3c-c9c7-4ef3-9809-a35802d563ec,,The value representing the donor age from the reference point.,,,,,,,,x
+behavioral scoring available,ea33881a-9813-4111-979b-135355e8141e,behavioral_scoring_available,"The status (available, unavailable) of the behavioral scoring results for a subject/donor/specimen.",,,,,,x,,
+behavioral scoring type,0a7a1eeb-8682-4261-8221-82d587dde0fa,behavioral_scoring_type,The type of behavioral scoring that is available for a subject/donor/specimen.,,,,,,x,,
+non brain diagnosis description,4ba7c8cc-563c-4f0b-ab57-ae9c9762943f,non_brain_diagnosis_description,The description (text) of a non-brain diagnosis for a subject/donor/specimen.,,,,,,x,,
+social group,7759b09d-a685-49fe-b7d8-e7f2b4772f52,social_group,The social group to which the subject belongs.,,,,,,x,,
+trapping date,e2603f30-af26-4d24-b9e7-dcbd47e09914,trapping_date,The date on which the subject/specimen was trapped.,,,,,,x,,
+trapping time,cc2ec53a-cd90-4bf5-9c49-c99ebb81498f,trapping_time,The time at which the subject/specimen was trapped.,,,,,,x,,
+behavioral scoring available,ea33881a-9813-4111-979b-135355e8141e,behavioral_scoring_available,"The status (available, unavailable) of the behavioral scoring results for a subject/donor/specimen.",,,,,,x,,
+behavioral scoring type,0a7a1eeb-8682-4261-8221-82d587dde0fa,behavioral_scoring_type,The type of behavioral scoring that is available for a subject/donor/specimen.,,,,,,x,,
+ordinal dominance rank,080685e2-756a-446e-8d9d-5585c9ddd998,ordinal_dominance_rank,,,,,,,x,,
+mating status,dd2ea811-b424-4b85-a572-16707a6612f3,mating_status,The mating status of the subject/donor.,,,,,,,x,
+slab type,95d12973-310b-4631-87ea-94d698ef8030,slab_type,The type of brain slab specimen.,,,,,,,x,
+slab thickness (mm),ba931b4b-ba49-4789-bf8d-d1b37aca5702,slab_thickness_mm,The thickness (in mm) of the brain slab specimen.,,,,,,,x,
+mating status,dd2ea811-b424-4b85-a572-16707a6612f3,mating_status,The mating status of the subject/donor.,,,,,,,x,
+antemortem MRI type,05ce0a33-16e7-4580-96b2-701c0ed4fbd2,antemortem_MRI_type,The specific type of antemortem MRI that is available.,,,,,,,x,
+slab type,95d12973-310b-4631-87ea-94d698ef8030,slab_type,The type of brain slab specimen.,,,,,,,x,
+slab thickness (mm),ba931b4b-ba49-4789-bf8d-d1b37aca5702,slab_thickness_mm,The thickness (in mm) of the brain slab specimen.,,,,,,,x,
