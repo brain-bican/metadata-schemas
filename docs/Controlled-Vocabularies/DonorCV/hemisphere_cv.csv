@@ -1,5 +1,5 @@
-﻿ID,Label,Code,Description
-,left,,
-,right,,
-,both,,
-,unknown,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+left,2e66a216-9734-4112-9064-d7733efd5c33,left hemisphere,left,A cerebral hemisphere that is in the left side of a brain.,
+right,2a2b5f83-fd16-49e9-a7d7-64bf07e60987,right hemisphere,right,A cerebral hemisphere that is in the right side of a brain.,
+both,ceb5d79f-b148-4ac6-9690-7da8363f9d6a,both hemispheres,both ,"Part of the telencephalon consisting of both of the two smooth, elongated halves of the cerebrum.",
+unknown,0b47cf88-cead-47a2-802e-89c5394214c6,unknown hemisphere,unknown,,

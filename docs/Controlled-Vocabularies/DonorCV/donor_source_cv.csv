@@ -1,5 +1,5 @@
-﻿ID,Label,Code,Description
-,BICAN-NBB,,
-,Donor from NIH NeuroBioBank,,
-,BICAN-UM1,,
-,Other,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+BICAN-NBB,2be2e2cb-31da-418c-87af-4a2f7947bd77,,,,
+Donor from NIH NeuroBioBank,246fb3ca-5a38-4650-b230-57da75407326,,,,
+BICAN-UM1,f0263900-1ccc-406f-bc20-20c0d4c16c1b,,,,
+Other,f9102ff1-4866-4be4-b359-25aa5cdb1d1d,,,,

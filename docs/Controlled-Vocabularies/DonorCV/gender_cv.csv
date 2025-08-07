@@ -1,5 +1,10 @@
-﻿ID,Label,Code,Description
-,Male,,The gender identity of male self-identified by the subject/participant.
-,Female,,The gender identity of female self-identified by the subject/participant.
-,Unknown,,"Not known, observed, recorded; or reported as unknown by the data contributor."
-,"Other, specify",,A gender identity of a type not included in this list. 
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+male,fd642ff8-e0fa-43f6-a9be-0b5830b15c19,,1,The gender identity of male self-identified by the subject/participant.,OMRSE:00000008
+female,c5544e92-fdd2-44e4-bf0c-5347609fc945,,2,The gender identity of female self-identified by the subject/participant.,OMRSE:00000009
+transgender male,0b19ae84-a51c-42db-9b3c-718d06ba0775,,3,The gender identify of transgender male self-identified by the subject/participant.,GSSO:000372
+transgender female,edafced9-dcbd-4f9d-8f7e-9c6c2ed0c2c5,,4,The gender identity of transgender female self-identified by the subject/participant.,GSSO:000384
+non-binary,6a74ed4a-7ce2-4dbc-af58-efeada6d3084,,5,The gender identity of non-binary self-identified by the subject/participant.,GSSO:000395
+gender fluid,94fb062b-8e04-4c0b-b182-a2ef4356c302,,6,The gender identity of gender fluid self-identified by the subject/participant.,GSSO:000406
+"other, specify",984b82ea-e381-43b4-a18c-051d68c08ae3,,7,A gender identity of a type not included in this list. ,
+unknown,15802c7f-a3c7-4c0c-8807-ae42f8e986d3,,8,"Not known, observed, recorded; or reported as unknown by the data contributor.",
+not reported,6df7e5d7-24ec-46c9-9aa9-0cedcaf907e6,,9,Gender identity not reported.,

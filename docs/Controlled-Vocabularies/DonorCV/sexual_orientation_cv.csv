@@ -1,10 +1,10 @@
-﻿ID,Label,Code,Description
-,Bisexual,,
-,Homosexual (gay/lesbian),,
-,Heterosexual,,
-,Not reported,,
-,Other,,
-,Unknown,,
-,Asexual,,
-,Prefer not to say,,
-,Do not know,,
+﻿BICAN Label,BICAN UUID,Aliases,Code,Description,Ontology ID
+bisexual,ce30ab49-2b2c-4444-819b-6411bccac4ac,,3,"Historically, bisexual referred to attraction to persons of two gender identities, typically, but not always, defined as male and female. In modern use, it is usually used to refer to persons who are sexually and/or romantically attracted to persons with a gender or genders like theirs and those with a gender or genders unlike theirs. Note that sometimes bisexual may be used as a synonym of pansexual.",GSSO:001590
+homosexual (gay/lesbian),f1434f08-3ac4-4da4-9686-fcb39f291c18,,2,"A person who is attracted solely or primarily to others of the same gender (or sex, depending on precise usage), i.e. being either a male androphile or a female gynephile.",GSSO:000398
+heterosexual,aee12239-ee2e-4806-9772-48da79db4650,,1,"Sexually attracted to a person defined as being of the ""opposite"" sex (i.e. male attracted to female or female attracted to male); more broadly, attracted to a gender that is not one's own.",GSSO:001592
+not reported,dd962a38-815c-48a5-ab39-eb3c384846bb,,9,Not provided or available.,
+other,471e39a5-fa1e-4596-9e26-bfd9a841083d,,7,A sexual orientation that is not present in this list.,
+unknown,2701412a-13bd-408f-a856-78c608ca825b,,8,"Not known, observed, recorded; or reported as unknown by the data contributor.",
+asexual,9ea78323-2fa4-4f71-bdea-44954d8a84f0,,4,A person who identifies as asexual.,GSSO:000387
+prefer not to say,9dc314cd-da34-47a3-b66c-3bbd5d76ad89,,,,
+do not know,17e6c6b3-b8bb-4c8b-afef-f8e93bfa1137,,,,

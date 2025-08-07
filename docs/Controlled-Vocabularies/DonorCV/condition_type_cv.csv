@@ -1,25 +1,25 @@
-﻿ID,Label,Code,Description
-,Alzheimers disease,,
-,Amyotrophic lateral sclerosis (ALS),,
-,Ataxia,,
-,Autism,,
-,Bi-polar disorder,,
-,Brain aneurysm,,
-,Cancer,,
-,Dementia,,
-,Depression,,
-,Diabetes mellitus,,
-,Dystonia,,
-,Epilepsy,,
-,Heart disease,,
-,Hypertension,,
-,Memory loss,,
-,Migraines,,
-,Multiple sclerosis,,
-,Muscle disease,,
-,Parkinson's disease,,
-,Schizophrenia,,
-,Stroke,,
-,Suicide or suicide attempt,,
-,Tourette syndrome,,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+Alzheimers disease,3a9b02d6-ddc1-422f-a329-48561942acd5,AD,PV000259,"A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.",MONDO:0004975
+amyotrophic lateral sclerosis (ALS),ef6045ec-7297-4c74-8e7a-3bee4a625bf7,ALS,PV000260,"Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive muscular paralysis reflecting degeneration of motor neurons in the primary motor cortex, corticospinal tracts, brainstem and spinal cord.",MONDO:0004976
+ataxia,2c5be254-566a-4ee3-8ebd-20473416bad4,,PV000261,"A central nervous system disease that consists of gait impairment, unclear (“scanning”) speech, visual blurring due to nystagmus, hand incoordination, and tremor with movement.",MONDO:0100308
+autism,4b62cdf4-5ae1-4582-9d9f-6161aed2589b,ASD,PV000262,Persistent deficits in social interaction and communication and interaction as well as a markedly restricted repertoire of activity and interest as well as repetitive patterns of behavior.,MONDO:0005260
+bi-polar disorder,4db6fd3e-ee0e-4f5b-9bdd-4cf24f1c2baf,,PV000263,"A disorder of the brain that causes unusual shifts in mood, energy, activity levels and the ability to carry out day-to-day tasks. Often these moods range and shift from periods of elation and energized behavior to those of hopelessness and depression.",MONDO:0004985
+brain aneurysm,0b15bc5c-c935-4add-9340-0a4763f91569,,PV000265,A congenital or acquired aneurysm within the cranium.,MONDO:0005291
+cancer,adf0447c-a8f6-42a0-936b-b5158d38f760,,PV000266,"A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.",MONDO:0004992
+dementia,f079ab3c-ec8a-470e-ad5a-376aad0fa746,,PV000270,"Loss of intellectual abilities interfering with an individual's social and occupational functions. Causes include Alzheimer's disease, brain injuries, brain tumors, and vascular disorders.",MONDO:0001627
+depression,869333ed-4e19-4bb5-846c-b2deee279469,,PV000271,A melancholy feeling of sadness and despair.,MONDO:0002050
+diabetes mellitus,de0f03ab-7b95-4b9c-b849-b6ef76c99220,,PV000272,A metabolic disorder characterized by abnormally high blood sugar levels due to diminished production of insulin or insulin resistance/desensitization.,MONDO:0005015
+dystonia,cfb86869-7bb1-43ba-a498-107d7a432816,,PV000273,"A movement disorder characterized by sustained or intermittent muscle contractions, resulting in abnormal movements and/or postures.",MONDO:0003441
+epilepsy,11c40b8e-3580-419f-990b-73b7be1d9317,,PV000274,"A brain disorder characterized by episodes of abnormally increased neuronal discharge resulting in transient episodes of sensory or motor neurological dysfunction, or psychic dysfunction. These episodes may or may not be associated with loss of consciousness or convulsions.",MONDO:0005027
+heart disease,efe550ed-7eca-42eb-87a5-eafc52466165,cardiovascular disease|CVD,PV000276,A disease involving the heart and/or pericardium.,MONDO:0005267
+hypertension,db0f7205-51c0-40be-aa85-2f10c4a43171,,PV000295,"Persistently high systemic arterial blood pressure. Based on multiple readings (blood pressure determination), hypertension is currently defined as when systolic pressure is consistently greater than 140 mm Hg or when diastolic pressure is consistently 90 mm Hg or more.",MONDO:0005044
+memory loss,c64ccf32-3f48-498c-93ab-77bdd654597e,,PV000281,"Systematic and extensive loss of memory caused by organic or psychological factors. The loss may be temporary or permanent, and may involve old or recent memories.",MONDO:0001152
+migraines,b7933e53-b01e-49bb-8898-94cd568b45b3,,PV000282,"A common, severe type of vascular headache often associated with increased sympathetic activity, resulting in nausea, vomiting, and light sensitivity.",MONDO:0005277
+multiple sclerosis,fd652115-dca2-40e6-983c-f6dd37d6f743,MS,PV000284,A progressive autoimmune disorder affecting the central nervous system resulting in demyelination. Patients develop physical and cognitive impairments that correspond with the affected nerve fibers.,MONDO:0005301
+muscle disease,2d547118-1ea0-4307-9289-d0ed1b6ee8fb,,PV000285,A disease involving the muscle tissue.,MONDO:0003939
+Parkinson's disease,88612b0e-462f-44a6-8ea9-20a65d6ad270,,PV000286,"A progressive degenerative disorder of the central nervous system characterized by loss of dopamine producing neurons in the substantia nigra and the presence of Lewy bodies in the substantia nigra and locus coeruleus. Signs and symptoms include tremor which is most pronounced during rest, muscle rigidity, slowing of the voluntary movements, a tendency to fall back, and a mask-like facial expression.",MONDO:0005180
+schizophrenia,01b5ae50-5b50-4a86-bdac-a31240a6fc47,,PV000288,"A major psychotic disorder characterized by abnormalities in the perception or expression of reality. It affects the cognitive and psychomotor functions. Common clinical signs and symptoms include delusions, hallucinations, disorganized thinking, and retreat from reality.",MONDO:0005090
+stroke,9bbea7b0-d3cf-44e9-bc4e-b11d50ad6fa7,,PV000290,"A sudden loss of neurological function secondary to hemorrhage or ischemia in the brain parenchyma due to a vascular event. Stroke includes two main types, hemorrhagic and ischemic. Both types of stroke can cause acute seizures at the time of the acute event, as well as epilepsy as a long-term complication. In the elderly, cerebrovascular disease and stroke are the most common cause of acute seizures and epilepsy.",MONDO:0005098
+suicide or suicide attempt,ef1593bc-e2ad-4317-9c78-b8ca93385589,,PV000292,"Any behaviour related to suicide, including suicide ideation and self-harm",EFO:0007623
+tourette syndrome,3ef79d52-bb01-475f-890c-febc35298ac1,,PV000293,A neurologic disorder caused by defective metabolism of the neurotransmitters in the brain. It is characterized by repeated involuntary movements (motor tics) and uncontrollable vocal sounds (vocal tics). The symptoms are usually manifested before the age of eighteen.,MONDO:0007661
+other (specify),aeafa654-a739-4bf4-90b5-efbc553e812f,,PV000294,,

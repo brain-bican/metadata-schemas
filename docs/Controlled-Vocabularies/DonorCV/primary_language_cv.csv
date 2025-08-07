@@ -1,548 +1,548 @@
-﻿ID,Label,Code,Description
-,aar,,Afar
-,abk,,Abkhazian
-,ace,,Achinese
-,ach,,Acoli
-,ada,,Adangme
-,ady,,Adyghe; Adygei
-,afa,,Afro-Asiatic languages
-,afh,,Afrihili
-,afr,,Afrikaans
-,ain,,Ainu
-,aka,,Akan
-,akk,,Akkadian
-,alb (B),,Albanian
-,sqi (T),,
-,ale,,Aleut
-,alg,,Algonquian languages
-,alt,,Southern Altai
-,amh,,Amharic
-,ang,,"English, Old (ca.450-1100)"
-,anp,,Angika
-,apa,,Apache languages
-,ara,,Arabic
-,arc,,Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)
-,arg,,Aragonese
-,arm (B),,Armenian
-,hye (T),,
-,arn,,Mapudungun; Mapuche
-,arp,,Arapaho
-,art,,Artificial languages
-,arw,,Arawak
-,asm,,Assamese
-,ast,,Asturian; Bable; Leonese; Asturleonese
-,ath,,Athapascan languages
-,aus,,Australian languages
-,ava,,Avaric
-,ave,,Avestan
-,awa,,Awadhi
-,aym,,Aymara
-,aze,,Azerbaijani
-,bad,,Banda languages
-,bai,,Bamileke languages
-,bak,,Bashkir
-,bal,,Baluchi
-,bam,,Bambara
-,ban,,Balinese
-,baq (B),,Basque
-,eus (T),,
-,bas,,Basa
-,bat,,Baltic languages
-,bej,,Beja; Bedawiyet
-,bel,,Belarusian
-,bem,,Bemba
-,ben,,Bengali
-,ber,,Berber languages
-,bho,,Bhojpuri
-,bih,,Bihari languages
-,bik,,Bikol
-,bin,,Bini; Edo
-,bis,,Bislama
-,bla,,Siksika
-,bnt,,Bantu languages
-,tib (B),,Tibetan
-,bod (T),,
-,bos,,Bosnian
-,bra,,Braj
-,bre,,Breton
-,btk,,Batak languages
-,bua,,Buriat
-,bug,,Buginese
-,bul,,Bulgarian
-,bur (B),,Burmese
-,mya (T),,
-,byn,,Blin; Bilin
-,cad,,Caddo
-,cai,,Central American Indian languages
-,car,,Galibi Carib
-,cat,,Catalan; Valencian
-,cau,,Caucasian languages
-,ceb,,Cebuano
-,cel,,Celtic languages
-,cze (B),,Czech
-,ces (T),,
-,cha,,Chamorro
-,chb,,Chibcha
-,che,,Chechen
-,chg,,Chagatai
-,chi (B),,Chinese
-,zho (T),,
-,chk,,Chuukese
-,chm,,Mari
-,chn,,Chinook jargon
-,cho,,Choctaw
-,chp,,Chipewyan; Dene Suline
-,chr,,Cherokee
-,chu,,Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic
-,chv,,Chuvash
-,chy,,Cheyenne
-,cmc,,Chamic languages
-,cnr,,Montenegrin
-,cop,,Coptic
-,cor,,Cornish
-,cos,,Corsican
-,cpe,,"Creoles and pidgins, English based"
-,cpf,,"Creoles and pidgins, French-based"
-,cpp,,"Creoles and pidgins, Portuguese-based"
-,cre,,Cree
-,crh,,Crimean Tatar; Crimean Turkish
-,crp,,Creoles and pidgins
-,csb,,Kashubian
-,cus,,Cushitic languages
-,wel (B),,Welsh
-,cym (T),,
-,cze (B),,Czech
-,ces (T),,
-,dak,,Dakota
-,dan,,Danish
-,dar,,Dargwa
-,day,,Land Dayak languages
-,del,,Delaware
-,den,,Slave (Athapascan)
-,ger (B),,German
-,deu (T),,
-,dgr,,Dogrib
-,din,,Dinka
-,div,,Divehi; Dhivehi; Maldivian
-,doi,,Dogri
-,dra,,Dravidian languages
-,dsb,,Lower Sorbian
-,dua,,Duala
-,dum,,"Dutch, Middle (ca.1050-1350)"
-,dut (B),,Dutch; Flemish
-,nld (T),,
-,dyu,,Dyula
-,dzo,,Dzongkha
-,efi,,Efik
-,egy,,Egyptian (Ancient)
-,eka,,Ekajuk
-,gre (B),,"Greek, Modern (1453-)"
-,ell (T),,
-,elx,,Elamite
-,eng,,English
-,enm,,"English, Middle (1100-1500)"
-,epo,,Esperanto
-,est,,Estonian
-,baq (B),,Basque
-,eus (T),,
-,ewe,,Ewe
-,ewo,,Ewondo
-,fan,,Fang
-,fao,,Faroese
-,per (B),,Persian
-,fas (T),,
-,fat,,Fanti
-,fij,,Fijian
-,fil,,Filipino; Pilipino
-,fin,,Finnish
-,fiu,,Finno-Ugrian languages
-,fon,,Fon
-,fre (B),,French
-,fra (T),,
-,fre (B),,French
-,fra (T),,
-,frm,,"French, Middle (ca.1400-1600)"
-,fro,,"French, Old (842-ca.1400)"
-,frr,,Northern Frisian
-,frs,,Eastern Frisian
-,fry,,Western Frisian
-,ful,,Fulah
-,fur,,Friulian
-,gaa,,Ga
-,gay,,Gayo
-,gba,,Gbaya
-,gem,,Germanic languages
-,geo (B),,Georgian
-,kat (T),,
-,ger (B),,German
-,deu (T),,
-,gez,,Geez
-,gil,,Gilbertese
-,gla,,Gaelic; Scottish Gaelic
-,gle,,Irish
-,glg,,Galician
-,glv,,Manx
-,gmh,,"German, Middle High (ca.1050-1500)"
-,goh,,"German, Old High (ca.750-1050)"
-,gon,,Gondi
-,gor,,Gorontalo
-,got,,Gothic
-,grb,,Grebo
-,grc,,"Greek, Ancient (to 1453)"
-,gre (B),,"Greek, Modern (1453-)"
-,ell (T),,
-,grn,,Guarani
-,gsw,,Swiss German; Alemannic; Alsatian
-,guj,,Gujarati
-,gwi,,Gwich'in
-,hai,,Haida
-,hat,,Haitian; Haitian Creole
-,hau,,Hausa
-,haw,,Hawaiian
-,heb,,Hebrew
-,her,,Herero
-,hil,,Hiligaynon
-,him,,Himachali languages; Western Pahari languages
-,hin,,Hindi
-,hit,,Hittite
-,hmn,,Hmong; Mong
-,hmo,,Hiri Motu
-,hrv,,Croatian
-,hsb,,Upper Sorbian
-,hun,,Hungarian
-,hup,,Hupa
-,arm (B),,Armenian
-,hye (T),,
-,iba,,Iban
-,ibo,,Igbo
-,ice (B),,Icelandic
-,isl (T),,
-,ido,,Ido
-,iii,,Sichuan Yi; Nuosu
-,ijo,,Ijo languages
-,iku,,Inuktitut
-,ile,,Interlingue; Occidental
-,ilo,,Iloko
-,ina,,Interlingua (International Auxiliary Language Association)
-,inc,,Indic languages
-,ind,,Indonesian
-,ine,,Indo-European languages
-,inh,,Ingush
-,ipk,,Inupiaq
-,ira,,Iranian languages
-,iro,,Iroquoian languages
-,ice (B),,Icelandic
-,isl (T),,
-,ita,,Italian
-,jav,,Javanese
-,jbo,,Lojban
-,jpn,,Japanese
-,jpr,,Judeo-Persian
-,jrb,,Judeo-Arabic
-,kaa,,Kara-Kalpak
-,kab,,Kabyle
-,kac,,Kachin; Jingpho
-,kal,,Kalaallisut; Greenlandic
-,kam,,Kamba
-,kan,,Kannada
-,kar,,Karen languages
-,kas,,Kashmiri
-,geo (B),,Georgian
-,kat (T),,
-,kau,,Kanuri
-,kaw,,Kawi
-,kaz,,Kazakh
-,kbd,,Kabardian
-,kha,,Khasi
-,khi,,Khoisan languages
-,khm,,Central Khmer
-,kho,,Khotanese; Sakan
-,kik,,Kikuyu; Gikuyu
-,kin,,Kinyarwanda
-,kir,,Kirghiz; Kyrgyz
-,kmb,,Kimbundu
-,kok,,Konkani
-,kom,,Komi
-,kon,,Kongo
-,kor,,Korean
-,kos,,Kosraean
-,kpe,,Kpelle
-,krc,,Karachay-Balkar
-,krl,,Karelian
-,kro,,Kru languages
-,kru,,Kurukh
-,kua,,Kuanyama; Kwanyama
-,kum,,Kumyk
-,kur,,Kurdish
-,kut,,Kutenai
-,lad,,Ladino
-,lah,,Lahnda
-,lam,,Lamba
-,lao,,Lao
-,lat,,Latin
-,lav,,Latvian
-,lez,,Lezghian
-,lim,,Limburgan; Limburger; Limburgish
-,lin,,Lingala
-,lit,,Lithuanian
-,lol,,Mongo
-,loz,,Lozi
-,ltz,,Luxembourgish; Letzeburgesch
-,lua,,Luba-Lulua
-,lub,,Luba-Katanga
-,lug,,Ganda
-,lui,,Luiseno
-,lun,,Lunda
-,luo,,Luo (Kenya and Tanzania)
-,lus,,Lushai
-,mac (B),,Macedonian
-,mkd (T),,
-,mad,,Madurese
-,mag,,Magahi
-,mah,,Marshallese
-,mai,,Maithili
-,mak,,Makasar
-,mal,,Malayalam
-,man,,Mandingo
-,mao (B),,Maori
-,mri (T),,
-,map,,Austronesian languages
-,mar,,Marathi
-,mas,,Masai
-,may (B),,Malay
-,msa (T),,
-,mdf,,Moksha
-,mdr,,Mandar
-,men,,Mende
-,mga,,"Irish, Middle (900-1200)"
-,mic,,Mi'kmaq; Micmac
-,min,,Minangkabau
-,mis,,Uncoded languages
-,mac (B),,Macedonian
-,mkd (T),,
-,mkh,,Mon-Khmer languages
-,mlg,,Malagasy
-,mlt,,Maltese
-,mnc,,Manchu
-,mni,,Manipuri
-,mno,,Manobo languages
-,moh,,Mohawk
-,mon,,Mongolian
-,mos,,Mossi
-,mao (B),,Maori
-,mri (T),,
-,may (B),,Malay
-,msa (T),,
-,mul,,Multiple languages
-,mun,,Munda languages
-,mus,,Creek
-,mwl,,Mirandese
-,mwr,,Marwari
-,bur (B),,Burmese
-,mya (T),,
-,myn,,Mayan languages
-,myv,,Erzya
-,nah,,Nahuatl languages
-,nai,,North American Indian languages
-,nap,,Neapolitan
-,nau,,Nauru
-,nav,,Navajo; Navaho
-,nbl,,"Ndebele, South; South Ndebele"
-,nde,,"Ndebele, North; North Ndebele"
-,ndo,,Ndonga
-,nds,,"Low German; Low Saxon; German, Low; Saxon, Low"
-,nep,,Nepali
-,new,,Nepal Bhasa; Newari
-,nia,,Nias
-,nic,,Niger-Kordofanian languages
-,niu,,Niuean
-,dut (B),,Dutch; Flemish
-,nld (T),,
-,nno,,"Norwegian Nynorsk; Nynorsk, Norwegian"
-,nob,,"Bokmål, Norwegian; Norwegian Bokmål"
-,nog,,Nogai
-,non,,"Norse, Old"
-,nor,,Norwegian
-,nqo,,N'Ko
-,nso,,Pedi; Sepedi; Northern Sotho
-,nub,,Nubian languages
-,nwc,,Classical Newari; Old Newari; Classical Nepal Bhasa
-,nya,,Chichewa; Chewa; Nyanja
-,nym,,Nyamwezi
-,nyn,,Nyankole
-,nyo,,Nyoro
-,nzi,,Nzima
-,oci,,Occitan (post 1500)
-,oji,,Ojibwa
-,ori,,Oriya
-,orm,,Oromo
-,osa,,Osage
-,oss,,Ossetian; Ossetic
-,ota,,"Turkish, Ottoman (1500-1928)"
-,oto,,Otomian languages
-,paa,,Papuan languages
-,pag,,Pangasinan
-,pal,,Pahlavi
-,pam,,Pampanga; Kapampangan
-,pan,,Panjabi; Punjabi
-,pap,,Papiamento
-,pau,,Palauan
-,peo,,"Persian, Old (ca.600-400 B.C.)"
-,per (B),,Persian
-,fas (T),,
-,phi,,Philippine languages
-,phn,,Phoenician
-,pli,,Pali
-,pol,,Polish
-,pon,,Pohnpeian
-,por,,Portuguese
-,pra,,Prakrit languages
-,pro,,"Provençal, Old (to 1500);Occitan, Old (to 1500)"
-,pus,,Pushto; Pashto
-,qaa-qtz,,Reserved for local use
-,que,,Quechua
-,raj,,Rajasthani
-,rap,,Rapanui
-,rar,,Rarotongan; Cook Islands Maori
-,roa,,Romance languages
-,roh,,Romansh
-,rom,,Romany
-,rum (B),,Romanian; Moldavian; Moldovan
-,ron (T),,
-,rum (B),,Romanian; Moldavian; Moldovan
-,ron (T),,
-,run,,Rundi
-,rup,,Aromanian; Arumanian; Macedo-Romanian
-,rus,,Russian
-,sad,,Sandawe
-,sag,,Sango
-,sah,,Yakut
-,sai,,South American Indian languages
-,sal,,Salishan languages
-,sam,,Samaritan Aramaic
-,san,,Sanskrit
-,sas,,Sasak
-,sat,,Santali
-,scn,,Sicilian
-,sco,,Scots
-,sel,,Selkup
-,sem,,Semitic languages
-,sga,,"Irish, Old (to 900)"
-,sgn,,Sign Languages
-,shn,,Shan
-,sid,,Sidamo
-,sin,,Sinhala; Sinhalese
-,sio,,Siouan languages
-,sit,,Sino-Tibetan languages
-,sla,,Slavic languages
-,slo (B),,Slovak
-,slk (T),,
-,slo (B),,Slovak
-,slk (T),,
-,slv,,Slovenian
-,sma,,Southern Sami
-,sme,,Northern Sami
-,smi,,Sami languages
-,smj,,Lule Sami
-,smn,,Inari Sami
-,smo,,Samoan
-,sms,,Skolt Sami
-,sna,,Shona
-,snd,,Sindhi
-,snk,,Soninke
-,sog,,Sogdian
-,som,,Somali
-,son,,Songhai languages
-,sot,,"Sotho, Southern"
-,spa,,Spanish; Castilian
-,alb (B),,Albanian
-,sqi (T),,
-,srd,,Sardinian
-,srn,,Sranan Tongo
-,srp,,Serbian
-,srr,,Serer
-,ssa,,Nilo-Saharan languages
-,ssw,,Swati
-,suk,,Sukuma
-,sun,,Sundanese
-,sus,,Susu
-,sux,,Sumerian
-,swa,,Swahili
-,swe,,Swedish
-,syc,,Classical Syriac
-,syr,,Syriac
-,tah,,Tahitian
-,tai,,Tai languages
-,tam,,Tamil
-,tat,,Tatar
-,tel,,Telugu
-,tem,,Timne
-,ter,,Tereno
-,tet,,Tetum
-,tgk,,Tajik
-,tgl,,Tagalog
-,tha,,Thai
-,tib (B),,Tibetan
-,bod (T),,
-,tig,,Tigre
-,tir,,Tigrinya
-,tiv,,Tiv
-,tkl,,Tokelau
-,tlh,,Klingon; tlhIngan-Hol
-,tli,,Tlingit
-,tmh,,Tamashek
-,tog,,Tonga (Nyasa)
-,ton,,Tonga (Tonga Islands)
-,tpi,,Tok Pisin
-,tsi,,Tsimshian
-,tsn,,Tswana
-,tso,,Tsonga
-,tuk,,Turkmen
-,tum,,Tumbuka
-,tup,,Tupi languages
-,tur,,Turkish
-,tut,,Altaic languages
-,tvl,,Tuvalu
-,twi,,Twi
-,tyv,,Tuvinian
-,udm,,Udmurt
-,uga,,Ugaritic
-,uig,,Uighur; Uyghur
-,ukr,,Ukrainian
-,umb,,Umbundu
-,und,,Undetermined
-,urd,,Urdu
-,uzb,,Uzbek
-,vai,,Vai
-,ven,,Venda
-,vie,,Vietnamese
-,vol,,Volapük
-,vot,,Votic
-,wak,,Wakashan languages
-,wal,,Wolaitta; Wolaytta
-,war,,Waray
-,was,,Washo
-,wel (B),,Welsh
-,cym (T),,
-,wen,,Sorbian languages
-,wln,,Walloon
-,wol,,Wolof
-,xal,,Kalmyk; Oirat
-,xho,,Xhosa
-,yao,,Yao
-,yap,,Yapese
-,yid,,Yiddish
-,yor,,Yoruba
-,ypk,,Yupik languages
-,zap,,Zapotec
-,zbl,,Blissymbols; Blissymbolics; Bliss
-,zen,,Zenaga
-,zgh,,Standard Moroccan Tamazight
-,zha,,Zhuang; Chuang
-,chi (B),,Chinese
-,zho (T),,
-,znd,,Zande languages
-,zul,,Zulu
-,zun,,Zuni
-,zxx,,No linguistic content; Not applicable
-,zza,,Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+aar,78787899-371b-4a3b-b142-88d8336f8e06,,,Afar,
+abk,780ff3b4-82c4-453d-a5b5-84b84105fd04,,,Abkhazian,
+ace,486fd804-786f-4ba1-8fe3-7c6c6c338cef,,,Achinese,
+ach,7ce5d5b5-78f6-4293-9029-9c062fdf1589,,,Acoli,
+ada,7ac30736-6c7d-46b8-b796-2d6f7b1efaf3,,,Adangme,
+ady,77d6d369-1244-42be-8148-3463bc9b29e5,,,Adyghe; Adygei,
+afa,810b8528-28fa-4474-a59d-7efad1d96e0e,,,Afro-Asiatic languages,
+afh,9f19a5e3-8191-42bf-bc9f-083606dee107,,,Afrihili,
+afr,67ae2556-8bef-4702-9059-16ecc9b16bd0,,,Afrikaans,
+ain,7c1be3bc-706a-489d-af77-df1483cacd17,,,Ainu,
+aka,39d0608b-c476-46da-8cd5-7e1116c20161,,,Akan,
+akk,d88a434b-6623-47e2-98e5-64a8695bceb6,,,Akkadian,
+alb (B),34d9f01c-b92e-4ac4-80a4-f9751c452ad2,,,Albanian,
+sqi (T),a202e578-1ced-44e8-aee4-c043c74659b1,,,,
+ale,135495ab-1336-491f-a746-c64cad44a69a,,,Aleut,
+alg,1e3aa835-3b98-4fbb-8d33-88d9f4c5e7b2,,,Algonquian languages,
+alt,a95868c6-0f8d-49eb-8573-ecf4f8948bd3,,,Southern Altai,
+amh,07fca9c8-7c8d-4a2f-9585-dcc03127943f,,,Amharic,
+ang,addf244f-0956-4d40-a25e-7e659bc98104,,,"English, Old (ca.450-1100)",
+anp,e1594098-39cf-461f-8905-24675a5562a1,,,Angika,
+apa,b923013e-e632-410b-9ef7-e464e6aaf360,,,Apache languages,
+ara,3cfd1458-74bf-4013-ae31-c044ba65663b,,,Arabic,
+arc,742bc82f-fac2-40b1-9bca-242888ac1cce,,,Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE),
+arg,298478a5-60e5-4b4e-8c84-481550b9bfe9,,,Aragonese,
+arm (B),092b988f-1b05-4622-888e-9d2eef520823,,,Armenian,
+hye (T),53e43bbd-416e-459c-bc72-80306d1f18b5,,,,
+arn,03816ec8-ceed-469a-9ecc-359bf58a1bb1,,,Mapudungun; Mapuche,
+arp,2ffd6f5c-eb4c-46bd-8e95-2de7d507fdaa,,,Arapaho,
+art,393e08d0-2d0f-403d-a801-58589c4d8406,,,Artificial languages,
+arw,49f2a50c-1538-419f-88b6-c67f38354251,,,Arawak,
+asm,00b53bdc-51b1-49ce-888f-fed09c84e87a,,,Assamese,
+ast,6faf5a43-2f02-425c-a74c-f606878df36e,,,Asturian; Bable; Leonese; Asturleonese,
+ath,1e69bc9a-c5a6-4d45-938f-997e7a845bf2,,,Athapascan languages,
+aus,e27e4f48-d194-4719-bb00-ba15a4f9d12f,,,Australian languages,
+ava,5b2ff1a5-4c7c-45a0-9d1a-3111b91eeadd,,,Avaric,
+ave,8a23f476-c38b-4465-af75-c699910caf61,,,Avestan,
+awa,b6b23acf-33a3-454c-92fd-9e8c8c3b4aa5,,,Awadhi,
+aym,6e8a7af6-6682-4618-8212-35527f441651,,,Aymara,
+aze,a150b53a-ccaf-4a19-af36-1f287cf69d72,,,Azerbaijani,
+bad,52a11d13-1ef5-4cc2-b257-40f342343ca8,,,Banda languages,
+bai,ec004ba2-dc80-458e-be64-18d1ee8288ec,,,Bamileke languages,
+bak,f1ea90ee-651c-4270-80a3-da65fe91101b,,,Bashkir,
+bal,ce345bf3-4b02-4570-b1f8-3b5a28f99005,,,Baluchi,
+bam,dda427f7-cb68-4757-9357-8445149ba847,,,Bambara,
+ban,3c936049-5c1f-4010-970c-0ec2367c6cad,,,Balinese,
+baq (B),642ac599-f056-4d9c-876e-a68e2615ea08,,,Basque,
+eus (T),1e3725fd-916e-4110-86b1-458100b46f76,,,,
+bas,acb0cd6e-92f2-4259-b19a-1cb0da90ec64,,,Basa,
+bat,8e5795bc-d6d0-4b5b-934a-e102b9f12b2f,,,Baltic languages,
+bej,05eee4c4-b384-4410-ad6a-6bc04a22be55,,,Beja; Bedawiyet,
+bel,197c5038-5c7b-4a32-9a42-753ab159b57e,,,Belarusian,
+bem,4699b272-a150-4bb6-b32e-c35ce0206453,,,Bemba,
+ben,0ea20bab-57c8-4bb5-8c6c-6576b80a2366,,,Bengali,
+ber,31db3288-92c8-45ce-8b5d-f2ccd877fc92,,,Berber languages,
+bho,c72c7b07-0651-4887-87a7-3eeef1a181cb,,,Bhojpuri,
+bih,cc7a4fbe-527f-4758-a0b1-dbc6fb9d89e6,,,Bihari languages,
+bik,87cb06e2-c3ea-47e2-a291-4172f21176a3,,,Bikol,
+bin,3f38cb85-bc1c-407e-9cc6-59b4b03e1dcc,,,Bini; Edo,
+bis,a2a465f0-4c6a-4284-86a1-49c949cdb4fe,,,Bislama,
+bla,da9d3505-0b25-4672-9ad0-d8ad288c1def,,,Siksika,
+bnt,15915fec-5e5b-457b-93d4-f2ccb12f7fce,,,Bantu languages,
+tib (B),1638d1ea-d2e7-45ab-853e-0aed3e2ffbe2,,,Tibetan,
+bod (T),e060ad2c-ba11-4de3-a99f-9be98a5dabe3,,,,
+bos,ceef8c27-1bec-4f39-a63c-d236af4a60cd,,,Bosnian,
+bra,f4683e7c-26a8-46b0-b70e-cdbfd0b3d20f,,,Braj,
+bre,37598f12-b2de-427e-8185-bbc405003ae0,,,Breton,
+btk,f17e4244-4a57-4c42-9180-4ced937b4843,,,Batak languages,
+bua,de3f96ba-b40d-46cf-ba08-4500ace04f01,,,Buriat,
+bug,a1500683-73f9-4b73-9cad-5f78d6e30475,,,Buginese,
+bul,debe8327-7991-49cb-af1b-3c3470ac2a11,,,Bulgarian,
+bur (B),4a7f9c65-a030-42eb-97f2-4f9dbf21e614,,,Burmese,
+mya (T),aa94fce0-0672-435a-b57b-a158777d4956,,,,
+byn,cf05e4f3-3dc7-4e5d-9147-05a30277dfda,,,Blin; Bilin,
+cad,f450dff4-69ef-443e-86fd-e131c89fedd5,,,Caddo,
+cai,8a76ce94-a230-4951-b4b0-1e7aa82b1a52,,,Central American Indian languages,
+car,76da0581-ba7a-4893-8e2d-5c973a448ab1,,,Galibi Carib,
+cat,2cc60649-a129-4e8b-8324-b9bc93b556c4,,,Catalan; Valencian,
+cau,59f64dcd-a6e2-4437-a916-9ecf0029ef9f,,,Caucasian languages,
+ceb,9c3af940-72dc-4e91-84e9-a63f49f7ba23,,,Cebuano,
+cel,91424b9e-c3fe-4e86-8f21-9faf2c5c7c7c,,,Celtic languages,
+cze (B),85ee9be0-0f16-46a5-9ada-eb7e5a88471d,,,Czech,
+ces (T),f0591c5e-04ec-46ae-af77-60ff085e2845,,,,
+cha,34e5aeeb-efef-4696-b8a7-c12db128ca30,,,Chamorro,
+chb,7615ac8e-6ff7-42dd-8c37-97eade8a1d2d,,,Chibcha,
+che,3daff904-0ad5-4b66-b6aa-5037130d1ee9,,,Chechen,
+chg,182e8667-ba05-4311-a3c6-47990e66da88,,,Chagatai,
+chi (B),6eb7a20f-8618-4dd7-a924-675e9a5215f0,,,Chinese,
+zho (T),2c7b5dee-b0ff-46f7-ae7c-b9f4ad48ec24,,,,
+chk,4b7355e5-0374-4ec5-b208-dceaea3931cc,,,Chuukese,
+chm,72aeaceb-8f76-469c-9346-2ac1e7fed031,,,Mari,
+chn,3a41d909-12f6-4f41-80da-ccd448f50a1b,,,Chinook jargon,
+cho,0210f6aa-0681-40b4-9338-c2d5c5eb1cc1,,,Choctaw,
+chp,ff27c91c-764e-4d8f-a2de-6470669564d7,,,Chipewyan; Dene Suline,
+chr,bef6f2f4-d725-4dc2-b61a-7f64fac2f1a6,,,Cherokee,
+chu,7a2e37ca-0df2-4965-ad48-3659f215ae87,,,Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic,
+chv,1526e9e5-5836-4aac-817b-94c2ba99289a,,,Chuvash,
+chy,06b73c6c-2392-483f-8e06-c9ddc1f9d4f9,,,Cheyenne,
+cmc,d216704e-fd3c-47cf-9162-44777e485a40,,,Chamic languages,
+cnr,5312f6d1-6949-4002-ad52-0613049620a7,,,Montenegrin,
+cop,0ca6394c-8b63-4d4c-8cab-c5ebd335a77a,,,Coptic,
+cor,6d62a99d-7c26-48b9-93f7-6237046dfe9b,,,Cornish,
+cos,54a585a8-559c-4b31-938c-a3190ce5f0d7,,,Corsican,
+cpe,a362cf75-7ea6-486f-b6b0-2819241448da,,,"Creoles and pidgins, English based",
+cpf,6694f1de-1bec-4fea-ad2b-89f05f776676,,,"Creoles and pidgins, French-based",
+cpp,f0791192-e521-41cf-83f7-8a6dcf67b136,,,"Creoles and pidgins, Portuguese-based",
+cre,32caf39e-56fd-4e53-a77f-8efe04dc2f46,,,Cree,
+crh,277db374-de54-4c10-b6e2-9835d6311fe3,,,Crimean Tatar; Crimean Turkish,
+crp,0809e7b5-8d08-49cc-bc3e-2922276edcee,,,Creoles and pidgins,
+csb,b3876fce-f233-4f07-aa0c-f6f66708e9e1,,,Kashubian,
+cus,9ce14e2b-d7eb-4e05-ac4c-f63816776274,,,Cushitic languages,
+wel (B),076841b8-1d4c-49f3-9070-8b506ea27624,,,Welsh,
+cym (T),b8967c36-3421-460e-adb3-e353892859b1,,,,
+cze (B),512c3e1a-6f5e-4874-b2e0-6271b9dbfd8a,,,Czech,
+ces (T),5c6453fa-98a7-4eba-b9ce-6c61482538f8,,,,
+dak,cd0ce577-e924-4eae-9c2e-e0ec2ce5192f,,,Dakota,
+dan,285ed6c7-c389-40f8-842c-39fd9e153a0c,,,Danish,
+dar,9b21e863-396e-4b41-b15a-743d04002682,,,Dargwa,
+day,5c8ce588-4899-40f2-8866-b63ee4d1094a,,,Land Dayak languages,
+del,a3983b98-ec32-4c73-bc95-704bfadbd6a2,,,Delaware,
+den,f423fb4a-81b6-4ac3-a414-1dce7a162060,,,Slave (Athapascan),
+ger (B),7d299164-8f65-49a9-8812-10ef14e98402,,,German,
+deu (T),2fedd1f2-8db4-4287-9146-efbee8e33f8d,,,,
+dgr,7144a68f-0c0a-444a-ba54-f77e9b9ab528,,,Dogrib,
+din,451996fc-4219-4a05-b6ff-74687cd75331,,,Dinka,
+div,58ab5bca-b202-47f9-a181-9a1e274943d9,,,Divehi; Dhivehi; Maldivian,
+doi,8fef64b4-402d-4e05-9f4a-5c103b124dd6,,,Dogri,
+dra,161f1f35-d494-4c91-b87e-ad9486365394,,,Dravidian languages,
+dsb,79ff4e9d-b621-408f-a71a-20f20f998ec3,,,Lower Sorbian,
+dua,3255c163-4f56-45e8-9a2f-c0804332ab3a,,,Duala,
+dum,26145bb3-8047-4cb1-a6a5-86b0fc04b13e,,,"Dutch, Middle (ca.1050-1350)",
+dut (B),3bf617c3-8404-48d7-9d71-0c38e7d5a765,,,Dutch; Flemish,
+nld (T),89a6bddc-32be-46a0-bd4c-18265430b610,,,,
+dyu,091ca949-60af-4826-8b8c-d9d116c005df,,,Dyula,
+dzo,acb78621-5dd0-42b1-adc1-fdab4fb125d0,,,Dzongkha,
+efi,cce9f39b-dee3-42b3-a854-f3b82a8ad804,,,Efik,
+egy,566493c8-6195-4cf1-962f-2455044e76a5,,,Egyptian (Ancient),
+eka,e48f0368-fdf9-4f21-ab7d-358897900022,,,Ekajuk,
+gre (B),6d16cbd3-7f75-4a46-81da-9789e1a3c5de,,,"Greek, Modern (1453-)",
+ell (T),4fb55ee0-41ca-447a-aed1-c114560d91db,,,,
+elx,16c18f4b-fb49-4b88-a70d-b4a2bbfb98ed,,,Elamite,
+eng,65e9e79f-220c-4f12-8409-86ccda4b5111,,,English,
+enm,e2d6959d-e1f8-4b26-95a8-86556b5b6c70,,,"English, Middle (1100-1500)",
+epo,d16be295-aa1e-42a1-8d93-7a3f4301e446,,,Esperanto,
+est,14eb5bdf-b658-43de-b6f7-2ddf50e3f2e8,,,Estonian,
+baq (B),59bdd4a4-c498-417d-81f2-b8dcafe5b623,,,Basque,
+eus (T),461410cb-7bd3-4b14-9e4a-1f029246e3e7,,,,
+ewe,30479d19-c25d-4ae8-b290-57a89d218d51,,,Ewe,
+ewo,6e96852a-7727-4647-b593-377b0caafde0,,,Ewondo,
+fan,1e3f7f18-3a99-4196-8b3e-9fa90e72f9ee,,,Fang,
+fao,76cb1790-2c1d-415f-a83d-5cb77755d4eb,,,Faroese,
+per (B),143be644-2e95-47f5-889f-7b09fcb53152,,,Persian,
+fas (T),8f49c569-d90b-4091-96d1-2e6f775d84d4,,,,
+fat,2af8978a-50e4-4749-93cc-c54b27f5e109,,,Fanti,
+fij,058b5b54-e3c2-4b19-b409-e0d39bf7b7f2,,,Fijian,
+fil,64041acf-cd9a-4473-899e-5b9669db4cce,,,Filipino; Pilipino,
+fin,8304c076-0979-4a9e-a619-417e6fa9cf88,,,Finnish,
+fiu,916eaf4b-804d-4b0c-9453-55f08309295a,,,Finno-Ugrian languages,
+fon,05e15856-0ca3-4b79-80ca-0a407b5abc51,,,Fon,
+fre (B),5420442a-a1b8-449a-85fc-1aee27d423c0,,,French,
+fra (T),8abc4230-de99-47f5-ad47-b9a92dc96ad8,,,,
+fre (B),ee4895b3-0b83-4453-a07d-85582b190f4e,,,French,
+fra (T),a9b866d0-e0ab-4019-b7c4-19695302b5aa,,,,
+frm,5c7eb825-1093-46b9-972d-e96764b65a72,,,"French, Middle (ca.1400-1600)",
+fro,cc958c01-f07a-43dc-bb0d-fea69638ccfd,,,"French, Old (842-ca.1400)",
+frr,9237f914-943b-4d28-b675-281d203245a1,,,Northern Frisian,
+frs,488dc3fa-4e0d-407c-806b-2fabc9886013,,,Eastern Frisian,
+fry,87bd3668-a0dd-4e94-ad39-8ce32740e94d,,,Western Frisian,
+ful,4cf1acd1-5e39-4de9-99ae-441b398b1085,,,Fulah,
+fur,42bbc258-f0b1-4234-8b6f-b7d2d94a3a76,,,Friulian,
+gaa,0c1460d1-27e7-4023-b871-6b04409e7db3,,,Ga,
+gay,3b6d2f0e-5e40-4462-82a0-7ebb371a4965,,,Gayo,
+gba,dac697cc-0a6a-4840-816f-52f47156de2b,,,Gbaya,
+gem,69473152-db67-46bb-b724-22d37b2a8436,,,Germanic languages,
+geo (B),42ae9045-c128-4335-bc2f-02845d988615,,,Georgian,
+kat (T),858f0ad3-9d5f-4fbe-90d7-19a2e2574000,,,,
+ger (B),ee111922-2ea8-491c-8688-4b78f7462ecc,,,German,
+deu (T),b825e9c8-a2bd-41ad-9421-1ecd37f74c03,,,,
+gez,21bc911f-c2f9-4117-9f5f-751f8a47b483,,,Geez,
+gil,1a972595-f83b-4c2f-8436-314324f73892,,,Gilbertese,
+gla,0cdcaba4-b237-403f-8a79-f6927855c8d3,,,Gaelic; Scottish Gaelic,
+gle,33f64383-6e87-4913-8465-6ba3a84053a6,,,Irish,
+glg,88409f71-ca01-4259-b82d-1e6ca4c6441d,,,Galician,
+glv,46253ef2-0a40-4c70-8c2b-5d73f1708c81,,,Manx,
+gmh,28152b71-7264-44ec-902b-00f474b168d6,,,"German, Middle High (ca.1050-1500)",
+goh,42616f85-5e2d-48e2-8221-c5a203722722,,,"German, Old High (ca.750-1050)",
+gon,33c91b3f-7b7e-4554-bc0f-dedc71c6dadf,,,Gondi,
+gor,7a179eb7-1661-48a6-a707-4409c0537770,,,Gorontalo,
+got,01e62ba7-d0bb-420b-93c6-fcc1d33256b8,,,Gothic,
+grb,d1e3b738-ea51-4fa2-ae79-019dd90e11b6,,,Grebo,
+grc,a3d915a6-9a44-4ca9-aaad-6c788220cbcc,,,"Greek, Ancient (to 1453)",
+gre (B),3d2d17c0-a2ed-4136-96f8-5c221f668e13,,,"Greek, Modern (1453-)",
+ell (T),df8d089c-4567-4a4f-842f-9eed2540f75a,,,,
+grn,ab4f66d6-52ff-4b27-9b3b-7a706bab2e7c,,,Guarani,
+gsw,2cb0be15-4022-4aa9-8870-08132abf519a,,,Swiss German; Alemannic; Alsatian,
+guj,e7e27e27-051d-46a0-b496-28022390f4bd,,,Gujarati,
+gwi,9ea0f4aa-b866-4aa7-8c81-e72e7d30feb7,,,Gwich'in,
+hai,b48e5bda-37e2-414e-ba63-7e731732dc42,,,Haida,
+hat,bce8c745-acc1-41f8-af96-2d4730743118,,,Haitian; Haitian Creole,
+hau,87185389-e741-4118-8877-4f8a34c6317e,,,Hausa,
+haw,21020966-fa67-4d75-aa19-f50f1d160a63,,,Hawaiian,
+heb,33a8225f-8a88-46ff-a30a-b9d22b244020,,,Hebrew,
+her,cdd05fb8-df79-4484-b494-376a7b3e6c4a,,,Herero,
+hil,8e7f8d27-b7d8-439b-8f72-4192b39dd62e,,,Hiligaynon,
+him,84076fc0-4bd2-483b-94bf-ec28efb93501,,,Himachali languages; Western Pahari languages,
+hin,ce278843-5ade-4969-995f-1a45187d0f3b,,,Hindi,
+hit,a487621f-60f7-40e2-a930-42061b531131,,,Hittite,
+hmn,5445a2fe-bfcb-436d-bacb-b31ee6fce124,,,Hmong; Mong,
+hmo,ca3adf13-2821-41b3-841a-e4383077a4f6,,,Hiri Motu,
+hrv,bbdf3352-3a1b-4f40-940e-26a045202e41,,,Croatian,
+hsb,971460de-ebeb-42e9-9bb6-ba8c8580ca9b,,,Upper Sorbian,
+hun,104aad16-4e50-414e-bd3d-f90b6f4d1d91,,,Hungarian,
+hup,56372e33-bfa3-40e1-9536-46f5c7da5399,,,Hupa,
+arm (B),5aee4b97-eeb7-4594-bbf4-a2d9b303cc02,,,Armenian,
+hye (T),5a738fd9-6b63-4208-bc10-65e3d09377fd,,,,
+iba,6ff2553a-e203-4901-bbb5-8e7d4d53ca9f,,,Iban,
+ibo,2bb78bfc-4731-4715-ae68-e6c3993a6833,,,Igbo,
+ice (B),a2e9d154-5a3d-46ad-9310-e233b5282ebc,,,Icelandic,
+isl (T),b25931d0-7df3-4ede-9b14-1935baed08db,,,,
+ido,e64c17ca-7789-4d99-b9a6-1050adf1a593,,,Ido,
+iii,9f85d80c-3eb7-4e3f-b50e-67beb8bf4e3b,,,Sichuan Yi; Nuosu,
+ijo,a0b10f17-5710-44d1-88c5-edb08613d950,,,Ijo languages,
+iku,59d858d7-4199-4164-825a-0e4e9930dd4c,,,Inuktitut,
+ile,9609c3bf-1144-40f7-b457-8284d2692fe0,,,Interlingue; Occidental,
+ilo,60f22fe3-5953-44ee-a1ff-6051de8fdbee,,,Iloko,
+ina,0891427f-3a21-4eba-936c-cc5b1147cc0f,,,Interlingua (International Auxiliary Language Association),
+inc,047a0196-76ab-4415-8f34-8455b73aeb62,,,Indic languages,
+ind,652011c5-3d28-4ab3-9a35-e9ecb11e86ae,,,Indonesian,
+ine,5eb3e303-0dce-4d3a-9e8f-666b6d7fd336,,,Indo-European languages,
+inh,ad2c27a3-8d38-4407-9767-8e3700ed52b2,,,Ingush,
+ipk,263cc94c-f18a-4c2a-98db-79edd7dca7ce,,,Inupiaq,
+ira,9da17d17-f3da-4028-bc0d-7e85e27d43ae,,,Iranian languages,
+iro,8035748c-9d7c-4e7f-802d-519ea61308da,,,Iroquoian languages,
+ice (B),58f81f3e-1ef5-423a-be82-948598227652,,,Icelandic,
+isl (T),401703f0-2caa-41e5-9371-224f720cf21b,,,,
+ita,e66ee3b4-cdf2-40da-8668-eae304ea6d3a,,,Italian,
+jav,08420230-e83a-44b5-b6f6-beac1bbfca0f,,,Javanese,
+jbo,a89e5bcf-5d71-4a46-8823-3af1dfae896e,,,Lojban,
+jpn,d0147c8e-db2d-4ca6-a3c0-552ab7216bb0,,,Japanese,
+jpr,3d55cca2-31f9-41c5-bdbf-f3845c0b4db4,,,Judeo-Persian,
+jrb,7543523b-8b2d-4d46-a5aa-932b6453afae,,,Judeo-Arabic,
+kaa,b8d6bd59-6199-4925-971c-833dbad87807,,,Kara-Kalpak,
+kab,2b3812bc-e22b-4691-96f4-8e24f1c0c6eb,,,Kabyle,
+kac,d0a4b62e-b96b-4d4e-a576-5bc6a031d3fe,,,Kachin; Jingpho,
+kal,0a41f0e2-41bc-4fc7-a747-c4cd869b5031,,,Kalaallisut; Greenlandic,
+kam,40bcb05e-7b03-4a40-9a78-400ccd528a82,,,Kamba,
+kan,a3ba44fe-2264-4334-84cd-69c83805eddd,,,Kannada,
+kar,8a77134c-77a2-42fd-b774-147a0ba0d1b6,,,Karen languages,
+kas,e0a3989a-2414-4490-a31c-50fb7051fd77,,,Kashmiri,
+geo (B),2c3e8cdd-45db-4c39-9c5a-ed4c28f9b5fd,,,Georgian,
+kat (T),8d105f50-a0db-45ff-8779-9af99fa6cf2e,,,,
+kau,1ce1e46a-de02-4442-98d6-dfebfc4f0627,,,Kanuri,
+kaw,b04e8c01-9532-4642-ae3d-9bb074645d3e,,,Kawi,
+kaz,d327ae8d-8e19-4249-a5db-b7065196e867,,,Kazakh,
+kbd,3659ef28-fb18-4831-97f7-780173da9e5f,,,Kabardian,
+kha,327d3015-7320-497f-a1df-31fd25e9bc6c,,,Khasi,
+khi,1171c923-1207-44a7-a36c-7033d7f3a452,,,Khoisan languages,
+khm,2b865129-8672-4cab-afc3-c294a80a93d3,,,Central Khmer,
+kho,89a92ce7-d9d7-47ca-aa0e-bc076a6608fe,,,Khotanese; Sakan,
+kik,93d5bb4a-8a19-40f6-8d56-efe118a43129,,,Kikuyu; Gikuyu,
+kin,14e978a5-1531-4a5a-a5e9-65436253b918,,,Kinyarwanda,
+kir,dfec39dc-7406-451e-886a-da3399c9f040,,,Kirghiz; Kyrgyz,
+kmb,d8a58d1c-18f1-403c-8807-854edf54e7b6,,,Kimbundu,
+kok,632eb812-2147-4fc6-9a31-83226101802f,,,Konkani,
+kom,fc23916d-99d6-43ac-9dc9-208fe6496e01,,,Komi,
+kon,37a88346-2cba-4a74-b6af-1506fd90d14e,,,Kongo,
+kor,9b76c534-aa3c-4cea-a7ec-59fef3a06ea7,,,Korean,
+kos,31c4c4f1-a650-4024-90e8-544643308917,,,Kosraean,
+kpe,9c2afb93-c28b-4e84-b1d7-f914a0f27df8,,,Kpelle,
+krc,8116bafb-79b7-4689-9a7c-0f8fc2c1c907,,,Karachay-Balkar,
+krl,4ea1414d-4d16-4025-a180-4fe78051b5d4,,,Karelian,
+kro,5f24a4c4-901b-4fb0-8464-11207c3e6a4d,,,Kru languages,
+kru,6035a46c-cd7b-4af6-a987-fb306aec2c4c,,,Kurukh,
+kua,936c2de3-d61c-4a60-97fc-6c01337571fc,,,Kuanyama; Kwanyama,
+kum,93f3c865-e0e6-4043-9b27-30f3713a7c6c,,,Kumyk,
+kur,702804d8-d864-42e6-a30d-77cb5ac86236,,,Kurdish,
+kut,c5ac601a-e40e-465a-abc6-17ce4f210b67,,,Kutenai,
+lad,89e592f4-30ab-49eb-84c4-b63400289685,,,Ladino,
+lah,86b7e53a-531a-4fa4-a9f8-d9615375069c,,,Lahnda,
+lam,b31d0d65-82b7-4c48-a3f9-22db65f9d379,,,Lamba,
+lao,68166135-9388-4123-bf35-7244590fb78e,,,Lao,
+lat,25352b1e-1b3c-4396-b5b4-1fb1ff7cc3fd,,,Latin,
+lav,b19f0b17-5027-4a19-896f-6c6893233b2f,,,Latvian,
+lez,f385ea71-94cf-44a4-ac0f-1f8c4d47df86,,,Lezghian,
+lim,bdcb1fd7-363f-4703-b89c-27b300314214,,,Limburgan; Limburger; Limburgish,
+lin,a44d05a9-c9e7-4666-ac20-35ab8fe84fc1,,,Lingala,
+lit,b5b67879-d7af-498b-8879-316a982dbdda,,,Lithuanian,
+lol,be2e029f-a08c-49e1-a30e-908ff417e980,,,Mongo,
+loz,700ef574-172c-46fb-a041-0f5effc5f07d,,,Lozi,
+ltz,74f2ad94-aa31-4fd4-93ce-2f945e09bcb0,,,Luxembourgish; Letzeburgesch,
+lua,e5f221a6-d8a7-4360-a306-c6eae15c0db1,,,Luba-Lulua,
+lub,b5800feb-1c75-463d-881d-1f823148e63d,,,Luba-Katanga,
+lug,65d0dd4b-7267-4a17-9fdf-e96fd1a5430b,,,Ganda,
+lui,49cf1cb3-1a29-4ecb-a739-33dab402f631,,,Luiseno,
+lun,c73ddbd6-db8e-499c-9a53-5c06790c63d3,,,Lunda,
+luo,91c5ae34-f5ff-4235-bb60-a20ea78dd33f,,,Luo (Kenya and Tanzania),
+lus,0272eea4-a536-4b22-9baf-0e697b13ebb2,,,Lushai,
+mac (B),56e56d91-1d46-48c9-949e-7f0ae047dac9,,,Macedonian,
+mkd (T),92b5d6b4-3350-45b4-b594-2a355bd0239e,,,,
+mad,b1ea480d-3fe1-44ba-9395-df899cc8edf0,,,Madurese,
+mag,d7fc9fd2-a316-4d82-bec5-834e0d066d66,,,Magahi,
+mah,feef57ad-c453-43e3-8c84-2097c8a05198,,,Marshallese,
+mai,1eb6a51e-85c2-4560-94bb-d864b5694d9b,,,Maithili,
+mak,2a67b616-2dae-44e3-b3a6-25450c5cceaa,,,Makasar,
+mal,35ae8ee2-ff5c-4658-aee2-e0f60a5e7e50,,,Malayalam,
+man,1ca9202e-d4b3-42d4-a3b0-4c2d08736ff8,,,Mandingo,
+mao (B),256a9084-af5a-4a3a-b618-c549fbb4a836,,,Maori,
+mri (T),811da459-b12c-47b1-985c-4792a2f680c9,,,,
+map,8d23aa87-6c76-4601-807f-f792a0364bad,,,Austronesian languages,
+mar,5b288dd3-ba0d-41a5-ac8e-b5c86e0610ca,,,Marathi,
+mas,e1edd67b-7251-4135-b7c0-77b61bee16ef,,,Masai,
+may (B),445f89ed-587d-4cdf-a3cb-d339a2bb853b,,,Malay,
+msa (T),a88d8f32-e9cd-4c7b-b4bb-69e3a21ec46c,,,,
+mdf,2acbf2f8-c1eb-4254-aa89-73b83a13615c,,,Moksha,
+mdr,a93b3007-9d94-402d-aa49-509f786e8c76,,,Mandar,
+men,b7385ec8-737f-47e0-8e8d-1bd7cca5db61,,,Mende,
+mga,02e7598c-7d0e-44a7-bfcc-8ac3a3b74e38,,,"Irish, Middle (900-1200)",
+mic,0edacb00-3d7c-488f-be6d-2ef0801125c2,,,Mi'kmaq; Micmac,
+min,2e518f1b-841f-441b-b3b0-6f8a1c9e1cd9,,,Minangkabau,
+mis,a55dcecd-8ca9-4821-8fff-d0cde40a58c1,,,Uncoded languages,
+mac (B),66e35398-d92c-45fc-bae3-e43dce32c3a0,,,Macedonian,
+mkd (T),625936a8-4c9a-455d-8864-97733c681f0d,,,,
+mkh,1eff88f3-e481-41cd-bd45-f39ee846ca1f,,,Mon-Khmer languages,
+mlg,2b5f7fca-885a-4847-8c6b-c3f7e848d0e6,,,Malagasy,
+mlt,7610a5d1-de56-411d-911a-851889cc7a11,,,Maltese,
+mnc,e077d884-305f-4714-a7e4-3379e0f02944,,,Manchu,
+mni,51dad339-bae1-4d1e-8fb3-8887067c873d,,,Manipuri,
+mno,5a32c932-19f5-422c-aaa3-af21c8e73d97,,,Manobo languages,
+moh,b84ab66b-bef3-4be5-b219-d561a725b1e6,,,Mohawk,
+mon,db007f9a-7995-4e52-be32-c9ad6018a99f,,,Mongolian,
+mos,e29de135-43ba-4ec4-83e8-fe56db4b24b1,,,Mossi,
+mao (B),6381d273-4a78-4628-b1cd-7a69c24fc810,,,Maori,
+mri (T),fd8c037a-6865-4a6d-8237-e83f82759622,,,,
+may (B),184edfd7-adcf-47a4-90af-227d71855497,,,Malay,
+msa (T),da13a2d3-f6a1-4ecf-bfa5-6971404ddf63,,,,
+mul,9b77be28-16f5-4db8-a8e9-acb608165c9e,,,Multiple languages,
+mun,3071980b-d7ec-4769-96e5-17844f1c2174,,,Munda languages,
+mus,73964856-7177-46b1-93bb-df72f2907cc0,,,Creek,
+mwl,24982a0a-f4e0-4241-9887-a7aa2794bc69,,,Mirandese,
+mwr,679a5f8f-7ff6-41de-a7a6-7aa23c1dca22,,,Marwari,
+bur (B),c43ed706-eb98-43a7-b413-b65d44c2c2d3,,,Burmese,
+mya (T),7a352cd3-a295-4fdc-a372-51a9da2fceb5,,,,
+myn,8881b2e5-6461-4f94-b6e3-36cb8b3c12de,,,Mayan languages,
+myv,305ec46f-1469-4195-b03f-0c8320638470,,,Erzya,
+nah,5094d599-ee63-4e91-8165-c5a76f131cee,,,Nahuatl languages,
+nai,d19e0c99-c6c2-4652-b4e9-5117f59f84b9,,,North American Indian languages,
+nap,619c4a71-404f-4c38-8ebf-ee2e312dbd18,,,Neapolitan,
+nau,dd241478-2ca7-4897-8f5b-dca1e5751075,,,Nauru,
+nav,59f81cee-8038-490b-b421-42dcebc342aa,,,Navajo; Navaho,
+nbl,067d1f5c-1010-4684-a482-7452f97a028e,,,"Ndebele, South; South Ndebele",
+nde,79c9b2b2-dc70-473f-876d-7a4ee4ab9fb1,,,"Ndebele, North; North Ndebele",
+ndo,ba2986ef-8b5c-4adb-bd24-c1ada993484d,,,Ndonga,
+nds,58b13965-2ab6-487f-b158-c926a751a58e,,,"Low German; Low Saxon; German, Low; Saxon, Low",
+nep,1da4108f-84b5-4cea-892b-a7fa99cdda55,,,Nepali,
+new,a9b262dc-9145-4050-8d4b-15bc683c8715,,,Nepal Bhasa; Newari,
+nia,f36827d1-ff93-47e3-8390-8781ef175d6e,,,Nias,
+nic,2eb3e102-8fc0-444b-859a-cdbc80aaf0c3,,,Niger-Kordofanian languages,
+niu,9816fa1e-f51c-4d7e-b68a-c0e6cf280bd6,,,Niuean,
+dut (B),91826ea7-d4a6-4022-be6e-461fa6c44ca6,,,Dutch; Flemish,
+nld (T),0e29cd1b-2f8c-4ac0-86f2-91357d4647d0,,,,
+nno,bae8ee2e-176c-44b9-8d2b-34d9a36cdb18,,,"Norwegian Nynorsk; Nynorsk, Norwegian",
+nob,7cb75653-4bdc-419c-baa7-d916da65a2c7,,,"Bokmål, Norwegian; Norwegian Bokmål",
+nog,cc757d1a-ba47-433f-b9cb-e1dc08f1b296,,,Nogai,
+non,030bff34-6c1c-4a68-8744-1a6dbf16b643,,,"Norse, Old",
+nor,2a38ae04-c9b5-4bcd-94cd-b3b6319f0257,,,Norwegian,
+nqo,06173cf4-4848-4d52-b32e-dc3e3a197200,,,N'Ko,
+nso,0e31ca97-4efb-4a22-ad70-9fa19eb02c7b,,,Pedi; Sepedi; Northern Sotho,
+nub,8e6fbc2b-dc12-4ab9-9483-5f1b90652408,,,Nubian languages,
+nwc,33b1c08e-d09a-4350-ae26-cec3db942d58,,,Classical Newari; Old Newari; Classical Nepal Bhasa,
+nya,d85c3d9b-052d-4a0d-ab07-cb32361f4958,,,Chichewa; Chewa; Nyanja,
+nym,6f814135-46c5-41a7-b262-88439493bf61,,,Nyamwezi,
+nyn,b3d90baf-69e0-4ddf-b907-f551b6874ea8,,,Nyankole,
+nyo,ede5c09f-5cf1-4f1c-b852-0db89f5a9231,,,Nyoro,
+nzi,e8b812fd-f17c-4a97-b6da-bab6a87c86ba,,,Nzima,
+oci,b49c0ba1-0ba0-4e55-9518-8c74155c4c1b,,,Occitan (post 1500),
+oji,d748907d-a846-4652-86bd-d50e5d6cfdfb,,,Ojibwa,
+ori,02f6953c-94bf-4716-8fe7-a1143a6dc5f8,,,Oriya,
+orm,11974229-5640-4183-8c4d-db3eee98bcd7,,,Oromo,
+osa,773eb971-66c9-4c0b-bd59-c6845b89baf6,,,Osage,
+oss,3a49b23e-4bb5-486b-8f6d-7d1a8644317b,,,Ossetian; Ossetic,
+ota,07907669-6612-4059-9e13-10169e8142d4,,,"Turkish, Ottoman (1500-1928)",
+oto,8abaf5b0-5682-47c3-a994-cb8b37bb7032,,,Otomian languages,
+paa,ef38730d-4f75-4fd4-a28c-8206ba2b69f7,,,Papuan languages,
+pag,e39a6c45-4f38-486e-97cd-9ad4286e3755,,,Pangasinan,
+pal,bf6c8818-52e5-4648-b888-c4e6ddfad457,,,Pahlavi,
+pam,216793a3-18cb-4d9d-9d50-53ce59962b32,,,Pampanga; Kapampangan,
+pan,62a900af-d227-4873-a398-7775740393f4,,,Panjabi; Punjabi,
+pap,f7df2fb5-67f2-45d6-a6ea-93ee5c5d29b1,,,Papiamento,
+pau,d91a50e9-8447-4bb8-8391-bfcd60b1173c,,,Palauan,
+peo,d0fdc2ae-441f-4352-832d-0493d4fbe14d,,,"Persian, Old (ca.600-400 B.C.)",
+per (B),33f9d862-e315-470a-88cd-fa480a250b49,,,Persian,
+fas (T),7dce55af-e705-4cc6-b83a-ab0eaddb3592,,,,
+phi,0f7b8b3b-d0ef-4812-a209-b65fdbd30e8b,,,Philippine languages,
+phn,67a49436-f88d-438f-9b20-ff3b29120736,,,Phoenician,
+pli,b52b6794-1d2e-4319-a007-c32351883299,,,Pali,
+pol,134bfb70-8473-4d8e-8df2-0c1243ab8dd4,,,Polish,
+pon,2258fbc8-b59f-4ba9-8741-05294e0038c6,,,Pohnpeian,
+por,f1dbd090-b2e4-48a2-ba51-867c48a20773,,,Portuguese,
+pra,c276257c-0123-4f6f-a290-afbf5af553fa,,,Prakrit languages,
+pro,891724d5-1f1c-47fd-b966-4ee02d15b984,,,"Provençal, Old (to 1500);Occitan, Old (to 1500)",
+pus,b6efbf08-a8f6-4794-8bbd-928fb668b49d,,,Pushto; Pashto,
+qaa-qtz,7df23141-cd18-4f65-a2c5-835cf3749643,,,Reserved for local use,
+que,e04eafe0-855b-4678-ab29-77c8fd9a443d,,,Quechua,
+raj,092eed03-ed39-45d0-b110-0aafce9f3ee7,,,Rajasthani,
+rap,a76945c8-3db0-4237-9278-8bc823fb0ba3,,,Rapanui,
+rar,85aea465-fd52-4a16-b20d-1264d911a7f4,,,Rarotongan; Cook Islands Maori,
+roa,c6e37fa9-3af8-4afe-ab8a-480e1312cd05,,,Romance languages,
+roh,320cbbb3-42a6-4ddd-9110-393553a39c83,,,Romansh,
+rom,0c48d784-ad2e-4cdc-bcce-93cb9069e191,,,Romany,
+rum (B),1bad674e-6858-479d-8429-572915c542f3,,,Romanian; Moldavian; Moldovan,
+ron (T),1147ee1f-5d1c-41a1-a9f3-8ea1d9bce19a,,,,
+rum (B),8e898a0c-55cd-4da0-b623-adbcc4774244,,,Romanian; Moldavian; Moldovan,
+ron (T),8921a1fe-7a32-4dba-9927-6b8642454658,,,,
+run,6e1dd7b2-d520-4c0b-b71f-07541d91765f,,,Rundi,
+rup,878777cc-7235-467a-84fd-035702912afd,,,Aromanian; Arumanian; Macedo-Romanian,
+rus,72174f70-9d59-43d8-9249-1ca4d8404912,,,Russian,
+sad,d5548ca6-f653-4d88-b547-563d8366612d,,,Sandawe,
+sag,823091ab-ed9b-4e75-8de5-1dfac5cc2afc,,,Sango,
+sah,54310bbf-fc17-4ff2-9a3c-9c288a8603ed,,,Yakut,
+sai,4f61467f-14bd-4f1d-8a3e-cde0a7cbfc10,,,South American Indian languages,
+sal,b8b31e6c-86df-412b-bbaf-b4ac2d327d60,,,Salishan languages,
+sam,5d774547-4173-420d-8d74-894e0fa90546,,,Samaritan Aramaic,
+san,364cdcf9-4632-45f5-82bb-c1abab9d0165,,,Sanskrit,
+sas,a877c992-4cf2-46c6-a30e-3a2eab484cee,,,Sasak,
+sat,08d560ed-4bc7-40ef-98d5-712047e7eef4,,,Santali,
+scn,3142f61e-ee88-4db3-8208-88ae9f590e5c,,,Sicilian,
+sco,ae2e5c4d-22c2-459a-bc87-175873f59bb5,,,Scots,
+sel,04dd6576-647e-4e0a-82de-950e29010ac3,,,Selkup,
+sem,b6575c08-ad3a-4e74-ae46-88f14e3b413f,,,Semitic languages,
+sga,21897a47-04db-4b17-8441-ca04b3c1926a,,,"Irish, Old (to 900)",
+sgn,4752b128-0cda-4b4f-984d-3910edb514b8,,,Sign Languages,
+shn,9cfe7da5-fd83-4574-bce6-c41c6cc90c72,,,Shan,
+sid,931f6281-550f-4e44-a129-d32876ac4796,,,Sidamo,
+sin,40a36adb-b9e7-47ba-8d7b-753038485c56,,,Sinhala; Sinhalese,
+sio,6f84ccf2-a3f5-426e-bdab-32843c4ad762,,,Siouan languages,
+sit,76d1c544-7112-4e4a-baca-04cc6db6d709,,,Sino-Tibetan languages,
+sla,cb4adef4-bb19-4cf7-8497-9c593c8b5594,,,Slavic languages,
+slo (B),4cf9cf1f-e99f-4266-96e9-c9b5b50facdf,,,Slovak,
+slk (T),fd9e0ae3-d724-49d8-81fc-ec391a4eff00,,,,
+slo (B),6cbebeb9-5090-4f55-b957-c0233d69ddad,,,Slovak,
+slk (T),e2c3b5e0-6825-4e7f-bbbc-7dba9c9e5f6d,,,,
+slv,a88dfd2c-aed3-4519-926f-0cdef59d0261,,,Slovenian,
+sma,aa608643-96ec-49b7-a69d-3b882bafcd80,,,Southern Sami,
+sme,d81b5eda-196f-4245-9689-7644e6b36ca5,,,Northern Sami,
+smi,f8a90d12-2e5b-4664-bae4-1a9f2fe2dc45,,,Sami languages,
+smj,d7ae0ffa-a6b8-49e0-9f57-06c01cc6b9d7,,,Lule Sami,
+smn,3fe596ff-74c4-4c49-840c-ff244b23292d,,,Inari Sami,
+smo,d655a3bf-60f0-4009-8b15-8f1f5673d1e1,,,Samoan,
+sms,4d631c5a-d5dd-4121-9096-1ddf7c7d476c,,,Skolt Sami,
+sna,3d4ee2df-3afd-4f93-b4eb-2018b130e991,,,Shona,
+snd,9e3fa899-0c44-40f4-ac99-aff93c64ad10,,,Sindhi,
+snk,744ab819-0fec-4675-8c95-025690806701,,,Soninke,
+sog,67485916-ef72-47f2-b999-695032477e62,,,Sogdian,
+som,335ab21c-889b-4601-8b9b-f781afb1817f,,,Somali,
+son,2c729a4a-61cb-40fc-84d7-468f92c02970,,,Songhai languages,
+sot,6bf3ecd3-6c34-4f44-be2e-8eb3c24093f6,,,"Sotho, Southern",
+spa,5a6619c6-bb3c-464f-8d02-a7fc6d3d4ded,,,Spanish; Castilian,
+alb (B),9bda8f65-c0e8-4d38-8fb3-e9cd5b467285,,,Albanian,
+sqi (T),1772d296-5b96-4ae4-813c-6ba2b51e32cc,,,,
+srd,284e34ce-c531-4ae0-9c71-a3a637135777,,,Sardinian,
+srn,f6241893-ebab-4f59-8914-39bb5932aa2f,,,Sranan Tongo,
+srp,c23147c1-325f-4f6f-bd27-8f0aa28e8b6c,,,Serbian,
+srr,9ebd8598-e5e7-44c6-b7d7-9fb68c2c1172,,,Serer,
+ssa,8ea093f5-61bb-4281-8a38-75ef728ff290,,,Nilo-Saharan languages,
+ssw,7badff49-a493-4595-a44f-43d4c898ef50,,,Swati,
+suk,7f034a18-5a44-4301-ba7e-2e210fe9c029,,,Sukuma,
+sun,ab503369-bb0e-4ae2-9722-29b85863d493,,,Sundanese,
+sus,e9f5a83b-6997-4469-9032-528d19d4e628,,,Susu,
+sux,d522750e-af28-4fe5-b665-5db42848ea75,,,Sumerian,
+swa,8a4142fe-b292-4b11-afeb-05d6f4d7a7c6,,,Swahili,
+swe,79295f40-22d0-49dc-ba14-55e83e4a4469,,,Swedish,
+syc,97a5cdc3-2488-4752-b52d-39bf0b71fb81,,,Classical Syriac,
+syr,5de64d04-c9ac-4981-b736-13ceaad3db54,,,Syriac,
+tah,550fa6a8-80e7-407c-a8cf-9f92de5b7d7c,,,Tahitian,
+tai,32d112ea-0bcf-4efe-813d-055d453b1040,,,Tai languages,
+tam,7d479f27-f9bc-4a67-bd7e-a4b8f55ad0a5,,,Tamil,
+tat,d03e03b3-427b-4209-887e-37c26cb53d29,,,Tatar,
+tel,d78ffee3-233b-4fe0-b58b-668c3e97ebfc,,,Telugu,
+tem,a85c65ae-7924-4796-a9c4-9dc61be7ba2f,,,Timne,
+ter,351a6565-65cd-49ee-884e-9ef249cc2abb,,,Tereno,
+tet,351cbac4-b6f1-4b6b-bbc0-651e819118f0,,,Tetum,
+tgk,18542932-bdd0-4226-b6b7-c6f218b07d8c,,,Tajik,
+tgl,1ec064ba-87fe-4d44-8a96-601ccbf98352,,,Tagalog,
+tha,e1a3bd7b-2299-4e95-adb5-a53b8a423a7a,,,Thai,
+tib (B),c434311c-e69c-4c68-aecd-64eeb9ad8358,,,Tibetan,
+bod (T),e0bbc6b8-91ae-4652-a9cd-42e16988e006,,,,
+tig,44776d0a-fb25-405a-b15d-3d4f856f38bc,,,Tigre,
+tir,9116f8d0-a761-45b8-ad9f-7330df44242e,,,Tigrinya,
+tiv,07b2e2c7-3bb1-47a2-ade9-595feb552fb5,,,Tiv,
+tkl,24f464cb-edba-4dc4-bfa9-3d95037504c7,,,Tokelau,
+tlh,3920e98f-2bee-495b-b4fe-65536761fb13,,,Klingon; tlhIngan-Hol,
+tli,ea874009-87a2-42b5-9740-ec98269e1e75,,,Tlingit,
+tmh,3ec6fabc-e3cd-4fb0-807b-7193600f9563,,,Tamashek,
+tog,0f113014-6608-47ea-bec7-e20edd1d81e1,,,Tonga (Nyasa),
+ton,a08b5da6-03cb-411a-8a55-3c90d25c680e,,,Tonga (Tonga Islands),
+tpi,67986030-79fa-4e1c-913a-4e862846a2e3,,,Tok Pisin,
+tsi,27b69661-41de-429f-bf0b-d6438c6d4a2d,,,Tsimshian,
+tsn,ae0d4700-c48e-4239-b3a8-c24ad12ba8b6,,,Tswana,
+tso,259199b9-ed18-41e6-b371-c9d67db1a78a,,,Tsonga,
+tuk,f60f79da-ae05-48b0-a333-01ff4a92d580,,,Turkmen,
+tum,a0a526e6-e6d0-42a2-b2f4-f063c6c826cf,,,Tumbuka,
+tup,df7e428b-e3d6-4075-8db6-97a23b364bbb,,,Tupi languages,
+tur,e6688810-7d64-4f0b-9278-809d4e3e48f0,,,Turkish,
+tut,07ad4b2b-25fc-4b47-926f-67782223f2ee,,,Altaic languages,
+tvl,1145c194-914a-412d-8bb8-e4ccc7bca2f5,,,Tuvalu,
+twi,e27b4f43-f1b3-466e-bc84-371e671f3395,,,Twi,
+tyv,2715e700-4f3f-4871-a3f4-d5859637fca9,,,Tuvinian,
+udm,8d5c9586-af46-44bc-8e83-38e6264f5a83,,,Udmurt,
+uga,34e01d9c-eef4-4e5f-a116-c60a76263894,,,Ugaritic,
+uig,01eb58d6-e680-4ee9-b7cd-f69fd251f33f,,,Uighur; Uyghur,
+ukr,9495c95d-155e-47a3-875b-b4098a70733e,,,Ukrainian,
+umb,5a65eba0-8f94-446d-910f-dda7a25864c2,,,Umbundu,
+und,1ef32d3a-f913-4e3f-a95a-46aba80a0162,,,Undetermined,
+urd,2e1d4c7b-cab6-4139-a2b7-09c9babefee2,,,Urdu,
+uzb,fcb00043-8802-4968-8ee6-b176ab578a9b,,,Uzbek,
+vai,8ce8fbfe-f268-4441-a5df-0875b3cd0907,,,Vai,
+ven,071e84ed-b493-4b80-af4d-ba6ae0ccb2eb,,,Venda,
+vie,b36301fb-020c-4c19-bf09-64de2bf83167,,,Vietnamese,
+vol,7ab78212-2b91-4489-8588-acc5620208f1,,,Volapük,
+vot,cf083375-747a-4b6f-aadb-3623e99ea794,,,Votic,
+wak,1602ce50-8592-4e42-be4a-c72825325abd,,,Wakashan languages,
+wal,fafc34a9-fb5a-4f6a-9c12-ded5c1424527,,,Wolaitta; Wolaytta,
+war,e9a7baca-740b-4e4b-a691-581186f5b023,,,Waray,
+was,45230491-9319-4c3f-a7b2-f3e034f3186a,,,Washo,
+wel (B),6753bf96-6991-46e1-9fae-2344df9b6cbb,,,Welsh,
+cym (T),c8f440ab-9015-4025-b8a0-ef6efed40a84,,,,
+wen,50cf30dd-ed19-43c6-a0f2-5e649959a46b,,,Sorbian languages,
+wln,1d8deaef-d774-4ea9-9295-fb0558f8f175,,,Walloon,
+wol,e8da4a42-bac5-4780-b1e5-363f6435d78e,,,Wolof,
+xal,cc03f013-5765-4c43-bf5b-eb347af4d57d,,,Kalmyk; Oirat,
+xho,3005c511-1b2c-47f0-a2ef-f84a40e2f6af,,,Xhosa,
+yao,f001128e-e03b-41d4-98a8-23249a7f0169,,,Yao,
+yap,ac2c25c5-e05a-437b-859f-758c8feb925a,,,Yapese,
+yid,b0b7fe46-67de-4d7e-9342-c99833403d9f,,,Yiddish,
+yor,65f2c5fd-a6a2-4c1b-be7c-26640c02ac49,,,Yoruba,
+ypk,1ecf67ed-7880-4eac-9db4-06b985b7593a,,,Yupik languages,
+zap,198a07ba-5f0f-4281-bd00-824b2189315c,,,Zapotec,
+zbl,533aaadb-21f4-4cb1-aff0-9ae73f25f2ee,,,Blissymbols; Blissymbolics; Bliss,
+zen,8f7a5a7c-70cc-4268-b54b-9cdcdaf8a9a9,,,Zenaga,
+zgh,fdf089ac-c20c-43dd-b81e-fd3740a2bed3,,,Standard Moroccan Tamazight,
+zha,1da8d36e-e24b-4d9f-9f13-29bddf9676ba,,,Zhuang; Chuang,
+chi (B),00cb3432-6b93-4d69-9349-eafd3b73f105,,,Chinese,
+zho (T),4a61ecd4-2b33-410b-85f6-b98cc538de08,,,,
+znd,366694d2-4679-4f69-8e19-3920349bf081,,,Zande languages,
+zul,cf7d834c-6835-4bff-9fb4-847c5248d9e3,,,Zulu,
+zun,f072cac8-839c-4abb-a1c5-c58ff3a63cb3,,,Zuni,
+zxx,fa42d869-c179-4a13-bf7f-f11fc0fd8300,,,No linguistic content; Not applicable,
+zza,8144b9f3-4f9f-45c8-a16f-27acd69dd6da,,,Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki,

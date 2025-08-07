@@ -1,5 +1,6 @@
-﻿ID,Label,Code,Description
-,Hispanic or Latino,C17459,"A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. The term, ""Spanish origin"" can be used in addition to ""Hispanic or Latino""."
-,Not Hispanic or Latino,C41222,"A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race."
-,Prefer not to answer,C132222,A response indicating that an individual prefers or preferred not to answer. 
-,Unknown,C17998,"Not known, observed, recorded; or reported as unknown by the data contributor. "
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+Hispanic or Latino,761cf032-a7f6-4af9-b4df-3e86773083ab,,PV000034|C17459,"A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. The term, ""Spanish origin"" can be used in addition to ""Hispanic or Latino"".",
+Not Hispanic or Latino,60faca22-f181-4a1d-82fb-7b8e48a52933,,PV000035|C41222,"A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.",
+Prefer not to answer,f3428664-1ee8-47ad-a371-76241297f4fd,,C132222,A response indicating that an individual prefers or preferred not to answer. ,
+Unknown,41782dac-8c83-4cf2-9f05-2666ba41926b,,PV000036|C17998,"Not known, observed, recorded; or reported as unknown by the data contributor. ",
+Not reported,57384390-8623-4180-afe4-4f698744de97,,PV000037,Not provided or available.,

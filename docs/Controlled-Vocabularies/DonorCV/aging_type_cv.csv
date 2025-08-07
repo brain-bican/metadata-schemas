@@ -1,6 +1,6 @@
-﻿ID,Label,Code,Description
-,pTau,,
-,pTDP-43,,
-,atherosclerosis,,
-,arteriolosclerosis,,
-,Other (specify),,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+pTau,f0c1e00e-f35a-43ae-872b-d9060caac45c,microtubule-associated protein tau phosphorylated form|MAPT/PhosRes+,,A microtubule-associated protein tau that includes at least one phosphorylated residue.,PR:000026989
+pTDP-43,5f77b204-1d3e-49e1-a855-f575d96dd429,TAR DNA-binding protein 43,,A protein that is a translation product of the human TARDBP gene or a 1:1 ortholog thereof.,PR:000016057
+atherosclerosis,e04f6a45-69d0-49a7-b1a2-4cff06db3704,atherosclerosis artery|atherosclerosis of artery|atherosclerotic cardiovascular disease,,Build-up of fatty material and calcium deposition in the arterial wall resulting in partial or complete occlusion of the arterial lumen.,MONDO:0005311
+arteriolosclerosis,b43714d1-5ff0-49c0-8361-226273c95405,arteriolosclerosis (morphologic abnormality),,The thickening of the wall of the small arteries and arterioles. It is caused by deposition of hyaline material in the wall or concentric smooth muscle wall hypertrophy. It results in lumen narrowing and tissue ischemia.,MONDO:0006658
+Other (specify),5a5297b5-57bf-4e8a-9872-7fc71451407d,,,,

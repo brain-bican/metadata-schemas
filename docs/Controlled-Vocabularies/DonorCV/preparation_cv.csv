@@ -1,6 +1,6 @@
-﻿ID,Label,Code,Description
-,Formalin Fixed,,
-,4% Paraformaldehyde Fixed,,
-,Frozen,,
-,Other,,
-,Hemisphere Not Available,,
+﻿BICAN label,BICAN UUID,Aliases,Code,Description,Ontology ID
+formalin fixed,7ba2f1de-c161-4a39-ab91-e48139b7b558,,1,A tissue sample that has been fixed with formalin.,NCIT:C200862
+4% paraformaldehyde fixed,e23c450f-23f3-4213-aa40-c074ba258393,,2,A tissue sample that has been fixed with 4% paraformaldehyde.,
+frozen,0a139c84-c7a1-4cc9-b39b-17ae52691146,,3,A tissue sample that has been frozen.,
+other,2c24878b-93e7-4779-928e-0744299ac68b,,4,A tissue sample that has been fixed by some other method.,
+hemisphere not available,30a3efee-116a-4a93-bbfc-79dcd5dc12a6,,9,,
