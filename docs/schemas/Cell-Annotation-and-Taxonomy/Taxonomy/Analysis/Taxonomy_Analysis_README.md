@@ -1,6 +1,6 @@
 # Analysis Metadata Schema
 
-Document Status: _Under MOWG Review_
+Document Status: _Approved BICAN Standard_
 
 Version: 1.0
 
@@ -43,6 +43,8 @@ This document has the following sections:
     - [Purpose](#purpose)
   - [Appendix](#appendix)
   - [Changelog](#changelog)
+    - [August 7, 2025 -- Version 1.0.0](#august-7-2025----version-100)
+  - [Pre-release Changelog](#pre-release-changelog)
 
 ## General Requirements
 
@@ -54,81 +56,30 @@ The obsm component contains all dimensionality reductions of the taxonomy (cell 
 
 ### UMAP
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>umap</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>2 (or more)-dimensional representation of cells in AIT. Must be of the form X_[...] for use with CELLxGENE. Only the first two dimensions are used for AIT and CELLxGENE, but 3 dimensions can be used for cirrocumulus.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | umap |
+|------------------|------------|
+| BICAN UUID | 45ee1d3a-abb6-4dc5-a1e8-1e16c82c2496 |
+| Aliases |  |
+| Definition | A 2 (or more)-dimensional representation of cells in AIT. Must be of the form X_[...] for use with CELLxGENE. Only the first two dimensions are used for AIT and CELLxGENE, but 3 dimensions can be used for cirrocumulus. |
+| Data Type | string |
 
 ### PCA
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>pca</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Additional terms for embedding multi-dimensional principal components and latent spaces</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | pca |
+|------------------|------------|
+| BICAN UUID | 87697783-97ce-4c43-a5d8-f59553e59aff |
+| Aliases |  |
+| Definition | Additional terms for embedding multi-dimensional principal components and latent spaces. |
+| Data Type | string |
 
 ### scVI
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>scvi</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Additional terms for embedding multi-dimensional principal components and latent spaces</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | scvi |
+|------------------|------------|
+| BICAN UUID | 2ca30bc8-776f-4e74-95f2-923c3d5d6002 |
+| Aliases |  |
+| Definition | Additional terms for embedding multi-dimensional principal components and latent spaces. |
+| Data Type | string |
 
 ## var
 
@@ -136,370 +87,145 @@ The var component contains gene level metadata.
 
 ### Gene
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>gene</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Same vector included in "data" to link between files.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | gene |
+|------------------|------------|
+| BICAN UUID | 5348b721-8bdf-4f0d-8bf4-68810f2f4da4 |
+| Aliases | gene_symbol |
+| Definition | A vector of gene symbols. This is broadly useful in the community for defining genes but occasionally problematic; called `gene_symbol` in BKP. CELLxGENE uses a very specific version of ensembl_id for the INDEX. |
+| Data Type | string |
 
 ### Highly Variable Genes
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>highly_variable_genes</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Logical vector (T/F) indicating which genes are highly variable. Used for correlation-based mapping in scrattch.mapping.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | highly_variable_genes |
+|------------------|----------------------|
+| BICAN UUID | c058ee9b-2ae8-44b1-abae-57f736309726 |
+| Aliases |  |
+| Definition | A logical vector (T/F) indicating which genes are highly variable. Used for correlation-based mapping in scrattch.mapping. |
+| Data Type | string |
 
 ### Marker Genes
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>marker_genes_[...]</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Potentially additional sets of logical vectors for marker genes, as defined above.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | marker_genes |
+|------------------|----------------|
+| BICAN UUID | c813e546-e4c2-4215-8225-1ce734a7f534 |
+| Aliases |  |
+| Definition | A set of logical vectors (T/F) indicating which genes are markers used to build dendrogram, or for other purposes. The [...] part of the name links to additional metadata in the uns. This needs to be UPDATED in AIT to allow multiple marker gene sets; markers currently stored differently in CAP. |
+| Data Type | string |
 
 ## uns
 
 The uns component contains taxonomy associated files useful for reproducing analysis or mapping against the taxonomy.
 
 ### Dendrogram
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>dendrogram</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>See above. This may fit better here.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+
+| BICAN Field Name | dendrogram |
+|------------------|------------|
+| BICAN UUID | 7eee350d-1bd8-4d5d-84f0-85ad1213f703 |
+| Aliases | dend |
+| Definition | A JSON formatted dendrogram used for tree mapping. Created by scrattch.taxonomy if not provided. Sometimes used for taxonomy annotation. |
+| Data Type | string |
 
 ### QC Markers
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>qc_markers</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Marker gene expression in on-target and off-target cell populations, useful for patchseq analysis. Also includes information about KL divergence calculations and associated QC calls. Defined by buildPatchseqTaxonomy.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | QC_markers |
+|------------------|------------|
+| BICAN UUID | 46d9459e-c936-4e7f-8703-6ab7097adec9 |
+| Aliases |  |
+| Definition | The marker gene expression in on-target and off-target cell populations, useful for patchseq analysis. Also includes information about KL divergence calculations and associated QC calls and is defined by `buildPatchseqTaxonomy`. |
+| Data Type | string |
 
 ### Filter
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>filter</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Indicator of which cells to use for a given child taxonomy (subset), as defined above.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | filter |
+|------------------|------------|
+| BICAN UUID | ac4bdbee-c31f-46f9-afc9-6021e7feccbe |
+| Aliases |  |
+| Definition | The indicator of which cells to use for a given child taxonomy (subset). |
+| Data Type | string |
 
 ### Mode
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>mode</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Taxonomy mode that determines which filter to use (e.g., that indicates which child taxonomy to map against). Several of the other analysis components of the uns have things saved with mode as the name in the h5ad file. See scrattch.mapping documentation. Mode is the Taxonomy short name in taxonomy Google Sheet for a child taxonomy with the Parent taxonomy listed as the taxonomyName.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | mode |
+|------------------|------------|
+| BICAN UUID | 7c340d6f-909b-4e39-b4f1-83ec8fd8ff3d |
+| Aliases |  |
+| Definition | A taxonomy mode determines which filter to use (e.g., that indicates which child taxonomy to map against). Several of the other analysis components of the uns have things saved with mode as the name in the h5ad file. See also the scrattch.mapping documentation. Mode is the Taxonomy short name in taxonomy Google Sheet for a child taxonomy with the Parent taxonomy listed as the `taxonomyName`. |
+| Data Type | string |
 
 ### Clusters Use
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>clustersUse</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A vector of cluster names to use for taxonomy. We should be able to remove this.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | clustersUse |
+|------------------|------------|
+| BICAN UUID | 68e6df92-aeab-4f5a-849c-db1bf7259b96 |
+| Aliases |  |
+| Definition | A vector of cluster names to use for taxonomy. |
+| Data Type | string |
 
 ### Cluster Info
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>clusterInfo</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data.frame of cluster information. We should be able to remove this.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | clusterInfo |
+|------------------|------------|
+| BICAN UUID | e0581d89-7550-40ee-9c5f-d985123718a6 |
+| Aliases |  |
+| Definition | A data.frame of cluster information. |
+| Data Type | string |
 
 ### Marker Gene Metadata
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>marker_gene_metadata</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Metadata about any new marker gene lists added, if any. See above.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+
+| BICAN Field Name | marker_gene_metadata |
+|------------------|---------------------|
+| BICAN UUID | abcc6c5c-9b8b-407b-a20f-6f3301c9c200 |
+| Aliases |  |
+| Definition | Metadata about any new marker gene lists added, if any. |
+| Data Type | string |
 
 ### Development Date
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>development_date</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Date of taxonomy development. Required for Google Sheet. Potentially not needed if we want to infer from taxonomy_id.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | development_date |
+|------------------|-----------------|
+| BICAN UUID | 32a8fc5d-e429-4550-b020-2a9ff84cffae |
+| Aliases |  |
+| Definition | Date of taxonomy development. Required for Google Sheet. |
+| Data Type | string |
 
 ### Public
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>public</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Logical flag indicating whether taxonomy should be public or private. Required for Google Sheet. Potentially not needed if we want to infer from PURL/GitHub somehow.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | public |
+|------------------|------------|
+| BICAN UUID | e69de720-559c-441b-bab0-d765a433d2b8 |
+| Aliases |  |
+| Definition | A logical flag indicating whether taxonomy should be public or private. Required for Google Sheet. |
+| Data Type | string |
 
 ### Annotation Sheet
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>annotation_sheet</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Link to annotation sheet (ideally a TDT GitHub repo link for communal annotation). An optional slot in the Google sheet. I'm not sure if this is listed above somewhere.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | annotation_sheet |
+|------------------|-----------------|
+| BICAN UUID | daef45bb-ec6e-45da-827e-0e4c20b9b7c9 |
+| Aliases |  |
+| Definition | A link to annotation sheet. An optional slot in the Google sheet. |
+| Data Type | string |
 
 ### Purpose
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>purpose</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Controlled vocabulary (currently "General" and/or "Patch-seq"). Required for Google Sheet at the moment.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | purpose |
+|------------------|---------|
+| BICAN UUID | efc20587-b6d2-475e-b682-3076a54921ab |
+| Aliases |  |
+| Definition | The overarching purpose of the taxonomy. This is a controlled vocabulary (currently "General" and/or "Patch-seq"). Required for Google Sheet at the moment. |
+| Data Type | string |
 
 ## Appendix
 
 ## Changelog
+
+### August 7, 2025 -- Version 1.0.0
+
+* **8-07-2025**: Finalized schema and added document status.
+* **8-07-2025**: Approved as BICAN Standard.
+
+## Pre-release Changelog
+
+* **10-03-2025**: Initial version created.
+* **10-04-2025**: Added additional fields and clarified definitions.
+* **10-05-2025**: Added UUIDs and clarified definitions.
