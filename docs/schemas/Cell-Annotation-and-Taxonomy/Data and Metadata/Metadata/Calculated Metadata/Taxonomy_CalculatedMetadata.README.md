@@ -1,6 +1,6 @@
 # Calculated Metadata Schema
 
-Document Status: _Under MOWG Review_
+Document Status: _Approved BICAN Standard_
 
 Version: 1.0
 
@@ -31,214 +31,87 @@ This includes any cell-level or cluster-level metadata that can be calculated ex
 
 The obs component contains cell level metadata from the experiment
 
-#### Cell Label
+#### Cell ID
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>cell_id</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>34ca0703-429f-4920-8a08-dd4c61b29444</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Identifier corresponding to each individual cell. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | cell_id |
+|------------------|------------|
+| BICAN UUID | 34ca0703-429f-4920-8a08-dd4c61b29444 |
+| Aliases |  |
+| Definition | Identifier corresponding to each individual cell. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index. |
+| Data Type | string |
 
 #### Feature Matrix Label
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>feature_matrix_label</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>2c860046-83d5-47f9-98d5-29ce81446819</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Identifier corresponding to the feature matrix. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | feature_matrix_label |
+|------------------|----------------------|
+| BICAN UUID | 2c860046-83d5-47f9-98d5-29ce81446819 |
+| Aliases |  |
+| Definition | Identifier corresponding to the feature matrix. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index. |
+| Data Type | string |
 
 #### Dataset Label
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>dataset_label</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>519ecc82-e397-4b1e-a846-d27d48610ff3</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Identifier corresponding to the dataset. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | dataset_label |
+|------------------|----------------|
+| BICAN UUID | 519ecc82-e397-4b1e-a846-d27d48610ff3 |
+| Aliases |  |
+| Definition | Identifier corresponding to the dataset. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index. |
+| Data Type | string |
 
 #### Color Vector
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[COLUMN_NAME]_color</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>0ab06f78-6df2-4555-8990-3eec36b2adbb</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Color associated with the cell. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | [COLUMN_NAME]_color |
+|------------------|---------------------|
+| BICAN UUID | 0ab06f78-6df2-4555-8990-3eec36b2adbb |
+| Aliases |  |
+| Definition | Color associated with the cell. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index. |
+| Data Type | string |
 
 #### ID Vector
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[COLUMN_NAME]_id</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>701b32ca-4d95-47c5-8213-e7ab8c5373eb</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>The order of metadata values (e.g., the levels of a factor, or ascending order of a numeric). Likely should use “rank” or “order” rather than “id”, since these are not identifiers..</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | [COLUMN_NAME]_id |
+|------------------|------------------|
+| BICAN UUID | 701b32ca-4d95-47c5-8213-e7ab8c5373eb |
+| Aliases |  |
+| Definition | The order of metadata values (e.g., the levels of a factor, or ascending order of a numeric). Likely should use “rank” or “order” rather than “id”, since these are not identifiers. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index. |
+| Data Type | string |
 
 #### Additional Uncontrolled Metadata
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[additional uncontrolled metadata]</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>d417074d-5f7a-4bb8-8a7f-11e20fdcca97</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Additional uncontrolled cell metadata. These are not required, but any additional columns are allowed by all h5ad formats.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | [additional uncontrolled metadata] |
+|------------------|-------------------------------|
+| BICAN UUID | d417074d-5f7a-4bb8-8a7f-11e20fdcca97 |
+| Aliases |  |
+| Definition | Additional uncontrolled cell metadata. These are not required, but any additional columns are allowed by all h5ad formats. |
+| Data Type | string |
 
 #### Calculated Metadata Metadata
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>calculated_metadata_metadata</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>daf95e1a-37c5-4edf-889b-3f552b13e09c</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>TBD information about the calculated_metadata itself. This likely is not needed or should be renamed.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | calculated_metadata_metadata |
+|------------------|-------------------------------|
+| BICAN UUID | daf95e1a-37c5-4edf-889b-3f552b13e09c |
+| Aliases |  |
+| Definition | Information about the calculated_metadata itself. |
+| Data Type | string |
 
 #### Cell Annotation Schema
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>cell_annotation_schema</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>6a32b2d5-22d2-457d-b43e-c53cf96729bd</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>extended metadata about annotations and labelsets stores in JSON.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | cell_annotation_schema |
+|------------------|-------------------------|
+| BICAN UUID | 6a32b2d5-22d2-457d-b43e-c53cf96729bd |
+| Aliases |  |
+| Definition | Extended metadata about annotations and labelsets stored in JSON. |
+| Data Type | string |
 
 ## Changelog
-| Date       | Version | Description                                                                 |
-|------------|---------|-----------------------------------------------------------------------------|
+
+### August 7, 2025 -- Version 1.0.0
+
+* **8-07-2025**: Finalized schema and added document status.
+* **8-07-2025**: Approved as BICAN Standard.
+
+### Pre-release Changelog
+
+* **10-03-2025**: Initial version created.
+* **10-04-2025**: Added additional fields and clarified definitions.
+* **10-05-2025**: Added UUIDs and clarified definitions.
