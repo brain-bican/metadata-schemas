@@ -1,6 +1,6 @@
 # Cell Annotation Schema
 
-Document Status: _Under MOWG Review_
+Document Status: _Approved BICAN Standard_
 
 Version: 1.0
 
@@ -22,22 +22,21 @@ This document has the following sections:
   - [Overview](#overview)
   - [General Requirements](#general-requirements)
   - [obs](#obs)
-    - [Cell Label](#cell-label)
-    - [Cluster ID](#cluster-id)
-    - [Cluster Label](#cluster-label)
-    - [Other Cluster Columns](#other-cluster-columns)
-    - [Additional Uncontrolled Metadata](#additional-uncontrolled-metadata)
+    - [Cell ID](#cell-id)
     - [Feature Matrix Label](#feature-matrix-label)
     - [Dataset Label](#dataset-label)
-    - [\[COLUMN\_NAME\]\_color](#column_name_color)
-    - [\[COLUMN\_NAME\]\_id](#column_name_id)
+    - [Color Vector](#color-vector)
+    - [Vector ID](#vector-id)
+    - [Cluster ID](#cluster-id)
+    - [Cluster Label](#cluster-label)
+    - [Additional Uncontrolled Metadata](#additional-uncontrolled-metadata)
   - [var](#var)
-    - [marker\_genes\_\[...\]](#marker_genes_)
+    - [Marker Genes](#marker-genes)
   - [uns](#uns)
   - [uns fields associated with taxonomy metadata (e.g., different label sets)](#uns-fields-associated-with-taxonomy-metadata-eg-different-label-sets)
-    - [Taxonomy Name](#taxonomy-name)
+    - [Taxonomy Title](#taxonomy-title)
     - [Taxonomy ID](#taxonomy-id)
-    - [Description](#description)
+    - [Taxonomy Description](#taxonomy-description)
     - [Taxonomy Citation](#taxonomy-citation)
     - [Marker Gene Metadata](#marker-gene-metadata)
     - [Taxonomy Directory](#taxonomy-directory)
@@ -81,273 +80,94 @@ This includes any fields related to the annotation of clusters or groups of clus
 
 ## obs
 
-The obs component contains cell level metadata. 
+The obs component contains cell level metadata.
 
 The obs component also contains cell set metadata summarized at the cell level. The proposal is to store all of this in the uns in json format and create helper functions to duplicate information as obs columns as needed.  Currently there is a standard way of doing this for CAP, and we will implement a mechanism for this in scrattch.taxonomy as well.
 
-### Cell Label
+### Cell ID
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>cell_label</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>ID corresponding to each individual cell.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
-
-### Cluster ID
-
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>cluster_id</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Unique integer value corresponding to each cluster in the taxonomy, which also (ideally but not necessarily) encodes the order of clusters in visualizations. Once a taxonomy is minted, this cannot change. This is the CRITICAL column used for cluster annotations. It is the baseline for the majority of cell_annotation columns discussed below. Note that “cell_set_accession_ids” and “cluster hash values” can be assigned after these “cluster_ids” are agreed upon. It's also worth noting that this is a prerequisite for annotations, so maybe it better fits in a different category (analysis?).</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>integer</td>
-    </tr>
-</tbody></table>
-<br>
-
-### Cluster Label
-
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>cluster_label</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Human-readable cluster name used primarily by scientists and other folks. This is the same as “cell_label” for cell sets when the “label_set” is cluster. It's also used for cirrocumulus.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
-
-### Other Cluster Columns
-
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[other cluster columns?]</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>There is also an additional cluster_alias column used in mouse whole brain data and for BKP that I'm not sure how to wrap in. Are there other columns?</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
-
-### Additional Uncontrolled Metadata
-
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[additional uncontrolled metadata]</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Additional uncontrolled cell metadata. These are not required, but any additional columns are allowed by all h5ad formats.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | cell_id |
+|------------------|---------|
+| BICAN UUID | 34ca0703-429f-4920-8a08-dd4c61b29444 |
+| Aliases | cell_label |
+| Definition | Identifier corresponding to each individual cell. Included in the data and in every other location to refer to the data (e.g., metadata and annotations). In AnnData files, the ID corresponding to each individual cell is stored in the obs index. |
+| Data Type | string |
 
 ### Feature Matrix Label
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>feature_matrix_label</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>ID of the associated feature matrix where the data is stored (if not included in this file). Used in BKP when data is found elsewhere for connected cell to data file.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name   | feature_matrix_label |
+|--------------------|---------------------|
+| BICAN UUID         | 2c860046-83d5-47f9-98d5-29ce81446819 |
+| Aliases            |                     |
+| Definition         | ID of the associated feature matrix where the data is stored (if not included in this file). This is used in the Brain Knowledge Platform (BKP) when data is found elsewhere for connected cell to data file. |
+| Data Type          | string              |
 
 ### Dataset Label
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>dataset_label</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Link between each cell and each dataset in BKP. Need clarification on how this differs from feature_matrix_label; for CAS this is a taxonomy-level variable in uns called dataset_url.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | dataset_label |
+|------------------|---------------|
+| BICAN UUID | 519ecc82-e397-4b1e-a846-d27d48610ff3 |
+| Aliases |  |
+| Definition | Link between each cell and each dataset in BKP. In CAS, this is a taxonomy-level variable in uns called `dataset_url`. |
+| Data Type | string |
 
-### [COLUMN_NAME]_color
+### Color Vector
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[COLUMN_NAME]_color</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Color vector for metadata/taxonomy values in format [COLUMN_NAME]_label. This is ONLY used for molgen-shiny plots, but because of this, some metadata files come with these and some don't and that could cause challenges. Should revisit how to store colors and how to deal with metadata in both formats. Should also agree on a standard for which way is preferred.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | [COLUMN_NAME]_color |
+|------------------|---------------------|
+| BICAN UUID | 0ab06f78-6df2-4555-8990-3eec36b2adbb |
+| Aliases |  |
+| Definition | The color vector for metadata/taxonomy values in format [COLUMN_NAME]_label. This is ONLY used for molgen-shiny plots. Some metadata files come with these and some do not. This field is OPTIONAL. |
+| Data Type | string |
 
-### [COLUMN_NAME]_id
+### Vector ID
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>[COLUMN_NAME]_id</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Same as above, but in this case for the order of metadata values (e.g., the levels of a factor, or ascending order of a numeric)</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | [COLUMN_NAME]_id |
+|------------------|------------|
+| BICAN UUID | 701b32ca-4d95-47c5-8213-e7ab8c5373eb |
+| Aliases |  |
+| Definition | The order of metadata values (e.g., the levels of a factor, or ascending order of a numeric) for metadata/taxonomy values in format [COLUMN_NAME]_id. |
+| Data Type | string |
+
+### Cluster ID
+
+| BICAN Field Name | cluster_id |
+|------------------|------------|
+| BICAN UUID       | 10be876f-7b4b-4420-af9f-d379124a690d |
+| Aliases          |  |
+| Definition       | A unique integer value corresponding to each cluster in the taxonomy, which also (ideally but not necessarily) encodes the order of clusters in visualizations. Once a taxonomy is minted, this cannot change. This is the CRITICAL column used for cluster annotations. It is the baseline for the majority of cell_annotation columns. Note that “cell_set_accession_ids” and “cluster hash values” can be assigned after these “cluster_ids” are agreed upon. This is a prerequisite for annotations. |
+| Data Type       | integer     |
+
+### Cluster Label
+
+| BICAN Field Name | cluster_label |
+|------------------|------------|
+| BICAN UUID       | 307b18c9-b258-495c-bbe9-96bb4b23ef1d |
+| Aliases          | cluster |
+| Definition       | A human-readable cluster name used primarily by scientists and other folks. This is the same as “cell_label” for cell sets when the “label_set” is cluster. It's also used for cirrocumulus. This is the CRITICAL column used for cluster annotations. It is the baseline for the majority of cell_annotation columns. Sometimes called cluster_label : ["Annotations"] : There is also an additional cluster_alias column used in mouse whole brain data and for BKP. |
+| Data Type       | string     |
+
+### Additional Uncontrolled Metadata
+
+| BICAN Field Name | [additional uncontrolled metadata] |
+|------------------|-------------------------------|
+| BICAN UUID | d417074d-5f7a-4bb8-8a7f-11e20fdcca97 |
+| Aliases |  |
+| Definition | Additional uncontrolled cell metadata. These are not required, but any additional columns are allowed by all h5ad formats. |
+| Data Type | string |
 
 ## var
 
 The var component contains gene level metadata. gene: Same vector included in "data" to link between files.
 
-### marker_genes_[...]
+### Marker Genes
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>marker_genes_[…]</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A set of logical vectors (T/F) indicating which genes are markers used to build dendrogram, or for other purposes. The [...] part of the name links to additional metadata in the uns. This needs to be UPDATED in AIT to allow multiple marker gene sets; markers currently stored differently in CAP.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | marker_genes_[...] |
+|------------------|----------------|
+| BICAN UUID | deddeb0d-0df2-4e53-bf69-21be2c305cd0 |
+| Aliases |  |
+| Definition | A set of logical vectors (T/F) indicating which genes are markers used to build dendrogram, or for other purposes. The [...] part of the name links to additional metadata in the uns. This needs to be UPDATED in AIT to allow multiple marker gene sets; markers currently stored differently in CAP. |
+| Data Type | string |
 
 ## uns
 
@@ -357,344 +177,122 @@ Proposal: store everything that goes in the TDT taxonomy annotations in a single
 
 ## uns fields associated with taxonomy metadata (e.g., different label sets)
 
-### Taxonomy Name
+### Taxonomy Title
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>taxonomy_name</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Taxonomy name (e.g., "AIT30"); called title in cellxgene, not sure about other schema. Called Taxonomy short name in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
-
+| BICAN Field Name | taxonomy_title |
+|------------------|----------------|
+| BICAN UUID | 086ee228-c32c-4f3c-b431-108775136775 |
+| Aliases | taxonomy_short_name, title |
+| Definition | Taxonomy name (e.g., "AIT30"); called `title` in cellxgene. This is called `Taxonomy short name` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Taxonomy ID
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>taxonomy_id</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Taxonomy ID in CCN format (e.g., "CCN030420240"); TBD how this is generated, but MUST be globally unique. Also used as part of PURL (I think). Called Taxonomy ID in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | taxonomy_id |
+|------------------|----------------|
+| BICAN UUID | b9c06d39-4e0e-4345-8883-26e0cf2960ca |
+| Aliases |  |
+| Definition | The ID of a taxonomy in CCN format (e.g., "CCN030420240"). This MUST be globally unique. It is also used in the PURL system and called `Taxonomy ID` in taxonomy Google Sheet. |
+| Data Type | string |
 
-### Description
+### Taxonomy Description
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>description</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Free text description of the taxonomy (or of the dataset on CAP). This is also something we are adding as a requirement for the BKP, and I think should be required for all taxonomies. Called Description in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | description |
+|------------------|------------|
+| BICAN UUID | 03da4573-6a72-4721-b1d4-f572396a49fb |
+| Aliases |  |
+| Definition | Free text description of the taxonomy (or of the dataset on CAP). This is called `Description` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Taxonomy Citation
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>taxonomy_citation</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>"|"-separated publication DOI's of the taxonomy (e.g., "doi:10.1038/s41586-018-0654-5"). Called Publication in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | taxonomy_citation |
+|------------------|-------------------|
+| BICAN UUID | e23582e7-3be3-4ae9-8682-d904b21daaa3 |
+| Aliases | publication |
+| Definition | Publication DOI's of the taxonomy (e.g., "doi:10.1038/s41586-018-0654-5"), separated by pipe. This is called `Publication` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Marker Gene Metadata
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>marker_gene_metadata</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Data frame of Marker genes x dims that includes metadata for marker gene sets in var above; NEW and required if marker_genes_[…] is provided. At minimum a name (matching above) and description are needed, but potentially other things (e.g., what is it for, with controlled vocabulary).</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>dataframe</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | marker_gene_metadata |
+|------------------|----------------|
+| BICAN UUID | b70f1ded-2bd8-426d-94de-bd6e28ae7989 |
+| Aliases |  |
+| Definition | Metadata about any new marker gene lists added, if any. |
+| Data Type | string |
 
 ### Taxonomy Directory
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>taxonomyDir</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Location of the h5ad file; we might be able to remove this, since it is redundant with dataset_url and/or matrix_file_id. Called Taxonomy file location in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | taxonomy_dir |
+|------------------|----------------|
+| BICAN UUID | d414a71b-aa2b-403b-8a3d-2f201df25d5b |
+| Aliases | taxonomyDir, taxonomy_directory, taxonomy_file_location |
+| Definition | The location of the h5ad file. This is called `Taxonomy file location` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Dataset URL
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>dataset_url</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>PURL of taxonomy; Possibly a redundant field, but critical; also publication_url and cellannotation_url (unclear how different)</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | dataset_url |
+|------------------|----------------|
+| BICAN UUID | 029268dc-80e7-4ed5-976b-feecf1eb611f |
+| Aliases |  |
+| Definition | The PURL of the dataset; this is the URL where the dataset can be found. |
+| Data Type | string |
 
 ### Matrix File ID
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>matrix_file_id</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Like dataset_url; e.g. CellXGene_dataset:8e10f1c4-8e98-41e5-b65f-8cd89a887122; Note: needs to be extended to allow for more than one file and connected to feature_matrix_label in obs. We need this field!</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | matrix_file_id |
+|------------------|----------------|
+| BICAN UUID | 5d625688-96da-4c65-97b9-211cbcad4aea |
+| Aliases |  |
+| Definition | The ID of a matrix file. This is like dataset_url; e.g. `CellXGene_dataset:8e10f1c4-8e98-41e5-b65f-8cd89a887122`. |
+| Data Type | string |
 
 ### Author List
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>author_list</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>List of all collaborators, comma separated [First] [Last]; Useful in general, even though currently only required by CAP. Called Taxonomy Users in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | author_list |
+|------------------|----------------|
+| BICAN UUID | 15e4be61-b1fb-49a5-9a81-7fed61138256 |
+| Aliases | taxonomy users |
+| Definition | A list of all collaborators, comma separated [First] [Last]. Called `Taxonomy Users` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Author Name
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>author_name</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>The primary author [First Name] [Last Name]; in CCN was called "taxonomy_author"; In CCN also separated by cell_set with "cell_set_alias_assignee"; Called Point person name in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | author_name |
+|------------------|----------------|
+| BICAN UUID | 0ea83cdb-cd06-4ef8-84c1-6aec29220759 |
+| Aliases | taxonomy author, point person name |
+| Definition | The primary author [First Name] [Last Name] of the taxonomy. In CCN was called `taxonomy_author`. In CCN it is also seperated by `cell_set` with "cell_set_alias_assignee". This is called `Point person name` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Author Contact
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>author_contact</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Valid email address; Called Point person email in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | author_contact |
+|------------------|----------------|
+| BICAN UUID | fa084043-3c8e-47cb-959e-2f3daf2165ec |
+| Aliases | point person email |
+| Definition | A valid email address of the primary author of a taxonomy. This is called `Point person email` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### ORCID
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>orcid</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Valid ORCID; Called Point person ORCID in taxonomy Google Sheet.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | orcid |
+|------------------|------------|
+| BICAN UUID | 2c96776b-b158-4e0c-ba67-ea7a63efb1e8 |
+| Aliases | point person orcid |
+| Definition | A valid ORCID of the primary author of the taxonomy. This is called `Point person ORCID` in taxonomy Google Sheet. |
+| Data Type | string |
 
 ### Annotation Source
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>annotation_source</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>Additional metadata about annotation algorithm; Similar to taxonomy algorithm info stored for CCN.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | annotation_source |
+|------------------|-------------------|
+| BICAN UUID | d37cf51c-d38e-4ef3-968f-bfe78dac03a9 |
+| Aliases |  |
+| Definition | Any additional metadata about the annotation algorithm used. This is similar to `taxonomy algorithm info` stored for CCN |
+| Data Type | string |
 
 ## uns fields associated with individual cell set annotations (e.g., different label sets)
 
