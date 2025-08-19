@@ -16,23 +16,53 @@ Date Created: 10-03-2025
 
 The BICAN Taxonomy Assigned Metadata schema specifies the metadata relating to taxonomy metadata that can be taken from a variety of sources in BICAN. These metadata reflect the metadata needed to accurately track taxonomy metadata in BICAN. As such, it is a collaborative schema that reflects the joint efforts of members of BICAN.
 
-There are many metadata schemas that can be used in leiu of those specified in this document.
+There are many subject/donor metadata schemas that can be used in leiu of those specified in this document.
 
-* [Developing-Human-Metadata]
-* [Developing-NHP-Metadata]
-* [Developing-Tissue-Metadata]
-* [Donor-Metadata]
-* [Macaque-Donor-and-Tissue-Metadata]
-* [Marmoset-Metadata]
+* [Developing-Human-Metadata](https://github.com/brain-bican/metadata-schemas/blob/5a3017b276ef64d2376b2b305fac4c81aca540f5/docs/schemas/Developing-Human-Metadata)
+* [Developing-NHP-Metadata](https://github.com/brain-bican/metadata-schemas/blob/5a3017b276ef64d2376b2b305fac4c81aca540f5/docs/schemas/Developing-NHP-Metadata)
+* [Developing-Tissue-Metadata](https://github.com/brain-bican/metadata-schemas/blob/5a3017b276ef64d2376b2b305fac4c81aca540f5/docs/schemas/Developing-Tissue-Metadata)
+* [Donor-Metadata](https://github.com/brain-bican/metadata-schemas/blob/5a3017b276ef64d2376b2b305fac4c81aca540f5/docs/schemas/Donor-Metadata)
+* [Macaque-Donor-and-Tissue-Metadata](https://github.com/brain-bican/metadata-schemas/blob/5a3017b276ef64d2376b2b305fac4c81aca540f5/docs/schemas/Macaque-Donor-and-Tissue-Metadata)
+* [Marmoset-Metadata](https://github.com/brain-bican/metadata-schemas/blob/5a3017b276ef64d2376b2b305fac4c81aca540f5/docs/schemas/Marmoset-Metadata)
 
 to name a few. If you are not using one of these metadata schemas, feel free to enter your own metadata in the format specified by this document below.
 
 This document has the following sections:
 
-* [General Requirements](#general-requirements)
-* [obs](#obs)
-* [uns](#uns)
-* [changelog](#changelog)
+## Table of Contents
+
+- [Assigned Metadata Schema](#assigned-metadata-schema)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [General Requirements](#general-requirements)
+    - [obs](#obs)
+      - [Cell ID](#cell-id)
+      - [Feature Matrix Label](#feature-matrix-label)
+      - [Dataset Label](#dataset-label)
+      - [Color Vector](#color-vector)
+      - [ID Vector](#id-vector)
+      - [Assay](#assay)
+      - [Assay Ontology Term ID](#assay-ontology-term-id)
+      - [Suspension Type](#suspension-type)
+      - [Batch Condition Columns](#batch-condition-columns)
+      - [Additional Uncontrolled Metadata](#additional-uncontrolled-metadata)
+      - [Brain Region](#brain-region)
+      - [Tissue](#tissue)
+      - [Tissue Ontology Term ID](#tissue-ontology-term-id)
+      - [Donor ID](#donor-id)
+      - [Species](#species)
+      - [Age](#age)
+      - [Sex](#sex)
+      - [Donor Genotype](#donor-genotype)
+      - [Self-reported Ethnicity Ontology Term ID](#self-reported-ethnicity-ontology-term-id)
+      - [Disease](#disease)
+      - [Disease Ontology Term ID](#disease-ontology-term-id)
+    - [uns](#uns)
+      - [Assigned Metadata Metadata](#assigned-metadata-metadata)
+      - [Batch Condition](#batch-condition)
+  - [Changelog](#changelog)
+    - [August 7, 2025 -- Version 1.0.0](#august-7-2025----version-100)
+    - [Pre-release Changelog](#pre-release-changelog)
 
 ## General Requirements
 
@@ -78,7 +108,7 @@ The obs component contains cell level metadata from the experiment.
 | Definition | The color vector for metadata/taxonomy values in format [COLUMN_NAME]_label. This is ONLY used for molgen-shiny plots. Some metadata files come with these and some do not. This field is OPTIONAL. |
 | Data Type | string |
 
-#### [COLUMN_NAME]_id
+#### ID Vector
 
 | BICAN Field Name | [COLUMN_NAME]_id |
 |------------------|------------|
