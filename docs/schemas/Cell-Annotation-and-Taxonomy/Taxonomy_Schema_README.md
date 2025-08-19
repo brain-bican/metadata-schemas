@@ -1,6 +1,6 @@
 # Allen Institute Taxonomy schema
 
-We have developed a compartmenatlized schema for storing all required aspects of a taxonomy. The fields in the AIT schema are associated to a broad category term (described below) which form a piece of the whole AIT file format. 
+We have developed a compartmenatlized schema for storing all required aspects of a taxonomy. The fields in the AIT schema are associated to a broad category term (described below) which form a piece of the whole AIT file format.
 
 This document has the following sections:
 
@@ -16,7 +16,7 @@ This document has the following sections:
     - [`X`](#x)
     - [`raw`](#raw)
     - [`obs`](#obs)
-      - [index of pandas.Dataframe](#index-of-pandasdataframe)
+      - [index of pandas.Dataframe (obs)](#index-of-pandasdataframe-obs)
       - [cluster\_id](#cluster_id)
       - [\[cellannotation\_setname\]](#cellannotation_setname)
       - [cell\_type\_ontology\_term\_id](#cell_type_ontology_term_id)
@@ -34,7 +34,7 @@ This document has the following sections:
       - [suspension\_type](#suspension_type)
       - [is\_primary\_data](#is_primary_data)
     - [`var`](#var)
-      - [index of pandas.Dataframe](#index-of-pandasdataframe-1)
+      - [index of pandas.Dataframe (var)](#index-of-pandasdataframe-var)
       - [ensembl\_id](#ensembl_id)
       - [highly\_variable\_genes](#highly_variable_genes)
       - [marker\_genes](#marker_genes)
@@ -58,6 +58,8 @@ This document has the following sections:
     - [`obsm` (Embeddings)](#obsm-embeddings)
       - [X\_\[embedding\]](#x_embedding)
   - [Changelog](#changelog)
+    - [August 7, 2025 -- Version 1.0.0](#august-7-2025----version-100)
+    - [Pre-release Changelog](#pre-release-changelog)
 
 *(Note: A pervious version of this standard is available **[as a Google Doc](https://docs.google.com/document/d/1nj6LHUPoo3JnNwZ7PTdniT9pBPsoJr1B/edit?usp=sharing&ouid=113573359044104089630&rtpof=true&sd=true)**).*
 
@@ -75,31 +77,31 @@ Includes anything critical for understanding the cell by gene matrix and to link
   
 Includes cell-level metadata that is assigned at some point in the process between when a cell goes from the donor to a value in the data, and (in theory) can be ENTIRELY captured by values in Allen Institute, BICAN, or related standardized pipelines.  It includes fields that describe: donor metadata, experimental protocols, dissection information, RNA QC metrics, and sequencing metadata.
 
-[Assigned metadata documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#assigned-metadata)
+[Assigned metadata documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Data%20and%20Metadata/Metadata/Assigned%20Metadata/Taxonomy_AssignedMetadata.README.md)
 
 ### Calculated Metadata
   
 Includes any cell-level or cluster-level metadata that can be calculated explicitly from the **Data** and **Assigned Metadata** without the need for human intervention. It includes fields that describe: # reads detected/cell, # UMI/cell, fraction of cells per cluster derived from each anatomic dissections, expressed neurotransmitter genes (quantitatively defined), standard quality control metrics (e.g., doublet score) per cluster.
 
-[Calculated metadata documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#calculated-metadata)
+[Calculated metadata documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Data%20and%20Metadata/Metadata/Calculated%20Metadata/Taxonomy_CalculatedMetadata.README.md)
 
 ### Annotations
   
 Includes fields related to the annotation of clusters or groups of clusters (collectively called "cell sets").  It includes fields that describe cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON), expert annotations, and dendrograms.
 
-[Annotations documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#annotations)
+[Annotations documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Annotations/Taxonomy_Annotations.README.md)
 
 ### Analysis
 
 Includes fields included as the result of or required for specific analysis.  Some examples include latent spaces (e.g., UMAP), cluster level gene summaries (e.g., cluster means, proportions), and variable genes.
 
-[Analysis documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#analysis)
+[Analysis documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Analysis/Taxonomy_Analysis_README.md)
 
 ### Tooling
 
 Includes fields required for specific tools (e.g., cellxgene, TDT, CAS, CAP) that are not strictly part of the taxonomy and that do not fit in any of the above categories.  It includes things like schema versions and redundant fields from above with different column names.
 
-[Tooling documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#tooling)
+[Tooling documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Tooling/Taxonomy_Tooling_README.md)
 
 <!-- Here is a graphical representation of these terms in the context of data, metadata, and taxonomies:
 ![image](https://github.com/AllenInstitute/scrattch.taxonomy/assets/25486679/eaf6b3d3-0b5f-49fc-9a49-2b7168605964) -->
@@ -112,7 +114,7 @@ Within each broad categorical term, fields are ordered by their location in the 
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED" "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://tools.ietf.org/html/bcp14), [RFC2119](https://www.rfc-editor.org/rfc/rfc2119.txt), and [RFC8174](https://www.rfc-editor.org/rfc/rfc8174.txt) when, and only when, they appear in all capitals, as shown here.
 
-### `X` 
+### `X`
 
 | Key | X |
 | :-- | :-- |
@@ -134,14 +136,14 @@ The `raw` component contains the unfiltered anndata object containing a count ma
 | Required | RECOMMENDED |
 | Tags | Data |
 
-
 ### `obs`
 
 `obs` is a [pandas.Dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
-The `obs` component contains **cell-level metadata** summarized at the cell level. 
+The `obs` component contains **cell-level metadata** summarized at the cell level.
 
-#### index of pandas.Dataframe
+#### index of pandas.Dataframe (obs)
+
 | Key | index of pandas.Dataframe |
 | :-- | :-- |
 | Annotator | Curator |
@@ -150,9 +152,8 @@ The `obs` component contains **cell-level metadata** summarized at the cell leve
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### cluster_id
+
 | Key | cluster_id |
 | :-- | :-- |
 | Annotator | Curator |
@@ -161,33 +162,30 @@ The `obs` component contains **cell-level metadata** summarized at the cell leve
 | Required | MUST |
 | Tags | Annotations |
 
-<br>
-
 #### [cellannotation_setname]
+
 | Key | [cellannotation_setname] |
 | :-- | :-- |
 | Annotator | Curator |
-| Value | Column name in `obs` is the string [cellannotation_setname] and the values are the strings describing an annotation level of the taxonomy.
+| Value | Column name in `obs` is the string [cellannotation_setname] and the values are the strings describing an annotation level of the taxonomy. |
 | Type| `Categorical` |
 | Required | RECOMMENDED |
 | Tags | Annotations |
 
 Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5` from [Hodge et al. 2019](https://www.nature.com/articles/s41586-019-1506-7)
 
-<br>
-
 #### cell_type_ontology_term_id
+
 | Key | cell_type_ontology_term_id |
 | :-- | :-- |
 | Annotator | Curator |
-| Value | This MUST be a CL term. If no appropriate high-level term can be found or the cell type is unknown, then it is STRONGLY RECOMMENDED to use "CL:0000003" for native cell.
+| Value | This MUST be a CL term. If no appropriate high-level term can be found or the cell type is unknown, then it is STRONGLY RECOMMENDED to use "CL:0000003" for native cell. |
 | Type| `Categorical` |
 | Required | RECOMMENDED |
 | Tags | Annotations |
 
-<br>
-
 #### load_id
+
 | Key | load_id |
 | :-- | :-- |
 | Annotator | Curator |
@@ -196,9 +194,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### donor_id
+
 | Key | donor_id |
 | :-- | :-- |
 | Annotator | Curator |
@@ -207,31 +204,28 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### assay
+
 | Key | assay |
 | :-- | :-- |
 | Annotator | Curator |
-| Value | Human-readable sequencing modality which should have a corresponding EFO ontology term. e.g., 'Smart-seq2'corresponds to 'EFO:0008931', '10x 3' v3'corresponds to 'EFO:0009922'.
+| Value | Human-readable sequencing modality which should have a corresponding EFO ontology term. e.g., 'Smart-seq2'corresponds to 'EFO:0008931', '10x 3' v3'corresponds to 'EFO:0009922'. |
 | Type| `str` |
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### organism
+
 | Key | organism |
 | :-- | :-- |
 | Annotator | Curator |
-| Value | Species from which cells were collected. This MUST be the human-readable name assigned to the value of organism_ontology_term_id
+| Value | Species from which cells were collected. This MUST be the human-readable name assigned to the value of organism_ontology_term_id. |
 | Type| `str` |
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### organism_ontology_term_id
+
 | Key | organism_ontology_term_id |
 | :-- | :-- |
 | Annotator | Computed |
@@ -240,9 +234,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### donor_age
+
 | Key | donor_age |
 | :-- | :-- |
 | Annotator | Curator |
@@ -251,9 +244,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### anatomical_region
+
 | Key | anatomical_region |
 | :-- | :-- |
 | Annotator | Curator |
@@ -262,9 +254,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### anatomical_region_ontology_term_id
+
 | Key | anatomical_region_ontology_term_id |
 | :-- | :-- |
 | Annotator | Computed |
@@ -273,9 +264,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### self_reported_sex
+
 | Key | self_reported_sex |
 | :-- | :-- |
 | Annotator | Curator |
@@ -284,9 +274,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### self_reported_ethnicity_ontology_term_id
+
 | Key | self_reported_ethnicity_ontology_term_id |
 | :-- | :-- |
 | Annotator | Computed |
@@ -295,9 +284,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### disease_ontology_term_id
+
 | Key | disease_ontology_term_id |
 | :-- | :-- |
 | Annotator | Curator |
@@ -306,9 +294,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### suspension_type
+
 | Key | suspension_type |
 | :-- | :-- |
 | Annotator | Curator |
@@ -317,9 +304,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### is_primary_data
+
 | Key | is_primary_data |
 | :-- | :-- |
 | Annotator | Curator |
@@ -334,7 +320,8 @@ Examples: `Neuronal`, `Inhibitory`, `LHX6 (MGE)`, `PVALB`, `Inh L5-6 PVALB LGR5`
 
 The `var` component contains gene level information.
 
-#### index of pandas.Dataframe
+#### index of pandas.Dataframe (var)
+
 | Key | index of pandas.Dataframe |
 | :-- | :-- |
 | Annotator | Curator |
@@ -343,9 +330,8 @@ The `var` component contains gene level information.
 | Required | MUST |
 | Tags | Assigned metadata |
 
-<br>
-
 #### ensembl_id
+
 | Key | ensembl_id |
 | :-- | :-- |
 | Annotator | Curator |
@@ -354,9 +340,8 @@ The `var` component contains gene level information.
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### highly_variable_genes
+
 | Key | highly_variable_genes |
 | :-- | :-- |
 | Annotator | Curator |
@@ -365,9 +350,8 @@ The `var` component contains gene level information.
 | Required | RECOMMENDED |
 | Tags | Analysis |
 
-<br>
-
 #### marker_genes
+
 | Key | marker_genes_[set_name] |
 | :-- | :-- |
 | Annotator | Curator |
@@ -376,13 +360,12 @@ The `var` component contains gene level information.
 | Required | RECOMMENDED |
 | Tags | Analysis |
 
-<br>
-
 ### `uns`
 
 The `uns` component contains more general information and fields with formatting incompatible with the above components.
 
 #### title
+
 | Key | title |
 | :-- | :-- |
 | Annotator | Curator |
@@ -391,9 +374,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Tooling |
 
-<br>
-
 #### dataset_purl
+
 | Key | dataset_purl |
 | :-- | :-- |
 | Annotator | Curator |
@@ -402,9 +384,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Data |
 
-<br>
-
 #### batch_condition
+
 | Key | batch_condition |
 | :-- | :-- |
 | Annotator | Curator |
@@ -413,9 +394,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Tooling |
 
-<br>
-
 #### reference_genome
+
 | Key | reference_genome |
 | :-- | :-- |
 | Annotator | Curator |
@@ -424,9 +404,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### gene_annotation_version
+
 | Key | gene_annotation_version |
 | :-- | :-- |
 | Annotator | Curator |
@@ -435,9 +414,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Assigned metadata |
 
-<br>
-
 #### dend
+
 | Key | dend |
 | :-- | :-- |
 | Annotator | Curator |
@@ -446,9 +424,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Annotations |
 
-<br>
-
 #### hierarchy
+
 | Key | hierarchy |
 | :-- | :-- |
 | Annotator | Curator |
@@ -457,9 +434,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Annotations |
 
-<br>
-
 #### mode
+
 | Key | mode |
 | :-- | :-- |
 | Annotator | Curator/Computed |
@@ -468,9 +444,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Tooling |
 
-<br>
-
 #### filter
+
 | Key | filter |
 | :-- | :-- |
 | Annotator | Curator/Computed |
@@ -479,9 +454,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Tooling |
 
-<br>
-
 #### qualty_control_markers
+
 | Key | qualty_control_markers |
 | :-- | :-- |
 | Annotator | Curator |
@@ -490,9 +464,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Analysis |
 
-<br>
-
 #### cluster_info
+
 | Key | cluster_info |
 | :-- | :-- |
 | Annotator | Curator/Computed |
@@ -501,9 +474,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Annotations |
 
-<br>
-
 #### cluster_id_median_expr
+
 | Key | cluster_id_median_expr |
 | :-- | :-- |
 | Annotator | Curator/Computed |
@@ -512,9 +484,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Annotations |
 
-<br>
-
 #### default_embedding
+
 | Key | default_embedding |
 | :-- | :-- |
 | Annotator | Curator/Computed |
@@ -523,9 +494,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Tooling |
 
-<br>
-
 #### schema_version
+
 | Key | schema_version |
 | :-- | :-- |
 | Annotator | Computed |
@@ -534,9 +504,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | MUST |
 | Tags | Tooling |
 
-<br>
-
 #### cellannotation_schema
+
 | Key | cell_annotation_schema |
 | :-- | :-- |
 | Annotator | Computed |
@@ -545,9 +514,8 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Tooling |
 
-<br>
-
 #### cellannotation_schema_version
+
 | Key | cellannotation_schema_version |
 | :-- | :-- |
 | Annotator | Computed |
@@ -556,15 +524,14 @@ The `uns` component contains more general information and fields with formatting
 | Required | RECOMMENDED |
 | Tags | Tooling |
 
-<br>
-
-* `cell_annotation_schema`: extended `calculated metadata` about annotations and labelsets stores in `uns` as in [CAS - BICAN extension](https://github.com/cellannotation/cell-annotation-schema/blob/main/build/BICAN_schema.md) format under `labelsets`.  
+- `cell_annotation_schema`: extended `calculated metadata` about annotations and labelsets stores in `uns` as in [CAS - BICAN extension](https://github.com/cellannotation/cell-annotation-schema/blob/main/build/BICAN_schema.md) format under `labelsets`.  
 
 ### `obsm` (Embeddings)
 
 The `obsm` component contains all dimensionality reductions of the taxonomy (cell x dim). To display a dataset Curators MUST annotate one or more embeddings of at least two-dimensions (e.g. tSNE, UMAP, PCA, spatial coordinates) as numpy.ndarrays in obsm.
 
 #### X_[embedding]
+
 | Key | X_[embedding] |
 | :-- | :-- |
 | Annotator | Curator/Computed |
@@ -573,8 +540,15 @@ The `obsm` component contains all dimensionality reductions of the taxonomy (cel
 | Required | MUST |
 | Tags | Analysis |
 
-<br>
-
 ## Changelog
+
+### August 7, 2025 -- Version 1.0.0
+
+- ** Finalized schema and added document status.
+- ** Approved as BICAN Standard.
+
+### Pre-release Changelog
+
 - 2024-10-01: Initial version of the Allen Institute Taxonomy schema.
 - 2024-10-15: Added `cellannotation_schema` and `cellannotation_schema_version` to `uns`.
+  
