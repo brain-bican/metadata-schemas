@@ -1,6 +1,6 @@
 # BICAN Institutional Certification Metadata Schema
 
-Document Status: _Under Review by MOWG_
+Document Status: _Approved BICAN Standard_
 
 Version: 1.0
 
@@ -40,10 +40,10 @@ This document has the following sections:
     - [Project Identifier](#project-identifier)
   - [Donor Certification](#donor-certification)
     - [Donor Local Name](#donor-local-name)
-    - [IC Form Local Name](#ic-form-local-name-1)
+    - [IC Form Local Name (donor certification)](#ic-form-local-name-donor-certification)
     - [Cohort Tag](#cohort-tag)
   - [IC Donor Data Use Limitation](#ic-donor-data-use-limitation)
-    - [Donor Local Name](#donor-local-name-1)
+    - [Donor Local Name (data use limitation)](#donor-local-name-data-use-limitation)
     - [Access Level](#access-level)
     - [Data Use Limitation](#data-use-limitation)
     - [Disease Specification](#disease-specification)
@@ -54,6 +54,8 @@ This document has the following sections:
     - [Methods](#methods)
     - [Genetic Study Only](#genetic-study-only)
   - [Changelog](#changelog)
+    - [August 7, 2025 -- Version 1.0.0](#august-7-2025----version-100)
+    - [February 2025 (pre-release)](#february-2025-pre-release)
 
 ## General Requirements
 
@@ -67,81 +69,30 @@ The BICAN Institutional Certification Metadata schema includes fields for certif
 
 ### IC Form Local Name
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>ic_form_local_name</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>donor local name</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | ic_form_local_name |
+|------------------|--------------------|
+| BICAN UUID       | f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf |
+| Aliases          | donor local name |
+| Definition       | An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry. |
+| Data Type        | string |
 
 ### IC Form Effective Date
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>ic_form_effective_date</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>6c0696fc-e6ec-45d2-9440-e61463228936</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>donor effective date</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>The date when the institutional certification form becomes effective.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>datetime</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | ic_form_effective_date |
+|------------------|------------------------|
+| BICAN UUID       | 6c0696fc-e6ec-45d2-9440-e61463228936 |
+| Aliases          | donor effective date |
+| Definition       | The date when the institutional certification form becomes effective. |
+| Data Type        | datetime |
 
 ### Project Identifier
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>project_identifier</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>c1d2e3f4-5678-90ab-cdef-1234567890ab</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>project id</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>abd4e1df-9c8e-4560-9077-ace8358b26de</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | project_identifier |
+|------------------|--------------------|
+| BICAN UUID       | c1d2e3f4-5678-90ab-cdef-1234567890ab |
+| Aliases          | project id |
+| Definition       | A unique identifier for the project associated with the institutional certification form. |
+| Data Type        | string |
 
 ## Donor Certification
 
@@ -149,346 +100,133 @@ The BICAN Institutional Certification Metadata schema includes fields for donor 
 
 ### Donor Local Name
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>donor_local_name</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>donor local name</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | donor_local_name |
+|------------------|------------------|
+| BICAN UUID       | f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf |
+| Aliases          | donor local name |
+| Definition       | An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry. |
+| Data Type        | string |
 
-### IC Form Local Name
+### IC Form Local Name (donor certification)
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>ic_form_local_name</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>a220b50e-7691-4385-ba35-90ce760be3c3</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>The name of IC form as it is used by a local entity.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | ic_form_local_name |
+|------------------|--------------------|
+| BICAN UUID       | a220b50e-7691-4385-ba35-90ce760be3c3 |
+| Aliases          | |
+| Definition       | The name of IC form as it is used by a local entity. |
+| Data Type        | string |
 
 ### Cohort Tag
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>cohort_tag</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>783ec297-f361-4a23-b78d-801bdb1e3fd3</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>cohort tag</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that indicates a cohort grouping.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | cohort_tag |
+|------------------|------------|
+| BICAN UUID       | 783ec297-f361-4a23-b78d-801bdb1e3fd3 |
+| Aliases          | cohort tag |
+| Definition       | A data item that indicates a cohort grouping. |
+| Data Type        | string |
 
 ## IC Donor Data Use Limitation
 
 The BICAN Institutional Certification Metadata schema includes fields for donor data use limitation information, including access level, data use limitation, disease specification and IRB approval fields.
 
-### Donor Local Name
+### Donor Local Name (data use limitation)
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>donor_local_name</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>donor local name</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>string</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | donor_local_name |
+|------------------|------------------|
+| BICAN UUID       | f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf |
+| Aliases          | donor local name |
+| Definition       | An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry. |
+| Data Type        | string |
 
 ### Access Level
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>access_level</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>9f800e73-0d96-45cf-8e92-303e22e80aaf</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>access level</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that is used to indicate the level of access of a dataset (unrestricted or controlled).</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>categorical, enum</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | access_level |
+|------------------|--------------|
+| BICAN UUID       | 9f800e73-0d96-45cf-8e92-303e22e80aaf |
+| Aliases          | access level |
+| Definition       | A data item that is used to indicate the level of access of a dataset (unrestricted or controlled). |
+| Data Type        | categorical, enum |
 
 ### Data Use Limitation
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>data_use_limitation</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>5a122436-5768-47eb-b028-6e2f6b5f1245</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>data use limitation</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>categorical, enum</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | data_use_limitation |
+|------------------|---------------------|
+| BICAN UUID       | 5a122436-5768-47eb-b028-6e2f6b5f1245 |
+| Aliases          | data use limitation |
+| Definition       | A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used. |
+| Data Type        | categorical, enum |
 
 ### Disease Specification
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>disease_specification</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>f76579b7-35b8-415f-ad2b-414f9ad555ac</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>disease specification</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>The dataset can be used only for research on a specific disease or related condition.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>categorical, enum</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | disease_specification |
+|------------------|----------------------|
+| BICAN UUID       | f76579b7-35b8-415f-ad2b-414f9ad555ac |
+| Aliases          | disease specification |
+| Definition       | The dataset can be used only for research on a specific disease or related condition. |
+| Data Type        | categorical, enum |
 
 ### IRB Approval Required
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>irb_approval_required</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>c1d2e3f4-5678-90ab-cdef-1234567890ab</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>irb approval required</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that indicates whether IRB approval is required for the use of the dataset.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>boolean</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | irb_approval_required |
+|------------------|-----------------------|
+| BICAN UUID       | c1d2e3f4-5678-90ab-cdef-1234567890ab |
+| Aliases          | irb approval required |
+| Definition       | A data item that indicates whether IRB approval is required for the use of the dataset. |
+| Data Type        | boolean |
 
 ### Publication Required
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>publication_required</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>432f1e56-7e1f-433d-aca4-5ac20afb4638</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>publication required</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that is used to indicate whether or not a publication is required -- i.e., whether the requestor must share their results with the larger scientific community.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>boolean</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | publication_required |
+|------------------|----------------------|
+| BICAN UUID       | 432f1e56-7e1f-433d-aca4-5ac20afb4638 |
+| Aliases          | publication required |
+| Definition       | A data item that is used to indicate whether or not a publication is required -- i.e., whether the requestor must share their results with the larger scientific community. |
+| Data Type        | boolean |
 
 ### Collaboration Required
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>collaboration_required</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>39ab79f3-6c21-423f-9670-4c5a4e9035ed</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>collaboration required</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that is used to indicate whether or not collaboration is required -- i.e., whether the requestor must privide a letter of collaboration with the primary study investigators.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>boolean</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | collaboration_required |
+|------------------|------------------------|
+| BICAN UUID       | 39ab79f3-6c21-423f-9670-4c5a4e9035ed |
+| Aliases          | collaboration required |
+| Definition       | A data item that is used to indicate whether or not collaboration is required -- i.e., whether the requestor must provide a letter of collaboration with the primary study investigators. |
+| Data Type        | boolean |
 
 ### Not for Profit Use Only
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>not_for_profit_use_only</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>dc4e4bf5-a221-4989-af64-b2f21b0c1dd8</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>not for profit use only</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that indicates whether or not the dataset can be used for non-profit purposes only.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>boolean</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | not_for_profit_use_only |
+|------------------|-------------------------|
+| BICAN UUID       | dc4e4bf5-a221-4989-af64-b2f21b0c1dd8 |
+| Aliases          | not for profit use only |
+| Definition       | A data item that indicates whether or not the dataset can be used for non-profit purposes only. |
+| Data Type        | boolean |
 
 ### Methods
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>methods</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>c5dfba12-4c1c-451e-b516-df95d5c9efd6</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>methods</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>The dataset can be used for methods research and development (e.g., development of statistical software or algorithms).</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>boolean</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | methods |
+|------------------|---------|
+| BICAN UUID       | c5dfba12-4c1c-451e-b516-df95d5c9efd6 |
+| Aliases          | methods |
+| Definition       | The dataset can be used for methods research and development (e.g., development of statistical software or algorithms). |
+| Data Type        | boolean |
 
 ### Genetic Study Only
 
-<table><tbody>
-    <tr>
-      <th>BICAN Field Name</th>
-      <td>genetic_study_only</td>
-    </tr>
-    <tr>
-      <th>BICAN UUID</th>
-      <td>0b3acf53-2643-46aa-9f45-f1ad9ecc9564</td>
-    </tr>
-    <tr>
-      <th>Aliases</th>
-      <td>genetic study only</td>
-    </tr>
-    <tr>
-      <th>Definition</th>
-        <td>A data item that indicates whether or not the dataset can be used for genetic studies only.</td>
-    </tr>
-    <tr>
-      <th>Data Type</th>
-      <td>boolean</td>
-    </tr>
-</tbody></table>
-<br>
+| BICAN Field Name | genetic_study_only |
+|------------------|--------------------|
+| BICAN UUID       | 0b3acf53-2643-46aa-9f45-f1ad9ecc9564 |
+| Aliases          | genetic study only |
+| Definition       | A data item that indicates whether or not the dataset can be used for genetic studies only. |
+| Data Type        | boolean |
 
 ## Changelog
+
+### August 7, 2025 -- Version 1.0.0
+
+- **07-08-2025**: Approved BICAN Standard version 1.0.0
+
+### February 2025 (pre-release)
+
 - **14-02-2025**: Initial version created
 - **15-02-2025**: Added additional fields for donor data use limitation
+  
