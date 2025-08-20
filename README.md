@@ -79,7 +79,7 @@ Here are the BICAN metadata schemas and their statuses.
 [Human Donor Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Human-Donor-Metadata
 [Human Donor v1.0.0]: docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
 
-[Projects and Data Collections Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/project-registration-bican
+[Projects and Data Collections Metadata]: docs/schemas/project-registration-bican/README.md
 [Projects and Data Collections v1.0.0]: docs/schemas/project-registration-bican/README.md
 
 [Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
