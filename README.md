@@ -71,6 +71,7 @@ Here are the BICAN metadata schemas and their statuses.
 | [Developing Human Metadata] | [Developing Human Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | [Developing NHP Metadata] | [Developing NHP Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | [Developing Tissue Metadata] | [Developing Tissue Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
+| [Institutional Certification Metadata] | [Institutional Certification v1.0.0] | [2024-08-07] | Endorsed BICAN Standard |
 | | | | |
 
 [Cell Annotation and Taxonomy Schema]: docs/schemas/Cell-Annotation-and-Taxonomy/Cell-Annotation-and-Taxonomy.md
