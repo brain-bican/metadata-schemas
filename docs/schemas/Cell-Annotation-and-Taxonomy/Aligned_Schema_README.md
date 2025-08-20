@@ -24,6 +24,7 @@ This document has the following sections:
     - [Anndata schematic](#anndata-schematic)
   - [Proposed integrated schema](#proposed-integrated-schema)
   - [Changelog](#changelog)
+    - [August 7, 2025](#august-7-2025)
 
 [Taxonomy_field_mappings](https://docs.google.com/spreadsheets/d/1PhsOipO0yCrtTGrkWXLU2Tj2m4qFPgdKID0SqetYN0Y/edit#gid=0) in table form.
 
@@ -49,41 +50,41 @@ This includes anything critical for understanding the cell by gene matrix and to
 
 This includes cell-level metadata that is assigned at some point in the process between when a cell goes from the donor to a value in the data, and (in theory) can be ENTIRELY captured by values in Allen Institute, BICAN, or related standardized pipelines.  It includes things like donor metadata, experimental protocols, dissection information, RNA QC metrics, and sequencing metadata.
 
-[Assigned metadata schema](https://github.com/brain-bican/etadata_schemas/docs/schemas/Cell-Annotation-and-Taxonomy/Data_and_Metadata/Metadata/Assigned_Metadata)
+[Assigned metadata schema](https://github.com/brain-bican/metadata-schemas/blob/5f869c8a38db1d8ef3a1c078118de36c2f6027bd/docs/schemas/Cell-Annotation-and-Taxonomy/Data%20and%20Metadata/Metadata/Assigned%20Metadata)
 
-[scrattch taxonomy documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#assigned-metadata)
+[scrattch taxonomy documentation](https://github.com/AllenInstitute/scrattch.taxonomy)
 
 ### Calculated Metadata
 
 This includes any cell-level or cluster-level metadata that can be calculated explicitly from the **Data** and **Assigned Metadata** without the need for human intervention.  Some examples include # reads detected/cell, # UMI/cell, fraction of cells per cluster derived from each anatomic dissections, expressed neurotransmitter genes (quantitatively defined), average QUANTITATIVE_VALUE (e.g., doublet score) per cluster.
 
-[Calculated metadata schema](https://github.com/brain-bican/etadata_schemas/docs/schemas/Cell-Annotation-and-Taxonomy/Data_and_Metadata/Metadata/Calculated_Metadata)
+[Calculated metadata schema](https://github.com/brain-bican/metadata-schemas/blob/5f869c8a38db1d8ef3a1c078118de36c2f6027bd/docs/schemas/Cell-Annotation-and-Taxonomy/Data%20and%20Metadata/Metadata/Calculated%20Metadata)
 
-[Calculated metadata documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#calculated-metadata)
+[Calculated metadata documentation](https://github.com/AllenInstitute/scrattch.taxonomy)
 
 ### Annotations
 
 This includes any fields related to the annotation of clusters or groups of clusters (collectively called "cell sets").  This includes things like cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON) based on judgement calls, expert annotations, and dendrograms.
 
-[Annotations schema](https://github.com/brain-bican/etadata_schemas/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Annotations)
+[Annotations schema](https://github.com/brain-bican/metadata-schemas/blob/5f869c8a38db1d8ef3a1c078118de36c2f6027bd/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Annotations)
 
-[Annotations documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#annotations)
+[Annotations documentation](https://github.com/AllenInstitute/scrattch.taxonomy)
 
 ### Analysis
 
 This includes any fields included as the result of or required for specific analysis.  Some examples include latent spaces (e.g., UMAP), cluster level gene summaries (e.g., cluster means, proportions), and variable genes.
 
-[Analysis schema](https://github.com/brain-bican/etadata_schemas/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Analysis)
+[Analysis schema](https://github.com/brain-bican/metadata-schemas/blob/5f869c8a38db1d8ef3a1c078118de36c2f6027bd/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Analysis)
 
-[Analysis documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#analysis)
+[Analysis documentation](https://github.com/AllenInstitute/scrattch.taxonomy)
 
 ### Tooling
 
 This includes any fields required for specific tools (e.g., cellxgene, TDT, CAS, CAP) that are not strictly part of the taxonomy and that do not fit in any of the above categories.  This includes things like schema versions and redundent fields from above with different column names.
 
-[Tooling schema](https://github.com/brain-bican/etadata_schemas/docs/schemas/Cell-Annotation-and-Taxonomy/Tooling)
+[Tooling schema](https://github.com/brain-bican/metadata-schemas/blob/5f869c8a38db1d8ef3a1c078118de36c2f6027bd/docs/schemas/Cell-Annotation-and-Taxonomy/Tooling)
 
-[Tooling documentation](https://github.com/AllenInstitute/scrattch.taxonomy/blob/KL_div/schema/aligned_schema.md#tooling)
+[Tooling documentation](https://github.com/AllenInstitute/scrattch.taxonomy)
 
 We expect some of these categories to change but feel this is a good starting point.
 
@@ -101,3 +102,7 @@ Within each broad categorical term, fields are ordered by their location in the 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED" "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14, RFC2119, and RFC8174 when, and only when, they appear in all capitals, as shown here.
 
 ## Changelog
+
+### August 7, 2025
+
+- Added UUIDs for BICAN fields in the Labelsets section to ensure compatibility with BICAN standards.
