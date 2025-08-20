@@ -96,6 +96,3 @@ Here are the BICAN metadata schemas and their statuses.
 
 [Developing Tissue Metadata]: docs/schemas/Developing-Tissue-Metadata
 [Developing Tissue Metadata v1.0.0]: docs/schemas/Developing-Tissue-Metadata/Developing-Tissue-Metadata.README.md
-
-[Institutional Certification Metadata]: docs/schemas/Institutional-Certification-Metadata/Institutional-Certification-Metadata.README.md
-[Institutional Certification v1.0.0]: docs/schemas/Institutional-Certification-Metadata/Institutional-Certification-Metadata.README.md
