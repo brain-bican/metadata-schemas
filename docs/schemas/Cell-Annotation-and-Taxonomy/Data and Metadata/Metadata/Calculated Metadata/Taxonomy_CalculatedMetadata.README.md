@@ -18,10 +18,20 @@ The BICAN Taxonomy Calculated Metadata schema specifies the metadata relating to
 
 This document has the following sections:
 
-* [General Requirements](#general-requirements)
-* [obs](#obs)
-* [uns](#uns)
-* [changelog](#changelog)
+## Table of Contents
+
+- [Overview](#overview)
+- [General Requirements](#general-requirements)
+    - [obs](#obs)
+        - [Cell ID](#cell-id)
+        - [Feature Matrix Label](#feature-matrix-label)
+        - [Dataset Label](#dataset-label)
+        - [Color Vector](#color-vector)
+        - [ID Vector](#id-vector)
+        - [Additional Uncontrolled Metadata](#additional-uncontrolled-metadata)
+        - [Calculated Metadata Metadata](#calculated-metadata-metadata)
+        - [Cell Annotation Schema](#cell-annotation-schema)
+- [Changelog](#changelog)
 
 ## General Requirements
 
