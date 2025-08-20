@@ -148,7 +148,7 @@ This document has the following sections:
 |------------------|-----------------|
 | BICAN UUID | a76fa81e-ba3f-4813-ac7c-cce1f43683a6 |
 | Aliases | |
-| Definition | Free text evidence for cell annotations. |
+| Definition | Free text evidence for cell annotations. This human-readable free-text must be encoded as a single string and has a 2000-character limit. |
 | Data Type | string |
 
 ### Rationale DOIs
