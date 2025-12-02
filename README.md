@@ -74,14 +74,14 @@ Here are the BICAN metadata schemas and their statuses.
 | [Institutional Certification Metadata] | [Institutional Certification v1.0.0] | [2024-08-07] | Endorsed BICAN Standard |
 | | | | |
 
-[Cell Annotation and Taxonomy Schema]: docs/schemas/Cell-Annotation-and-Taxonomy/Cell-Annotation-and-Taxonomy.md
+[Cell Annotation and Taxonomy Schema]: docs/schemas/Cell-Annotation-and-Taxonomy
 [Cell Annotation and Taxonomy v1.0.0]: docs/schemas/Cell-Annotation-and-Taxonomy/Cell-Annotation-and-Taxonomy.md
 
 [Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
 [Donor to Alignment v1.0.0]: docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
 
-[Human Donor Metadata]: http://github.com/brain-bican/metadata-schemas/docs/schemas/Human-Donor-Metadata
-[Human Donor v1.0.0]: docs/schemas/Human-Donor-Metadata/BICAN-Human-Donor-Metadata-Schema-README.md
+[Human Donor Metadata]: docs/schemas/Donor-Metadata
+[Human Donor v1.0.0]: docs/schemas/Donor-Metadata/Donor-Metadata-README.md
 
 [Projects and Data Collections Metadata]: docs/schemas/project-registration-bican/README.md
 [Projects and Data Collections v1.0.0]: docs/schemas/project-registration-bican/README.md
