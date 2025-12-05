@@ -65,7 +65,7 @@ Here are the BICAN metadata schemas and their statuses.
 | [Cell Annotation and Taxonomy Schema] | [Cell Annotation and Taxonomy v1.0.0] | [2025-08-07] | Endorsed BICAN Standard |
 | [Human Donor Metadata] | [Human Donor v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
 | [Projects and Data Collections Metadata] | [Projects and Data Collections v1.0.0] | [2023-09-27] | Under MOWG Review |
-| [Library Minimal Metadata] | [Library Minimal Metadata v1.21] | [2025-12-05] | Endorsed BICAN Standard |
+| [Library Minimal Metadata] | [Library Minimal Metadata v1.2.1] | [2025-12-05] | Endorsed BICAN Standard |
 | [HMBA Macaque Metadata] | [Macaque Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | [Developing Human Metadata] | [Developing Human Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
 | [Developing NHP Metadata] | [Developing NHP Metadata v1.0.0] | [2024-07-08] | Accepted by MOWG |
