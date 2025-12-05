@@ -63,7 +63,6 @@ Here are the BICAN metadata schemas and their statuses.
 | Schema | Version | Release | Status |
 |:--|:--|:--|:--|
 | [Cell Annotation and Taxonomy Schema] | [Cell Annotation and Taxonomy v1.0.0] | [2025-08-07] | Endorsed BICAN Standard |
-| [Donor-to-Alignment Metadata] | [Donor to Alignment v1.0.0] |  [2023-03-31] | Accepted by MOWG |
 | [Human Donor Metadata] | [Human Donor v1.0.0] | [2023-04-01] | Endorsed BICAN Standard |
 | [Projects and Data Collections Metadata] | [Projects and Data Collections v1.0.0] | [2023-09-27] | Under MOWG Review |
 | [Library Minimal Metadata] | [Library Minimal Metadata v1.1.1] | [2024-03-22] | Endorsed BICAN Standard |
@@ -77,14 +76,11 @@ Here are the BICAN metadata schemas and their statuses.
 [Cell Annotation and Taxonomy Schema]: docs/schemas/Cell-Annotation-and-Taxonomy
 [Cell Annotation and Taxonomy v1.0.0]: docs/schemas/Cell-Annotation-and-Taxonomy/Cell-Annotation-and-Taxonomy.md
 
-[Donor-to-Alignment Metadata]: docs/schemas/Donor-to-Alignment-Metadata
-[Donor to Alignment v1.0.0]: docs/schemas/Donor-to-Alignment-Metadata/Donor-to-Alignment-Metadata-README.md
-
 [Human Donor Metadata]: docs/schemas/Donor-Metadata
 [Human Donor v1.0.0]: docs/schemas/Donor-Metadata/Donor-Metadata-README.md
 
-[Projects and Data Collections Metadata]: docs/schemas/project-registration-bican/README.md
-[Projects and Data Collections v1.0.0]: docs/schemas/project-registration-bican/README.md
+[Projects and Data Collections Metadata]: docs/schemas/project-registration-biccn
+[Projects and Data Collections v1.0.0]: docs/schemas/project-registration-biccn/README.md
 
 [Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
 [Library Minimal Metadata v1.1.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
@@ -100,3 +96,6 @@ Here are the BICAN metadata schemas and their statuses.
 
 [Developing Tissue Metadata]: docs/schemas/Developing-Tissue-Metadata
 [Developing Tissue Metadata v1.0.0]: docs/schemas/Developing-Tissue-Metadata/Developing-Tissue-Metadata.README.md
+
+[Institutional Certification Metadata]: docs/schemas/Institutional-Certification
+[Institutional Certification v1.0.0]: docs/schemas/Institutional-Certification/Institutional-Certification-README.md
