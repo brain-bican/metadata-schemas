@@ -34,13 +34,23 @@ This metadata standard was created through the work of the Library Minimal Metad
 
 This document has the following sections:
 
-* [General Requirements](#general-requirements)
-* [Recieve Sample](#recieve-sample)
-* [Generate Library](#generate-library)
-* [Pool Library](#pool-library)
-* [Delivery Library Pool](#deliver-library-pool)
-* [Appendix](#appendix)
-* [Changelog](#changelog)
+- [BICAN Library Minimal Metadata Schema](#bican-library-minimal-metadata-schema)
+  - [Background](#background)
+  - [Overview](#overview)
+  - [General Requirements](#general-requirements)
+  - [Recieve Sample](#recieve-sample)
+  - [Generate Library](#generate-library)
+  - [Pool Library](#pool-library)
+  - [Delivery Library Pool](#delivery-library-pool)
+  - [Appendix](#appendix)
+  - [Changelog](#changelog)
+    - [Version 1.2.1](#version-121)
+    - [Version 1.2](#version-12)
+      - [Added](#added)
+    - [Version 1.1.1](#version-111)
+      - [Changed](#changed)
+    - [Version 1.1](#version-11)
+      - [Added](#added-1)
 
 ## General Requirements
 
@@ -1278,6 +1288,16 @@ This document has the following sections:
 
 ## Changelog
 
+### Version 1.2.1
+
+- 1.2.1 Added 'pass' as a value to library QC result.
+
+### Version 1.2
+
+#### Added
+
+- 1.2 patched cell structure
+
 ### Version 1.1.1
 
 #### Changed
@@ -1296,8 +1316,3 @@ This document has the following sections:
 - 1.1 library_pool_preparation_date
 - 1.1 flowcell
 
-### Version 1.2
-
-#### Added
-
-- 1.2 patched cell structure
