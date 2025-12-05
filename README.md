@@ -83,7 +83,7 @@ Here are the BICAN metadata schemas and their statuses.
 [Projects and Data Collections v1.0.0]: docs/schemas/project-registration-biccn/README.md
 
 [Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
-[Library Minimal Metadata v1.1.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
+[Library Minimal Metadata v1.2.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
 
 [HMBA Macaque Metadata]: docs/schemas/Macaque-Donor-and-Tissue-Metadata
 [Macaque Metadata v1.0.0]: docs/schemas/Macaque-Donor-and-Tissue-Metadata/Macaque-Donor-and-Tissue-Metadata-README.md
