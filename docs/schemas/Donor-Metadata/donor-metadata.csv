@@ -1,117 +1,116 @@
 ﻿Proposed BICAN Field Name,BICAN UUID,Aliases,LinkML Class,definition,nullable,Permissible Values,Data Type,Data Example,Multivalued,Cardinality,min value,max value,Unit,Statistical Variable Type,Subsets,version,version date
-subject_id,f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf,Local Donor ID,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-repository,408682ed-0e27-41e2-b9fa-f05674366d6e,Repository,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-donor_source,0d0cf732-0f76-409d-9a73-7a96d829d3d3,Donor Source,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-ethnicity,918370df-49f6-4361-9c52-f46b16412980,Ethnicity,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-race,e515c009-550e-4f9c-b1b6-fc876a6fb2a8,Race,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-secondary_race,192fe5b1-c812-4767-86fb-3178f9914705,Secondary Race,,,,,,,,,,,,,General Subject Fields,1.1,3/6/24
-sex,c819b9d5-2fde-40b2-bf0d-e07b56f96ac9,Sex at Birth,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-gender,1c71e775-65aa-442b-a392-1cf9a44e326e,Gender at Time of Death,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-sex_orientation,e47e8a2f-72fb-4036-b288-f4580dc2aa4e,Sexual Orientation at Time of Death,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-age_at_death,14eb923a-161d-45e2-889d-81fea7b632b6,Age Value (Years),,,,,,,,,0,125,year,,General Subject Fields,1,6/6/23
-birth_country_name,9c27fd29-b512-492f-a32f-b615c7585ff7,Birth Country Name,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-primary_language,abe9edc7-96ca-4c6a-a1ed-c008548cc373,Primary Language Code,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-secondary_language,37b7495f-b010-4d1c-ae32-9cb19c680950,Secondary Language Code,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-year_of_death,60445046-d9d8-4f00-959e-9a4c42613e5e,Date of Death,,,,,,,,,1900,2050,CE,,General Subject Fields,1,6/6/23
-autopsy_report,3f787b64-0985-4d0f-9523-54475164b7ad,Autopsy Report,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-cause_of_death,fa970a03-41ea-473b-a8ce-427fec92cdff,Cause of Death,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-cause_of_death_code,61374624-2d3c-477e-95b3-9bd30974b52a,Cause of Death Code,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-manner_of_death,36eeb35b-5020-4a9e-a74b-6e1104415e0e,Manner of Death,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-marital_status,4f0e41c9-dd15-4a37-ae6b-11b7131d7cba,Marital or Partner Status ATOD,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-education_years_number,add3f7fe-ae60-4cc1-bb2e-72bbbe9a1a7d,Education Years Number,,,,,,,,,0,30,year,,General Subject Fields,1,6/6/23
-family_income_range,6cd785e2-7333-43fe-8c8c-c19532e96ea6,Family Income Range,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-informant_questionnaire_completed,e8b9666f-a112-456f-aa5a-69a101c3866f,Informant Questionnaire Completed,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-informant_interview_performed,274b838b-74c6-46ec-808a-0c080ddeedd9,Informant Interview Performed,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-informant_relationship,836c19fe-b735-4bf7-bee5-3213122b571e,Informant Relationship,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-informant_relationship_specify,289bcbb8-5177-4c65-b0af-159fd65b69aa,Informant Relationship Specify,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-handedness,82a4087c-d0e3-48ca-8bea-a81eefc683a0,Handedness,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-medical_records_available,ee2c9223-f7d1-4c64-a1da-cd7408309955,Medical Records Available,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-medical_records_reviewed,6139b159-c36c-4501-9176-fe2741e3d448,Medical Records Reviewed,,,,,,,,,,,,,General Subject Fields,1,6/6/23
-confirmed_hbcac,b6cdddf7-6f0b-4855-a0fa-16c2ab29f219,HBCAC Confirmation Status,,,,,,,,,,,,,General Subject Fields,1.1,3/6/24
-consent_status,1a53e733-276f-421a-850d-eb46e50db972,Consent Status,,,,,,,,,,,,,General Subject Fields,1.1,3/6/24
-hemisphere,68b7a28b-d695-4ec9-800b-6a27ca206081,Hemisphere,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-post_mortem_interval,6fd5c5ac-b128-4a4a-ae98-09eaeba22f92,Post Mortem Interval,,,,,,,,,0,8888,hour,,General Specimen Data,1,6/6/23
-left_hemisphere_preparation,57d5378f-a451-4bf5-a472-cc88d0d29586,Left Hemisphere Preparation,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-left_hemisphere_preparation_specify,002e915e-01c3-4570-a1f3-76680dcb2c33,Left Hemisphere Preparation Specify,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-right_hemisphere_preparation,477c2600-f979-43c5-9c61-ab61fd771584,Right Hemisphere Preparation,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-right_hemisphere_preparation_specify,efd50be4-f7cf-4146-a08e-28f25680728c,Right Hemisphere Preparation Specify,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-rin,cd472c0d-0b64-45c9-a38e-e54d15cea953,RIN,,,,,,,,,0,99,,,General Specimen Data,1,6/6/23
-rin_tissue_source,d547ee51-9ec3-489c-8e49-7d8cd94080a8,RIN Tissue Source,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-rin_testing_organization,cfed831e-9a62-4a32-bf92-532873420eb3,RIN Testing Organization,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-rine,1210148d-d8fb-45aa-b51a-4b19b6d09bec,RINe,,,,,,,,,0,99,,,General Specimen Data,1,6/6/23
-rine_tissue_source,7d5fd9af-82a1-4bdb-a3c6-9225d1717c53,RINe Tissue Source,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-rine_testing_organization,15a6d162-a3ca-4852-b626-a911c37c04c9,RINe Testing Organization,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-ph,9e67af02-c081-43e1-a42c-bf9603cae616,pH,,,,,,,,,0,99,,,General Specimen Data,1,6/6/23
-brain_weight,546fc32d-f8a2-4c00-924a-8c4730f11f51,Brain Weight Measurement,,,,,,,,,0,9998,gram,,General Specimen Data,1,6/6/23
-weighed_type,a7463e3f-0c61-4718-a7d0-60fd2116908a,Brain Tissue Weighed Type,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-photo_2d_available,611beda8-1ac6-4183-a284-04a30bb474f3,Photo 2d Available,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-scan_3d_available,658e8a80-e232-438f-8c1e-d5f38724dc55,Scan 3d Available,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-antemortem_mri_available,43a04caa-4f28-47ac-8a9d-74c40f10776f,Antemortem MRI Available,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-postmortem_mri_available,0badd072-0c25-48c6-9357-44d5b5bc0818,Postmortem MRI Available,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-postmortem_mri_type,64a607a9-21e6-4c73-8f2e-2d67b0dc51c8,Postmortem MRI Type,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-anatomical_atlas_registration,b6835813-2bab-42f3-ae63-4c372ed0aad9,Anatomical Atlas Registration,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-non_brain_tissue_available,3a064c96-a956-4cf3-8b77-056b8e392f99,Non-Brain Tissue Available,,,,,,,,,,,,,Non-Brain Specimen Collected,1,6/6/23
-tissue_type,33ccbc85-ae35-44d6-8bc6-c2fb91116cf7,Tissue Type,,,,,,,,,,,,,Non-Brain Specimen Collected,1,6/6/23
-tissue_type_details,f551cf87-2c6e-4b92-888d-6310e6a500d8,Tissue Type Details,,,,,,,,,,,,,Non-Brain Specimen Collected,1,6/6/23
-subject_id,b2bb8225-aa6e-423a-a32d-98feaf84984f,Subject ID,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-tissue_source,ee83ecf8-4fca-4353-a9ed-4cdd82eb167e,Tissue Source,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-date_of_collection,9b94949c-a7c9-4d81-a1c9-a70c96c16ca3,Date of Collection,,,,,,,,,,,,,General Specimen Data,1,6/6/23
-age_at_date_of_collection,6c53ac16-fe2d-48d7-b3d4-b8946b5d2547,Age at Date of Collection,,,,,,,,,0,999,year,,General Specimen Data,1,6/6/23
-clinical_brain_diagnosis,b49f026b-4f6c-48c8-b170-bf6d24c672ef,Clinical Brain Diagnosis Available,,,,,,,,,,,,,Diagnoses,1,6/6/23
-clinical_brain_diagnosis_code,b7a34c73-ae08-43d3-80d2-d5ef8436e449,Clinical Brain Diagnosis Code,,,,,,,,,,,,,Diagnoses,1,6/6/23
-clinical_brain_diagnosis_confidence_level,2e72b4b9-d5fb-4f0d-897c-1f977ed4fabd,Clinical Brain Diagnosis Confidence Level,,,,,,,,,,,,,Diagnoses,1,6/6/23
-genetic_diagnosis,f67d3837-159d-4868-9749-aa6c83ded7eb,Genetic Diagnosis Available,,,,,,,,,,,,,Diagnoses,1,6/6/23
-genetic_diagnosis_code,7a7916e0-ff79-4426-b49f-58e2f2a8a367,Genetic Diagnosis Code,,,,,,,,,,,,,Diagnoses,1,6/6/23
-genetic_diagnosis_confidence_level,cb2b0108-8c07-40e8-92a3-b693b6dc64b4,Genetic Diagnosis Confidence Level,,,,,,,,,,,,,Diagnoses,1,6/6/23
-non_brain_diagnosis,009ec58e-32e4-4712-930c-056e72c8d8fa,Non Brain Diagnosis Available,,,,,,,,,,,,,Diagnoses,1,6/6/23
-non_brain_diagnosis_code,65e8824e-01d2-44cf-9f47-9962461a65c9,Non Brain Diagnosis Code,,,,,,,,,,,,,Diagnoses,1,6/6/23
-non_brain_diagnosis_confidence_level,2a7ff937-287b-40a3-a1f6-ebf598683774,Non Brain Diagnosis Confidence Level,,,,,,,,,,,,,Diagnoses,1,6/6/23
-birth_weight_lbs,69d9a60d-32d5-4c3a-a26a-802d8f030c8d,Birth Weight Value (lbs),,,,,,,,,0,100,pound,,Infant Medical History,1,6/6/23
-birth_weight_oz,b6f30050-f762-4427-8533-31738e737ea2,Birth Weight Value (oz),,,,,,,,,0,100,ounce,,Infant Medical History,1,6/6/23
-gestational_age_value_weeks,6d8a9b3f-792c-48c2-bd3c-56e52bb51672,Gestational Age Value (weeks),,,,,,,,,1,45,week,,Infant Medical History,1,6/6/23
-gestational_age_value_days,4e532e52-6e4c-46cd-9fde-96f97ef3b034,Gestational Age Value (days),,,,,,,,,0,6,day,,Infant Medical History,1,6/6/23
-apgar_5_minute_score_available,e67d93ac-3753-4835-a250-e2ca207b2675,APGAR Five Minute Score Available,,,,,,,,,,,,,Infant Medical History,1,6/6/23
-apgar_5_minute_score,3a10dabf-39b0-4eb7-8399-85fd325c5646,APGAR Five Minute Score,,,,,,,,,1,10,,,Infant Medical History,1,6/6/23
-apgar_10_minute_score_available,3d085ff9-7034-487d-a2b2-b9ae80d55333,APGAR Ten Minute Score Available,,,,,,,,,,,,,Infant Medical History,1,6/6/23
-apgar_10_minute_score,09d512b6-7c20-4693-8894-77824ad7f04d,APGAR Ten Minute Score,,,,,,,,,1,10,,,Infant Medical History,1,6/6/23
-perinatal_neurologic_event_type,cb4c7e3b-73fc-400e-a4c3-b149a5544363,Perinatal Neurologic Event Type,,,,,,,,,,,,,Perinatal Neurologic Events,1,6/6/23
-perinatal_neurologic_event_type_specify,1bf1f9c5-79a6-4203-910f-cad79fe9cac9,Perinatal Neurologic Event Type Specify,,,,,,,,,,,,,Perinatal Neurologic Events,1,6/6/23
-family_history_available,c88bf4dc-5a7c-4f70-a773-e6bbb5a12ec9,Family History Available,,,,,,,,,,,,,Family History,1,6/6/23
-relative_type,1adef34c-bb96-4dd0-bc87-51868f2ddc3f,Relative Type,,,,,,,,,,,,,Family History,1,6/6/23
-relative_type_specify,094064a1-362c-4b75-8556-6b874c843fdb,Relative Type Specify,,,,,,,,,,,,,Family History,1,6/6/23
-condition_type,030c8275-04c0-4e4f-9f68-48fd0f559250,Condition Type,,,,,,,,,,,,,Family History,1,6/6/23
-condition_type_specify,a1ed23dc-3cd5-41c8-87f6-58604fc66a70,Condition Type Specify,,,,,,,,,,,,,Family History,1,6/6/23
-test_name,b6865e15-7538-4890-be99-a6f9e9920af3,Test Name,,,,,,,,,,,,,Infectious Disease Testing,1,6/6/23
-test_result,c14ea006-662c-4666-bfd1-6ff580c403ed,Result,,,,,,,,,,,,,Infectious Disease Testing,1,6/6/23
-tissue_source,42f8e11b-d9a3-48fe-ac1e-cd6f4469de46,Testing Tissue Source,,,,,,,,,,,,,Infectious Disease Testing,1,6/6/23
-drugs_found,e35b53f1-0daa-4b5b-9246-cfba52f61bfb,Drugs Found,,,,,,,,,,,,,Toxicology Screening,1,6/6/23
-drugs_found_specify,ec3f7c47-9062-4b66-ba80-a9355a388bc0,Drugs Found Specify,,,,,,,,,,,,,Toxicology Screening,1,6/6/23
-toxicology_result,2cf1a1af-1ece-4ef7-b513-e4d1949f237c,Toxicology Result,,,,,,,,,,,,,Toxicology Screening,1,6/6/23
-toxicology_report_level,594179b0-c744-40a4-958d-fc81461b4b74,Toxicology Report level,,,,,,,,,,,,,Toxicology Screening,1,6/6/23
-toxicology_units,6f124149-50de-489d-b9e2-f198b2b9857d,Toxicology Units,,,,,,,,,,,,,Toxicology Screening,1,6/6/23
-artifacts,b344b605-21dd-4e06-9104-21005179026f,Artifacts,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-artifacts_type,dc217b9b-ed6b-48e2-93b4-4f648dc395f7,Artifacts Type,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-artifacts_type_specify,ae11485d-dfc6-45fe-9d22-1d0bf7244d7c,Artifacts Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neuropathology_diagnosis,87f6d251-e028-4480-9272-3497655fb9cd,Neuropathology Diagnosis Available,,,,,,,,,,,,,Diagnoses,1.1,3/6/24
-neuropathology_diagnosis_code,784e9cc1-7258-4535-a6d5-f7f9a4c2da4b,Neuorpathology Diagnosis Code,,,,,,,,,,,,,Diagnoses,1.1,3/6/24
-developmental,c259cdc2-7c68-48de-ab57-57328f3bddfa,Developmental,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-developmental_type_specify,bee7d477-2dec-4bf5-878e-a105a0054366,Developmental Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-inflammatory,05e83583-078d-4a1e-892d-e6f611e5a0b8,Inflammatory,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-inflammatory_type_specify,616ba8d8-ced3-4f3e-b1ca-7103eb7a2c94,Inflammatory Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-infectious,266f5fb8-716b-4472-be30-4a94b62f2245,Infectious,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-infectious_type_specify,c73cea5e-44d1-4dd9-b55e-3c6ef5dd2ef2,Infectious Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-traumatic,a00497c0-376f-4b2e-b60e-d6add2af41dc,Traumatic,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-traumatic_type,01d2f488-f30b-40e0-913f-c9adc6b39b97,Traumatic Type,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-traumatic_type_specify,aa574a9a-a3d0-4a07-bf8b-9db4a1110a88,Traumatic Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-vascular,b02d8386-d059-42a8-94cb-751d56b15b3a,Vascular,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-vascular_type,5beafa90-ffdb-4cce-a78c-a3b3175210b6,Vascular Type,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-vascular_type_specify,543acbbb-9da4-4e24-a9d7-c0642aa33f32,Vascular Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neoplastic,3f52a0e9-6469-46d3-8ed5-3cdb8afdc259,Neoplastic,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neoplastic_type,a58be8f4-2756-4a66-9d05-1fbf44b4e810,Neoplastic Type,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neoplastic_type_specify,b9e8aead-fdf3-453e-a46b-fcb01d661f8f,Neoplastic Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-aging,40e3caa7-657b-4137-9879-07e6b29bae14,Aging,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-aging_type,5e31b66f-131e-4d5e-8760-ddd85f5634d5,Aging Type,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-aging_type_specify,8667d972-175c-430a-ac5e-656563e75736,Aging Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neurodegenerative,764d80ce-7a83-4e68-92df-34a416475e1b,Neurodegenerative,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neurodegenerative_type,b150b62c-a968-4f5d-9aa3-d1ab5207ff83,Neurodegenerative Type,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
-neurodegenerative_type_specify,d422d827-539f-4d10-b09d-0f4be00d7c91,Neurodegenerative Type Specify,,,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+subject_id,f8af20f7-e8b8-47b5-8a68-9ec1f913ffdf,Local Donor ID,,An identifier that uniquely denotes objects only within the scope of a specific object aggregate and that is not registered in an identifier registry. [Allotrope],,,,,,,,,,,General Subject Fields,1,6/6/23
+repository,408682ed-0e27-41e2-b9fa-f05674366d6e,Repository,,"Repository' trailing modifier (qualifier, 'repository') of 'xref' links of 'Format' concepts. When 'true', the link is pointing to the public source-code repository where the given data format is developed or maintained. [EDAM]",,,,,,,,,,,General Subject Fields,1,6/6/23
+donor_source,0d0cf732-0f76-409d-9a73-7a96d829d3d3,Donor Source,,The origin of the donor/subject in this experiment.,,,,,,,,,,,General Subject Fields,1,6/6/23
+ethnicity,918370df-49f6-4361-9c52-f46b16412980,Ethnicity,,"Population category defined in terms of cultural, religious, tribal or other social similarities. [EFO]",,,,,,,,,,,General Subject Fields,1,6/6/23
+race,e515c009-550e-4f9c-b1b6-fc876a6fb2a8,Race,,"An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution. [ExO]",,,,,,,,,,,General Subject Fields,1,6/6/23
+secondary_race,192fe5b1-c812-4767-86fb-3178f9914705,Secondary Race,,The non-primary race category of a donor.,,,,,,,,,,,General Subject Fields,1.1,3/6/24
+sex,c819b9d5-2fde-40b2-bf0d-e07b56f96ac9,Sex at Birth,,An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved. [PATO],,,,,,,,,,,General Subject Fields,1,6/6/23
+gender,1c71e775-65aa-442b-a392-1cf9a44e326e,Gender at Time of Death,,"Identification as male/masculine, female/feminine or something else, and association with a (social) role or set of behavioral and cultural traits, clothing, etc; a category to which a person belongs on this basis. Gender is the result of a complex combination of gender role, gender expression, gender identity, and gender modality. Do not use this term for non-human animals. [NCIT]",,,,,,,,,,,General Subject Fields,1,6/6/23
+sex_orientation,e47e8a2f-72fb-4036-b288-f4580dc2aa4e,Sexual Orientation at Time of Death,,"The pattern of a person's emotional, romantic, and/or sexual attractions. [NCIT]",,,,,,,,,,,General Subject Fields,1,6/6/23
+age_at_death,14eb923a-161d-45e2-889d-81fea7b632b6,Age Value (Years),,A time quality inhering in a bearer by virtue of how long the bearer has existed. [PATO],,,,,,,0,125,year,,General Subject Fields,1,6/6/23
+birth_country_name,9c27fd29-b512-492f-a32f-b615c7585ff7,Birth Country Name,,The name of the country where a subject was born. [NCIT],,,,,,,,,,,General Subject Fields,1,6/6/23
+primary_language,abe9edc7-96ca-4c6a-a1ed-c008548cc373,Primary Language Code,,"The alphanumeric code from the ISO 639 standard which denotes the primary lanugage of a subject. The ISO 639 standard includes a two letter representation and a three letter representation. [NCIT, modified]",,,,,,,,,,,General Subject Fields,1,6/6/23
+secondary_language,37b7495f-b010-4d1c-ae32-9cb19c680950,Secondary Language Code,,"The alphanumeric code from the ISO 639 standard which denotes the secondary lanugage of a subject. The ISO 639 standard includes a two letter representation and a three letter representation. [NCIT, modified]",,,,,,,,,,,General Subject Fields,1,6/6/23
+year_of_death,60445046-d9d8-4f00-959e-9a4c42613e5e,Date of Death,,The year wherein the subject or donor has ceased to exist.,,,,,,,1900,2050,CE,,General Subject Fields,1,6/6/23
+autopsy_report,3f787b64-0985-4d0f-9523-54475164b7ad,Autopsy Report,,"A document assembled by an author for the purpose of providing information regarding the cause of death of a subject for the audience. [IAO, modified]",,,,,,,,,,,General Subject Fields,1,6/6/23
+cause_of_death,fa970a03-41ea-473b-a8ce-427fec92cdff,Cause of Death,,The circumstance or condition that results in the death of a living being. [NCIT],,,,,,,,,,,General Subject Fields,1,6/6/23
+cause_of_death_code,61374624-2d3c-477e-95b3-9bd30974b52a,Cause of Death Code,,The ISO code that denotes the circumstance or condition that results in the death of a living being. [NCIT],,,,,,,,,,,General Subject Fields,1,6/6/23
+manner_of_death,36eeb35b-5020-4a9e-a74b-6e1104415e0e,Manner of Death,,"The manner of death is the determination of how the injury or disease leads to death.  There are five manners of death (natural, accident, suicide, homicide, and undetermined).",,,,,,,,,,,General Subject Fields,1,6/6/23
+marital_status,4f0e41c9-dd15-4a37-ae6b-11b7131d7cba,Marital or Partner Status ATOD,,The marital or partner status of the donor at time of death.,,,,,,,,,,,General Subject Fields,1,6/6/23
+education_years_number,add3f7fe-ae60-4cc1-bb2e-72bbbe9a1a7d,Education Years Number,,The level of education of a donor given in number of years.,,,,,,,0,30,year,,General Subject Fields,1,6/6/23
+family_income_range,6cd785e2-7333-43fe-8c8c-c19532e96ea6,Family Income Range,,The income of the donor's family given as a range.,,,,,,,,,,,General Subject Fields,1,6/6/23
+informant_questionnaire_completed,e8b9666f-a112-456f-aa5a-69a101c3866f,Informant Questionnaire Completed,,"The status (completed, not completed) of the document about the subject completed by an informant.",,,,,,,,,,,General Subject Fields,1,6/6/23
+informant_interview_performed,274b838b-74c6-46ec-808a-0c080ddeedd9,Informant Interview Performed,,"The status (performed, not performed) of the interview event between a clinician and an informant.",,,,,,,,,,,General Subject Fields,1,6/6/23
+informant_relationship,836c19fe-b735-4bf7-bee5-3213122b571e,Informant Relationship,,The relationship that an informant bears to a subject/donor.,,,,,,,,,,,General Subject Fields,1,6/6/23
+informant_relationship_specify,289bcbb8-5177-4c65-b0af-159fd65b69aa,Informant Relationship Specify,,The specific relationship that an informant bears to a subject/donor.,,,,,,,,,,,General Subject Fields,1,6/6/23
+handedness,82a4087c-d0e3-48ca-8bea-a81eefc683a0,Handedness,,A behavioral quality inhering ina bearer by virtue of the bearer's unequal distribution of fine motor skill between its left and right hands or feet. [PATO],,,,,,,,,,,General Subject Fields,1,6/6/23
+medical_records_available,ee2c9223-f7d1-4c64-a1da-cd7408309955,Medical Records Available,,"The status (available, unavailable) of the medical records of the subject/donor.",,,,,,,,,,,General Subject Fields,1,6/6/23
+medical_records_reviewed,6139b159-c36c-4501-9176-fe2741e3d448,Medical Records Reviewed,,"The status (reviewed, not reviewed) of the medical records of the subject/donor.",,,,,,,,,,,General Subject Fields,1,6/6/23
+confirmed_hbcac,b6cdddf7-6f0b-4855-a0fa-16c2ab29f219,HBCAC Confirmation Status,,The donor's Huntington Breast Cancer Action Coalition status. ,,,,,,,,,,,General Subject Fields,1.1,3/6/24
+consent_status,1a53e733-276f-421a-850d-eb46e50db972,Consent Status,,The donor's consent status.,,,,,,,,,,,General Subject Fields,1.1,3/6/24
+hemisphere,68b7a28b-d695-4ec9-800b-6a27ca206081,Hemisphere,,"One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter. [UBERON]",,,,,,,,,,,General Specimen Data,1,6/6/23
+post_mortem_interval,6fd5c5ac-b128-4a4a-ae98-09eaeba22f92,Post Mortem Interval,,The length of the temporal interval between the time of death of the subject/donor and the time at which the specimen is made.,,,,,,,0,8888,hour,,General Specimen Data,1,6/6/23
+left_hemisphere_preparation,57d5378f-a451-4bf5-a472-cc88d0d29586,Left Hemisphere Preparation,,The type of preparation method used for the left hemisphere.,,,,,,,,,,,General Specimen Data,1,6/6/23
+left_hemisphere_preparation_specify,002e915e-01c3-4570-a1f3-76680dcb2c33,Left Hemisphere Preparation Specify,,Specific details about the type of preparation method used for the left hemisphere.,,,,,,,,,,,General Specimen Data,1,6/6/23
+right_hemisphere_preparation,477c2600-f979-43c5-9c61-ab61fd771584,Right Hemisphere Preparation,,The type of preparation method used for the right hemisphere.,,,,,,,,,,,General Specimen Data,1,6/6/23
+right_hemisphere_preparation_specify,efd50be4-f7cf-4146-a08e-28f25680728c,Right Hemisphere Preparation Specify,,Specific details about the type of preparation method used for the right hemisphere.,,,,,,,,,,,General Specimen Data,1,6/6/23
+rin,cd472c0d-0b64-45c9-a38e-e54d15cea953,RIN,,The RNA integrity number value of a specimen.,,,,,,,0,99,,,General Specimen Data,1,6/6/23
+rin_tissue_source,d547ee51-9ec3-489c-8e49-7d8cd94080a8,RIN Tissue Source,,The tissue sample location or identifier that is used for calculating the RNA integrity number.,,,,,,,,,,,General Specimen Data,1,6/6/23
+rin_testing_organization,cfed831e-9a62-4a32-bf92-532873420eb3,RIN Testing Organization,,The organization that determines the RNA integrity number of a sample/specimen.,,,,,,,,,,,General Specimen Data,1,6/6/23
+rine,1210148d-d8fb-45aa-b51a-4b19b6d09bec,RINe,,A type of RIN (RNA integrity number) value that represents the relative ratio of the signal in the fast zone to the 18S peak signal fpr a specimen.,,,,,,,0,99,,,General Specimen Data,1,6/6/23
+rine_tissue_source,7d5fd9af-82a1-4bdb-a3c6-9225d1717c53,RINe Tissue Source,,The tissue sample location or identifier that is used for calculating the RINe number.,,,,,,,,,,,General Specimen Data,1,6/6/23
+rine_testing_organization,15a6d162-a3ca-4852-b626-a911c37c04c9,RINe Testing Organization,,The organization that determines the RINe number.,,,,,,,,,,,General Specimen Data,1,6/6/23
+ph,9e67af02-c081-43e1-a42c-bf9603cae616,pH,,"The value of a measurement of acidity or basicity of a tissue, sample, or specimen.",,,,,,,0,99,,,General Specimen Data,1,6/6/23
+brain_weight,546fc32d-f8a2-4c00-924a-8c4730f11f51,Brain Weight Measurement,,The weight of a brain specimen.,,,,,,,0,9998,gram,,General Specimen Data,1,6/6/23
+weighed_type,a7463e3f-0c61-4718-a7d0-60fd2116908a,Brain Tissue Weighed Type,,"The state of a brain specimen when it is weighed (fresh, frozen, fixed).",,,,,,,,,,,General Specimen Data,1,6/6/23
+photo_2d_available,611beda8-1ac6-4183-a284-04a30bb474f3,Photo 2d Available,,"The status (available, unavailable) of two-dimensional photos of a subject/donor/specimen.",,,,,,,,,,,General Specimen Data,1,6/6/23
+scan_3d_available,658e8a80-e232-438f-8c1e-d5f38724dc55,Scan 3d Available,,"The status (available, unavailable) of three-dimensional scans of a subject/donor/specimen.",,,,,,,,,,,General Specimen Data,1,6/6/23
+antemortem_mri_available,43a04caa-4f28-47ac-8a9d-74c40f10776f,Antemortem MRI Available,,"The status (available, unavailable) of antemortem MRI images of a subject/donor/specimen.",,,,,,,,,,,General Specimen Data,1,6/6/23
+postmortem_mri_available,0badd072-0c25-48c6-9357-44d5b5bc0818,Postmortem MRI Available,,"The status (available, unavailable) of postmortem MRI images of a subject/donor/specimen.",,,,,,,,,,,General Specimen Data,1,6/6/23
+postmortem_mri_type,64a607a9-21e6-4c73-8f2e-2d67b0dc51c8,Postmortem MRI Type,,"The type of postmortem MRI that is available (cadeveric, fresh ex vivo, fixed ex vivo).",,,,,,,,,,,General Specimen Data,1,6/6/23
+anatomical_atlas_registration,b6835813-2bab-42f3-ae63-4c372ed0aad9,Anatomical Atlas Registration,,The anatomical atlas structure to which a specimen/tissue is registered.,,,,,,,,,,,General Specimen Data,1,6/6/23
+non_brain_tissue_available,3a064c96-a956-4cf3-8b77-056b8e392f99,Non-Brain Tissue Available,,"The status (yes, no) of whether non-brain tissue from this organism is available.",,,,,,,,,,,Non-Brain Specimen Collected,1,6/6/23
+tissue_type,33ccbc85-ae35-44d6-8bc6-c2fb91116cf7,Tissue Type,,The type of tissue (non-brain) that is available from this organism. ,,,,,,,,,,,Non-Brain Specimen Collected,1,6/6/23
+tissue_type_details,f551cf87-2c6e-4b92-888d-6310e6a500d8,Tissue Type Details,,The details of the non-brain tissue that is available from this organism. ,,,,,,,,,,,Non-Brain Specimen Collected,1,6/6/23
+tissue_source,ee83ecf8-4fca-4353-a9ed-4cdd82eb167e,Tissue Source,,The source of the non-brain tissue that is available from this organism.,,,,,,,,,,,General Specimen Data,1,6/6/23
+date_of_collection,9b94949c-a7c9-4d81-a1c9-a70c96c16ca3,Date of Collection,,The date that the tissue collection occurred. ,,,,,,,,,,,General Specimen Data,1,6/6/23
+age_at_date_of_collection,6c53ac16-fe2d-48d7-b3d4-b8946b5d2547,Age at Date of Collection,,The age of the donor at the date of tissue collection (years). ,,,,,,,0,999,year,,General Specimen Data,1,6/6/23
+clinical_brain_diagnosis,b49f026b-4f6c-48c8-b170-bf6d24c672ef,Clinical Brain Diagnosis Available,,The status (available/unavailable) of the clinical brain diagnosis of the donor.,,,,,,,,,,,Diagnoses,1,6/6/23
+clinical_brain_diagnosis_code,b7a34c73-ae08-43d3-80d2-d5ef8436e449,Clinical Brain Diagnosis Code,,The code of the donor's clinical brain diagnosis. ,,,,,,,,,,,Diagnoses,1,6/6/23
+clinical_brain_diagnosis_confidence_level,2e72b4b9-d5fb-4f0d-897c-1f977ed4fabd,Clinical Brain Diagnosis Confidence Level,,The confidence level of the donor's clinical brain diagnosis.,,,,,,,,,,,Diagnoses,1,6/6/23
+genetic_diagnosis,f67d3837-159d-4868-9749-aa6c83ded7eb,Genetic Diagnosis Available,,"The status (available, unavailable) of the genetic diagnosis of the donor.",,,,,,,,,,,Diagnoses,1,6/6/23
+genetic_diagnosis_code,7a7916e0-ff79-4426-b49f-58e2f2a8a367,Genetic Diagnosis Code,,The code of the donor's genetic diagnosis. ,,,,,,,,,,,Diagnoses,1,6/6/23
+genetic_diagnosis_confidence_level,cb2b0108-8c07-40e8-92a3-b693b6dc64b4,Genetic Diagnosis Confidence Level,,The confidence level of the donor's genetic diagnosis.,,,,,,,,,,,Diagnoses,1,6/6/23
+non_brain_diagnosis,009ec58e-32e4-4712-930c-056e72c8d8fa,Non Brain Diagnosis Available,,"The status (available, unavailable) of a non-brain diagnosis of the donor.",,,,,,,,,,,Diagnoses,1,6/6/23
+non_brain_diagnosis_code,65e8824e-01d2-44cf-9f47-9962461a65c9,Non Brain Diagnosis Code,,The code of the donor's non-brain diagnosis.,,,,,,,,,,,Diagnoses,1,6/6/23
+non_brain_diagnosis_confidence_level,2a7ff937-287b-40a3-a1f6-ebf598683774,Non Brain Diagnosis Confidence Level,,The confidence level of the donor's non-brain diagnosis.,,,,,,,,,,,Diagnoses,1,6/6/23
+birth_weight_lbs,69d9a60d-32d5-4c3a-a26a-802d8f030c8d,Birth Weight Value (lbs),,The weight (at birth) of the subject/donor in pounds.,,,,,,,0,100,pound,,Infant Medical History,1,6/6/23
+birth_weight_oz,b6f30050-f762-4427-8533-31738e737ea2,Birth Weight Value (oz),,The weight (at birth) of the subject/donor in ounces.,,,,,,,0,100,ounce,,Infant Medical History,1,6/6/23
+gestational_age_value_weeks,6d8a9b3f-792c-48c2-bd3c-56e52bb51672,Gestational Age Value (weeks),,The gestational age of the subject/donor in weeks.,,,,,,,1,45,week,,Infant Medical History,1,6/6/23
+gestational_age_value_days,4e532e52-6e4c-46cd-9fde-96f97ef3b034,Gestational Age Value (days),,The gestational age of the subject/donor in days.,,,,,,,0,6,day,,Infant Medical History,1,6/6/23
+apgar_5_minute_score_available,e67d93ac-3753-4835-a250-e2ca207b2675,APGAR Five Minute Score Available,,"The status (available, unavailable) of a five-minute APGAR score of the donor.",,,,,,,,,,,Infant Medical History,1,6/6/23
+apgar_5_minute_score,3a10dabf-39b0-4eb7-8399-85fd325c5646,APGAR Five Minute Score,,The score of the donor's five-minute APGAR.,,,,,,,1,10,,,Infant Medical History,1,6/6/23
+apgar_10_minute_score_available,3d085ff9-7034-487d-a2b2-b9ae80d55333,APGAR Ten Minute Score Available,,"The status (available, unavailable) of a ten-minute APGAR score of the donor.",,,,,,,,,,,Infant Medical History,1,6/6/23
+apgar_10_minute_score,09d512b6-7c20-4693-8894-77824ad7f04d,APGAR Ten Minute Score,,The score of the donor's ten-minute APGAR.,,,,,,,1,10,,,Infant Medical History,1,6/6/23
+perinatal_neurologic_event_type,cb4c7e3b-73fc-400e-a4c3-b149a5544363,Perinatal Neurologic Event Type,,The perinatal neurologic event of a donor.,,,,,,,,,,,Perinatal Neurologic Events,1,6/6/23
+perinatal_neurologic_event_type_specify,1bf1f9c5-79a6-4203-910f-cad79fe9cac9,Perinatal Neurologic Event Type Specify,,The specific perinatal neurologic event of a donor.,,,,,,,,,,,Perinatal Neurologic Events,1,6/6/23
+family_history_available,c88bf4dc-5a7c-4f70-a773-e6bbb5a12ec9,Family History Available,,"The status (available, unavailable) of the family history of the subject/donor.",,,,,,,,,,,Family History,1,6/6/23
+relative_type,1adef34c-bb96-4dd0-bc87-51868f2ddc3f,Relative Type,,The familial relation to the subject/donor.,,,,,,,,,,,Family History,1,6/6/23
+relative_type_specify,094064a1-362c-4b75-8556-6b874c843fdb,Relative Type Specify,,The specific familial relation to the subject/donor.,,,,,,,,,,,Family History,1,6/6/23
+condition_type,030c8275-04c0-4e4f-9f68-48fd0f559250,Condition Type,,A condition of the donor. ,,,,,,,,,,,Family History,1,6/6/23
+condition_type_specify,a1ed23dc-3cd5-41c8-87f6-58604fc66a70,Condition Type Specify,,A specific type of condition of a donor.,,,,,,,,,,,Family History,1,6/6/23
+test_name,b6865e15-7538-4890-be99-a6f9e9920af3,Test Name,,The name of the test that has been performed. ,,,,,,,,,,,Infectious Disease Testing,1,6/6/23
+test_result,c14ea006-662c-4666-bfd1-6ff580c403ed,Result,,The result(s) of the test that has been performed.,,,,,,,,,,,Infectious Disease Testing,1,6/6/23
+tissue_source,42f8e11b-d9a3-48fe-ac1e-cd6f4469de46,Testing Tissue Source,,The tissue sample location or identifier that is the subject of a test. ,,,,,,,,,,,Infectious Disease Testing,1,6/6/23
+drugs_found,e35b53f1-0daa-4b5b-9246-cfba52f61bfb,Drugs Found,,A list of drugs found present in a donor.,,,,,,,,,,,Toxicology Screening,1,6/6/23
+drugs_found_specify,ec3f7c47-9062-4b66-ba80-a9355a388bc0,Drugs Found Specify,,A list of specific drugs found present in a donor.,,,,,,,,,,,Toxicology Screening,1,6/6/23
+toxicology_result,2cf1a1af-1ece-4ef7-b513-e4d1949f237c,Toxicology Result,,The toxicology result of the donor.,,,,,,,,,,,Toxicology Screening,1,6/6/23
+toxicology_report_level,594179b0-c744-40a4-958d-fc81461b4b74,Toxicology Report level,,The report level of the toxicology result of the donor. ,,,,,,,,,,,Toxicology Screening,1,6/6/23
+toxicology_units,6f124149-50de-489d-b9e2-f198b2b9857d,Toxicology Units,,The units of the report level of the toxicology result of the donor.,,,,,,,,,,,Toxicology Screening,1,6/6/23
+artifacts,b344b605-21dd-4e06-9104-21005179026f,Artifacts,,The neuropathology artifacts available for a donor. ,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+artifacts_type,dc217b9b-ed6b-48e2-93b4-4f648dc395f7,Artifacts Type,,The type of neuropathology artifacts available for a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+artifacts_type_specify,ae11485d-dfc6-45fe-9d22-1d0bf7244d7c,Artifacts Type Specify,,The specific types of neuropathology artifacts available for a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neuropathology_diagnosis,87f6d251-e028-4480-9272-3497655fb9cd,Neuropathology Diagnosis Available,,The neuropathology diagnosis of a donor.,,,,,,,,,,,Diagnoses,1.1,3/6/24
+neuropathology_diagnosis_code,784e9cc1-7258-4535-a6d5-f7f9a4c2da4b,Neuorpathology Diagnosis Code,,The code of the donor's neuropathology diagnosis.,,,,,,,,,,,Diagnoses,1.1,3/6/24
+developmental,c259cdc2-7c68-48de-ab57-57328f3bddfa,Developmental,,The type of developmental disorder or disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+developmental_type_specify,bee7d477-2dec-4bf5-878e-a105a0054366,Developmental Type Specify,,The specific type of developmental disorder or disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+inflammatory,05e83583-078d-4a1e-892d-e6f611e5a0b8,Inflammatory,,The type of inflammatory disorder or disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+inflammatory_type_specify,616ba8d8-ced3-4f3e-b1ca-7103eb7a2c94,Inflammatory Type Specify,,The specific type of inflammatory disorder or disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+infectious,266f5fb8-716b-4472-be30-4a94b62f2245,Infectious,,The type of infectious disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+infectious_type_specify,c73cea5e-44d1-4dd9-b55e-3c6ef5dd2ef2,Infectious Type Specify,,The specific type of infectious disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+traumatic,a00497c0-376f-4b2e-b60e-d6add2af41dc,Traumatic,,The trauma of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+traumatic_type,01d2f488-f30b-40e0-913f-c9adc6b39b97,Traumatic Type,,The type of trauma of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+traumatic_type_specify,aa574a9a-a3d0-4a07-bf8b-9db4a1110a88,Traumatic Type Specify,,The specific type of trauma of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+vascular,b02d8386-d059-42a8-94cb-751d56b15b3a,Vascular,,The vascular disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+vascular_type,5beafa90-ffdb-4cce-a78c-a3b3175210b6,Vascular Type,,The type of vascular disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+vascular_type_specify,543acbbb-9da4-4e24-a9d7-c0642aa33f32,Vascular Type Specify,,The specific type of vascular disease of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neoplastic,3f52a0e9-6469-46d3-8ed5-3cdb8afdc259,Neoplastic,,The neoplastic status of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neoplastic_type,a58be8f4-2756-4a66-9d05-1fbf44b4e810,Neoplastic Type,,The type of neoplastic status of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neoplastic_type_specify,b9e8aead-fdf3-453e-a46b-fcb01d661f8f,Neoplastic Type Specify,,The specific type of neoplastic status of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+aging,40e3caa7-657b-4137-9879-07e6b29bae14,Aging,,"A developmental process that is a deterioration and loss of function over time. Aging includes loss of functions such as resistance to disease, homeostasis, and fertility, as well as wear and tear. Aging includes cellular senescence, but is more inclusive. May precede death and may succeed developmental maturation.",,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+aging_type,5e31b66f-131e-4d5e-8760-ddd85f5634d5,Aging Type,,The type of aging of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+aging_type_specify,8667d972-175c-430a-ac5e-656563e75736,Aging Type Specify,,The specific type of aging of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neurodegenerative,764d80ce-7a83-4e68-92df-34a416475e1b,Neurodegenerative,,A disorder of the central nervous system characterized by gradual and progressive loss of neural tissue and neurologic function.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neurodegenerative_type,b150b62c-a968-4f5d-9aa3-d1ab5207ff83,Neurodegenerative Type,,The type of neurodegenerative disorder of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
+neurodegenerative_type_specify,d422d827-539f-4d10-b09d-0f4be00d7c91,Neurodegenerative Type Specify,,The specific type of neurodegenerative disorder of a donor.,,,,,,,,,,,Neuropathological Diagnoses,1,6/6/23
