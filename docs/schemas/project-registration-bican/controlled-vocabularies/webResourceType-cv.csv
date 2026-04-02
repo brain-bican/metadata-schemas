@@ -1,0 +1,5 @@
+ID	label	code	description
+	information		"Resource containing additional information about a project or collection, for example an about page on a website."
+	view		"Resource that typically contains more technical information about the data in a collection, for example a protocol document or a paper."
+	explore		Resource that points to a tool to visualize or explore data in a collection
+	download		Resource that points to a location to download data in a collection
