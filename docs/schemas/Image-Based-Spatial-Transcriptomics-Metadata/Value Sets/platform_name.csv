@@ -1,0 +1,6 @@
+Label,Description
+DBit-Seq,A sequencing assay using deterministic barcoding in tissue for spatial omics
+MERSCOPE,A spatial transcriptomics assay from Vizgen using MERFISH
+Slide-Tags,A spatial transcriptomics assay where cell nuclei are labeled with barcoded tags before being dissociated for subsequent single cell sequencing.
+Stereo-seq,A spatiotemporal enhanced resolution omics sequencing assay
+Xenium,A spatial transcriptomics assay from 10X Genomics that combines in situ sequencing and in situ hybridization.

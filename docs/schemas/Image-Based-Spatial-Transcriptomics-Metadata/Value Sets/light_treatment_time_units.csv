@@ -1,0 +1,25 @@
+Label,Description
+Ys,yottasecond SI unit
+Zs,zettasecond SI unit
+Es,exasecond SI unit
+Ps,petasecond SI unit
+Ts,terasecond SI unit
+Gs,gigasecond SI unit
+Ms,megasecond SI unit
+ks,kilosecond SI unit
+hs,hectosecond SI unit
+das,decasecond SI unit
+s,second SI unit
+ds,decisecond SI unit
+cs,centisecond SI unit
+ms,millisecond SI unit
+µs,microsecond SI unit
+ns,nanosecond SI unit
+ps,picosecond SI unit
+fs,femtosecond SI unit
+as,attosecond SI unit
+zs,zeptosecond SI unit
+ys,yoctosecond SI unit
+min,minute SI-derived unit
+h,hour SI-derived unit
+d,day SI-derived unit
