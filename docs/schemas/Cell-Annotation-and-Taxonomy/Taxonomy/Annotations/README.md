@@ -53,7 +53,7 @@ This document has the following sections:
   
 ## General Requirements
 
-This includes any fields related to the annotation of clusters or groups of clusters (collectively called "cell sets"). This includes things like cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON) based on judgement calls, expert annotations, and dendrograms. For the annotation labelsets, please refer to the [BICAN Cell Annotation Labelsets](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Annotations/Labelsets/Labelsets.md).
+This includes any fields related to the annotation of clusters or groups of clusters (collectively called "cell sets"). This includes things like cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON) based on judgement calls, expert annotations, and dendrograms. For the annotation labelsets, please refer to the [BICAN Cell Annotation Labelsets](Labelsets/README.md).
 
 ## obs
 
