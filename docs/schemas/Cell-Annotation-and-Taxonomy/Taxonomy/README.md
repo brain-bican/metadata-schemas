@@ -77,31 +77,31 @@ Includes anything critical for understanding the cell by gene matrix and to link
   
 Includes cell-level metadata that is assigned at some point in the process between when a cell goes from the donor to a value in the data, and (in theory) can be ENTIRELY captured by values in Allen Institute, BICAN, or related standardized pipelines.  It includes fields that describe: donor metadata, experimental protocols, dissection information, RNA QC metrics, and sequencing metadata.
 
-[Assigned metadata documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Data%20and%20Metadata/Metadata/Assigned%20Metadata/Taxonomy_AssignedMetadata.README.md)
+[Assigned metadata documentation](../Data%20and%20Metadata/Metadata/Assigned%20Metadata/README.md)
 
 ### Calculated Metadata
   
 Includes any cell-level or cluster-level metadata that can be calculated explicitly from the **Data** and **Assigned Metadata** without the need for human intervention. It includes fields that describe: # reads detected/cell, # UMI/cell, fraction of cells per cluster derived from each anatomic dissections, expressed neurotransmitter genes (quantitatively defined), standard quality control metrics (e.g., doublet score) per cluster.
 
-[Calculated metadata documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Data%20and%20Metadata/Metadata/Calculated%20Metadata/Taxonomy_CalculatedMetadata.README.md)
+[Calculated metadata documentation](../Data%20and%20Metadata/Metadata/Calculated%20Metadata/README.md)
 
 ### Annotations
   
 Includes fields related to the annotation of clusters or groups of clusters (collectively called "cell sets").  It includes fields that describe cluster levels, cluster relationships, canonical marker genes, links to existing ontologies (e.g., CL, UBERON), expert annotations, and dendrograms.
 
-[Annotations documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Annotations/Taxonomy_Annotations.README.md)
+[Annotations documentation](Annotations/README.md)
 
 ### Analysis
 
 Includes fields included as the result of or required for specific analysis.  Some examples include latent spaces (e.g., UMAP), cluster level gene summaries (e.g., cluster means, proportions), and variable genes.
 
-[Analysis documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Taxonomy/Analysis/Taxonomy_Analysis_README.md)
+[Analysis documentation](Analysis/README.md)
 
 ### Tooling
 
 Includes fields required for specific tools (e.g., cellxgene, TDT, CAS, CAP) that are not strictly part of the taxonomy and that do not fit in any of the above categories.  It includes things like schema versions and redundant fields from above with different column names.
 
-[Tooling documentation](https://github.com/brain-bican/metadata-schemas/blob/8ddba5750e615e51b13bf1e5a1ef6c5b73e8c071/docs/schemas/Cell-Annotation-and-Taxonomy/Tooling/Taxonomy_Tooling_README.md)
+[Tooling documentation](../Tooling/README.md)
 
 <!-- Here is a graphical representation of these terms in the context of data, metadata, and taxonomies:
 ![image](https://github.com/AllenInstitute/scrattch.taxonomy/assets/25486679/eaf6b3d3-0b5f-49fc-9a49-2b7168605964) -->
