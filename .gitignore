@@ -1,11 +1,12 @@
-# Ignore these:
-/*
-__pycache__
+# OS
 .DS_Store
 
-# Allow these:
-!.github/
-!docs/
+# Python
+__pycache__/
 
-!.gitignore
-!README.md
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp/scratch
+*_tmp/
+~$*
