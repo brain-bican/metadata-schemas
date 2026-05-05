@@ -1,7 +1,0 @@
-variable_name,name,value_type,minimum,maximum,numeric_type,unit,options (format: code1/#/label1/#/description1|code2/#/label2/#/description2)|...
-name,Package Name,text,,,,,
-shipping_date,Package shipping date,Date,,,,,
-library_pool_ids,NHash IDs of library pools in this package,Array of Text,,,,,
-sequencing_center_id,ID of the target sequencing center,integer,,,,,
-project_id,Proejct this package is for,integer,,,,,
-
