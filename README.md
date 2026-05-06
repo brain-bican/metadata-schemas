@@ -77,25 +77,25 @@ Here are the BICAN metadata schemas and their statuses.
 [Cell Annotation and Taxonomy v1.0.0]: docs/schemas/Cell-Annotation-and-Taxonomy/Cell-Annotation-and-Taxonomy.md
 
 [Human Donor Metadata]: docs/schemas/Donor-Metadata
-[Human Donor v1.0.0]: docs/schemas/Donor-Metadata/Donor-Metadata-README.md
+[Human Donor v1.0.0]: docs/schemas/Donor-Metadata/README.md
 
 [Projects and Data Collections Metadata]: docs/schemas/project-registration-biccn
 [Projects and Data Collections v1.0.0]: docs/schemas/project-registration-biccn/README.md
 
 [Library Minimal Metadata]: docs/schemas/Library-Minimal-Metadata
-[Library Minimal Metadata v1.2.1]: docs/schemas/Library-Minimal-Metadata/Library-Minimal-Metadata-README.md
+[Library Minimal Metadata v1.2.1]: docs/schemas/Library-Minimal-Metadata/README.md
 
 [HMBA Macaque Metadata]: docs/schemas/Macaque-Donor-and-Tissue-Metadata
-[Macaque Metadata v1.0.0]: docs/schemas/Macaque-Donor-and-Tissue-Metadata/Macaque-Donor-and-Tissue-Metadata-README.md
+[Macaque Metadata v1.0.0]: docs/schemas/Macaque-Donor-and-Tissue-Metadata/README.md
 
 [Developing Human Metadata]: docs/schemas/Developing-Human-Metadata
-[Developing Human Metadata v1.0.0]: docs/schemas/Developing-Human-Metadata/Developing-Human-Metadata-README.md
+[Developing Human Metadata v1.0.0]: docs/schemas/Developing-Human-Metadata/README.md
 
 [Developing NHP Metadata]: docs/schemas/Developing-NHP-Metadata
-[Developing NHP Metadata v1.0.0]: docs/schemas/Developing-NHP-Metadata/Developing-NHP-Metadata.README.md
+[Developing NHP Metadata v1.0.0]: docs/schemas/Developing-NHP-Metadata/README.md
 
 [Developing Tissue Metadata]: docs/schemas/Developing-Tissue-Metadata
-[Developing Tissue Metadata v1.0.0]: docs/schemas/Developing-Tissue-Metadata/Developing-Tissue-Metadata.README.md
+[Developing Tissue Metadata v1.0.0]: docs/schemas/Developing-Tissue-Metadata/README.md
 
 [Institutional Certification Metadata]: docs/schemas/Institutional-Certification
-[Institutional Certification v1.0.0]: docs/schemas/Institutional-Certification/Institutional-Certification-README.md
+[Institutional Certification v1.0.0]: docs/schemas/Institutional-Certification/README.md
